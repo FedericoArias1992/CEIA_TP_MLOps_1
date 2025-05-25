@@ -21,21 +21,20 @@ Este proyecto implementa un flujo de trabajo completo de Machine Learning enfoca
 | **CatBoost / SVR**  | Modelos adicionales para comparación de desempeño    |
 
 ## ⚙️ Estructura del Proyecto
-├── airflow/
-│ ├── dags/
-│ │ └── entrenamiento_modelos_regresion_dag.py
-│ ├── plugins/
-│ ├── config/
-│ └── secrets/
-├── dockerfiles/
-│ └── airflow/ # Imagen extendida con dependencias
-├── mlruns/ # Volumen persistente de MLflow
-├── data/
-│ └── processed/ # Archivos .pkl listos para entrenamiento
-├── docker-compose.yaml
-├── requirements.txt
-└── README.md
-
+- ├── airflow/
+- │ ├── dags/
+- │ │ └── entrenamiento_modelos_regresion_dag.py
+- │ ├── plugins/
+- │ ├── config/
+- │ └── secrets/
+- ├── dockerfiles/
+- │ └── airflow/ # Imagen extendida con dependencias
+- ├── mlruns/ # Volumen persistente de MLflow
+- ├── data/
+- │ └── processed/ # Archivos .pkl listos para entrenamiento
+- ├── docker-compose.yaml
+- ├── requirements.txt
+- └── README.md
 
 ## 🧪 Flujo de trabajo orquestado
 
@@ -57,8 +56,7 @@ Este proyecto implementa un flujo de trabajo completo de Machine Learning enfoca
 
 ### 1. Clonar el repositorio
 ```bash
-git clone --llenar--
-cd --llenar--
+git clone https://github.com/FedericoArias1992/CEIA_TP_MLOps_1.git
 ```
 # 2. Crear y dar permisos a los volúmenes
 ```bash
@@ -80,7 +78,7 @@ Para detenerlo y eliminar todo:
 docker compose down --rmi all --volumes
 ```
 
-# 44. Acceder a interfaces
+# 4. Acceder a interfaces
 Airflow UI: http://localhost:8080
 
 MLflow UI: http://localhost:5000
