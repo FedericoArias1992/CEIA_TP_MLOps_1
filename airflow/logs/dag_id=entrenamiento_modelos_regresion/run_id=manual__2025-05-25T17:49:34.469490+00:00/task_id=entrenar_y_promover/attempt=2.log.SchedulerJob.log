@@ -1,0 +1,1 @@
+[2025-05-25T17:56:17.585+0000] {scheduler_job_runner.py:781} ERROR - Executor reports task instance <TaskInstance: entrenamiento_modelos_regresion.entrenar_y_promover manual__2025-05-25T17:49:34.469490+00:00 [queued]> finished (failed) although the task says it's queued. (Info: None) Was the task killed externally?

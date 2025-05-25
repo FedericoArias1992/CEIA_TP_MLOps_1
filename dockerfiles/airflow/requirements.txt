@@ -1,0 +1,7 @@
+mlflow
+scikit-learn
+pandas
+catboost
+matplotlib
+category_encoders
+seaborn
