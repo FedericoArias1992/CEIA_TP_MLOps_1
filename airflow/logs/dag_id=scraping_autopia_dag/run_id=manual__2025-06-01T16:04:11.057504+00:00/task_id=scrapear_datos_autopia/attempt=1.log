@@ -1,0 +1,45 @@
+[2025-06-01T16:04:14.318+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: scraping_autopia_dag.scrapear_datos_autopia manual__2025-06-01T16:04:11.057504+00:00 [queued]>
+[2025-06-01T16:04:14.346+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: scraping_autopia_dag.scrapear_datos_autopia manual__2025-06-01T16:04:11.057504+00:00 [queued]>
+[2025-06-01T16:04:14.347+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2025-06-01T16:04:14.396+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): scrapear_datos_autopia> on 2025-06-01 16:04:11.057504+00:00
+[2025-06-01T16:04:14.415+0000] {standard_task_runner.py:60} INFO - Started process 294 to run task
+[2025-06-01T16:04:14.432+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'scraping_autopia_dag', 'scrapear_datos_autopia', 'manual__2025-06-01T16:04:11.057504+00:00', '--job-id', '8', '--raw', '--subdir', 'DAGS_FOLDER/scraping_autopia_dag.py', '--cfg-path', '/tmp/tmp4kf76l_3']
+[2025-06-01T16:04:14.443+0000] {standard_task_runner.py:88} INFO - Job 8: Subtask scrapear_datos_autopia
+[2025-06-01T16:04:14.577+0000] {task_command.py:423} INFO - Running <TaskInstance: scraping_autopia_dag.scrapear_datos_autopia manual__2025-06-01T16:04:11.057504+00:00 [running]> on host f142218a01ee
+[2025-06-01T16:04:14.746+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='scraping_autopia_dag' AIRFLOW_CTX_TASK_ID='scrapear_datos_autopia' AIRFLOW_CTX_EXECUTION_DATE='2025-06-01T16:04:11.057504+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-06-01T16:04:11.057504+00:00'
+[2025-06-01T16:04:17.536+0000] {logging_mixin.py:188} INFO - 🌐 Visitando página 1: https://www.autopia.com.bo/resultados?page=1
+[2025-06-01T16:05:37.030+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/utils/scraping_autopia.py", line 81, in run_scraper
+    records = scrape_page(ctx, page_url)
+  File "/opt/airflow/dags/utils/scraping_autopia.py", line 52, in scrape_page
+    detail_page.goto(detail_url, wait_until="networkidle")
+  File "/home/airflow/.local/lib/python3.8/site-packages/playwright/sync_api/_generated.py", line 9002, in goto
+    self._sync(
+  File "/home/airflow/.local/lib/python3.8/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+  File "/home/airflow/.local/lib/python3.8/site-packages/playwright/_impl/_page.py", line 553, in goto
+    return await self._main_frame.goto(**locals_to_params(locals()))
+  File "/home/airflow/.local/lib/python3.8/site-packages/playwright/_impl/_frame.py", line 145, in goto
+    await self._channel.send("goto", locals_to_params(locals()))
+  File "/home/airflow/.local/lib/python3.8/site-packages/playwright/_impl/_connection.py", line 59, in send
+    return await self._connection.wrap_api_call(
+  File "/home/airflow/.local/lib/python3.8/site-packages/playwright/_impl/_connection.py", line 520, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Page.goto: Timeout 30000ms exceeded.
+Call log:
+navigating to "https://www.autopia.com.bo/auto/camioneta-usados/jac-t8-2022-6838ee8bc7849e6e5e7ae7e4", waiting until "networkidle"
+
+[2025-06-01T16:05:37.052+0000] {taskinstance.py:1138} INFO - Marking task as FAILED. dag_id=scraping_autopia_dag, task_id=scrapear_datos_autopia, execution_date=20250601T160411, start_date=20250601T160414, end_date=20250601T160537
+[2025-06-01T16:05:37.080+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 8 for task scrapear_datos_autopia (Page.goto: Timeout 30000ms exceeded.
+Call log:
+navigating to "https://www.autopia.com.bo/auto/camioneta-usados/jac-t8-2022-6838ee8bc7849e6e5e7ae7e4", waiting until "networkidle"
+; 294)
+[2025-06-01T16:05:37.107+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2025-06-01T16:05:37.251+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

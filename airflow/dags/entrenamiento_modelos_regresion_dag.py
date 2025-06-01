@@ -1,4 +1,5 @@
 from airflow.decorators import dag, task
+from airflow.operators.trigger_dagrun import TriggerDagRunOperator
 from datetime import datetime, timedelta
 import os
 
@@ -30,37 +31,31 @@ def train_and_promote_models():
         from sklearn.svm import SVR
         from sklearn.metrics import mean_absolute_error
         from mlflow.tracking import MlflowClient
-
-        df = pd.read_pickle("/opt/airflow/dags/data/processed/autos_usados_limpios_20250524_2112.pkl")
-
-        df['Tipo'] = df['Tipo'].str.replace(' ', '')
-        df['Transmisión'] = df['Transmisión'].str.replace(' ', '')
-        df.dropna(subset=["marca", "Motor", "Año","Tipo", "Transmisión"], inplace=True)
-        #df['Año'] = df['Año'].str.replace(' ', '').astype(int)
-        # 🎯 Selección de features (ajustá según tu dataset)
-        X = df[["marca", "Motor", "Año","Tipo", "Transmisión"]]  # ← tus features reales
-        y = df["precio"]
-
         from category_encoders import TargetEncoder
-        '''Asocia cada marca con la media del target (ej. precio promedio del auto).
 
-        Preserva orden y relevancia estadística.'''
-        # Usá TargetEncoder si querés aprovechar la relación entre Tipo y el target (por ejemplo, precio del auto):
-        # sirve para la marca y para el tipo de auto
+        df = pd.read_csv("/opt/airflow/dags/data/raw/scraped_autopia_2025-05-31.csv")
+
+        df.dropna(subset=['motor'], inplace=True)
+
+        df['price'] = df['price'].str.replace('$', '').str.replace(',', '.').astype(float) * 1000
+        df['motor'] = df['motor'].str.replace('Lt.', '').replace('.', ',').astype(float)
+
+        X = df[["model", "year", "km", "motor", "tipo", "transmision", "puertas"]]
+        y = df["price"]
 
         marca_encoder = TargetEncoder()
-        X["marca_encoded"] = marca_encoder.fit_transform(X["marca"], y)
+        X["marca_encoded"] = marca_encoder.fit_transform(X["model"], y)
 
         tipo_encoder = TargetEncoder()
-        X["tipo_encoded"] = tipo_encoder.fit_transform(X["Tipo"], y) 
+        X["tipo_encoded"] = tipo_encoder.fit_transform(X["tipo"], y)
 
-        X["Transmision_encoded"] = X["Transmisión"].map({"Mecánico": 0, "Automático": 1})
+        X["Transmision_encoded"] = X["transmision"].map({"Mecánico": 0, "Automático": 1})
 
-        X.drop(columns=["marca", "Transmisión", "Tipo"], inplace=True)
+        X.drop(columns=["model", "transmision", "tipo"], inplace=True)
 
         X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
-        mlflow.set_tracking_uri("http://mlflow:5000")  # Adaptar si usás otro host: sin airflow, era localhost:5000
+        mlflow.set_tracking_uri("http://mlflow:5000")
         mlflow.set_experiment("entrenamiento_orquestado")
 
         modelos = {
@@ -88,10 +83,8 @@ def train_and_promote_models():
                     best_score = mae
                     best_model_uri = f"runs:/{mlflow.active_run().info.run_id}/modelo"
 
-        # Registrar el mejor modelo
         result = mlflow.register_model(model_uri=best_model_uri, name=best_name)
 
-        # Cambiar fases
         versions = client.get_latest_versions(best_name)
         for v in versions:
             if v.version == result.version:
@@ -108,6 +101,16 @@ def train_and_promote_models():
                     stage="Staging"
                 )
 
-    entrenar_y_promover()
+    # Crear la tarea
+    entrenamiento = entrenar_y_promover()
+
+    # Agregar TriggerDagRunOperator
+    trigger_prediccion = TriggerDagRunOperator(
+        task_id="trigger_prediccion",
+        trigger_dag_id="prediccion_modelo_produccion_dag",
+        wait_for_completion=False
+    )
+
+    entrenamiento >> trigger_prediccion
 
 dag = train_and_promote_models()

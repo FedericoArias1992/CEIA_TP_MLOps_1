@@ -1,0 +1,612 @@
+city,brand,model,year,price,detail_url,km,motor,ano,tipo,combustible,color,transmision,puertas
+SANTA,CRUZ,Nissan Frontier,2022,"$69,900",https://www.autopia.com.bo/auto/camioneta-usados/nissan-frontier-2022-683a3dba0cff3d057f01c7b7,7.000,2.5 Lt.,2022,Camioneta,Gasolina,Rojo,Automático,4
+COCHABAMBA,Changan,Cs35,2021,"$180,000",https://www.autopia.com.bo/auto/suv-usados/changan-cs35-2021-6839c10b36a257341f78f6d4,57.100,1.4 Lt.,2021,SUV,Gasolina,Rojo,Mecánico,5
+LA,PAZ,Nissan Sentra,1998,"$7,600",https://www.autopia.com.bo/auto/sedan-usados/nissan-sentra-1998-6839bd080efd433c23100df4,100.000,1.5 Lt.,1998,Sedán,Gasolina,Blanco,Automático,4
+SANTA,CRUZ,JAC T8,2022,"$21,500",https://www.autopia.com.bo/auto/camioneta-usados/jac-t8-2022-6838ee8bc7849e6e5e7ae7e4,55.000,2.0 Lt.,2022,Camioneta,Gasolina,Negro,Mecánico,4
+COCHABAMBA,KIA,Sonet,2025,"$37,500",https://www.autopia.com.bo/auto/suv-usados/kia-sonet-2025-6838a590ea835c453b25ab16,4.000,1.5 Lt.,2025,SUV,Gasolina,Negro,Mecánico,5
+SANTA,CRUZ,Honda Ridgeline,2022,"$45,000",https://www.autopia.com.bo/auto/camioneta-usados/honda-ridgeline-2022-68384aab74ce531c9c55ea04,45.000,3.5 Lt.,2022,Camioneta,Gasolina,Blanco,Automático,5
+SANTA,CRUZ,Hyundai Galloper,2000,"$77,000",https://www.autopia.com.bo/auto/camioneta-usados/hyundai-galloper-2000-683736eacc72813bdd0992c3,80.000,2.5 Lt.,2000,Camioneta,Diesel,Celeste,Mecánico,5
+SANTA,CRUZ,Nissan Frontier,2024,"$79,900",https://www.autopia.com.bo/auto/camioneta-usados/nissan-frontier-2024-683551d2fc51e21cca461bc5,21.000,2.5 Lt.,2024,Camioneta,Gasolina,Gris Oscuro,Automático,4
+SANTA,CRUZ,Suzuki Dzire Sedan,2015,"$18,500",https://www.autopia.com.bo/auto/sedan-usados/suzuki-dzire-sedan-2015-68355000775c0c0cf34474d4,150,1.2 Lt.,2015,Sedán,Gasolina,Blanco Perla,Automático,4
+SANTA,CRUZ,Toyota Starlet,1995,"$11,900",https://www.autopia.com.bo/auto/citycar-usados/toyota-starlet-1995-68354b8761c3f5573f085a36,10,1.3 Lt.,1995,CityCar,Gasolina,Blanco,Mecánico,2
+LA,PAZ,Hyundai I-10,2012,"$13,500",https://www.autopia.com.bo/auto/citycar-usados/hyundai-i-10-2012-6834b2414373610a61507274,66.700,1.2 Lt.,2012,CityCar,Gasolina,Beige,Mecánico,5
+SANTA,CRUZ,Nissan Frontier,2024,"$79,900",https://www.autopia.com.bo/auto/camioneta-usados/nissan-frontier-2024-68339561705b4b248c5a1976,15.000,2.5 Lt.,2024,Camioneta,Gasolina,Rojo,Automático,4
+SANTA,CRUZ,Renault Koleos,2013,"$15,800",https://www.autopia.com.bo/auto/suv-usados/renault-koleos-2013-68311295e2ba064c9b65e0f7,237.000,2.4 Lt.,2013,SUV,Gasolina,Blanco Perla,Automático,4
+SANTA,CRUZ,Suzuki APV,2020,"$25,900",https://www.autopia.com.bo/auto/furgon-usados/suzuki-apv-2020-6830c0d29a8f6f74fc706d78,88.676,1.6 Lt.,2020,Furgón,Gasolina,Blanco,Mecánico,5
+SANTA,CRUZ,Toyota Agya,2019,"$21,200",https://www.autopia.com.bo/auto/citycar-usados/toyota-agya-2019-682f8c451991090ab72a49e4,97.419,1.0 Lt.,2019,CityCar,Gasolina,Blanco,Automático,5
+SANTA,CRUZ,Mazda Cx-5,2023,"$62,500",https://www.autopia.com.bo/auto/suv-usados/mazda-cx-5-2023-682f84b215b5e73d6141b4fc,39.443,2.0 Lt.,2023,SUV,Gasolina,Blanco,Automático,5
+SANTA,CRUZ,Peugeot 301,2018,"$17,500",https://www.autopia.com.bo/auto/sedan-usados/peugeot-301-2018-682f83e90224d045d72e3374,91.034,1.6 Lt.,2018,Sedán,Gasolina,Gris,Mecánico,5
+SANTA,CRUZ,Mitsubishi Outlander,2016,"$31,900",https://www.autopia.com.bo/auto/suv-usados/mitsubishi-outlander-2016-682f82afd11a414078739e77,87.071,2.4 Lt.,2016,SUV,Gasolina,Plata,Automático,5
+SANTA,CRUZ,Chevrolet Tracker,2021,"$27,800",https://www.autopia.com.bo/auto/suv-usados/chevrolet-tracker-2021-682f2a25be2d912d591ae7e3,83.300,1.2 Lt.,2021,SUV,Gasolina,Blanca,Mecánico,5
+SANTA,CRUZ,Chevrolet Tracker,2023,"$28,500",https://www.autopia.com.bo/auto/suv-usados/chevrolet-tracker-2023-682e4abefe04bf1c61471d03,42.394,1.2 Lt.,2023,SUV,Gasolina,Blanco,Mecánico,5
+COCHABAMBA,Ford,Expedition,2010,"$28,600",https://www.autopia.com.bo/auto/suv-usados/ford-expedition-2010-682cc501ea16fb4fd3367ab4,97.000,5.7 Lt.,2010,SUV,Gasolina,Rojo,Automático,5
+LA,PAZ,Toyota Tacoma,2020,"$55,000",https://www.autopia.com.bo/auto/camioneta-usados/toyota-tacoma-2020-682cb366350aa404e667d783,60.000,3.5 Lt.,2020,Camioneta,Gasolina,Negro,Automático,4
+COCHABAMBA,Chevrolet,N300 Max,2017,"$23,000",https://www.autopia.com.bo/auto/furgon-usados/chevrolet-n300-max-2017-682c81b3e79adc0b66749213,93.900,1.2 Lt.,2017,Furgón,Gasolina,Beige,Mecánico,4
+COCHABAMBA,Jeep,Wrangler,2015,"$38,000",https://www.autopia.com.bo/auto/suv-usados/jeep-wrangler-2015-682c7e86f85b056a547166e6,47.486,3.6 Lt.,2015,SUV,Gasolina,Rojo,Mecánico,3
+SANTA,CRUZ,Mercedes Benz GLK,2012,"$20,000",https://www.autopia.com.bo/auto/suv-usados/mercedes-benz-glk-2012-682a98c54652fc0a7a7da4a9,100.000,3.5 Lt.,2012,SUV,Gasolina,Plateado,Automático,5
+COCHABAMBA,KIA,Sportage,2015,"$20,000",https://www.autopia.com.bo/auto/suv-usados/kia-sportage-2015-682a06a7904383775314f874,82.500,2.4 Lt.,2015,SUV,Gasolina,Gris,Automático,5
+LA,PAZ,Renault Sandero,2018,"$17,500",https://www.autopia.com.bo/auto/hatchback-usados/renault-sandero-2018-68275ca1577fde7c420665b2,75.000,1.6 Lt.,2018,Hatchback,Gasolina,Rojo,Automático,5
+SANTA,CRUZ,Nissan Urvan,1991,"$9,800",https://www.autopia.com.bo/auto/furgon-usados/nissan-urvan-1991-68254253b9ca817b5f0cdf33,10.000,2.5 Lt.,1991,Furgón,Gasolina,Rojo,Mecánico,3
+LA,PAZ,Nissan Rogue,2014,"$21,000",https://www.autopia.com.bo/auto/suv-usados/nissan-rogue-2014-682519e2e8e1dd7b6b43feea,105.000,2.4 Lt.,2014,SUV,Gasolina,Verde Oscuro,Automático,5
+COCHABAMBA,Ford,Ecosport,2011,"$15,500",https://www.autopia.com.bo/auto/suv-usados/ford-ecosport-2011-6824fe5b1769027b22632c14,155.000,1.6 Lt.,2011,SUV,Gasolina,Blanco,Mecánico,5
+SANTA,CRUZ,Changan Cs35,2024,"$30,000",https://www.autopia.com.bo/auto/suv-usados/changan-cs35-2024-6824bf363c0aeb42281f5d13,19.200,1.5 Lt.,2024,SUV,Gasolina,Gris,Automático,5
+LA,PAZ,Caio Millenium III,2003,"$15,000",https://www.autopia.com.bo/auto/suv-usados/caio-millenium-iii-2003-6822a1bc55b6a128f96c7f65,560.000,1.0 Lt.,2003,SUV,Gasolina,Red,Automático,4
+COCHABAMBA,Chevrolet,Tracker,2023,"$200,000",https://www.autopia.com.bo/auto/suv-usados/chevrolet-tracker-2023-682276bba509aa534e46f767,29.000,1.2 Lt.,2023,SUV,Gasolina,Gris Oscuro,Mecánico,5
+SANTA,CRUZ,Suzuki Alto,2025,"$23,500",https://www.autopia.com.bo/auto/hatchback-usados/suzuki-alto-2025-681e61c3978338602b066e57,10.396,1.0 Lt.,2025,Hatchback,Gasolina,Plata,Mecánico,5
+LA,PAZ,Ford Explorer,2017,"$37,000",https://www.autopia.com.bo/auto/suv-usados/ford-explorer-2017-681e520a1a050721a8482187,61.300,3.5 Lt.,2017,SUV,Gasolina,Blanco Perlado,Automático,5
+LA,PAZ,Suzuki S-presso,2025,"$19,800",https://www.autopia.com.bo/auto/citycar-usados/suzuki-s-presso-2025-681e3de1e732b0701428ffa4,3.100,1.0 Lt.,2025,CityCar,Gasolina,Rojo,Mecánico,5
+LA,PAZ,KIA Carens,2024,"$31,000",https://www.autopia.com.bo/auto/suv-usados/kia-carens-2024-681e27be1e035a1735340dd5,4.700,1.8 Lt.,2024,SUV,Gasolina,Plomo Oscuro,Automático,5
+LA,PAZ,Suzuki Alto,2009,"$8,900",https://www.autopia.com.bo/auto/citycar-usados/suzuki-alto-2009-681e18c2b681cb42832ae6a3,281.000,1.1 Lt.,2009,CityCar,Gasolina,Plata,Mecánico,4
+SANTA,CRUZ,Chevrolet Tracker,2023,"$28,600",https://www.autopia.com.bo/auto/suv-usados/chevrolet-tracker-2023-6819134b04f0ec1d820af0c7,78.060,1.2 Lt.,2023,SUV,Gasolina,Plata,Mecánico,5
+SANTA,CRUZ,Nissan Frontier,2025,"$86,000",https://www.autopia.com.bo/auto/camioneta-usados/nissan-frontier-2025-68141402f731bd28c9407558,2.000,2.5 Lt.,2025,Camioneta,Gasolina,Blanco,Automático,4
+SANTA,CRUZ,Nissan Frontier,2025,"$86,000",https://www.autopia.com.bo/auto/camioneta-usados/nissan-frontier-2025-680eb9d414f039745c681ce4,2.700,2.5 Lt.,2025,Camioneta,Gasolina,Gris Volcanico,Automático,4
+COCHABAMBA,Mercedes,Benz E,2006,"$12,900",https://www.autopia.com.bo/auto/sedan-usados/mercedes-benz-e-2006-680d7650f4381f3c2e24ef16,150.000,3.2 Lt.,2006,Sedán,Gasolina,Champagne,Automático,4
+COCHABAMBA,BMW,523,2012,"$19,800",https://www.autopia.com.bo/auto/sedan-usados/bmw-523-2012-680d6ec286276c443b562285,100.000,2.5 Lt.,2012,Sedán,Gasolina,Marengo,Automático,4
+LA,PAZ,Peugeot 3008,2023,"$35,000",https://www.autopia.com.bo/auto/suv-usados/peugeot-3008-2023-680bd9df9fc46d67d001ea97,12.000,,2023,SUV,Gasolina,Gris,Automático,4
+SANTA,CRUZ,Ssangyong XLV,2017,"$14,600",https://www.autopia.com.bo/auto/suv-usados/ssangyong-xlv-2017-6808194b7e52421e5172e297,90.000,1.6 Lt.,2017,SUV,Gasolina,Blanco,Automático,5
+SANTA,CRUZ,KIA Sportage,2024,"$86,000",https://www.autopia.com.bo/auto/suv-usados/kia-sportage-2024-6803ea4fa97ac725494c3314,26.000,2.0 Lt.,2024,SUV,Gasolina,Blanco,Automático,4
+LA,PAZ,Nissan X-trail,2017,"$28,500",https://www.autopia.com.bo/auto/suv-usados/nissan-x-trail-2017-6801335de256e9531d2acae7,115.000,2.5 Lt.,2017,SUV,Gasolina,Gris,Automático,5
+SANTA,CRUZ,Nissan Frontier,2022,"$69,900",https://www.autopia.com.bo/auto/camioneta-usados/nissan-frontier-2022-683a3dba0cff3d057f01c7b7,7.000,2.5 Lt.,2022,Camioneta,Gasolina,Rojo,Automático,4
+COCHABAMBA,Changan,Cs35,2021,"$180,000",https://www.autopia.com.bo/auto/suv-usados/changan-cs35-2021-6839c10b36a257341f78f6d4,57.100,1.4 Lt.,2021,SUV,Gasolina,Rojo,Mecánico,5
+LA,PAZ,Nissan Sentra,1998,"$7,600",https://www.autopia.com.bo/auto/sedan-usados/nissan-sentra-1998-6839bd080efd433c23100df4,100.000,1.5 Lt.,1998,Sedán,Gasolina,Blanco,Automático,4
+SANTA,CRUZ,JAC T8,2022,"$21,500",https://www.autopia.com.bo/auto/camioneta-usados/jac-t8-2022-6838ee8bc7849e6e5e7ae7e4,55.000,2.0 Lt.,2022,Camioneta,Gasolina,Negro,Mecánico,4
+COCHABAMBA,KIA,Sonet,2025,"$37,500",https://www.autopia.com.bo/auto/suv-usados/kia-sonet-2025-6838a590ea835c453b25ab16,4.000,1.5 Lt.,2025,SUV,Gasolina,Negro,Mecánico,5
+SANTA,CRUZ,Honda Ridgeline,2022,"$45,000",https://www.autopia.com.bo/auto/camioneta-usados/honda-ridgeline-2022-68384aab74ce531c9c55ea04,45.000,3.5 Lt.,2022,Camioneta,Gasolina,Blanco,Automático,5
+SANTA,CRUZ,Hyundai Galloper,2000,"$77,000",https://www.autopia.com.bo/auto/camioneta-usados/hyundai-galloper-2000-683736eacc72813bdd0992c3,80.000,2.5 Lt.,2000,Camioneta,Diesel,Celeste,Mecánico,5
+SANTA,CRUZ,Nissan Frontier,2024,"$79,900",https://www.autopia.com.bo/auto/camioneta-usados/nissan-frontier-2024-683551d2fc51e21cca461bc5,21.000,2.5 Lt.,2024,Camioneta,Gasolina,Gris Oscuro,Automático,4
+SANTA,CRUZ,Suzuki Dzire Sedan,2015,"$18,500",https://www.autopia.com.bo/auto/sedan-usados/suzuki-dzire-sedan-2015-68355000775c0c0cf34474d4,150,1.2 Lt.,2015,Sedán,Gasolina,Blanco Perla,Automático,4
+SANTA,CRUZ,Toyota Starlet,1995,"$11,900",https://www.autopia.com.bo/auto/citycar-usados/toyota-starlet-1995-68354b8761c3f5573f085a36,10,1.3 Lt.,1995,CityCar,Gasolina,Blanco,Mecánico,2
+LA,PAZ,Hyundai I-10,2012,"$13,500",https://www.autopia.com.bo/auto/citycar-usados/hyundai-i-10-2012-6834b2414373610a61507274,66.700,1.2 Lt.,2012,CityCar,Gasolina,Beige,Mecánico,5
+SANTA,CRUZ,Nissan Frontier,2024,"$79,900",https://www.autopia.com.bo/auto/camioneta-usados/nissan-frontier-2024-68339561705b4b248c5a1976,15.000,2.5 Lt.,2024,Camioneta,Gasolina,Rojo,Automático,4
+SANTA,CRUZ,Renault Koleos,2013,"$15,800",https://www.autopia.com.bo/auto/suv-usados/renault-koleos-2013-68311295e2ba064c9b65e0f7,237.000,2.4 Lt.,2013,SUV,Gasolina,Blanco Perla,Automático,4
+SANTA,CRUZ,Suzuki APV,2020,"$25,900",https://www.autopia.com.bo/auto/furgon-usados/suzuki-apv-2020-6830c0d29a8f6f74fc706d78,88.676,1.6 Lt.,2020,Furgón,Gasolina,Blanco,Mecánico,5
+SANTA,CRUZ,Toyota Agya,2019,"$21,200",https://www.autopia.com.bo/auto/citycar-usados/toyota-agya-2019-682f8c451991090ab72a49e4,97.419,1.0 Lt.,2019,CityCar,Gasolina,Blanco,Automático,5
+SANTA,CRUZ,Mazda Cx-5,2023,"$62,500",https://www.autopia.com.bo/auto/suv-usados/mazda-cx-5-2023-682f84b215b5e73d6141b4fc,39.443,2.0 Lt.,2023,SUV,Gasolina,Blanco,Automático,5
+SANTA,CRUZ,Peugeot 301,2018,"$17,500",https://www.autopia.com.bo/auto/sedan-usados/peugeot-301-2018-682f83e90224d045d72e3374,91.034,1.6 Lt.,2018,Sedán,Gasolina,Gris,Mecánico,5
+SANTA,CRUZ,Mitsubishi Outlander,2016,"$31,900",https://www.autopia.com.bo/auto/suv-usados/mitsubishi-outlander-2016-682f82afd11a414078739e77,87.071,2.4 Lt.,2016,SUV,Gasolina,Plata,Automático,5
+SANTA,CRUZ,Chevrolet Tracker,2021,"$27,800",https://www.autopia.com.bo/auto/suv-usados/chevrolet-tracker-2021-682f2a25be2d912d591ae7e3,83.300,1.2 Lt.,2021,SUV,Gasolina,Blanca,Mecánico,5
+SANTA,CRUZ,Chevrolet Tracker,2023,"$28,500",https://www.autopia.com.bo/auto/suv-usados/chevrolet-tracker-2023-682e4abefe04bf1c61471d03,42.394,1.2 Lt.,2023,SUV,Gasolina,Blanco,Mecánico,5
+COCHABAMBA,Ford,Expedition,2010,"$28,600",https://www.autopia.com.bo/auto/suv-usados/ford-expedition-2010-682cc501ea16fb4fd3367ab4,97.000,5.7 Lt.,2010,SUV,Gasolina,Rojo,Automático,5
+LA,PAZ,Toyota Tacoma,2020,"$55,000",https://www.autopia.com.bo/auto/camioneta-usados/toyota-tacoma-2020-682cb366350aa404e667d783,60.000,3.5 Lt.,2020,Camioneta,Gasolina,Negro,Automático,4
+COCHABAMBA,Chevrolet,N300 Max,2017,"$23,000",https://www.autopia.com.bo/auto/furgon-usados/chevrolet-n300-max-2017-682c81b3e79adc0b66749213,93.900,1.2 Lt.,2017,Furgón,Gasolina,Beige,Mecánico,4
+COCHABAMBA,Jeep,Wrangler,2015,"$38,000",https://www.autopia.com.bo/auto/suv-usados/jeep-wrangler-2015-682c7e86f85b056a547166e6,47.486,3.6 Lt.,2015,SUV,Gasolina,Rojo,Mecánico,3
+SANTA,CRUZ,Mercedes Benz GLK,2012,"$20,000",https://www.autopia.com.bo/auto/suv-usados/mercedes-benz-glk-2012-682a98c54652fc0a7a7da4a9,100.000,3.5 Lt.,2012,SUV,Gasolina,Plateado,Automático,5
+COCHABAMBA,KIA,Sportage,2015,"$20,000",https://www.autopia.com.bo/auto/suv-usados/kia-sportage-2015-682a06a7904383775314f874,82.500,2.4 Lt.,2015,SUV,Gasolina,Gris,Automático,5
+LA,PAZ,Renault Sandero,2018,"$17,500",https://www.autopia.com.bo/auto/hatchback-usados/renault-sandero-2018-68275ca1577fde7c420665b2,75.000,1.6 Lt.,2018,Hatchback,Gasolina,Rojo,Automático,5
+SANTA,CRUZ,Nissan Urvan,1991,"$9,800",https://www.autopia.com.bo/auto/furgon-usados/nissan-urvan-1991-68254253b9ca817b5f0cdf33,10.000,2.5 Lt.,1991,Furgón,Gasolina,Rojo,Mecánico,3
+LA,PAZ,Nissan Rogue,2014,"$21,000",https://www.autopia.com.bo/auto/suv-usados/nissan-rogue-2014-682519e2e8e1dd7b6b43feea,105.000,2.4 Lt.,2014,SUV,Gasolina,Verde Oscuro,Automático,5
+COCHABAMBA,Ford,Ecosport,2011,"$15,500",https://www.autopia.com.bo/auto/suv-usados/ford-ecosport-2011-6824fe5b1769027b22632c14,155.000,1.6 Lt.,2011,SUV,Gasolina,Blanco,Mecánico,5
+SANTA,CRUZ,Changan Cs35,2024,"$30,000",https://www.autopia.com.bo/auto/suv-usados/changan-cs35-2024-6824bf363c0aeb42281f5d13,19.200,1.5 Lt.,2024,SUV,Gasolina,Gris,Automático,5
+LA,PAZ,Caio Millenium III,2003,"$15,000",https://www.autopia.com.bo/auto/suv-usados/caio-millenium-iii-2003-6822a1bc55b6a128f96c7f65,560.000,1.0 Lt.,2003,SUV,Gasolina,Red,Automático,4
+COCHABAMBA,Chevrolet,Tracker,2023,"$200,000",https://www.autopia.com.bo/auto/suv-usados/chevrolet-tracker-2023-682276bba509aa534e46f767,29.000,1.2 Lt.,2023,SUV,Gasolina,Gris Oscuro,Mecánico,5
+SANTA,CRUZ,Suzuki Alto,2025,"$23,500",https://www.autopia.com.bo/auto/hatchback-usados/suzuki-alto-2025-681e61c3978338602b066e57,10.396,1.0 Lt.,2025,Hatchback,Gasolina,Plata,Mecánico,5
+LA,PAZ,Ford Explorer,2017,"$37,000",https://www.autopia.com.bo/auto/suv-usados/ford-explorer-2017-681e520a1a050721a8482187,61.300,3.5 Lt.,2017,SUV,Gasolina,Blanco Perlado,Automático,5
+LA,PAZ,Suzuki S-presso,2025,"$19,800",https://www.autopia.com.bo/auto/citycar-usados/suzuki-s-presso-2025-681e3de1e732b0701428ffa4,3.100,1.0 Lt.,2025,CityCar,Gasolina,Rojo,Mecánico,5
+LA,PAZ,KIA Carens,2024,"$31,000",https://www.autopia.com.bo/auto/suv-usados/kia-carens-2024-681e27be1e035a1735340dd5,4.700,1.8 Lt.,2024,SUV,Gasolina,Plomo Oscuro,Automático,5
+LA,PAZ,Suzuki Alto,2009,"$8,900",https://www.autopia.com.bo/auto/citycar-usados/suzuki-alto-2009-681e18c2b681cb42832ae6a3,281.000,1.1 Lt.,2009,CityCar,Gasolina,Plata,Mecánico,4
+SANTA,CRUZ,Chevrolet Tracker,2023,"$28,600",https://www.autopia.com.bo/auto/suv-usados/chevrolet-tracker-2023-6819134b04f0ec1d820af0c7,78.060,1.2 Lt.,2023,SUV,Gasolina,Plata,Mecánico,5
+SANTA,CRUZ,Nissan Frontier,2025,"$86,000",https://www.autopia.com.bo/auto/camioneta-usados/nissan-frontier-2025-68141402f731bd28c9407558,2.000,2.5 Lt.,2025,Camioneta,Gasolina,Blanco,Automático,4
+SANTA,CRUZ,Nissan Frontier,2025,"$86,000",https://www.autopia.com.bo/auto/camioneta-usados/nissan-frontier-2025-680eb9d414f039745c681ce4,2.700,2.5 Lt.,2025,Camioneta,Gasolina,Gris Volcanico,Automático,4
+COCHABAMBA,Mercedes,Benz E,2006,"$12,900",https://www.autopia.com.bo/auto/sedan-usados/mercedes-benz-e-2006-680d7650f4381f3c2e24ef16,150.000,3.2 Lt.,2006,Sedán,Gasolina,Champagne,Automático,4
+COCHABAMBA,BMW,523,2012,"$19,800",https://www.autopia.com.bo/auto/sedan-usados/bmw-523-2012-680d6ec286276c443b562285,100.000,2.5 Lt.,2012,Sedán,Gasolina,Marengo,Automático,4
+LA,PAZ,Peugeot 3008,2023,"$35,000",https://www.autopia.com.bo/auto/suv-usados/peugeot-3008-2023-680bd9df9fc46d67d001ea97,12.000,,2023,SUV,Gasolina,Gris,Automático,4
+SANTA,CRUZ,Ssangyong XLV,2017,"$14,600",https://www.autopia.com.bo/auto/suv-usados/ssangyong-xlv-2017-6808194b7e52421e5172e297,90.000,1.6 Lt.,2017,SUV,Gasolina,Blanco,Automático,5
+SANTA,CRUZ,KIA Sportage,2024,"$86,000",https://www.autopia.com.bo/auto/suv-usados/kia-sportage-2024-6803ea4fa97ac725494c3314,26.000,2.0 Lt.,2024,SUV,Gasolina,Blanco,Automático,4
+LA,PAZ,Nissan X-trail,2017,"$28,500",https://www.autopia.com.bo/auto/suv-usados/nissan-x-trail-2017-6801335de256e9531d2acae7,115.000,2.5 Lt.,2017,SUV,Gasolina,Gris,Automático,5
+SANTA,CRUZ,Nissan Frontier,2022,"$69,900",https://www.autopia.com.bo/auto/camioneta-usados/nissan-frontier-2022-683a3dba0cff3d057f01c7b7,7.000,2.5 Lt.,2022,Camioneta,Gasolina,Rojo,Automático,4
+COCHABAMBA,Changan,Cs35,2021,"$180,000",https://www.autopia.com.bo/auto/suv-usados/changan-cs35-2021-6839c10b36a257341f78f6d4,57.100,1.4 Lt.,2021,SUV,Gasolina,Rojo,Mecánico,5
+LA,PAZ,Nissan Sentra,1998,"$7,600",https://www.autopia.com.bo/auto/sedan-usados/nissan-sentra-1998-6839bd080efd433c23100df4,100.000,1.5 Lt.,1998,Sedán,Gasolina,Blanco,Automático,4
+SANTA,CRUZ,JAC T8,2022,"$21,500",https://www.autopia.com.bo/auto/camioneta-usados/jac-t8-2022-6838ee8bc7849e6e5e7ae7e4,55.000,2.0 Lt.,2022,Camioneta,Gasolina,Negro,Mecánico,4
+COCHABAMBA,KIA,Sonet,2025,"$37,500",https://www.autopia.com.bo/auto/suv-usados/kia-sonet-2025-6838a590ea835c453b25ab16,4.000,1.5 Lt.,2025,SUV,Gasolina,Negro,Mecánico,5
+SANTA,CRUZ,Honda Ridgeline,2022,"$45,000",https://www.autopia.com.bo/auto/camioneta-usados/honda-ridgeline-2022-68384aab74ce531c9c55ea04,45.000,3.5 Lt.,2022,Camioneta,Gasolina,Blanco,Automático,5
+SANTA,CRUZ,Hyundai Galloper,2000,"$77,000",https://www.autopia.com.bo/auto/camioneta-usados/hyundai-galloper-2000-683736eacc72813bdd0992c3,80.000,2.5 Lt.,2000,Camioneta,Diesel,Celeste,Mecánico,5
+SANTA,CRUZ,Nissan Frontier,2024,"$79,900",https://www.autopia.com.bo/auto/camioneta-usados/nissan-frontier-2024-683551d2fc51e21cca461bc5,21.000,2.5 Lt.,2024,Camioneta,Gasolina,Gris Oscuro,Automático,4
+SANTA,CRUZ,Suzuki Dzire Sedan,2015,"$18,500",https://www.autopia.com.bo/auto/sedan-usados/suzuki-dzire-sedan-2015-68355000775c0c0cf34474d4,150,1.2 Lt.,2015,Sedán,Gasolina,Blanco Perla,Automático,4
+SANTA,CRUZ,Toyota Starlet,1995,"$11,900",https://www.autopia.com.bo/auto/citycar-usados/toyota-starlet-1995-68354b8761c3f5573f085a36,10,1.3 Lt.,1995,CityCar,Gasolina,Blanco,Mecánico,2
+LA,PAZ,Hyundai I-10,2012,"$13,500",https://www.autopia.com.bo/auto/citycar-usados/hyundai-i-10-2012-6834b2414373610a61507274,66.700,1.2 Lt.,2012,CityCar,Gasolina,Beige,Mecánico,5
+SANTA,CRUZ,Nissan Frontier,2024,"$79,900",https://www.autopia.com.bo/auto/camioneta-usados/nissan-frontier-2024-68339561705b4b248c5a1976,15.000,2.5 Lt.,2024,Camioneta,Gasolina,Rojo,Automático,4
+SANTA,CRUZ,Renault Koleos,2013,"$15,800",https://www.autopia.com.bo/auto/suv-usados/renault-koleos-2013-68311295e2ba064c9b65e0f7,237.000,2.4 Lt.,2013,SUV,Gasolina,Blanco Perla,Automático,4
+SANTA,CRUZ,Suzuki APV,2020,"$25,900",https://www.autopia.com.bo/auto/furgon-usados/suzuki-apv-2020-6830c0d29a8f6f74fc706d78,88.676,1.6 Lt.,2020,Furgón,Gasolina,Blanco,Mecánico,5
+SANTA,CRUZ,Toyota Agya,2019,"$21,200",https://www.autopia.com.bo/auto/citycar-usados/toyota-agya-2019-682f8c451991090ab72a49e4,97.419,1.0 Lt.,2019,CityCar,Gasolina,Blanco,Automático,5
+SANTA,CRUZ,Mazda Cx-5,2023,"$62,500",https://www.autopia.com.bo/auto/suv-usados/mazda-cx-5-2023-682f84b215b5e73d6141b4fc,39.443,2.0 Lt.,2023,SUV,Gasolina,Blanco,Automático,5
+SANTA,CRUZ,Peugeot 301,2018,"$17,500",https://www.autopia.com.bo/auto/sedan-usados/peugeot-301-2018-682f83e90224d045d72e3374,91.034,1.6 Lt.,2018,Sedán,Gasolina,Gris,Mecánico,5
+SANTA,CRUZ,Mitsubishi Outlander,2016,"$31,900",https://www.autopia.com.bo/auto/suv-usados/mitsubishi-outlander-2016-682f82afd11a414078739e77,87.071,2.4 Lt.,2016,SUV,Gasolina,Plata,Automático,5
+SANTA,CRUZ,Chevrolet Tracker,2021,"$27,800",https://www.autopia.com.bo/auto/suv-usados/chevrolet-tracker-2021-682f2a25be2d912d591ae7e3,83.300,1.2 Lt.,2021,SUV,Gasolina,Blanca,Mecánico,5
+SANTA,CRUZ,Chevrolet Tracker,2023,"$28,500",https://www.autopia.com.bo/auto/suv-usados/chevrolet-tracker-2023-682e4abefe04bf1c61471d03,42.394,1.2 Lt.,2023,SUV,Gasolina,Blanco,Mecánico,5
+COCHABAMBA,Ford,Expedition,2010,"$28,600",https://www.autopia.com.bo/auto/suv-usados/ford-expedition-2010-682cc501ea16fb4fd3367ab4,97.000,5.7 Lt.,2010,SUV,Gasolina,Rojo,Automático,5
+LA,PAZ,Toyota Tacoma,2020,"$55,000",https://www.autopia.com.bo/auto/camioneta-usados/toyota-tacoma-2020-682cb366350aa404e667d783,60.000,3.5 Lt.,2020,Camioneta,Gasolina,Negro,Automático,4
+COCHABAMBA,Chevrolet,N300 Max,2017,"$23,000",https://www.autopia.com.bo/auto/furgon-usados/chevrolet-n300-max-2017-682c81b3e79adc0b66749213,93.900,1.2 Lt.,2017,Furgón,Gasolina,Beige,Mecánico,4
+COCHABAMBA,Jeep,Wrangler,2015,"$38,000",https://www.autopia.com.bo/auto/suv-usados/jeep-wrangler-2015-682c7e86f85b056a547166e6,47.486,3.6 Lt.,2015,SUV,Gasolina,Rojo,Mecánico,3
+SANTA,CRUZ,Mercedes Benz GLK,2012,"$20,000",https://www.autopia.com.bo/auto/suv-usados/mercedes-benz-glk-2012-682a98c54652fc0a7a7da4a9,100.000,3.5 Lt.,2012,SUV,Gasolina,Plateado,Automático,5
+COCHABAMBA,KIA,Sportage,2015,"$20,000",https://www.autopia.com.bo/auto/suv-usados/kia-sportage-2015-682a06a7904383775314f874,82.500,2.4 Lt.,2015,SUV,Gasolina,Gris,Automático,5
+LA,PAZ,Renault Sandero,2018,"$17,500",https://www.autopia.com.bo/auto/hatchback-usados/renault-sandero-2018-68275ca1577fde7c420665b2,75.000,1.6 Lt.,2018,Hatchback,Gasolina,Rojo,Automático,5
+SANTA,CRUZ,Nissan Urvan,1991,"$9,800",https://www.autopia.com.bo/auto/furgon-usados/nissan-urvan-1991-68254253b9ca817b5f0cdf33,10.000,2.5 Lt.,1991,Furgón,Gasolina,Rojo,Mecánico,3
+LA,PAZ,Nissan Rogue,2014,"$21,000",https://www.autopia.com.bo/auto/suv-usados/nissan-rogue-2014-682519e2e8e1dd7b6b43feea,105.000,2.4 Lt.,2014,SUV,Gasolina,Verde Oscuro,Automático,5
+COCHABAMBA,Ford,Ecosport,2011,"$15,500",https://www.autopia.com.bo/auto/suv-usados/ford-ecosport-2011-6824fe5b1769027b22632c14,155.000,1.6 Lt.,2011,SUV,Gasolina,Blanco,Mecánico,5
+SANTA,CRUZ,Changan Cs35,2024,"$30,000",https://www.autopia.com.bo/auto/suv-usados/changan-cs35-2024-6824bf363c0aeb42281f5d13,19.200,1.5 Lt.,2024,SUV,Gasolina,Gris,Automático,5
+LA,PAZ,Caio Millenium III,2003,"$15,000",https://www.autopia.com.bo/auto/suv-usados/caio-millenium-iii-2003-6822a1bc55b6a128f96c7f65,560.000,1.0 Lt.,2003,SUV,Gasolina,Red,Automático,4
+COCHABAMBA,Chevrolet,Tracker,2023,"$200,000",https://www.autopia.com.bo/auto/suv-usados/chevrolet-tracker-2023-682276bba509aa534e46f767,29.000,1.2 Lt.,2023,SUV,Gasolina,Gris Oscuro,Mecánico,5
+SANTA,CRUZ,Suzuki Alto,2025,"$23,500",https://www.autopia.com.bo/auto/hatchback-usados/suzuki-alto-2025-681e61c3978338602b066e57,10.396,1.0 Lt.,2025,Hatchback,Gasolina,Plata,Mecánico,5
+LA,PAZ,Ford Explorer,2017,"$37,000",https://www.autopia.com.bo/auto/suv-usados/ford-explorer-2017-681e520a1a050721a8482187,61.300,3.5 Lt.,2017,SUV,Gasolina,Blanco Perlado,Automático,5
+LA,PAZ,Suzuki S-presso,2025,"$19,800",https://www.autopia.com.bo/auto/citycar-usados/suzuki-s-presso-2025-681e3de1e732b0701428ffa4,3.100,1.0 Lt.,2025,CityCar,Gasolina,Rojo,Mecánico,5
+LA,PAZ,KIA Carens,2024,"$31,000",https://www.autopia.com.bo/auto/suv-usados/kia-carens-2024-681e27be1e035a1735340dd5,4.700,1.8 Lt.,2024,SUV,Gasolina,Plomo Oscuro,Automático,5
+LA,PAZ,Suzuki Alto,2009,"$8,900",https://www.autopia.com.bo/auto/citycar-usados/suzuki-alto-2009-681e18c2b681cb42832ae6a3,281.000,1.1 Lt.,2009,CityCar,Gasolina,Plata,Mecánico,4
+SANTA,CRUZ,Chevrolet Tracker,2023,"$28,600",https://www.autopia.com.bo/auto/suv-usados/chevrolet-tracker-2023-6819134b04f0ec1d820af0c7,78.060,1.2 Lt.,2023,SUV,Gasolina,Plata,Mecánico,5
+SANTA,CRUZ,Nissan Frontier,2025,"$86,000",https://www.autopia.com.bo/auto/camioneta-usados/nissan-frontier-2025-68141402f731bd28c9407558,2.000,2.5 Lt.,2025,Camioneta,Gasolina,Blanco,Automático,4
+SANTA,CRUZ,Nissan Frontier,2025,"$86,000",https://www.autopia.com.bo/auto/camioneta-usados/nissan-frontier-2025-680eb9d414f039745c681ce4,2.700,2.5 Lt.,2025,Camioneta,Gasolina,Gris Volcanico,Automático,4
+COCHABAMBA,Mercedes,Benz E,2006,"$12,900",https://www.autopia.com.bo/auto/sedan-usados/mercedes-benz-e-2006-680d7650f4381f3c2e24ef16,150.000,3.2 Lt.,2006,Sedán,Gasolina,Champagne,Automático,4
+COCHABAMBA,BMW,523,2012,"$19,800",https://www.autopia.com.bo/auto/sedan-usados/bmw-523-2012-680d6ec286276c443b562285,100.000,2.5 Lt.,2012,Sedán,Gasolina,Marengo,Automático,4
+LA,PAZ,Peugeot 3008,2023,"$35,000",https://www.autopia.com.bo/auto/suv-usados/peugeot-3008-2023-680bd9df9fc46d67d001ea97,12.000,,2023,SUV,Gasolina,Gris,Automático,4
+SANTA,CRUZ,Ssangyong XLV,2017,"$14,600",https://www.autopia.com.bo/auto/suv-usados/ssangyong-xlv-2017-6808194b7e52421e5172e297,90.000,1.6 Lt.,2017,SUV,Gasolina,Blanco,Automático,5
+SANTA,CRUZ,KIA Sportage,2024,"$86,000",https://www.autopia.com.bo/auto/suv-usados/kia-sportage-2024-6803ea4fa97ac725494c3314,26.000,2.0 Lt.,2024,SUV,Gasolina,Blanco,Automático,4
+LA,PAZ,Nissan X-trail,2017,"$28,500",https://www.autopia.com.bo/auto/suv-usados/nissan-x-trail-2017-6801335de256e9531d2acae7,115.000,2.5 Lt.,2017,SUV,Gasolina,Gris,Automático,5
+SANTA,CRUZ,Nissan Frontier,2022,"$69,900",https://www.autopia.com.bo/auto/camioneta-usados/nissan-frontier-2022-683a3dba0cff3d057f01c7b7,7.000,2.5 Lt.,2022,Camioneta,Gasolina,Rojo,Automático,4
+COCHABAMBA,Changan,Cs35,2021,"$180,000",https://www.autopia.com.bo/auto/suv-usados/changan-cs35-2021-6839c10b36a257341f78f6d4,57.100,1.4 Lt.,2021,SUV,Gasolina,Rojo,Mecánico,5
+LA,PAZ,Nissan Sentra,1998,"$7,600",https://www.autopia.com.bo/auto/sedan-usados/nissan-sentra-1998-6839bd080efd433c23100df4,100.000,1.5 Lt.,1998,Sedán,Gasolina,Blanco,Automático,4
+SANTA,CRUZ,JAC T8,2022,"$21,500",https://www.autopia.com.bo/auto/camioneta-usados/jac-t8-2022-6838ee8bc7849e6e5e7ae7e4,55.000,2.0 Lt.,2022,Camioneta,Gasolina,Negro,Mecánico,4
+COCHABAMBA,KIA,Sonet,2025,"$37,500",https://www.autopia.com.bo/auto/suv-usados/kia-sonet-2025-6838a590ea835c453b25ab16,4.000,1.5 Lt.,2025,SUV,Gasolina,Negro,Mecánico,5
+SANTA,CRUZ,Honda Ridgeline,2022,"$45,000",https://www.autopia.com.bo/auto/camioneta-usados/honda-ridgeline-2022-68384aab74ce531c9c55ea04,45.000,3.5 Lt.,2022,Camioneta,Gasolina,Blanco,Automático,5
+SANTA,CRUZ,Hyundai Galloper,2000,"$77,000",https://www.autopia.com.bo/auto/camioneta-usados/hyundai-galloper-2000-683736eacc72813bdd0992c3,80.000,2.5 Lt.,2000,Camioneta,Diesel,Celeste,Mecánico,5
+SANTA,CRUZ,Nissan Frontier,2024,"$79,900",https://www.autopia.com.bo/auto/camioneta-usados/nissan-frontier-2024-683551d2fc51e21cca461bc5,21.000,2.5 Lt.,2024,Camioneta,Gasolina,Gris Oscuro,Automático,4
+SANTA,CRUZ,Suzuki Dzire Sedan,2015,"$18,500",https://www.autopia.com.bo/auto/sedan-usados/suzuki-dzire-sedan-2015-68355000775c0c0cf34474d4,150,1.2 Lt.,2015,Sedán,Gasolina,Blanco Perla,Automático,4
+SANTA,CRUZ,Toyota Starlet,1995,"$11,900",https://www.autopia.com.bo/auto/citycar-usados/toyota-starlet-1995-68354b8761c3f5573f085a36,10,1.3 Lt.,1995,CityCar,Gasolina,Blanco,Mecánico,2
+LA,PAZ,Hyundai I-10,2012,"$13,500",https://www.autopia.com.bo/auto/citycar-usados/hyundai-i-10-2012-6834b2414373610a61507274,66.700,1.2 Lt.,2012,CityCar,Gasolina,Beige,Mecánico,5
+SANTA,CRUZ,Nissan Frontier,2024,"$79,900",https://www.autopia.com.bo/auto/camioneta-usados/nissan-frontier-2024-68339561705b4b248c5a1976,15.000,2.5 Lt.,2024,Camioneta,Gasolina,Rojo,Automático,4
+SANTA,CRUZ,Renault Koleos,2013,"$15,800",https://www.autopia.com.bo/auto/suv-usados/renault-koleos-2013-68311295e2ba064c9b65e0f7,237.000,2.4 Lt.,2013,SUV,Gasolina,Blanco Perla,Automático,4
+SANTA,CRUZ,Suzuki APV,2020,"$25,900",https://www.autopia.com.bo/auto/furgon-usados/suzuki-apv-2020-6830c0d29a8f6f74fc706d78,88.676,1.6 Lt.,2020,Furgón,Gasolina,Blanco,Mecánico,5
+SANTA,CRUZ,Toyota Agya,2019,"$21,200",https://www.autopia.com.bo/auto/citycar-usados/toyota-agya-2019-682f8c451991090ab72a49e4,97.419,1.0 Lt.,2019,CityCar,Gasolina,Blanco,Automático,5
+SANTA,CRUZ,Mazda Cx-5,2023,"$62,500",https://www.autopia.com.bo/auto/suv-usados/mazda-cx-5-2023-682f84b215b5e73d6141b4fc,39.443,2.0 Lt.,2023,SUV,Gasolina,Blanco,Automático,5
+SANTA,CRUZ,Peugeot 301,2018,"$17,500",https://www.autopia.com.bo/auto/sedan-usados/peugeot-301-2018-682f83e90224d045d72e3374,91.034,1.6 Lt.,2018,Sedán,Gasolina,Gris,Mecánico,5
+SANTA,CRUZ,Mitsubishi Outlander,2016,"$31,900",https://www.autopia.com.bo/auto/suv-usados/mitsubishi-outlander-2016-682f82afd11a414078739e77,87.071,2.4 Lt.,2016,SUV,Gasolina,Plata,Automático,5
+SANTA,CRUZ,Chevrolet Tracker,2021,"$27,800",https://www.autopia.com.bo/auto/suv-usados/chevrolet-tracker-2021-682f2a25be2d912d591ae7e3,83.300,1.2 Lt.,2021,SUV,Gasolina,Blanca,Mecánico,5
+SANTA,CRUZ,Chevrolet Tracker,2023,"$28,500",https://www.autopia.com.bo/auto/suv-usados/chevrolet-tracker-2023-682e4abefe04bf1c61471d03,42.394,1.2 Lt.,2023,SUV,Gasolina,Blanco,Mecánico,5
+COCHABAMBA,Ford,Expedition,2010,"$28,600",https://www.autopia.com.bo/auto/suv-usados/ford-expedition-2010-682cc501ea16fb4fd3367ab4,97.000,5.7 Lt.,2010,SUV,Gasolina,Rojo,Automático,5
+LA,PAZ,Toyota Tacoma,2020,"$55,000",https://www.autopia.com.bo/auto/camioneta-usados/toyota-tacoma-2020-682cb366350aa404e667d783,60.000,3.5 Lt.,2020,Camioneta,Gasolina,Negro,Automático,4
+COCHABAMBA,Chevrolet,N300 Max,2017,"$23,000",https://www.autopia.com.bo/auto/furgon-usados/chevrolet-n300-max-2017-682c81b3e79adc0b66749213,93.900,1.2 Lt.,2017,Furgón,Gasolina,Beige,Mecánico,4
+COCHABAMBA,Jeep,Wrangler,2015,"$38,000",https://www.autopia.com.bo/auto/suv-usados/jeep-wrangler-2015-682c7e86f85b056a547166e6,47.486,3.6 Lt.,2015,SUV,Gasolina,Rojo,Mecánico,3
+SANTA,CRUZ,Mercedes Benz GLK,2012,"$20,000",https://www.autopia.com.bo/auto/suv-usados/mercedes-benz-glk-2012-682a98c54652fc0a7a7da4a9,100.000,3.5 Lt.,2012,SUV,Gasolina,Plateado,Automático,5
+COCHABAMBA,KIA,Sportage,2015,"$20,000",https://www.autopia.com.bo/auto/suv-usados/kia-sportage-2015-682a06a7904383775314f874,82.500,2.4 Lt.,2015,SUV,Gasolina,Gris,Automático,5
+LA,PAZ,Renault Sandero,2018,"$17,500",https://www.autopia.com.bo/auto/hatchback-usados/renault-sandero-2018-68275ca1577fde7c420665b2,75.000,1.6 Lt.,2018,Hatchback,Gasolina,Rojo,Automático,5
+SANTA,CRUZ,Nissan Urvan,1991,"$9,800",https://www.autopia.com.bo/auto/furgon-usados/nissan-urvan-1991-68254253b9ca817b5f0cdf33,10.000,2.5 Lt.,1991,Furgón,Gasolina,Rojo,Mecánico,3
+LA,PAZ,Nissan Rogue,2014,"$21,000",https://www.autopia.com.bo/auto/suv-usados/nissan-rogue-2014-682519e2e8e1dd7b6b43feea,105.000,2.4 Lt.,2014,SUV,Gasolina,Verde Oscuro,Automático,5
+COCHABAMBA,Ford,Ecosport,2011,"$15,500",https://www.autopia.com.bo/auto/suv-usados/ford-ecosport-2011-6824fe5b1769027b22632c14,155.000,1.6 Lt.,2011,SUV,Gasolina,Blanco,Mecánico,5
+SANTA,CRUZ,Changan Cs35,2024,"$30,000",https://www.autopia.com.bo/auto/suv-usados/changan-cs35-2024-6824bf363c0aeb42281f5d13,19.200,1.5 Lt.,2024,SUV,Gasolina,Gris,Automático,5
+LA,PAZ,Caio Millenium III,2003,"$15,000",https://www.autopia.com.bo/auto/suv-usados/caio-millenium-iii-2003-6822a1bc55b6a128f96c7f65,560.000,1.0 Lt.,2003,SUV,Gasolina,Red,Automático,4
+COCHABAMBA,Chevrolet,Tracker,2023,"$200,000",https://www.autopia.com.bo/auto/suv-usados/chevrolet-tracker-2023-682276bba509aa534e46f767,29.000,1.2 Lt.,2023,SUV,Gasolina,Gris Oscuro,Mecánico,5
+SANTA,CRUZ,Suzuki Alto,2025,"$23,500",https://www.autopia.com.bo/auto/hatchback-usados/suzuki-alto-2025-681e61c3978338602b066e57,10.396,1.0 Lt.,2025,Hatchback,Gasolina,Plata,Mecánico,5
+LA,PAZ,Ford Explorer,2017,"$37,000",https://www.autopia.com.bo/auto/suv-usados/ford-explorer-2017-681e520a1a050721a8482187,61.300,3.5 Lt.,2017,SUV,Gasolina,Blanco Perlado,Automático,5
+LA,PAZ,Suzuki S-presso,2025,"$19,800",https://www.autopia.com.bo/auto/citycar-usados/suzuki-s-presso-2025-681e3de1e732b0701428ffa4,3.100,1.0 Lt.,2025,CityCar,Gasolina,Rojo,Mecánico,5
+LA,PAZ,KIA Carens,2024,"$31,000",https://www.autopia.com.bo/auto/suv-usados/kia-carens-2024-681e27be1e035a1735340dd5,4.700,1.8 Lt.,2024,SUV,Gasolina,Plomo Oscuro,Automático,5
+LA,PAZ,Suzuki Alto,2009,"$8,900",https://www.autopia.com.bo/auto/citycar-usados/suzuki-alto-2009-681e18c2b681cb42832ae6a3,281.000,1.1 Lt.,2009,CityCar,Gasolina,Plata,Mecánico,4
+SANTA,CRUZ,Chevrolet Tracker,2023,"$28,600",https://www.autopia.com.bo/auto/suv-usados/chevrolet-tracker-2023-6819134b04f0ec1d820af0c7,78.060,1.2 Lt.,2023,SUV,Gasolina,Plata,Mecánico,5
+SANTA,CRUZ,Nissan Frontier,2025,"$86,000",https://www.autopia.com.bo/auto/camioneta-usados/nissan-frontier-2025-68141402f731bd28c9407558,2.000,2.5 Lt.,2025,Camioneta,Gasolina,Blanco,Automático,4
+SANTA,CRUZ,Nissan Frontier,2025,"$86,000",https://www.autopia.com.bo/auto/camioneta-usados/nissan-frontier-2025-680eb9d414f039745c681ce4,2.700,2.5 Lt.,2025,Camioneta,Gasolina,Gris Volcanico,Automático,4
+COCHABAMBA,Mercedes,Benz E,2006,"$12,900",https://www.autopia.com.bo/auto/sedan-usados/mercedes-benz-e-2006-680d7650f4381f3c2e24ef16,150.000,3.2 Lt.,2006,Sedán,Gasolina,Champagne,Automático,4
+COCHABAMBA,BMW,523,2012,"$19,800",https://www.autopia.com.bo/auto/sedan-usados/bmw-523-2012-680d6ec286276c443b562285,100.000,2.5 Lt.,2012,Sedán,Gasolina,Marengo,Automático,4
+LA,PAZ,Peugeot 3008,2023,"$35,000",https://www.autopia.com.bo/auto/suv-usados/peugeot-3008-2023-680bd9df9fc46d67d001ea97,12.000,,2023,SUV,Gasolina,Gris,Automático,4
+SANTA,CRUZ,Ssangyong XLV,2017,"$14,600",https://www.autopia.com.bo/auto/suv-usados/ssangyong-xlv-2017-6808194b7e52421e5172e297,90.000,1.6 Lt.,2017,SUV,Gasolina,Blanco,Automático,5
+SANTA,CRUZ,KIA Sportage,2024,"$86,000",https://www.autopia.com.bo/auto/suv-usados/kia-sportage-2024-6803ea4fa97ac725494c3314,26.000,2.0 Lt.,2024,SUV,Gasolina,Blanco,Automático,4
+LA,PAZ,Nissan X-trail,2017,"$28,500",https://www.autopia.com.bo/auto/suv-usados/nissan-x-trail-2017-6801335de256e9531d2acae7,115.000,2.5 Lt.,2017,SUV,Gasolina,Gris,Automático,5
+SANTA,CRUZ,Nissan Frontier,2022,"$69,900",https://www.autopia.com.bo/auto/camioneta-usados/nissan-frontier-2022-683a3dba0cff3d057f01c7b7,7.000,2.5 Lt.,2022,Camioneta,Gasolina,Rojo,Automático,4
+COCHABAMBA,Changan,Cs35,2021,"$180,000",https://www.autopia.com.bo/auto/suv-usados/changan-cs35-2021-6839c10b36a257341f78f6d4,57.100,1.4 Lt.,2021,SUV,Gasolina,Rojo,Mecánico,5
+LA,PAZ,Nissan Sentra,1998,"$7,600",https://www.autopia.com.bo/auto/sedan-usados/nissan-sentra-1998-6839bd080efd433c23100df4,100.000,1.5 Lt.,1998,Sedán,Gasolina,Blanco,Automático,4
+SANTA,CRUZ,JAC T8,2022,"$21,500",https://www.autopia.com.bo/auto/camioneta-usados/jac-t8-2022-6838ee8bc7849e6e5e7ae7e4,55.000,2.0 Lt.,2022,Camioneta,Gasolina,Negro,Mecánico,4
+COCHABAMBA,KIA,Sonet,2025,"$37,500",https://www.autopia.com.bo/auto/suv-usados/kia-sonet-2025-6838a590ea835c453b25ab16,4.000,1.5 Lt.,2025,SUV,Gasolina,Negro,Mecánico,5
+SANTA,CRUZ,Honda Ridgeline,2022,"$45,000",https://www.autopia.com.bo/auto/camioneta-usados/honda-ridgeline-2022-68384aab74ce531c9c55ea04,45.000,3.5 Lt.,2022,Camioneta,Gasolina,Blanco,Automático,5
+SANTA,CRUZ,Hyundai Galloper,2000,"$77,000",https://www.autopia.com.bo/auto/camioneta-usados/hyundai-galloper-2000-683736eacc72813bdd0992c3,80.000,2.5 Lt.,2000,Camioneta,Diesel,Celeste,Mecánico,5
+SANTA,CRUZ,Nissan Frontier,2024,"$79,900",https://www.autopia.com.bo/auto/camioneta-usados/nissan-frontier-2024-683551d2fc51e21cca461bc5,21.000,2.5 Lt.,2024,Camioneta,Gasolina,Gris Oscuro,Automático,4
+SANTA,CRUZ,Suzuki Dzire Sedan,2015,"$18,500",https://www.autopia.com.bo/auto/sedan-usados/suzuki-dzire-sedan-2015-68355000775c0c0cf34474d4,150,1.2 Lt.,2015,Sedán,Gasolina,Blanco Perla,Automático,4
+SANTA,CRUZ,Toyota Starlet,1995,"$11,900",https://www.autopia.com.bo/auto/citycar-usados/toyota-starlet-1995-68354b8761c3f5573f085a36,10,1.3 Lt.,1995,CityCar,Gasolina,Blanco,Mecánico,2
+LA,PAZ,Hyundai I-10,2012,"$13,500",https://www.autopia.com.bo/auto/citycar-usados/hyundai-i-10-2012-6834b2414373610a61507274,66.700,1.2 Lt.,2012,CityCar,Gasolina,Beige,Mecánico,5
+SANTA,CRUZ,Nissan Frontier,2024,"$79,900",https://www.autopia.com.bo/auto/camioneta-usados/nissan-frontier-2024-68339561705b4b248c5a1976,15.000,2.5 Lt.,2024,Camioneta,Gasolina,Rojo,Automático,4
+SANTA,CRUZ,Renault Koleos,2013,"$15,800",https://www.autopia.com.bo/auto/suv-usados/renault-koleos-2013-68311295e2ba064c9b65e0f7,237.000,2.4 Lt.,2013,SUV,Gasolina,Blanco Perla,Automático,4
+SANTA,CRUZ,Suzuki APV,2020,"$25,900",https://www.autopia.com.bo/auto/furgon-usados/suzuki-apv-2020-6830c0d29a8f6f74fc706d78,88.676,1.6 Lt.,2020,Furgón,Gasolina,Blanco,Mecánico,5
+SANTA,CRUZ,Toyota Agya,2019,"$21,200",https://www.autopia.com.bo/auto/citycar-usados/toyota-agya-2019-682f8c451991090ab72a49e4,97.419,1.0 Lt.,2019,CityCar,Gasolina,Blanco,Automático,5
+SANTA,CRUZ,Mazda Cx-5,2023,"$62,500",https://www.autopia.com.bo/auto/suv-usados/mazda-cx-5-2023-682f84b215b5e73d6141b4fc,39.443,2.0 Lt.,2023,SUV,Gasolina,Blanco,Automático,5
+SANTA,CRUZ,Peugeot 301,2018,"$17,500",https://www.autopia.com.bo/auto/sedan-usados/peugeot-301-2018-682f83e90224d045d72e3374,91.034,1.6 Lt.,2018,Sedán,Gasolina,Gris,Mecánico,5
+SANTA,CRUZ,Mitsubishi Outlander,2016,"$31,900",https://www.autopia.com.bo/auto/suv-usados/mitsubishi-outlander-2016-682f82afd11a414078739e77,87.071,2.4 Lt.,2016,SUV,Gasolina,Plata,Automático,5
+SANTA,CRUZ,Chevrolet Tracker,2021,"$27,800",https://www.autopia.com.bo/auto/suv-usados/chevrolet-tracker-2021-682f2a25be2d912d591ae7e3,83.300,1.2 Lt.,2021,SUV,Gasolina,Blanca,Mecánico,5
+SANTA,CRUZ,Chevrolet Tracker,2023,"$28,500",https://www.autopia.com.bo/auto/suv-usados/chevrolet-tracker-2023-682e4abefe04bf1c61471d03,42.394,1.2 Lt.,2023,SUV,Gasolina,Blanco,Mecánico,5
+COCHABAMBA,Ford,Expedition,2010,"$28,600",https://www.autopia.com.bo/auto/suv-usados/ford-expedition-2010-682cc501ea16fb4fd3367ab4,97.000,5.7 Lt.,2010,SUV,Gasolina,Rojo,Automático,5
+LA,PAZ,Toyota Tacoma,2020,"$55,000",https://www.autopia.com.bo/auto/camioneta-usados/toyota-tacoma-2020-682cb366350aa404e667d783,60.000,3.5 Lt.,2020,Camioneta,Gasolina,Negro,Automático,4
+COCHABAMBA,Chevrolet,N300 Max,2017,"$23,000",https://www.autopia.com.bo/auto/furgon-usados/chevrolet-n300-max-2017-682c81b3e79adc0b66749213,93.900,1.2 Lt.,2017,Furgón,Gasolina,Beige,Mecánico,4
+COCHABAMBA,Jeep,Wrangler,2015,"$38,000",https://www.autopia.com.bo/auto/suv-usados/jeep-wrangler-2015-682c7e86f85b056a547166e6,47.486,3.6 Lt.,2015,SUV,Gasolina,Rojo,Mecánico,3
+SANTA,CRUZ,Mercedes Benz GLK,2012,"$20,000",https://www.autopia.com.bo/auto/suv-usados/mercedes-benz-glk-2012-682a98c54652fc0a7a7da4a9,100.000,3.5 Lt.,2012,SUV,Gasolina,Plateado,Automático,5
+COCHABAMBA,KIA,Sportage,2015,"$20,000",https://www.autopia.com.bo/auto/suv-usados/kia-sportage-2015-682a06a7904383775314f874,82.500,2.4 Lt.,2015,SUV,Gasolina,Gris,Automático,5
+LA,PAZ,Renault Sandero,2018,"$17,500",https://www.autopia.com.bo/auto/hatchback-usados/renault-sandero-2018-68275ca1577fde7c420665b2,75.000,1.6 Lt.,2018,Hatchback,Gasolina,Rojo,Automático,5
+SANTA,CRUZ,Nissan Urvan,1991,"$9,800",https://www.autopia.com.bo/auto/furgon-usados/nissan-urvan-1991-68254253b9ca817b5f0cdf33,10.000,2.5 Lt.,1991,Furgón,Gasolina,Rojo,Mecánico,3
+LA,PAZ,Nissan Rogue,2014,"$21,000",https://www.autopia.com.bo/auto/suv-usados/nissan-rogue-2014-682519e2e8e1dd7b6b43feea,105.000,2.4 Lt.,2014,SUV,Gasolina,Verde Oscuro,Automático,5
+COCHABAMBA,Ford,Ecosport,2011,"$15,500",https://www.autopia.com.bo/auto/suv-usados/ford-ecosport-2011-6824fe5b1769027b22632c14,155.000,1.6 Lt.,2011,SUV,Gasolina,Blanco,Mecánico,5
+SANTA,CRUZ,Changan Cs35,2024,"$30,000",https://www.autopia.com.bo/auto/suv-usados/changan-cs35-2024-6824bf363c0aeb42281f5d13,19.200,1.5 Lt.,2024,SUV,Gasolina,Gris,Automático,5
+LA,PAZ,Caio Millenium III,2003,"$15,000",https://www.autopia.com.bo/auto/suv-usados/caio-millenium-iii-2003-6822a1bc55b6a128f96c7f65,560.000,1.0 Lt.,2003,SUV,Gasolina,Red,Automático,4
+COCHABAMBA,Chevrolet,Tracker,2023,"$200,000",https://www.autopia.com.bo/auto/suv-usados/chevrolet-tracker-2023-682276bba509aa534e46f767,29.000,1.2 Lt.,2023,SUV,Gasolina,Gris Oscuro,Mecánico,5
+SANTA,CRUZ,Suzuki Alto,2025,"$23,500",https://www.autopia.com.bo/auto/hatchback-usados/suzuki-alto-2025-681e61c3978338602b066e57,10.396,1.0 Lt.,2025,Hatchback,Gasolina,Plata,Mecánico,5
+LA,PAZ,Ford Explorer,2017,"$37,000",https://www.autopia.com.bo/auto/suv-usados/ford-explorer-2017-681e520a1a050721a8482187,61.300,3.5 Lt.,2017,SUV,Gasolina,Blanco Perlado,Automático,5
+LA,PAZ,Suzuki S-presso,2025,"$19,800",https://www.autopia.com.bo/auto/citycar-usados/suzuki-s-presso-2025-681e3de1e732b0701428ffa4,3.100,1.0 Lt.,2025,CityCar,Gasolina,Rojo,Mecánico,5
+LA,PAZ,KIA Carens,2024,"$31,000",https://www.autopia.com.bo/auto/suv-usados/kia-carens-2024-681e27be1e035a1735340dd5,4.700,1.8 Lt.,2024,SUV,Gasolina,Plomo Oscuro,Automático,5
+LA,PAZ,Suzuki Alto,2009,"$8,900",https://www.autopia.com.bo/auto/citycar-usados/suzuki-alto-2009-681e18c2b681cb42832ae6a3,281.000,1.1 Lt.,2009,CityCar,Gasolina,Plata,Mecánico,4
+SANTA,CRUZ,Chevrolet Tracker,2023,"$28,600",https://www.autopia.com.bo/auto/suv-usados/chevrolet-tracker-2023-6819134b04f0ec1d820af0c7,78.060,1.2 Lt.,2023,SUV,Gasolina,Plata,Mecánico,5
+SANTA,CRUZ,Nissan Frontier,2025,"$86,000",https://www.autopia.com.bo/auto/camioneta-usados/nissan-frontier-2025-68141402f731bd28c9407558,2.000,2.5 Lt.,2025,Camioneta,Gasolina,Blanco,Automático,4
+SANTA,CRUZ,Nissan Frontier,2025,"$86,000",https://www.autopia.com.bo/auto/camioneta-usados/nissan-frontier-2025-680eb9d414f039745c681ce4,2.700,2.5 Lt.,2025,Camioneta,Gasolina,Gris Volcanico,Automático,4
+COCHABAMBA,Mercedes,Benz E,2006,"$12,900",https://www.autopia.com.bo/auto/sedan-usados/mercedes-benz-e-2006-680d7650f4381f3c2e24ef16,150.000,3.2 Lt.,2006,Sedán,Gasolina,Champagne,Automático,4
+COCHABAMBA,BMW,523,2012,"$19,800",https://www.autopia.com.bo/auto/sedan-usados/bmw-523-2012-680d6ec286276c443b562285,100.000,2.5 Lt.,2012,Sedán,Gasolina,Marengo,Automático,4
+LA,PAZ,Peugeot 3008,2023,"$35,000",https://www.autopia.com.bo/auto/suv-usados/peugeot-3008-2023-680bd9df9fc46d67d001ea97,12.000,,2023,SUV,Gasolina,Gris,Automático,4
+SANTA,CRUZ,Ssangyong XLV,2017,"$14,600",https://www.autopia.com.bo/auto/suv-usados/ssangyong-xlv-2017-6808194b7e52421e5172e297,90.000,1.6 Lt.,2017,SUV,Gasolina,Blanco,Automático,5
+SANTA,CRUZ,KIA Sportage,2024,"$86,000",https://www.autopia.com.bo/auto/suv-usados/kia-sportage-2024-6803ea4fa97ac725494c3314,26.000,2.0 Lt.,2024,SUV,Gasolina,Blanco,Automático,4
+LA,PAZ,Nissan X-trail,2017,"$28,500",https://www.autopia.com.bo/auto/suv-usados/nissan-x-trail-2017-6801335de256e9531d2acae7,115.000,2.5 Lt.,2017,SUV,Gasolina,Gris,Automático,5
+SANTA,CRUZ,Nissan Frontier,2022,"$69,900",https://www.autopia.com.bo/auto/camioneta-usados/nissan-frontier-2022-683a3dba0cff3d057f01c7b7,7.000,2.5 Lt.,2022,Camioneta,Gasolina,Rojo,Automático,4
+COCHABAMBA,Changan,Cs35,2021,"$180,000",https://www.autopia.com.bo/auto/suv-usados/changan-cs35-2021-6839c10b36a257341f78f6d4,57.100,1.4 Lt.,2021,SUV,Gasolina,Rojo,Mecánico,5
+LA,PAZ,Nissan Sentra,1998,"$7,600",https://www.autopia.com.bo/auto/sedan-usados/nissan-sentra-1998-6839bd080efd433c23100df4,100.000,1.5 Lt.,1998,Sedán,Gasolina,Blanco,Automático,4
+SANTA,CRUZ,JAC T8,2022,"$21,500",https://www.autopia.com.bo/auto/camioneta-usados/jac-t8-2022-6838ee8bc7849e6e5e7ae7e4,55.000,2.0 Lt.,2022,Camioneta,Gasolina,Negro,Mecánico,4
+COCHABAMBA,KIA,Sonet,2025,"$37,500",https://www.autopia.com.bo/auto/suv-usados/kia-sonet-2025-6838a590ea835c453b25ab16,4.000,1.5 Lt.,2025,SUV,Gasolina,Negro,Mecánico,5
+SANTA,CRUZ,Honda Ridgeline,2022,"$45,000",https://www.autopia.com.bo/auto/camioneta-usados/honda-ridgeline-2022-68384aab74ce531c9c55ea04,45.000,3.5 Lt.,2022,Camioneta,Gasolina,Blanco,Automático,5
+SANTA,CRUZ,Hyundai Galloper,2000,"$77,000",https://www.autopia.com.bo/auto/camioneta-usados/hyundai-galloper-2000-683736eacc72813bdd0992c3,80.000,2.5 Lt.,2000,Camioneta,Diesel,Celeste,Mecánico,5
+SANTA,CRUZ,Nissan Frontier,2024,"$79,900",https://www.autopia.com.bo/auto/camioneta-usados/nissan-frontier-2024-683551d2fc51e21cca461bc5,21.000,2.5 Lt.,2024,Camioneta,Gasolina,Gris Oscuro,Automático,4
+SANTA,CRUZ,Suzuki Dzire Sedan,2015,"$18,500",https://www.autopia.com.bo/auto/sedan-usados/suzuki-dzire-sedan-2015-68355000775c0c0cf34474d4,150,1.2 Lt.,2015,Sedán,Gasolina,Blanco Perla,Automático,4
+SANTA,CRUZ,Toyota Starlet,1995,"$11,900",https://www.autopia.com.bo/auto/citycar-usados/toyota-starlet-1995-68354b8761c3f5573f085a36,10,1.3 Lt.,1995,CityCar,Gasolina,Blanco,Mecánico,2
+LA,PAZ,Hyundai I-10,2012,"$13,500",https://www.autopia.com.bo/auto/citycar-usados/hyundai-i-10-2012-6834b2414373610a61507274,66.700,1.2 Lt.,2012,CityCar,Gasolina,Beige,Mecánico,5
+SANTA,CRUZ,Nissan Frontier,2024,"$79,900",https://www.autopia.com.bo/auto/camioneta-usados/nissan-frontier-2024-68339561705b4b248c5a1976,15.000,2.5 Lt.,2024,Camioneta,Gasolina,Rojo,Automático,4
+SANTA,CRUZ,Renault Koleos,2013,"$15,800",https://www.autopia.com.bo/auto/suv-usados/renault-koleos-2013-68311295e2ba064c9b65e0f7,237.000,2.4 Lt.,2013,SUV,Gasolina,Blanco Perla,Automático,4
+SANTA,CRUZ,Suzuki APV,2020,"$25,900",https://www.autopia.com.bo/auto/furgon-usados/suzuki-apv-2020-6830c0d29a8f6f74fc706d78,88.676,1.6 Lt.,2020,Furgón,Gasolina,Blanco,Mecánico,5
+SANTA,CRUZ,Toyota Agya,2019,"$21,200",https://www.autopia.com.bo/auto/citycar-usados/toyota-agya-2019-682f8c451991090ab72a49e4,97.419,1.0 Lt.,2019,CityCar,Gasolina,Blanco,Automático,5
+SANTA,CRUZ,Mazda Cx-5,2023,"$62,500",https://www.autopia.com.bo/auto/suv-usados/mazda-cx-5-2023-682f84b215b5e73d6141b4fc,39.443,2.0 Lt.,2023,SUV,Gasolina,Blanco,Automático,5
+SANTA,CRUZ,Peugeot 301,2018,"$17,500",https://www.autopia.com.bo/auto/sedan-usados/peugeot-301-2018-682f83e90224d045d72e3374,91.034,1.6 Lt.,2018,Sedán,Gasolina,Gris,Mecánico,5
+SANTA,CRUZ,Mitsubishi Outlander,2016,"$31,900",https://www.autopia.com.bo/auto/suv-usados/mitsubishi-outlander-2016-682f82afd11a414078739e77,87.071,2.4 Lt.,2016,SUV,Gasolina,Plata,Automático,5
+SANTA,CRUZ,Chevrolet Tracker,2021,"$27,800",https://www.autopia.com.bo/auto/suv-usados/chevrolet-tracker-2021-682f2a25be2d912d591ae7e3,83.300,1.2 Lt.,2021,SUV,Gasolina,Blanca,Mecánico,5
+SANTA,CRUZ,Chevrolet Tracker,2023,"$28,500",https://www.autopia.com.bo/auto/suv-usados/chevrolet-tracker-2023-682e4abefe04bf1c61471d03,42.394,1.2 Lt.,2023,SUV,Gasolina,Blanco,Mecánico,5
+COCHABAMBA,Ford,Expedition,2010,"$28,600",https://www.autopia.com.bo/auto/suv-usados/ford-expedition-2010-682cc501ea16fb4fd3367ab4,97.000,5.7 Lt.,2010,SUV,Gasolina,Rojo,Automático,5
+LA,PAZ,Toyota Tacoma,2020,"$55,000",https://www.autopia.com.bo/auto/camioneta-usados/toyota-tacoma-2020-682cb366350aa404e667d783,60.000,3.5 Lt.,2020,Camioneta,Gasolina,Negro,Automático,4
+COCHABAMBA,Chevrolet,N300 Max,2017,"$23,000",https://www.autopia.com.bo/auto/furgon-usados/chevrolet-n300-max-2017-682c81b3e79adc0b66749213,93.900,1.2 Lt.,2017,Furgón,Gasolina,Beige,Mecánico,4
+COCHABAMBA,Jeep,Wrangler,2015,"$38,000",https://www.autopia.com.bo/auto/suv-usados/jeep-wrangler-2015-682c7e86f85b056a547166e6,47.486,3.6 Lt.,2015,SUV,Gasolina,Rojo,Mecánico,3
+SANTA,CRUZ,Mercedes Benz GLK,2012,"$20,000",https://www.autopia.com.bo/auto/suv-usados/mercedes-benz-glk-2012-682a98c54652fc0a7a7da4a9,100.000,3.5 Lt.,2012,SUV,Gasolina,Plateado,Automático,5
+COCHABAMBA,KIA,Sportage,2015,"$20,000",https://www.autopia.com.bo/auto/suv-usados/kia-sportage-2015-682a06a7904383775314f874,82.500,2.4 Lt.,2015,SUV,Gasolina,Gris,Automático,5
+LA,PAZ,Renault Sandero,2018,"$17,500",https://www.autopia.com.bo/auto/hatchback-usados/renault-sandero-2018-68275ca1577fde7c420665b2,75.000,1.6 Lt.,2018,Hatchback,Gasolina,Rojo,Automático,5
+SANTA,CRUZ,Nissan Urvan,1991,"$9,800",https://www.autopia.com.bo/auto/furgon-usados/nissan-urvan-1991-68254253b9ca817b5f0cdf33,10.000,2.5 Lt.,1991,Furgón,Gasolina,Rojo,Mecánico,3
+LA,PAZ,Nissan Rogue,2014,"$21,000",https://www.autopia.com.bo/auto/suv-usados/nissan-rogue-2014-682519e2e8e1dd7b6b43feea,105.000,2.4 Lt.,2014,SUV,Gasolina,Verde Oscuro,Automático,5
+COCHABAMBA,Ford,Ecosport,2011,"$15,500",https://www.autopia.com.bo/auto/suv-usados/ford-ecosport-2011-6824fe5b1769027b22632c14,155.000,1.6 Lt.,2011,SUV,Gasolina,Blanco,Mecánico,5
+SANTA,CRUZ,Changan Cs35,2024,"$30,000",https://www.autopia.com.bo/auto/suv-usados/changan-cs35-2024-6824bf363c0aeb42281f5d13,19.200,1.5 Lt.,2024,SUV,Gasolina,Gris,Automático,5
+LA,PAZ,Caio Millenium III,2003,"$15,000",https://www.autopia.com.bo/auto/suv-usados/caio-millenium-iii-2003-6822a1bc55b6a128f96c7f65,560.000,1.0 Lt.,2003,SUV,Gasolina,Red,Automático,4
+COCHABAMBA,Chevrolet,Tracker,2023,"$200,000",https://www.autopia.com.bo/auto/suv-usados/chevrolet-tracker-2023-682276bba509aa534e46f767,29.000,1.2 Lt.,2023,SUV,Gasolina,Gris Oscuro,Mecánico,5
+SANTA,CRUZ,Suzuki Alto,2025,"$23,500",https://www.autopia.com.bo/auto/hatchback-usados/suzuki-alto-2025-681e61c3978338602b066e57,10.396,1.0 Lt.,2025,Hatchback,Gasolina,Plata,Mecánico,5
+LA,PAZ,Ford Explorer,2017,"$37,000",https://www.autopia.com.bo/auto/suv-usados/ford-explorer-2017-681e520a1a050721a8482187,61.300,3.5 Lt.,2017,SUV,Gasolina,Blanco Perlado,Automático,5
+LA,PAZ,Suzuki S-presso,2025,"$19,800",https://www.autopia.com.bo/auto/citycar-usados/suzuki-s-presso-2025-681e3de1e732b0701428ffa4,3.100,1.0 Lt.,2025,CityCar,Gasolina,Rojo,Mecánico,5
+LA,PAZ,KIA Carens,2024,"$31,000",https://www.autopia.com.bo/auto/suv-usados/kia-carens-2024-681e27be1e035a1735340dd5,4.700,1.8 Lt.,2024,SUV,Gasolina,Plomo Oscuro,Automático,5
+LA,PAZ,Suzuki Alto,2009,"$8,900",https://www.autopia.com.bo/auto/citycar-usados/suzuki-alto-2009-681e18c2b681cb42832ae6a3,281.000,1.1 Lt.,2009,CityCar,Gasolina,Plata,Mecánico,4
+SANTA,CRUZ,Chevrolet Tracker,2023,"$28,600",https://www.autopia.com.bo/auto/suv-usados/chevrolet-tracker-2023-6819134b04f0ec1d820af0c7,78.060,1.2 Lt.,2023,SUV,Gasolina,Plata,Mecánico,5
+SANTA,CRUZ,Nissan Frontier,2025,"$86,000",https://www.autopia.com.bo/auto/camioneta-usados/nissan-frontier-2025-68141402f731bd28c9407558,2.000,2.5 Lt.,2025,Camioneta,Gasolina,Blanco,Automático,4
+SANTA,CRUZ,Nissan Frontier,2025,"$86,000",https://www.autopia.com.bo/auto/camioneta-usados/nissan-frontier-2025-680eb9d414f039745c681ce4,2.700,2.5 Lt.,2025,Camioneta,Gasolina,Gris Volcanico,Automático,4
+COCHABAMBA,Mercedes,Benz E,2006,"$12,900",https://www.autopia.com.bo/auto/sedan-usados/mercedes-benz-e-2006-680d7650f4381f3c2e24ef16,150.000,3.2 Lt.,2006,Sedán,Gasolina,Champagne,Automático,4
+COCHABAMBA,BMW,523,2012,"$19,800",https://www.autopia.com.bo/auto/sedan-usados/bmw-523-2012-680d6ec286276c443b562285,100.000,2.5 Lt.,2012,Sedán,Gasolina,Marengo,Automático,4
+LA,PAZ,Peugeot 3008,2023,"$35,000",https://www.autopia.com.bo/auto/suv-usados/peugeot-3008-2023-680bd9df9fc46d67d001ea97,12.000,,2023,SUV,Gasolina,Gris,Automático,4
+SANTA,CRUZ,Ssangyong XLV,2017,"$14,600",https://www.autopia.com.bo/auto/suv-usados/ssangyong-xlv-2017-6808194b7e52421e5172e297,90.000,1.6 Lt.,2017,SUV,Gasolina,Blanco,Automático,5
+SANTA,CRUZ,KIA Sportage,2024,"$86,000",https://www.autopia.com.bo/auto/suv-usados/kia-sportage-2024-6803ea4fa97ac725494c3314,26.000,2.0 Lt.,2024,SUV,Gasolina,Blanco,Automático,4
+LA,PAZ,Nissan X-trail,2017,"$28,500",https://www.autopia.com.bo/auto/suv-usados/nissan-x-trail-2017-6801335de256e9531d2acae7,115.000,2.5 Lt.,2017,SUV,Gasolina,Gris,Automático,5
+SANTA,CRUZ,Nissan Frontier,2022,"$69,900",https://www.autopia.com.bo/auto/camioneta-usados/nissan-frontier-2022-683a3dba0cff3d057f01c7b7,7.000,2.5 Lt.,2022,Camioneta,Gasolina,Rojo,Automático,4
+COCHABAMBA,Changan,Cs35,2021,"$180,000",https://www.autopia.com.bo/auto/suv-usados/changan-cs35-2021-6839c10b36a257341f78f6d4,57.100,1.4 Lt.,2021,SUV,Gasolina,Rojo,Mecánico,5
+LA,PAZ,Nissan Sentra,1998,"$7,600",https://www.autopia.com.bo/auto/sedan-usados/nissan-sentra-1998-6839bd080efd433c23100df4,100.000,1.5 Lt.,1998,Sedán,Gasolina,Blanco,Automático,4
+SANTA,CRUZ,JAC T8,2022,"$21,500",https://www.autopia.com.bo/auto/camioneta-usados/jac-t8-2022-6838ee8bc7849e6e5e7ae7e4,55.000,2.0 Lt.,2022,Camioneta,Gasolina,Negro,Mecánico,4
+COCHABAMBA,KIA,Sonet,2025,"$37,500",https://www.autopia.com.bo/auto/suv-usados/kia-sonet-2025-6838a590ea835c453b25ab16,4.000,1.5 Lt.,2025,SUV,Gasolina,Negro,Mecánico,5
+SANTA,CRUZ,Honda Ridgeline,2022,"$45,000",https://www.autopia.com.bo/auto/camioneta-usados/honda-ridgeline-2022-68384aab74ce531c9c55ea04,45.000,3.5 Lt.,2022,Camioneta,Gasolina,Blanco,Automático,5
+SANTA,CRUZ,Hyundai Galloper,2000,"$77,000",https://www.autopia.com.bo/auto/camioneta-usados/hyundai-galloper-2000-683736eacc72813bdd0992c3,80.000,2.5 Lt.,2000,Camioneta,Diesel,Celeste,Mecánico,5
+SANTA,CRUZ,Nissan Frontier,2024,"$79,900",https://www.autopia.com.bo/auto/camioneta-usados/nissan-frontier-2024-683551d2fc51e21cca461bc5,21.000,2.5 Lt.,2024,Camioneta,Gasolina,Gris Oscuro,Automático,4
+SANTA,CRUZ,Suzuki Dzire Sedan,2015,"$18,500",https://www.autopia.com.bo/auto/sedan-usados/suzuki-dzire-sedan-2015-68355000775c0c0cf34474d4,150,1.2 Lt.,2015,Sedán,Gasolina,Blanco Perla,Automático,4
+SANTA,CRUZ,Toyota Starlet,1995,"$11,900",https://www.autopia.com.bo/auto/citycar-usados/toyota-starlet-1995-68354b8761c3f5573f085a36,10,1.3 Lt.,1995,CityCar,Gasolina,Blanco,Mecánico,2
+LA,PAZ,Hyundai I-10,2012,"$13,500",https://www.autopia.com.bo/auto/citycar-usados/hyundai-i-10-2012-6834b2414373610a61507274,66.700,1.2 Lt.,2012,CityCar,Gasolina,Beige,Mecánico,5
+SANTA,CRUZ,Nissan Frontier,2024,"$79,900",https://www.autopia.com.bo/auto/camioneta-usados/nissan-frontier-2024-68339561705b4b248c5a1976,15.000,2.5 Lt.,2024,Camioneta,Gasolina,Rojo,Automático,4
+SANTA,CRUZ,Renault Koleos,2013,"$15,800",https://www.autopia.com.bo/auto/suv-usados/renault-koleos-2013-68311295e2ba064c9b65e0f7,237.000,2.4 Lt.,2013,SUV,Gasolina,Blanco Perla,Automático,4
+SANTA,CRUZ,Suzuki APV,2020,"$25,900",https://www.autopia.com.bo/auto/furgon-usados/suzuki-apv-2020-6830c0d29a8f6f74fc706d78,88.676,1.6 Lt.,2020,Furgón,Gasolina,Blanco,Mecánico,5
+SANTA,CRUZ,Toyota Agya,2019,"$21,200",https://www.autopia.com.bo/auto/citycar-usados/toyota-agya-2019-682f8c451991090ab72a49e4,97.419,1.0 Lt.,2019,CityCar,Gasolina,Blanco,Automático,5
+SANTA,CRUZ,Mazda Cx-5,2023,"$62,500",https://www.autopia.com.bo/auto/suv-usados/mazda-cx-5-2023-682f84b215b5e73d6141b4fc,39.443,2.0 Lt.,2023,SUV,Gasolina,Blanco,Automático,5
+SANTA,CRUZ,Peugeot 301,2018,"$17,500",https://www.autopia.com.bo/auto/sedan-usados/peugeot-301-2018-682f83e90224d045d72e3374,91.034,1.6 Lt.,2018,Sedán,Gasolina,Gris,Mecánico,5
+SANTA,CRUZ,Mitsubishi Outlander,2016,"$31,900",https://www.autopia.com.bo/auto/suv-usados/mitsubishi-outlander-2016-682f82afd11a414078739e77,87.071,2.4 Lt.,2016,SUV,Gasolina,Plata,Automático,5
+SANTA,CRUZ,Chevrolet Tracker,2021,"$27,800",https://www.autopia.com.bo/auto/suv-usados/chevrolet-tracker-2021-682f2a25be2d912d591ae7e3,83.300,1.2 Lt.,2021,SUV,Gasolina,Blanca,Mecánico,5
+SANTA,CRUZ,Chevrolet Tracker,2023,"$28,500",https://www.autopia.com.bo/auto/suv-usados/chevrolet-tracker-2023-682e4abefe04bf1c61471d03,42.394,1.2 Lt.,2023,SUV,Gasolina,Blanco,Mecánico,5
+COCHABAMBA,Ford,Expedition,2010,"$28,600",https://www.autopia.com.bo/auto/suv-usados/ford-expedition-2010-682cc501ea16fb4fd3367ab4,97.000,5.7 Lt.,2010,SUV,Gasolina,Rojo,Automático,5
+LA,PAZ,Toyota Tacoma,2020,"$55,000",https://www.autopia.com.bo/auto/camioneta-usados/toyota-tacoma-2020-682cb366350aa404e667d783,60.000,3.5 Lt.,2020,Camioneta,Gasolina,Negro,Automático,4
+COCHABAMBA,Chevrolet,N300 Max,2017,"$23,000",https://www.autopia.com.bo/auto/furgon-usados/chevrolet-n300-max-2017-682c81b3e79adc0b66749213,93.900,1.2 Lt.,2017,Furgón,Gasolina,Beige,Mecánico,4
+COCHABAMBA,Jeep,Wrangler,2015,"$38,000",https://www.autopia.com.bo/auto/suv-usados/jeep-wrangler-2015-682c7e86f85b056a547166e6,47.486,3.6 Lt.,2015,SUV,Gasolina,Rojo,Mecánico,3
+SANTA,CRUZ,Mercedes Benz GLK,2012,"$20,000",https://www.autopia.com.bo/auto/suv-usados/mercedes-benz-glk-2012-682a98c54652fc0a7a7da4a9,100.000,3.5 Lt.,2012,SUV,Gasolina,Plateado,Automático,5
+COCHABAMBA,KIA,Sportage,2015,"$20,000",https://www.autopia.com.bo/auto/suv-usados/kia-sportage-2015-682a06a7904383775314f874,82.500,2.4 Lt.,2015,SUV,Gasolina,Gris,Automático,5
+LA,PAZ,Renault Sandero,2018,"$17,500",https://www.autopia.com.bo/auto/hatchback-usados/renault-sandero-2018-68275ca1577fde7c420665b2,75.000,1.6 Lt.,2018,Hatchback,Gasolina,Rojo,Automático,5
+SANTA,CRUZ,Nissan Urvan,1991,"$9,800",https://www.autopia.com.bo/auto/furgon-usados/nissan-urvan-1991-68254253b9ca817b5f0cdf33,10.000,2.5 Lt.,1991,Furgón,Gasolina,Rojo,Mecánico,3
+LA,PAZ,Nissan Rogue,2014,"$21,000",https://www.autopia.com.bo/auto/suv-usados/nissan-rogue-2014-682519e2e8e1dd7b6b43feea,105.000,2.4 Lt.,2014,SUV,Gasolina,Verde Oscuro,Automático,5
+COCHABAMBA,Ford,Ecosport,2011,"$15,500",https://www.autopia.com.bo/auto/suv-usados/ford-ecosport-2011-6824fe5b1769027b22632c14,155.000,1.6 Lt.,2011,SUV,Gasolina,Blanco,Mecánico,5
+SANTA,CRUZ,Changan Cs35,2024,"$30,000",https://www.autopia.com.bo/auto/suv-usados/changan-cs35-2024-6824bf363c0aeb42281f5d13,19.200,1.5 Lt.,2024,SUV,Gasolina,Gris,Automático,5
+LA,PAZ,Caio Millenium III,2003,"$15,000",https://www.autopia.com.bo/auto/suv-usados/caio-millenium-iii-2003-6822a1bc55b6a128f96c7f65,560.000,1.0 Lt.,2003,SUV,Gasolina,Red,Automático,4
+COCHABAMBA,Chevrolet,Tracker,2023,"$200,000",https://www.autopia.com.bo/auto/suv-usados/chevrolet-tracker-2023-682276bba509aa534e46f767,29.000,1.2 Lt.,2023,SUV,Gasolina,Gris Oscuro,Mecánico,5
+SANTA,CRUZ,Suzuki Alto,2025,"$23,500",https://www.autopia.com.bo/auto/hatchback-usados/suzuki-alto-2025-681e61c3978338602b066e57,10.396,1.0 Lt.,2025,Hatchback,Gasolina,Plata,Mecánico,5
+LA,PAZ,Ford Explorer,2017,"$37,000",https://www.autopia.com.bo/auto/suv-usados/ford-explorer-2017-681e520a1a050721a8482187,61.300,3.5 Lt.,2017,SUV,Gasolina,Blanco Perlado,Automático,5
+LA,PAZ,Suzuki S-presso,2025,"$19,800",https://www.autopia.com.bo/auto/citycar-usados/suzuki-s-presso-2025-681e3de1e732b0701428ffa4,3.100,1.0 Lt.,2025,CityCar,Gasolina,Rojo,Mecánico,5
+LA,PAZ,KIA Carens,2024,"$31,000",https://www.autopia.com.bo/auto/suv-usados/kia-carens-2024-681e27be1e035a1735340dd5,4.700,1.8 Lt.,2024,SUV,Gasolina,Plomo Oscuro,Automático,5
+LA,PAZ,Suzuki Alto,2009,"$8,900",https://www.autopia.com.bo/auto/citycar-usados/suzuki-alto-2009-681e18c2b681cb42832ae6a3,281.000,1.1 Lt.,2009,CityCar,Gasolina,Plata,Mecánico,4
+SANTA,CRUZ,Chevrolet Tracker,2023,"$28,600",https://www.autopia.com.bo/auto/suv-usados/chevrolet-tracker-2023-6819134b04f0ec1d820af0c7,78.060,1.2 Lt.,2023,SUV,Gasolina,Plata,Mecánico,5
+SANTA,CRUZ,Nissan Frontier,2025,"$86,000",https://www.autopia.com.bo/auto/camioneta-usados/nissan-frontier-2025-68141402f731bd28c9407558,2.000,2.5 Lt.,2025,Camioneta,Gasolina,Blanco,Automático,4
+SANTA,CRUZ,Nissan Frontier,2025,"$86,000",https://www.autopia.com.bo/auto/camioneta-usados/nissan-frontier-2025-680eb9d414f039745c681ce4,2.700,2.5 Lt.,2025,Camioneta,Gasolina,Gris Volcanico,Automático,4
+COCHABAMBA,Mercedes,Benz E,2006,"$12,900",https://www.autopia.com.bo/auto/sedan-usados/mercedes-benz-e-2006-680d7650f4381f3c2e24ef16,150.000,3.2 Lt.,2006,Sedán,Gasolina,Champagne,Automático,4
+COCHABAMBA,BMW,523,2012,"$19,800",https://www.autopia.com.bo/auto/sedan-usados/bmw-523-2012-680d6ec286276c443b562285,100.000,2.5 Lt.,2012,Sedán,Gasolina,Marengo,Automático,4
+LA,PAZ,Peugeot 3008,2023,"$35,000",https://www.autopia.com.bo/auto/suv-usados/peugeot-3008-2023-680bd9df9fc46d67d001ea97,12.000,,2023,SUV,Gasolina,Gris,Automático,4
+SANTA,CRUZ,Ssangyong XLV,2017,"$14,600",https://www.autopia.com.bo/auto/suv-usados/ssangyong-xlv-2017-6808194b7e52421e5172e297,90.000,1.6 Lt.,2017,SUV,Gasolina,Blanco,Automático,5
+SANTA,CRUZ,KIA Sportage,2024,"$86,000",https://www.autopia.com.bo/auto/suv-usados/kia-sportage-2024-6803ea4fa97ac725494c3314,26.000,2.0 Lt.,2024,SUV,Gasolina,Blanco,Automático,4
+LA,PAZ,Nissan X-trail,2017,"$28,500",https://www.autopia.com.bo/auto/suv-usados/nissan-x-trail-2017-6801335de256e9531d2acae7,115.000,2.5 Lt.,2017,SUV,Gasolina,Gris,Automático,5
+SANTA,CRUZ,Nissan Frontier,2022,"$69,900",https://www.autopia.com.bo/auto/camioneta-usados/nissan-frontier-2022-683a3dba0cff3d057f01c7b7,7.000,2.5 Lt.,2022,Camioneta,Gasolina,Rojo,Automático,4
+COCHABAMBA,Changan,Cs35,2021,"$180,000",https://www.autopia.com.bo/auto/suv-usados/changan-cs35-2021-6839c10b36a257341f78f6d4,57.100,1.4 Lt.,2021,SUV,Gasolina,Rojo,Mecánico,5
+LA,PAZ,Nissan Sentra,1998,"$7,600",https://www.autopia.com.bo/auto/sedan-usados/nissan-sentra-1998-6839bd080efd433c23100df4,100.000,1.5 Lt.,1998,Sedán,Gasolina,Blanco,Automático,4
+SANTA,CRUZ,JAC T8,2022,"$21,500",https://www.autopia.com.bo/auto/camioneta-usados/jac-t8-2022-6838ee8bc7849e6e5e7ae7e4,55.000,2.0 Lt.,2022,Camioneta,Gasolina,Negro,Mecánico,4
+COCHABAMBA,KIA,Sonet,2025,"$37,500",https://www.autopia.com.bo/auto/suv-usados/kia-sonet-2025-6838a590ea835c453b25ab16,4.000,1.5 Lt.,2025,SUV,Gasolina,Negro,Mecánico,5
+SANTA,CRUZ,Honda Ridgeline,2022,"$45,000",https://www.autopia.com.bo/auto/camioneta-usados/honda-ridgeline-2022-68384aab74ce531c9c55ea04,45.000,3.5 Lt.,2022,Camioneta,Gasolina,Blanco,Automático,5
+SANTA,CRUZ,Hyundai Galloper,2000,"$77,000",https://www.autopia.com.bo/auto/camioneta-usados/hyundai-galloper-2000-683736eacc72813bdd0992c3,80.000,2.5 Lt.,2000,Camioneta,Diesel,Celeste,Mecánico,5
+SANTA,CRUZ,Nissan Frontier,2024,"$79,900",https://www.autopia.com.bo/auto/camioneta-usados/nissan-frontier-2024-683551d2fc51e21cca461bc5,21.000,2.5 Lt.,2024,Camioneta,Gasolina,Gris Oscuro,Automático,4
+SANTA,CRUZ,Suzuki Dzire Sedan,2015,"$18,500",https://www.autopia.com.bo/auto/sedan-usados/suzuki-dzire-sedan-2015-68355000775c0c0cf34474d4,150,1.2 Lt.,2015,Sedán,Gasolina,Blanco Perla,Automático,4
+SANTA,CRUZ,Toyota Starlet,1995,"$11,900",https://www.autopia.com.bo/auto/citycar-usados/toyota-starlet-1995-68354b8761c3f5573f085a36,10,1.3 Lt.,1995,CityCar,Gasolina,Blanco,Mecánico,2
+LA,PAZ,Hyundai I-10,2012,"$13,500",https://www.autopia.com.bo/auto/citycar-usados/hyundai-i-10-2012-6834b2414373610a61507274,66.700,1.2 Lt.,2012,CityCar,Gasolina,Beige,Mecánico,5
+SANTA,CRUZ,Nissan Frontier,2024,"$79,900",https://www.autopia.com.bo/auto/camioneta-usados/nissan-frontier-2024-68339561705b4b248c5a1976,15.000,2.5 Lt.,2024,Camioneta,Gasolina,Rojo,Automático,4
+SANTA,CRUZ,Renault Koleos,2013,"$15,800",https://www.autopia.com.bo/auto/suv-usados/renault-koleos-2013-68311295e2ba064c9b65e0f7,237.000,2.4 Lt.,2013,SUV,Gasolina,Blanco Perla,Automático,4
+SANTA,CRUZ,Suzuki APV,2020,"$25,900",https://www.autopia.com.bo/auto/furgon-usados/suzuki-apv-2020-6830c0d29a8f6f74fc706d78,88.676,1.6 Lt.,2020,Furgón,Gasolina,Blanco,Mecánico,5
+SANTA,CRUZ,Toyota Agya,2019,"$21,200",https://www.autopia.com.bo/auto/citycar-usados/toyota-agya-2019-682f8c451991090ab72a49e4,97.419,1.0 Lt.,2019,CityCar,Gasolina,Blanco,Automático,5
+SANTA,CRUZ,Mazda Cx-5,2023,"$62,500",https://www.autopia.com.bo/auto/suv-usados/mazda-cx-5-2023-682f84b215b5e73d6141b4fc,39.443,2.0 Lt.,2023,SUV,Gasolina,Blanco,Automático,5
+SANTA,CRUZ,Peugeot 301,2018,"$17,500",https://www.autopia.com.bo/auto/sedan-usados/peugeot-301-2018-682f83e90224d045d72e3374,91.034,1.6 Lt.,2018,Sedán,Gasolina,Gris,Mecánico,5
+SANTA,CRUZ,Mitsubishi Outlander,2016,"$31,900",https://www.autopia.com.bo/auto/suv-usados/mitsubishi-outlander-2016-682f82afd11a414078739e77,87.071,2.4 Lt.,2016,SUV,Gasolina,Plata,Automático,5
+SANTA,CRUZ,Chevrolet Tracker,2021,"$27,800",https://www.autopia.com.bo/auto/suv-usados/chevrolet-tracker-2021-682f2a25be2d912d591ae7e3,83.300,1.2 Lt.,2021,SUV,Gasolina,Blanca,Mecánico,5
+SANTA,CRUZ,Chevrolet Tracker,2023,"$28,500",https://www.autopia.com.bo/auto/suv-usados/chevrolet-tracker-2023-682e4abefe04bf1c61471d03,42.394,1.2 Lt.,2023,SUV,Gasolina,Blanco,Mecánico,5
+COCHABAMBA,Ford,Expedition,2010,"$28,600",https://www.autopia.com.bo/auto/suv-usados/ford-expedition-2010-682cc501ea16fb4fd3367ab4,97.000,5.7 Lt.,2010,SUV,Gasolina,Rojo,Automático,5
+LA,PAZ,Toyota Tacoma,2020,"$55,000",https://www.autopia.com.bo/auto/camioneta-usados/toyota-tacoma-2020-682cb366350aa404e667d783,60.000,3.5 Lt.,2020,Camioneta,Gasolina,Negro,Automático,4
+COCHABAMBA,Chevrolet,N300 Max,2017,"$23,000",https://www.autopia.com.bo/auto/furgon-usados/chevrolet-n300-max-2017-682c81b3e79adc0b66749213,93.900,1.2 Lt.,2017,Furgón,Gasolina,Beige,Mecánico,4
+COCHABAMBA,Jeep,Wrangler,2015,"$38,000",https://www.autopia.com.bo/auto/suv-usados/jeep-wrangler-2015-682c7e86f85b056a547166e6,47.486,3.6 Lt.,2015,SUV,Gasolina,Rojo,Mecánico,3
+SANTA,CRUZ,Mercedes Benz GLK,2012,"$20,000",https://www.autopia.com.bo/auto/suv-usados/mercedes-benz-glk-2012-682a98c54652fc0a7a7da4a9,100.000,3.5 Lt.,2012,SUV,Gasolina,Plateado,Automático,5
+COCHABAMBA,KIA,Sportage,2015,"$20,000",https://www.autopia.com.bo/auto/suv-usados/kia-sportage-2015-682a06a7904383775314f874,82.500,2.4 Lt.,2015,SUV,Gasolina,Gris,Automático,5
+LA,PAZ,Renault Sandero,2018,"$17,500",https://www.autopia.com.bo/auto/hatchback-usados/renault-sandero-2018-68275ca1577fde7c420665b2,75.000,1.6 Lt.,2018,Hatchback,Gasolina,Rojo,Automático,5
+SANTA,CRUZ,Nissan Urvan,1991,"$9,800",https://www.autopia.com.bo/auto/furgon-usados/nissan-urvan-1991-68254253b9ca817b5f0cdf33,10.000,2.5 Lt.,1991,Furgón,Gasolina,Rojo,Mecánico,3
+LA,PAZ,Nissan Rogue,2014,"$21,000",https://www.autopia.com.bo/auto/suv-usados/nissan-rogue-2014-682519e2e8e1dd7b6b43feea,105.000,2.4 Lt.,2014,SUV,Gasolina,Verde Oscuro,Automático,5
+COCHABAMBA,Ford,Ecosport,2011,"$15,500",https://www.autopia.com.bo/auto/suv-usados/ford-ecosport-2011-6824fe5b1769027b22632c14,155.000,1.6 Lt.,2011,SUV,Gasolina,Blanco,Mecánico,5
+SANTA,CRUZ,Changan Cs35,2024,"$30,000",https://www.autopia.com.bo/auto/suv-usados/changan-cs35-2024-6824bf363c0aeb42281f5d13,19.200,1.5 Lt.,2024,SUV,Gasolina,Gris,Automático,5
+LA,PAZ,Caio Millenium III,2003,"$15,000",https://www.autopia.com.bo/auto/suv-usados/caio-millenium-iii-2003-6822a1bc55b6a128f96c7f65,560.000,1.0 Lt.,2003,SUV,Gasolina,Red,Automático,4
+COCHABAMBA,Chevrolet,Tracker,2023,"$200,000",https://www.autopia.com.bo/auto/suv-usados/chevrolet-tracker-2023-682276bba509aa534e46f767,29.000,1.2 Lt.,2023,SUV,Gasolina,Gris Oscuro,Mecánico,5
+SANTA,CRUZ,Suzuki Alto,2025,"$23,500",https://www.autopia.com.bo/auto/hatchback-usados/suzuki-alto-2025-681e61c3978338602b066e57,10.396,1.0 Lt.,2025,Hatchback,Gasolina,Plata,Mecánico,5
+LA,PAZ,Ford Explorer,2017,"$37,000",https://www.autopia.com.bo/auto/suv-usados/ford-explorer-2017-681e520a1a050721a8482187,61.300,3.5 Lt.,2017,SUV,Gasolina,Blanco Perlado,Automático,5
+LA,PAZ,Suzuki S-presso,2025,"$19,800",https://www.autopia.com.bo/auto/citycar-usados/suzuki-s-presso-2025-681e3de1e732b0701428ffa4,3.100,1.0 Lt.,2025,CityCar,Gasolina,Rojo,Mecánico,5
+LA,PAZ,KIA Carens,2024,"$31,000",https://www.autopia.com.bo/auto/suv-usados/kia-carens-2024-681e27be1e035a1735340dd5,4.700,1.8 Lt.,2024,SUV,Gasolina,Plomo Oscuro,Automático,5
+LA,PAZ,Suzuki Alto,2009,"$8,900",https://www.autopia.com.bo/auto/citycar-usados/suzuki-alto-2009-681e18c2b681cb42832ae6a3,281.000,1.1 Lt.,2009,CityCar,Gasolina,Plata,Mecánico,4
+SANTA,CRUZ,Chevrolet Tracker,2023,"$28,600",https://www.autopia.com.bo/auto/suv-usados/chevrolet-tracker-2023-6819134b04f0ec1d820af0c7,78.060,1.2 Lt.,2023,SUV,Gasolina,Plata,Mecánico,5
+SANTA,CRUZ,Nissan Frontier,2025,"$86,000",https://www.autopia.com.bo/auto/camioneta-usados/nissan-frontier-2025-68141402f731bd28c9407558,2.000,2.5 Lt.,2025,Camioneta,Gasolina,Blanco,Automático,4
+SANTA,CRUZ,Nissan Frontier,2025,"$86,000",https://www.autopia.com.bo/auto/camioneta-usados/nissan-frontier-2025-680eb9d414f039745c681ce4,2.700,2.5 Lt.,2025,Camioneta,Gasolina,Gris Volcanico,Automático,4
+COCHABAMBA,Mercedes,Benz E,2006,"$12,900",https://www.autopia.com.bo/auto/sedan-usados/mercedes-benz-e-2006-680d7650f4381f3c2e24ef16,150.000,3.2 Lt.,2006,Sedán,Gasolina,Champagne,Automático,4
+COCHABAMBA,BMW,523,2012,"$19,800",https://www.autopia.com.bo/auto/sedan-usados/bmw-523-2012-680d6ec286276c443b562285,100.000,2.5 Lt.,2012,Sedán,Gasolina,Marengo,Automático,4
+LA,PAZ,Peugeot 3008,2023,"$35,000",https://www.autopia.com.bo/auto/suv-usados/peugeot-3008-2023-680bd9df9fc46d67d001ea97,12.000,,2023,SUV,Gasolina,Gris,Automático,4
+SANTA,CRUZ,Ssangyong XLV,2017,"$14,600",https://www.autopia.com.bo/auto/suv-usados/ssangyong-xlv-2017-6808194b7e52421e5172e297,90.000,1.6 Lt.,2017,SUV,Gasolina,Blanco,Automático,5
+SANTA,CRUZ,KIA Sportage,2024,"$86,000",https://www.autopia.com.bo/auto/suv-usados/kia-sportage-2024-6803ea4fa97ac725494c3314,26.000,2.0 Lt.,2024,SUV,Gasolina,Blanco,Automático,4
+LA,PAZ,Nissan X-trail,2017,"$28,500",https://www.autopia.com.bo/auto/suv-usados/nissan-x-trail-2017-6801335de256e9531d2acae7,115.000,2.5 Lt.,2017,SUV,Gasolina,Gris,Automático,5
+SANTA,CRUZ,Nissan Frontier,2022,"$69,900",https://www.autopia.com.bo/auto/camioneta-usados/nissan-frontier-2022-683a3dba0cff3d057f01c7b7,7.000,2.5 Lt.,2022,Camioneta,Gasolina,Rojo,Automático,4
+COCHABAMBA,Changan,Cs35,2021,"$180,000",https://www.autopia.com.bo/auto/suv-usados/changan-cs35-2021-6839c10b36a257341f78f6d4,57.100,1.4 Lt.,2021,SUV,Gasolina,Rojo,Mecánico,5
+LA,PAZ,Nissan Sentra,1998,"$7,600",https://www.autopia.com.bo/auto/sedan-usados/nissan-sentra-1998-6839bd080efd433c23100df4,100.000,1.5 Lt.,1998,Sedán,Gasolina,Blanco,Automático,4
+SANTA,CRUZ,JAC T8,2022,"$21,500",https://www.autopia.com.bo/auto/camioneta-usados/jac-t8-2022-6838ee8bc7849e6e5e7ae7e4,55.000,2.0 Lt.,2022,Camioneta,Gasolina,Negro,Mecánico,4
+COCHABAMBA,KIA,Sonet,2025,"$37,500",https://www.autopia.com.bo/auto/suv-usados/kia-sonet-2025-6838a590ea835c453b25ab16,4.000,1.5 Lt.,2025,SUV,Gasolina,Negro,Mecánico,5
+SANTA,CRUZ,Honda Ridgeline,2022,"$45,000",https://www.autopia.com.bo/auto/camioneta-usados/honda-ridgeline-2022-68384aab74ce531c9c55ea04,45.000,3.5 Lt.,2022,Camioneta,Gasolina,Blanco,Automático,5
+SANTA,CRUZ,Hyundai Galloper,2000,"$77,000",https://www.autopia.com.bo/auto/camioneta-usados/hyundai-galloper-2000-683736eacc72813bdd0992c3,80.000,2.5 Lt.,2000,Camioneta,Diesel,Celeste,Mecánico,5
+SANTA,CRUZ,Nissan Frontier,2024,"$79,900",https://www.autopia.com.bo/auto/camioneta-usados/nissan-frontier-2024-683551d2fc51e21cca461bc5,21.000,2.5 Lt.,2024,Camioneta,Gasolina,Gris Oscuro,Automático,4
+SANTA,CRUZ,Suzuki Dzire Sedan,2015,"$18,500",https://www.autopia.com.bo/auto/sedan-usados/suzuki-dzire-sedan-2015-68355000775c0c0cf34474d4,150,1.2 Lt.,2015,Sedán,Gasolina,Blanco Perla,Automático,4
+SANTA,CRUZ,Toyota Starlet,1995,"$11,900",https://www.autopia.com.bo/auto/citycar-usados/toyota-starlet-1995-68354b8761c3f5573f085a36,10,1.3 Lt.,1995,CityCar,Gasolina,Blanco,Mecánico,2
+LA,PAZ,Hyundai I-10,2012,"$13,500",https://www.autopia.com.bo/auto/citycar-usados/hyundai-i-10-2012-6834b2414373610a61507274,66.700,1.2 Lt.,2012,CityCar,Gasolina,Beige,Mecánico,5
+SANTA,CRUZ,Nissan Frontier,2024,"$79,900",https://www.autopia.com.bo/auto/camioneta-usados/nissan-frontier-2024-68339561705b4b248c5a1976,15.000,2.5 Lt.,2024,Camioneta,Gasolina,Rojo,Automático,4
+SANTA,CRUZ,Renault Koleos,2013,"$15,800",https://www.autopia.com.bo/auto/suv-usados/renault-koleos-2013-68311295e2ba064c9b65e0f7,237.000,2.4 Lt.,2013,SUV,Gasolina,Blanco Perla,Automático,4
+SANTA,CRUZ,Suzuki APV,2020,"$25,900",https://www.autopia.com.bo/auto/furgon-usados/suzuki-apv-2020-6830c0d29a8f6f74fc706d78,88.676,1.6 Lt.,2020,Furgón,Gasolina,Blanco,Mecánico,5
+SANTA,CRUZ,Toyota Agya,2019,"$21,200",https://www.autopia.com.bo/auto/citycar-usados/toyota-agya-2019-682f8c451991090ab72a49e4,97.419,1.0 Lt.,2019,CityCar,Gasolina,Blanco,Automático,5
+SANTA,CRUZ,Mazda Cx-5,2023,"$62,500",https://www.autopia.com.bo/auto/suv-usados/mazda-cx-5-2023-682f84b215b5e73d6141b4fc,39.443,2.0 Lt.,2023,SUV,Gasolina,Blanco,Automático,5
+SANTA,CRUZ,Peugeot 301,2018,"$17,500",https://www.autopia.com.bo/auto/sedan-usados/peugeot-301-2018-682f83e90224d045d72e3374,91.034,1.6 Lt.,2018,Sedán,Gasolina,Gris,Mecánico,5
+SANTA,CRUZ,Mitsubishi Outlander,2016,"$31,900",https://www.autopia.com.bo/auto/suv-usados/mitsubishi-outlander-2016-682f82afd11a414078739e77,87.071,2.4 Lt.,2016,SUV,Gasolina,Plata,Automático,5
+SANTA,CRUZ,Chevrolet Tracker,2021,"$27,800",https://www.autopia.com.bo/auto/suv-usados/chevrolet-tracker-2021-682f2a25be2d912d591ae7e3,83.300,1.2 Lt.,2021,SUV,Gasolina,Blanca,Mecánico,5
+SANTA,CRUZ,Chevrolet Tracker,2023,"$28,500",https://www.autopia.com.bo/auto/suv-usados/chevrolet-tracker-2023-682e4abefe04bf1c61471d03,42.394,1.2 Lt.,2023,SUV,Gasolina,Blanco,Mecánico,5
+COCHABAMBA,Ford,Expedition,2010,"$28,600",https://www.autopia.com.bo/auto/suv-usados/ford-expedition-2010-682cc501ea16fb4fd3367ab4,97.000,5.7 Lt.,2010,SUV,Gasolina,Rojo,Automático,5
+LA,PAZ,Toyota Tacoma,2020,"$55,000",https://www.autopia.com.bo/auto/camioneta-usados/toyota-tacoma-2020-682cb366350aa404e667d783,60.000,3.5 Lt.,2020,Camioneta,Gasolina,Negro,Automático,4
+COCHABAMBA,Chevrolet,N300 Max,2017,"$23,000",https://www.autopia.com.bo/auto/furgon-usados/chevrolet-n300-max-2017-682c81b3e79adc0b66749213,93.900,1.2 Lt.,2017,Furgón,Gasolina,Beige,Mecánico,4
+COCHABAMBA,Jeep,Wrangler,2015,"$38,000",https://www.autopia.com.bo/auto/suv-usados/jeep-wrangler-2015-682c7e86f85b056a547166e6,47.486,3.6 Lt.,2015,SUV,Gasolina,Rojo,Mecánico,3
+SANTA,CRUZ,Mercedes Benz GLK,2012,"$20,000",https://www.autopia.com.bo/auto/suv-usados/mercedes-benz-glk-2012-682a98c54652fc0a7a7da4a9,100.000,3.5 Lt.,2012,SUV,Gasolina,Plateado,Automático,5
+COCHABAMBA,KIA,Sportage,2015,"$20,000",https://www.autopia.com.bo/auto/suv-usados/kia-sportage-2015-682a06a7904383775314f874,82.500,2.4 Lt.,2015,SUV,Gasolina,Gris,Automático,5
+LA,PAZ,Renault Sandero,2018,"$17,500",https://www.autopia.com.bo/auto/hatchback-usados/renault-sandero-2018-68275ca1577fde7c420665b2,75.000,1.6 Lt.,2018,Hatchback,Gasolina,Rojo,Automático,5
+SANTA,CRUZ,Nissan Urvan,1991,"$9,800",https://www.autopia.com.bo/auto/furgon-usados/nissan-urvan-1991-68254253b9ca817b5f0cdf33,10.000,2.5 Lt.,1991,Furgón,Gasolina,Rojo,Mecánico,3
+LA,PAZ,Nissan Rogue,2014,"$21,000",https://www.autopia.com.bo/auto/suv-usados/nissan-rogue-2014-682519e2e8e1dd7b6b43feea,105.000,2.4 Lt.,2014,SUV,Gasolina,Verde Oscuro,Automático,5
+COCHABAMBA,Ford,Ecosport,2011,"$15,500",https://www.autopia.com.bo/auto/suv-usados/ford-ecosport-2011-6824fe5b1769027b22632c14,155.000,1.6 Lt.,2011,SUV,Gasolina,Blanco,Mecánico,5
+SANTA,CRUZ,Changan Cs35,2024,"$30,000",https://www.autopia.com.bo/auto/suv-usados/changan-cs35-2024-6824bf363c0aeb42281f5d13,19.200,1.5 Lt.,2024,SUV,Gasolina,Gris,Automático,5
+LA,PAZ,Caio Millenium III,2003,"$15,000",https://www.autopia.com.bo/auto/suv-usados/caio-millenium-iii-2003-6822a1bc55b6a128f96c7f65,560.000,1.0 Lt.,2003,SUV,Gasolina,Red,Automático,4
+COCHABAMBA,Chevrolet,Tracker,2023,"$200,000",https://www.autopia.com.bo/auto/suv-usados/chevrolet-tracker-2023-682276bba509aa534e46f767,29.000,1.2 Lt.,2023,SUV,Gasolina,Gris Oscuro,Mecánico,5
+SANTA,CRUZ,Suzuki Alto,2025,"$23,500",https://www.autopia.com.bo/auto/hatchback-usados/suzuki-alto-2025-681e61c3978338602b066e57,10.396,1.0 Lt.,2025,Hatchback,Gasolina,Plata,Mecánico,5
+LA,PAZ,Ford Explorer,2017,"$37,000",https://www.autopia.com.bo/auto/suv-usados/ford-explorer-2017-681e520a1a050721a8482187,61.300,3.5 Lt.,2017,SUV,Gasolina,Blanco Perlado,Automático,5
+LA,PAZ,Suzuki S-presso,2025,"$19,800",https://www.autopia.com.bo/auto/citycar-usados/suzuki-s-presso-2025-681e3de1e732b0701428ffa4,3.100,1.0 Lt.,2025,CityCar,Gasolina,Rojo,Mecánico,5
+LA,PAZ,KIA Carens,2024,"$31,000",https://www.autopia.com.bo/auto/suv-usados/kia-carens-2024-681e27be1e035a1735340dd5,4.700,1.8 Lt.,2024,SUV,Gasolina,Plomo Oscuro,Automático,5
+LA,PAZ,Suzuki Alto,2009,"$8,900",https://www.autopia.com.bo/auto/citycar-usados/suzuki-alto-2009-681e18c2b681cb42832ae6a3,281.000,1.1 Lt.,2009,CityCar,Gasolina,Plata,Mecánico,4
+SANTA,CRUZ,Chevrolet Tracker,2023,"$28,600",https://www.autopia.com.bo/auto/suv-usados/chevrolet-tracker-2023-6819134b04f0ec1d820af0c7,78.060,1.2 Lt.,2023,SUV,Gasolina,Plata,Mecánico,5
+SANTA,CRUZ,Nissan Frontier,2025,"$86,000",https://www.autopia.com.bo/auto/camioneta-usados/nissan-frontier-2025-68141402f731bd28c9407558,2.000,2.5 Lt.,2025,Camioneta,Gasolina,Blanco,Automático,4
+SANTA,CRUZ,Nissan Frontier,2025,"$86,000",https://www.autopia.com.bo/auto/camioneta-usados/nissan-frontier-2025-680eb9d414f039745c681ce4,2.700,2.5 Lt.,2025,Camioneta,Gasolina,Gris Volcanico,Automático,4
+COCHABAMBA,Mercedes,Benz E,2006,"$12,900",https://www.autopia.com.bo/auto/sedan-usados/mercedes-benz-e-2006-680d7650f4381f3c2e24ef16,150.000,3.2 Lt.,2006,Sedán,Gasolina,Champagne,Automático,4
+COCHABAMBA,BMW,523,2012,"$19,800",https://www.autopia.com.bo/auto/sedan-usados/bmw-523-2012-680d6ec286276c443b562285,100.000,2.5 Lt.,2012,Sedán,Gasolina,Marengo,Automático,4
+LA,PAZ,Peugeot 3008,2023,"$35,000",https://www.autopia.com.bo/auto/suv-usados/peugeot-3008-2023-680bd9df9fc46d67d001ea97,12.000,,2023,SUV,Gasolina,Gris,Automático,4
+SANTA,CRUZ,Ssangyong XLV,2017,"$14,600",https://www.autopia.com.bo/auto/suv-usados/ssangyong-xlv-2017-6808194b7e52421e5172e297,90.000,1.6 Lt.,2017,SUV,Gasolina,Blanco,Automático,5
+SANTA,CRUZ,KIA Sportage,2024,"$86,000",https://www.autopia.com.bo/auto/suv-usados/kia-sportage-2024-6803ea4fa97ac725494c3314,26.000,2.0 Lt.,2024,SUV,Gasolina,Blanco,Automático,4
+LA,PAZ,Nissan X-trail,2017,"$28,500",https://www.autopia.com.bo/auto/suv-usados/nissan-x-trail-2017-6801335de256e9531d2acae7,115.000,2.5 Lt.,2017,SUV,Gasolina,Gris,Automático,5
+SANTA,CRUZ,Nissan Frontier,2022,"$69,900",https://www.autopia.com.bo/auto/camioneta-usados/nissan-frontier-2022-683a3dba0cff3d057f01c7b7,7.000,2.5 Lt.,2022,Camioneta,Gasolina,Rojo,Automático,4
+COCHABAMBA,Changan,Cs35,2021,"$180,000",https://www.autopia.com.bo/auto/suv-usados/changan-cs35-2021-6839c10b36a257341f78f6d4,57.100,1.4 Lt.,2021,SUV,Gasolina,Rojo,Mecánico,5
+LA,PAZ,Nissan Sentra,1998,"$7,600",https://www.autopia.com.bo/auto/sedan-usados/nissan-sentra-1998-6839bd080efd433c23100df4,100.000,1.5 Lt.,1998,Sedán,Gasolina,Blanco,Automático,4
+SANTA,CRUZ,JAC T8,2022,"$21,500",https://www.autopia.com.bo/auto/camioneta-usados/jac-t8-2022-6838ee8bc7849e6e5e7ae7e4,55.000,2.0 Lt.,2022,Camioneta,Gasolina,Negro,Mecánico,4
+COCHABAMBA,KIA,Sonet,2025,"$37,500",https://www.autopia.com.bo/auto/suv-usados/kia-sonet-2025-6838a590ea835c453b25ab16,4.000,1.5 Lt.,2025,SUV,Gasolina,Negro,Mecánico,5
+SANTA,CRUZ,Honda Ridgeline,2022,"$45,000",https://www.autopia.com.bo/auto/camioneta-usados/honda-ridgeline-2022-68384aab74ce531c9c55ea04,45.000,3.5 Lt.,2022,Camioneta,Gasolina,Blanco,Automático,5
+SANTA,CRUZ,Hyundai Galloper,2000,"$77,000",https://www.autopia.com.bo/auto/camioneta-usados/hyundai-galloper-2000-683736eacc72813bdd0992c3,80.000,2.5 Lt.,2000,Camioneta,Diesel,Celeste,Mecánico,5
+SANTA,CRUZ,Nissan Frontier,2024,"$79,900",https://www.autopia.com.bo/auto/camioneta-usados/nissan-frontier-2024-683551d2fc51e21cca461bc5,21.000,2.5 Lt.,2024,Camioneta,Gasolina,Gris Oscuro,Automático,4
+SANTA,CRUZ,Suzuki Dzire Sedan,2015,"$18,500",https://www.autopia.com.bo/auto/sedan-usados/suzuki-dzire-sedan-2015-68355000775c0c0cf34474d4,150,1.2 Lt.,2015,Sedán,Gasolina,Blanco Perla,Automático,4
+SANTA,CRUZ,Toyota Starlet,1995,"$11,900",https://www.autopia.com.bo/auto/citycar-usados/toyota-starlet-1995-68354b8761c3f5573f085a36,10,1.3 Lt.,1995,CityCar,Gasolina,Blanco,Mecánico,2
+LA,PAZ,Hyundai I-10,2012,"$13,500",https://www.autopia.com.bo/auto/citycar-usados/hyundai-i-10-2012-6834b2414373610a61507274,66.700,1.2 Lt.,2012,CityCar,Gasolina,Beige,Mecánico,5
+SANTA,CRUZ,Nissan Frontier,2024,"$79,900",https://www.autopia.com.bo/auto/camioneta-usados/nissan-frontier-2024-68339561705b4b248c5a1976,15.000,2.5 Lt.,2024,Camioneta,Gasolina,Rojo,Automático,4
+SANTA,CRUZ,Renault Koleos,2013,"$15,800",https://www.autopia.com.bo/auto/suv-usados/renault-koleos-2013-68311295e2ba064c9b65e0f7,237.000,2.4 Lt.,2013,SUV,Gasolina,Blanco Perla,Automático,4
+SANTA,CRUZ,Suzuki APV,2020,"$25,900",https://www.autopia.com.bo/auto/furgon-usados/suzuki-apv-2020-6830c0d29a8f6f74fc706d78,88.676,1.6 Lt.,2020,Furgón,Gasolina,Blanco,Mecánico,5
+SANTA,CRUZ,Toyota Agya,2019,"$21,200",https://www.autopia.com.bo/auto/citycar-usados/toyota-agya-2019-682f8c451991090ab72a49e4,97.419,1.0 Lt.,2019,CityCar,Gasolina,Blanco,Automático,5
+SANTA,CRUZ,Mazda Cx-5,2023,"$62,500",https://www.autopia.com.bo/auto/suv-usados/mazda-cx-5-2023-682f84b215b5e73d6141b4fc,39.443,2.0 Lt.,2023,SUV,Gasolina,Blanco,Automático,5
+SANTA,CRUZ,Peugeot 301,2018,"$17,500",https://www.autopia.com.bo/auto/sedan-usados/peugeot-301-2018-682f83e90224d045d72e3374,91.034,1.6 Lt.,2018,Sedán,Gasolina,Gris,Mecánico,5
+SANTA,CRUZ,Mitsubishi Outlander,2016,"$31,900",https://www.autopia.com.bo/auto/suv-usados/mitsubishi-outlander-2016-682f82afd11a414078739e77,87.071,2.4 Lt.,2016,SUV,Gasolina,Plata,Automático,5
+SANTA,CRUZ,Chevrolet Tracker,2021,"$27,800",https://www.autopia.com.bo/auto/suv-usados/chevrolet-tracker-2021-682f2a25be2d912d591ae7e3,83.300,1.2 Lt.,2021,SUV,Gasolina,Blanca,Mecánico,5
+SANTA,CRUZ,Chevrolet Tracker,2023,"$28,500",https://www.autopia.com.bo/auto/suv-usados/chevrolet-tracker-2023-682e4abefe04bf1c61471d03,42.394,1.2 Lt.,2023,SUV,Gasolina,Blanco,Mecánico,5
+COCHABAMBA,Ford,Expedition,2010,"$28,600",https://www.autopia.com.bo/auto/suv-usados/ford-expedition-2010-682cc501ea16fb4fd3367ab4,97.000,5.7 Lt.,2010,SUV,Gasolina,Rojo,Automático,5
+LA,PAZ,Toyota Tacoma,2020,"$55,000",https://www.autopia.com.bo/auto/camioneta-usados/toyota-tacoma-2020-682cb366350aa404e667d783,60.000,3.5 Lt.,2020,Camioneta,Gasolina,Negro,Automático,4
+COCHABAMBA,Chevrolet,N300 Max,2017,"$23,000",https://www.autopia.com.bo/auto/furgon-usados/chevrolet-n300-max-2017-682c81b3e79adc0b66749213,93.900,1.2 Lt.,2017,Furgón,Gasolina,Beige,Mecánico,4
+COCHABAMBA,Jeep,Wrangler,2015,"$38,000",https://www.autopia.com.bo/auto/suv-usados/jeep-wrangler-2015-682c7e86f85b056a547166e6,47.486,3.6 Lt.,2015,SUV,Gasolina,Rojo,Mecánico,3
+SANTA,CRUZ,Mercedes Benz GLK,2012,"$20,000",https://www.autopia.com.bo/auto/suv-usados/mercedes-benz-glk-2012-682a98c54652fc0a7a7da4a9,100.000,3.5 Lt.,2012,SUV,Gasolina,Plateado,Automático,5
+COCHABAMBA,KIA,Sportage,2015,"$20,000",https://www.autopia.com.bo/auto/suv-usados/kia-sportage-2015-682a06a7904383775314f874,82.500,2.4 Lt.,2015,SUV,Gasolina,Gris,Automático,5
+LA,PAZ,Renault Sandero,2018,"$17,500",https://www.autopia.com.bo/auto/hatchback-usados/renault-sandero-2018-68275ca1577fde7c420665b2,75.000,1.6 Lt.,2018,Hatchback,Gasolina,Rojo,Automático,5
+SANTA,CRUZ,Nissan Urvan,1991,"$9,800",https://www.autopia.com.bo/auto/furgon-usados/nissan-urvan-1991-68254253b9ca817b5f0cdf33,10.000,2.5 Lt.,1991,Furgón,Gasolina,Rojo,Mecánico,3
+LA,PAZ,Nissan Rogue,2014,"$21,000",https://www.autopia.com.bo/auto/suv-usados/nissan-rogue-2014-682519e2e8e1dd7b6b43feea,105.000,2.4 Lt.,2014,SUV,Gasolina,Verde Oscuro,Automático,5
+COCHABAMBA,Ford,Ecosport,2011,"$15,500",https://www.autopia.com.bo/auto/suv-usados/ford-ecosport-2011-6824fe5b1769027b22632c14,155.000,1.6 Lt.,2011,SUV,Gasolina,Blanco,Mecánico,5
+SANTA,CRUZ,Changan Cs35,2024,"$30,000",https://www.autopia.com.bo/auto/suv-usados/changan-cs35-2024-6824bf363c0aeb42281f5d13,19.200,1.5 Lt.,2024,SUV,Gasolina,Gris,Automático,5
+LA,PAZ,Caio Millenium III,2003,"$15,000",https://www.autopia.com.bo/auto/suv-usados/caio-millenium-iii-2003-6822a1bc55b6a128f96c7f65,560.000,1.0 Lt.,2003,SUV,Gasolina,Red,Automático,4
+COCHABAMBA,Chevrolet,Tracker,2023,"$200,000",https://www.autopia.com.bo/auto/suv-usados/chevrolet-tracker-2023-682276bba509aa534e46f767,29.000,1.2 Lt.,2023,SUV,Gasolina,Gris Oscuro,Mecánico,5
+SANTA,CRUZ,Suzuki Alto,2025,"$23,500",https://www.autopia.com.bo/auto/hatchback-usados/suzuki-alto-2025-681e61c3978338602b066e57,10.396,1.0 Lt.,2025,Hatchback,Gasolina,Plata,Mecánico,5
+LA,PAZ,Ford Explorer,2017,"$37,000",https://www.autopia.com.bo/auto/suv-usados/ford-explorer-2017-681e520a1a050721a8482187,61.300,3.5 Lt.,2017,SUV,Gasolina,Blanco Perlado,Automático,5
+LA,PAZ,Suzuki S-presso,2025,"$19,800",https://www.autopia.com.bo/auto/citycar-usados/suzuki-s-presso-2025-681e3de1e732b0701428ffa4,3.100,1.0 Lt.,2025,CityCar,Gasolina,Rojo,Mecánico,5
+LA,PAZ,KIA Carens,2024,"$31,000",https://www.autopia.com.bo/auto/suv-usados/kia-carens-2024-681e27be1e035a1735340dd5,4.700,1.8 Lt.,2024,SUV,Gasolina,Plomo Oscuro,Automático,5
+LA,PAZ,Suzuki Alto,2009,"$8,900",https://www.autopia.com.bo/auto/citycar-usados/suzuki-alto-2009-681e18c2b681cb42832ae6a3,281.000,1.1 Lt.,2009,CityCar,Gasolina,Plata,Mecánico,4
+SANTA,CRUZ,Chevrolet Tracker,2023,"$28,600",https://www.autopia.com.bo/auto/suv-usados/chevrolet-tracker-2023-6819134b04f0ec1d820af0c7,78.060,1.2 Lt.,2023,SUV,Gasolina,Plata,Mecánico,5
+SANTA,CRUZ,Nissan Frontier,2025,"$86,000",https://www.autopia.com.bo/auto/camioneta-usados/nissan-frontier-2025-68141402f731bd28c9407558,2.000,2.5 Lt.,2025,Camioneta,Gasolina,Blanco,Automático,4
+SANTA,CRUZ,Nissan Frontier,2025,"$86,000",https://www.autopia.com.bo/auto/camioneta-usados/nissan-frontier-2025-680eb9d414f039745c681ce4,2.700,2.5 Lt.,2025,Camioneta,Gasolina,Gris Volcanico,Automático,4
+COCHABAMBA,Mercedes,Benz E,2006,"$12,900",https://www.autopia.com.bo/auto/sedan-usados/mercedes-benz-e-2006-680d7650f4381f3c2e24ef16,150.000,3.2 Lt.,2006,Sedán,Gasolina,Champagne,Automático,4
+COCHABAMBA,BMW,523,2012,"$19,800",https://www.autopia.com.bo/auto/sedan-usados/bmw-523-2012-680d6ec286276c443b562285,100.000,2.5 Lt.,2012,Sedán,Gasolina,Marengo,Automático,4
+LA,PAZ,Peugeot 3008,2023,"$35,000",https://www.autopia.com.bo/auto/suv-usados/peugeot-3008-2023-680bd9df9fc46d67d001ea97,12.000,,2023,SUV,Gasolina,Gris,Automático,4
+SANTA,CRUZ,Ssangyong XLV,2017,"$14,600",https://www.autopia.com.bo/auto/suv-usados/ssangyong-xlv-2017-6808194b7e52421e5172e297,90.000,1.6 Lt.,2017,SUV,Gasolina,Blanco,Automático,5
+SANTA,CRUZ,KIA Sportage,2024,"$86,000",https://www.autopia.com.bo/auto/suv-usados/kia-sportage-2024-6803ea4fa97ac725494c3314,26.000,2.0 Lt.,2024,SUV,Gasolina,Blanco,Automático,4
+LA,PAZ,Nissan X-trail,2017,"$28,500",https://www.autopia.com.bo/auto/suv-usados/nissan-x-trail-2017-6801335de256e9531d2acae7,115.000,2.5 Lt.,2017,SUV,Gasolina,Gris,Automático,5
+SANTA,CRUZ,Nissan Frontier,2022,"$69,900",https://www.autopia.com.bo/auto/camioneta-usados/nissan-frontier-2022-683a3dba0cff3d057f01c7b7,7.000,2.5 Lt.,2022,Camioneta,Gasolina,Rojo,Automático,4
+COCHABAMBA,Changan,Cs35,2021,"$180,000",https://www.autopia.com.bo/auto/suv-usados/changan-cs35-2021-6839c10b36a257341f78f6d4,57.100,1.4 Lt.,2021,SUV,Gasolina,Rojo,Mecánico,5
+LA,PAZ,Nissan Sentra,1998,"$7,600",https://www.autopia.com.bo/auto/sedan-usados/nissan-sentra-1998-6839bd080efd433c23100df4,100.000,1.5 Lt.,1998,Sedán,Gasolina,Blanco,Automático,4
+SANTA,CRUZ,JAC T8,2022,"$21,500",https://www.autopia.com.bo/auto/camioneta-usados/jac-t8-2022-6838ee8bc7849e6e5e7ae7e4,55.000,2.0 Lt.,2022,Camioneta,Gasolina,Negro,Mecánico,4
+COCHABAMBA,KIA,Sonet,2025,"$37,500",https://www.autopia.com.bo/auto/suv-usados/kia-sonet-2025-6838a590ea835c453b25ab16,4.000,1.5 Lt.,2025,SUV,Gasolina,Negro,Mecánico,5
+SANTA,CRUZ,Honda Ridgeline,2022,"$45,000",https://www.autopia.com.bo/auto/camioneta-usados/honda-ridgeline-2022-68384aab74ce531c9c55ea04,45.000,3.5 Lt.,2022,Camioneta,Gasolina,Blanco,Automático,5
+SANTA,CRUZ,Hyundai Galloper,2000,"$77,000",https://www.autopia.com.bo/auto/camioneta-usados/hyundai-galloper-2000-683736eacc72813bdd0992c3,80.000,2.5 Lt.,2000,Camioneta,Diesel,Celeste,Mecánico,5
+SANTA,CRUZ,Nissan Frontier,2024,"$79,900",https://www.autopia.com.bo/auto/camioneta-usados/nissan-frontier-2024-683551d2fc51e21cca461bc5,21.000,2.5 Lt.,2024,Camioneta,Gasolina,Gris Oscuro,Automático,4
+SANTA,CRUZ,Suzuki Dzire Sedan,2015,"$18,500",https://www.autopia.com.bo/auto/sedan-usados/suzuki-dzire-sedan-2015-68355000775c0c0cf34474d4,150,1.2 Lt.,2015,Sedán,Gasolina,Blanco Perla,Automático,4
+SANTA,CRUZ,Toyota Starlet,1995,"$11,900",https://www.autopia.com.bo/auto/citycar-usados/toyota-starlet-1995-68354b8761c3f5573f085a36,10,1.3 Lt.,1995,CityCar,Gasolina,Blanco,Mecánico,2
+LA,PAZ,Hyundai I-10,2012,"$13,500",https://www.autopia.com.bo/auto/citycar-usados/hyundai-i-10-2012-6834b2414373610a61507274,66.700,1.2 Lt.,2012,CityCar,Gasolina,Beige,Mecánico,5
+SANTA,CRUZ,Nissan Frontier,2024,"$79,900",https://www.autopia.com.bo/auto/camioneta-usados/nissan-frontier-2024-68339561705b4b248c5a1976,15.000,2.5 Lt.,2024,Camioneta,Gasolina,Rojo,Automático,4
+SANTA,CRUZ,Renault Koleos,2013,"$15,800",https://www.autopia.com.bo/auto/suv-usados/renault-koleos-2013-68311295e2ba064c9b65e0f7,237.000,2.4 Lt.,2013,SUV,Gasolina,Blanco Perla,Automático,4
+SANTA,CRUZ,Suzuki APV,2020,"$25,900",https://www.autopia.com.bo/auto/furgon-usados/suzuki-apv-2020-6830c0d29a8f6f74fc706d78,88.676,1.6 Lt.,2020,Furgón,Gasolina,Blanco,Mecánico,5
+SANTA,CRUZ,Toyota Agya,2019,"$21,200",https://www.autopia.com.bo/auto/citycar-usados/toyota-agya-2019-682f8c451991090ab72a49e4,97.419,1.0 Lt.,2019,CityCar,Gasolina,Blanco,Automático,5
+SANTA,CRUZ,Mazda Cx-5,2023,"$62,500",https://www.autopia.com.bo/auto/suv-usados/mazda-cx-5-2023-682f84b215b5e73d6141b4fc,39.443,2.0 Lt.,2023,SUV,Gasolina,Blanco,Automático,5
+SANTA,CRUZ,Peugeot 301,2018,"$17,500",https://www.autopia.com.bo/auto/sedan-usados/peugeot-301-2018-682f83e90224d045d72e3374,91.034,1.6 Lt.,2018,Sedán,Gasolina,Gris,Mecánico,5
+SANTA,CRUZ,Mitsubishi Outlander,2016,"$31,900",https://www.autopia.com.bo/auto/suv-usados/mitsubishi-outlander-2016-682f82afd11a414078739e77,87.071,2.4 Lt.,2016,SUV,Gasolina,Plata,Automático,5
+SANTA,CRUZ,Chevrolet Tracker,2021,"$27,800",https://www.autopia.com.bo/auto/suv-usados/chevrolet-tracker-2021-682f2a25be2d912d591ae7e3,83.300,1.2 Lt.,2021,SUV,Gasolina,Blanca,Mecánico,5
+SANTA,CRUZ,Chevrolet Tracker,2023,"$28,500",https://www.autopia.com.bo/auto/suv-usados/chevrolet-tracker-2023-682e4abefe04bf1c61471d03,42.394,1.2 Lt.,2023,SUV,Gasolina,Blanco,Mecánico,5
+COCHABAMBA,Ford,Expedition,2010,"$28,600",https://www.autopia.com.bo/auto/suv-usados/ford-expedition-2010-682cc501ea16fb4fd3367ab4,97.000,5.7 Lt.,2010,SUV,Gasolina,Rojo,Automático,5
+LA,PAZ,Toyota Tacoma,2020,"$55,000",https://www.autopia.com.bo/auto/camioneta-usados/toyota-tacoma-2020-682cb366350aa404e667d783,60.000,3.5 Lt.,2020,Camioneta,Gasolina,Negro,Automático,4
+COCHABAMBA,Chevrolet,N300 Max,2017,"$23,000",https://www.autopia.com.bo/auto/furgon-usados/chevrolet-n300-max-2017-682c81b3e79adc0b66749213,93.900,1.2 Lt.,2017,Furgón,Gasolina,Beige,Mecánico,4
+COCHABAMBA,Jeep,Wrangler,2015,"$38,000",https://www.autopia.com.bo/auto/suv-usados/jeep-wrangler-2015-682c7e86f85b056a547166e6,47.486,3.6 Lt.,2015,SUV,Gasolina,Rojo,Mecánico,3
+SANTA,CRUZ,Mercedes Benz GLK,2012,"$20,000",https://www.autopia.com.bo/auto/suv-usados/mercedes-benz-glk-2012-682a98c54652fc0a7a7da4a9,100.000,3.5 Lt.,2012,SUV,Gasolina,Plateado,Automático,5
+COCHABAMBA,KIA,Sportage,2015,"$20,000",https://www.autopia.com.bo/auto/suv-usados/kia-sportage-2015-682a06a7904383775314f874,82.500,2.4 Lt.,2015,SUV,Gasolina,Gris,Automático,5
+LA,PAZ,Renault Sandero,2018,"$17,500",https://www.autopia.com.bo/auto/hatchback-usados/renault-sandero-2018-68275ca1577fde7c420665b2,75.000,1.6 Lt.,2018,Hatchback,Gasolina,Rojo,Automático,5
+SANTA,CRUZ,Nissan Urvan,1991,"$9,800",https://www.autopia.com.bo/auto/furgon-usados/nissan-urvan-1991-68254253b9ca817b5f0cdf33,10.000,2.5 Lt.,1991,Furgón,Gasolina,Rojo,Mecánico,3
+LA,PAZ,Nissan Rogue,2014,"$21,000",https://www.autopia.com.bo/auto/suv-usados/nissan-rogue-2014-682519e2e8e1dd7b6b43feea,105.000,2.4 Lt.,2014,SUV,Gasolina,Verde Oscuro,Automático,5
+COCHABAMBA,Ford,Ecosport,2011,"$15,500",https://www.autopia.com.bo/auto/suv-usados/ford-ecosport-2011-6824fe5b1769027b22632c14,155.000,1.6 Lt.,2011,SUV,Gasolina,Blanco,Mecánico,5
+SANTA,CRUZ,Changan Cs35,2024,"$30,000",https://www.autopia.com.bo/auto/suv-usados/changan-cs35-2024-6824bf363c0aeb42281f5d13,19.200,1.5 Lt.,2024,SUV,Gasolina,Gris,Automático,5
+LA,PAZ,Caio Millenium III,2003,"$15,000",https://www.autopia.com.bo/auto/suv-usados/caio-millenium-iii-2003-6822a1bc55b6a128f96c7f65,560.000,1.0 Lt.,2003,SUV,Gasolina,Red,Automático,4
+COCHABAMBA,Chevrolet,Tracker,2023,"$200,000",https://www.autopia.com.bo/auto/suv-usados/chevrolet-tracker-2023-682276bba509aa534e46f767,29.000,1.2 Lt.,2023,SUV,Gasolina,Gris Oscuro,Mecánico,5
+SANTA,CRUZ,Suzuki Alto,2025,"$23,500",https://www.autopia.com.bo/auto/hatchback-usados/suzuki-alto-2025-681e61c3978338602b066e57,10.396,1.0 Lt.,2025,Hatchback,Gasolina,Plata,Mecánico,5
+LA,PAZ,Ford Explorer,2017,"$37,000",https://www.autopia.com.bo/auto/suv-usados/ford-explorer-2017-681e520a1a050721a8482187,61.300,3.5 Lt.,2017,SUV,Gasolina,Blanco Perlado,Automático,5
+LA,PAZ,Suzuki S-presso,2025,"$19,800",https://www.autopia.com.bo/auto/citycar-usados/suzuki-s-presso-2025-681e3de1e732b0701428ffa4,3.100,1.0 Lt.,2025,CityCar,Gasolina,Rojo,Mecánico,5
+LA,PAZ,KIA Carens,2024,"$31,000",https://www.autopia.com.bo/auto/suv-usados/kia-carens-2024-681e27be1e035a1735340dd5,4.700,1.8 Lt.,2024,SUV,Gasolina,Plomo Oscuro,Automático,5
+LA,PAZ,Suzuki Alto,2009,"$8,900",https://www.autopia.com.bo/auto/citycar-usados/suzuki-alto-2009-681e18c2b681cb42832ae6a3,281.000,1.1 Lt.,2009,CityCar,Gasolina,Plata,Mecánico,4
+SANTA,CRUZ,Chevrolet Tracker,2023,"$28,600",https://www.autopia.com.bo/auto/suv-usados/chevrolet-tracker-2023-6819134b04f0ec1d820af0c7,78.060,1.2 Lt.,2023,SUV,Gasolina,Plata,Mecánico,5
+SANTA,CRUZ,Nissan Frontier,2025,"$86,000",https://www.autopia.com.bo/auto/camioneta-usados/nissan-frontier-2025-68141402f731bd28c9407558,2.000,2.5 Lt.,2025,Camioneta,Gasolina,Blanco,Automático,4
+SANTA,CRUZ,Nissan Frontier,2025,"$86,000",https://www.autopia.com.bo/auto/camioneta-usados/nissan-frontier-2025-680eb9d414f039745c681ce4,2.700,2.5 Lt.,2025,Camioneta,Gasolina,Gris Volcanico,Automático,4
+COCHABAMBA,Mercedes,Benz E,2006,"$12,900",https://www.autopia.com.bo/auto/sedan-usados/mercedes-benz-e-2006-680d7650f4381f3c2e24ef16,150.000,3.2 Lt.,2006,Sedán,Gasolina,Champagne,Automático,4
+COCHABAMBA,BMW,523,2012,"$19,800",https://www.autopia.com.bo/auto/sedan-usados/bmw-523-2012-680d6ec286276c443b562285,100.000,2.5 Lt.,2012,Sedán,Gasolina,Marengo,Automático,4
+LA,PAZ,Peugeot 3008,2023,"$35,000",https://www.autopia.com.bo/auto/suv-usados/peugeot-3008-2023-680bd9df9fc46d67d001ea97,12.000,,2023,SUV,Gasolina,Gris,Automático,4
+SANTA,CRUZ,Ssangyong XLV,2017,"$14,600",https://www.autopia.com.bo/auto/suv-usados/ssangyong-xlv-2017-6808194b7e52421e5172e297,90.000,1.6 Lt.,2017,SUV,Gasolina,Blanco,Automático,5
+SANTA,CRUZ,KIA Sportage,2024,"$86,000",https://www.autopia.com.bo/auto/suv-usados/kia-sportage-2024-6803ea4fa97ac725494c3314,26.000,2.0 Lt.,2024,SUV,Gasolina,Blanco,Automático,4
+LA,PAZ,Nissan X-trail,2017,"$28,500",https://www.autopia.com.bo/auto/suv-usados/nissan-x-trail-2017-6801335de256e9531d2acae7,115.000,2.5 Lt.,2017,SUV,Gasolina,Gris,Automático,5
+SANTA,CRUZ,Nissan Frontier,2022,"$69,900",https://www.autopia.com.bo/auto/camioneta-usados/nissan-frontier-2022-683a3dba0cff3d057f01c7b7,7.000,2.5 Lt.,2022,Camioneta,Gasolina,Rojo,Automático,4
+COCHABAMBA,Changan,Cs35,2021,"$180,000",https://www.autopia.com.bo/auto/suv-usados/changan-cs35-2021-6839c10b36a257341f78f6d4,57.100,1.4 Lt.,2021,SUV,Gasolina,Rojo,Mecánico,5
+LA,PAZ,Nissan Sentra,1998,"$7,600",https://www.autopia.com.bo/auto/sedan-usados/nissan-sentra-1998-6839bd080efd433c23100df4,100.000,1.5 Lt.,1998,Sedán,Gasolina,Blanco,Automático,4
+SANTA,CRUZ,JAC T8,2022,"$21,500",https://www.autopia.com.bo/auto/camioneta-usados/jac-t8-2022-6838ee8bc7849e6e5e7ae7e4,55.000,2.0 Lt.,2022,Camioneta,Gasolina,Negro,Mecánico,4
+COCHABAMBA,KIA,Sonet,2025,"$37,500",https://www.autopia.com.bo/auto/suv-usados/kia-sonet-2025-6838a590ea835c453b25ab16,4.000,1.5 Lt.,2025,SUV,Gasolina,Negro,Mecánico,5
+SANTA,CRUZ,Honda Ridgeline,2022,"$45,000",https://www.autopia.com.bo/auto/camioneta-usados/honda-ridgeline-2022-68384aab74ce531c9c55ea04,45.000,3.5 Lt.,2022,Camioneta,Gasolina,Blanco,Automático,5
+SANTA,CRUZ,Hyundai Galloper,2000,"$77,000",https://www.autopia.com.bo/auto/camioneta-usados/hyundai-galloper-2000-683736eacc72813bdd0992c3,80.000,2.5 Lt.,2000,Camioneta,Diesel,Celeste,Mecánico,5
+SANTA,CRUZ,Nissan Frontier,2024,"$79,900",https://www.autopia.com.bo/auto/camioneta-usados/nissan-frontier-2024-683551d2fc51e21cca461bc5,21.000,2.5 Lt.,2024,Camioneta,Gasolina,Gris Oscuro,Automático,4
+SANTA,CRUZ,Suzuki Dzire Sedan,2015,"$18,500",https://www.autopia.com.bo/auto/sedan-usados/suzuki-dzire-sedan-2015-68355000775c0c0cf34474d4,150,1.2 Lt.,2015,Sedán,Gasolina,Blanco Perla,Automático,4
+SANTA,CRUZ,Toyota Starlet,1995,"$11,900",https://www.autopia.com.bo/auto/citycar-usados/toyota-starlet-1995-68354b8761c3f5573f085a36,10,1.3 Lt.,1995,CityCar,Gasolina,Blanco,Mecánico,2
+LA,PAZ,Hyundai I-10,2012,"$13,500",https://www.autopia.com.bo/auto/citycar-usados/hyundai-i-10-2012-6834b2414373610a61507274,66.700,1.2 Lt.,2012,CityCar,Gasolina,Beige,Mecánico,5
+SANTA,CRUZ,Nissan Frontier,2024,"$79,900",https://www.autopia.com.bo/auto/camioneta-usados/nissan-frontier-2024-68339561705b4b248c5a1976,15.000,2.5 Lt.,2024,Camioneta,Gasolina,Rojo,Automático,4
+SANTA,CRUZ,Renault Koleos,2013,"$15,800",https://www.autopia.com.bo/auto/suv-usados/renault-koleos-2013-68311295e2ba064c9b65e0f7,237.000,2.4 Lt.,2013,SUV,Gasolina,Blanco Perla,Automático,4
+SANTA,CRUZ,Suzuki APV,2020,"$25,900",https://www.autopia.com.bo/auto/furgon-usados/suzuki-apv-2020-6830c0d29a8f6f74fc706d78,88.676,1.6 Lt.,2020,Furgón,Gasolina,Blanco,Mecánico,5
+SANTA,CRUZ,Toyota Agya,2019,"$21,200",https://www.autopia.com.bo/auto/citycar-usados/toyota-agya-2019-682f8c451991090ab72a49e4,97.419,1.0 Lt.,2019,CityCar,Gasolina,Blanco,Automático,5
+SANTA,CRUZ,Mazda Cx-5,2023,"$62,500",https://www.autopia.com.bo/auto/suv-usados/mazda-cx-5-2023-682f84b215b5e73d6141b4fc,39.443,2.0 Lt.,2023,SUV,Gasolina,Blanco,Automático,5
+SANTA,CRUZ,Peugeot 301,2018,"$17,500",https://www.autopia.com.bo/auto/sedan-usados/peugeot-301-2018-682f83e90224d045d72e3374,91.034,1.6 Lt.,2018,Sedán,Gasolina,Gris,Mecánico,5
+SANTA,CRUZ,Mitsubishi Outlander,2016,"$31,900",https://www.autopia.com.bo/auto/suv-usados/mitsubishi-outlander-2016-682f82afd11a414078739e77,87.071,2.4 Lt.,2016,SUV,Gasolina,Plata,Automático,5
+SANTA,CRUZ,Chevrolet Tracker,2021,"$27,800",https://www.autopia.com.bo/auto/suv-usados/chevrolet-tracker-2021-682f2a25be2d912d591ae7e3,83.300,1.2 Lt.,2021,SUV,Gasolina,Blanca,Mecánico,5
+SANTA,CRUZ,Chevrolet Tracker,2023,"$28,500",https://www.autopia.com.bo/auto/suv-usados/chevrolet-tracker-2023-682e4abefe04bf1c61471d03,42.394,1.2 Lt.,2023,SUV,Gasolina,Blanco,Mecánico,5
+COCHABAMBA,Ford,Expedition,2010,"$28,600",https://www.autopia.com.bo/auto/suv-usados/ford-expedition-2010-682cc501ea16fb4fd3367ab4,97.000,5.7 Lt.,2010,SUV,Gasolina,Rojo,Automático,5
+LA,PAZ,Toyota Tacoma,2020,"$55,000",https://www.autopia.com.bo/auto/camioneta-usados/toyota-tacoma-2020-682cb366350aa404e667d783,60.000,3.5 Lt.,2020,Camioneta,Gasolina,Negro,Automático,4
+COCHABAMBA,Chevrolet,N300 Max,2017,"$23,000",https://www.autopia.com.bo/auto/furgon-usados/chevrolet-n300-max-2017-682c81b3e79adc0b66749213,93.900,1.2 Lt.,2017,Furgón,Gasolina,Beige,Mecánico,4
+COCHABAMBA,Jeep,Wrangler,2015,"$38,000",https://www.autopia.com.bo/auto/suv-usados/jeep-wrangler-2015-682c7e86f85b056a547166e6,47.486,3.6 Lt.,2015,SUV,Gasolina,Rojo,Mecánico,3
+SANTA,CRUZ,Mercedes Benz GLK,2012,"$20,000",https://www.autopia.com.bo/auto/suv-usados/mercedes-benz-glk-2012-682a98c54652fc0a7a7da4a9,100.000,3.5 Lt.,2012,SUV,Gasolina,Plateado,Automático,5
+COCHABAMBA,KIA,Sportage,2015,"$20,000",https://www.autopia.com.bo/auto/suv-usados/kia-sportage-2015-682a06a7904383775314f874,82.500,2.4 Lt.,2015,SUV,Gasolina,Gris,Automático,5
+LA,PAZ,Renault Sandero,2018,"$17,500",https://www.autopia.com.bo/auto/hatchback-usados/renault-sandero-2018-68275ca1577fde7c420665b2,75.000,1.6 Lt.,2018,Hatchback,Gasolina,Rojo,Automático,5
+SANTA,CRUZ,Nissan Urvan,1991,"$9,800",https://www.autopia.com.bo/auto/furgon-usados/nissan-urvan-1991-68254253b9ca817b5f0cdf33,10.000,2.5 Lt.,1991,Furgón,Gasolina,Rojo,Mecánico,3
+LA,PAZ,Nissan Rogue,2014,"$21,000",https://www.autopia.com.bo/auto/suv-usados/nissan-rogue-2014-682519e2e8e1dd7b6b43feea,105.000,2.4 Lt.,2014,SUV,Gasolina,Verde Oscuro,Automático,5
+COCHABAMBA,Ford,Ecosport,2011,"$15,500",https://www.autopia.com.bo/auto/suv-usados/ford-ecosport-2011-6824fe5b1769027b22632c14,155.000,1.6 Lt.,2011,SUV,Gasolina,Blanco,Mecánico,5
+SANTA,CRUZ,Changan Cs35,2024,"$30,000",https://www.autopia.com.bo/auto/suv-usados/changan-cs35-2024-6824bf363c0aeb42281f5d13,19.200,1.5 Lt.,2024,SUV,Gasolina,Gris,Automático,5
+LA,PAZ,Caio Millenium III,2003,"$15,000",https://www.autopia.com.bo/auto/suv-usados/caio-millenium-iii-2003-6822a1bc55b6a128f96c7f65,560.000,1.0 Lt.,2003,SUV,Gasolina,Red,Automático,4
+COCHABAMBA,Chevrolet,Tracker,2023,"$200,000",https://www.autopia.com.bo/auto/suv-usados/chevrolet-tracker-2023-682276bba509aa534e46f767,29.000,1.2 Lt.,2023,SUV,Gasolina,Gris Oscuro,Mecánico,5
+SANTA,CRUZ,Suzuki Alto,2025,"$23,500",https://www.autopia.com.bo/auto/hatchback-usados/suzuki-alto-2025-681e61c3978338602b066e57,10.396,1.0 Lt.,2025,Hatchback,Gasolina,Plata,Mecánico,5
+LA,PAZ,Ford Explorer,2017,"$37,000",https://www.autopia.com.bo/auto/suv-usados/ford-explorer-2017-681e520a1a050721a8482187,61.300,3.5 Lt.,2017,SUV,Gasolina,Blanco Perlado,Automático,5
+LA,PAZ,Suzuki S-presso,2025,"$19,800",https://www.autopia.com.bo/auto/citycar-usados/suzuki-s-presso-2025-681e3de1e732b0701428ffa4,3.100,1.0 Lt.,2025,CityCar,Gasolina,Rojo,Mecánico,5
+LA,PAZ,KIA Carens,2024,"$31,000",https://www.autopia.com.bo/auto/suv-usados/kia-carens-2024-681e27be1e035a1735340dd5,4.700,1.8 Lt.,2024,SUV,Gasolina,Plomo Oscuro,Automático,5
+LA,PAZ,Suzuki Alto,2009,"$8,900",https://www.autopia.com.bo/auto/citycar-usados/suzuki-alto-2009-681e18c2b681cb42832ae6a3,281.000,1.1 Lt.,2009,CityCar,Gasolina,Plata,Mecánico,4
+SANTA,CRUZ,Chevrolet Tracker,2023,"$28,600",https://www.autopia.com.bo/auto/suv-usados/chevrolet-tracker-2023-6819134b04f0ec1d820af0c7,78.060,1.2 Lt.,2023,SUV,Gasolina,Plata,Mecánico,5
+SANTA,CRUZ,Nissan Frontier,2025,"$86,000",https://www.autopia.com.bo/auto/camioneta-usados/nissan-frontier-2025-68141402f731bd28c9407558,2.000,2.5 Lt.,2025,Camioneta,Gasolina,Blanco,Automático,4
+SANTA,CRUZ,Nissan Frontier,2025,"$86,000",https://www.autopia.com.bo/auto/camioneta-usados/nissan-frontier-2025-680eb9d414f039745c681ce4,2.700,2.5 Lt.,2025,Camioneta,Gasolina,Gris Volcanico,Automático,4
+COCHABAMBA,Mercedes,Benz E,2006,"$12,900",https://www.autopia.com.bo/auto/sedan-usados/mercedes-benz-e-2006-680d7650f4381f3c2e24ef16,150.000,3.2 Lt.,2006,Sedán,Gasolina,Champagne,Automático,4
+COCHABAMBA,BMW,523,2012,"$19,800",https://www.autopia.com.bo/auto/sedan-usados/bmw-523-2012-680d6ec286276c443b562285,100.000,2.5 Lt.,2012,Sedán,Gasolina,Marengo,Automático,4
+LA,PAZ,Peugeot 3008,2023,"$35,000",https://www.autopia.com.bo/auto/suv-usados/peugeot-3008-2023-680bd9df9fc46d67d001ea97,12.000,,2023,SUV,Gasolina,Gris,Automático,4
+SANTA,CRUZ,Ssangyong XLV,2017,"$14,600",https://www.autopia.com.bo/auto/suv-usados/ssangyong-xlv-2017-6808194b7e52421e5172e297,90.000,1.6 Lt.,2017,SUV,Gasolina,Blanco,Automático,5
+SANTA,CRUZ,KIA Sportage,2024,"$86,000",https://www.autopia.com.bo/auto/suv-usados/kia-sportage-2024-6803ea4fa97ac725494c3314,26.000,2.0 Lt.,2024,SUV,Gasolina,Blanco,Automático,4
+LA,PAZ,Nissan X-trail,2017,"$28,500",https://www.autopia.com.bo/auto/suv-usados/nissan-x-trail-2017-6801335de256e9531d2acae7,115.000,2.5 Lt.,2017,SUV,Gasolina,Gris,Automático,5
+SANTA,CRUZ,Nissan Frontier,2022,"$69,900",https://www.autopia.com.bo/auto/camioneta-usados/nissan-frontier-2022-683a3dba0cff3d057f01c7b7,7.000,2.5 Lt.,2022,Camioneta,Gasolina,Rojo,Automático,4
+COCHABAMBA,Changan,Cs35,2021,"$180,000",https://www.autopia.com.bo/auto/suv-usados/changan-cs35-2021-6839c10b36a257341f78f6d4,57.100,1.4 Lt.,2021,SUV,Gasolina,Rojo,Mecánico,5
+LA,PAZ,Nissan Sentra,1998,"$7,600",https://www.autopia.com.bo/auto/sedan-usados/nissan-sentra-1998-6839bd080efd433c23100df4,100.000,1.5 Lt.,1998,Sedán,Gasolina,Blanco,Automático,4
+SANTA,CRUZ,JAC T8,2022,"$21,500",https://www.autopia.com.bo/auto/camioneta-usados/jac-t8-2022-6838ee8bc7849e6e5e7ae7e4,55.000,2.0 Lt.,2022,Camioneta,Gasolina,Negro,Mecánico,4
+COCHABAMBA,KIA,Sonet,2025,"$37,500",https://www.autopia.com.bo/auto/suv-usados/kia-sonet-2025-6838a590ea835c453b25ab16,4.000,1.5 Lt.,2025,SUV,Gasolina,Negro,Mecánico,5
+SANTA,CRUZ,Honda Ridgeline,2022,"$45,000",https://www.autopia.com.bo/auto/camioneta-usados/honda-ridgeline-2022-68384aab74ce531c9c55ea04,45.000,3.5 Lt.,2022,Camioneta,Gasolina,Blanco,Automático,5
+SANTA,CRUZ,Hyundai Galloper,2000,"$77,000",https://www.autopia.com.bo/auto/camioneta-usados/hyundai-galloper-2000-683736eacc72813bdd0992c3,80.000,2.5 Lt.,2000,Camioneta,Diesel,Celeste,Mecánico,5
+SANTA,CRUZ,Nissan Frontier,2024,"$79,900",https://www.autopia.com.bo/auto/camioneta-usados/nissan-frontier-2024-683551d2fc51e21cca461bc5,21.000,2.5 Lt.,2024,Camioneta,Gasolina,Gris Oscuro,Automático,4
+SANTA,CRUZ,Suzuki Dzire Sedan,2015,"$18,500",https://www.autopia.com.bo/auto/sedan-usados/suzuki-dzire-sedan-2015-68355000775c0c0cf34474d4,150,1.2 Lt.,2015,Sedán,Gasolina,Blanco Perla,Automático,4
+SANTA,CRUZ,Toyota Starlet,1995,"$11,900",https://www.autopia.com.bo/auto/citycar-usados/toyota-starlet-1995-68354b8761c3f5573f085a36,10,1.3 Lt.,1995,CityCar,Gasolina,Blanco,Mecánico,2
+LA,PAZ,Hyundai I-10,2012,"$13,500",https://www.autopia.com.bo/auto/citycar-usados/hyundai-i-10-2012-6834b2414373610a61507274,66.700,1.2 Lt.,2012,CityCar,Gasolina,Beige,Mecánico,5
+SANTA,CRUZ,Nissan Frontier,2024,"$79,900",https://www.autopia.com.bo/auto/camioneta-usados/nissan-frontier-2024-68339561705b4b248c5a1976,15.000,2.5 Lt.,2024,Camioneta,Gasolina,Rojo,Automático,4
+SANTA,CRUZ,Renault Koleos,2013,"$15,800",https://www.autopia.com.bo/auto/suv-usados/renault-koleos-2013-68311295e2ba064c9b65e0f7,237.000,2.4 Lt.,2013,SUV,Gasolina,Blanco Perla,Automático,4
+SANTA,CRUZ,Suzuki APV,2020,"$25,900",https://www.autopia.com.bo/auto/furgon-usados/suzuki-apv-2020-6830c0d29a8f6f74fc706d78,88.676,1.6 Lt.,2020,Furgón,Gasolina,Blanco,Mecánico,5
+SANTA,CRUZ,Toyota Agya,2019,"$21,200",https://www.autopia.com.bo/auto/citycar-usados/toyota-agya-2019-682f8c451991090ab72a49e4,97.419,1.0 Lt.,2019,CityCar,Gasolina,Blanco,Automático,5
+SANTA,CRUZ,Mazda Cx-5,2023,"$62,500",https://www.autopia.com.bo/auto/suv-usados/mazda-cx-5-2023-682f84b215b5e73d6141b4fc,39.443,2.0 Lt.,2023,SUV,Gasolina,Blanco,Automático,5
+SANTA,CRUZ,Peugeot 301,2018,"$17,500",https://www.autopia.com.bo/auto/sedan-usados/peugeot-301-2018-682f83e90224d045d72e3374,91.034,1.6 Lt.,2018,Sedán,Gasolina,Gris,Mecánico,5
+SANTA,CRUZ,Mitsubishi Outlander,2016,"$31,900",https://www.autopia.com.bo/auto/suv-usados/mitsubishi-outlander-2016-682f82afd11a414078739e77,87.071,2.4 Lt.,2016,SUV,Gasolina,Plata,Automático,5
+SANTA,CRUZ,Chevrolet Tracker,2021,"$27,800",https://www.autopia.com.bo/auto/suv-usados/chevrolet-tracker-2021-682f2a25be2d912d591ae7e3,83.300,1.2 Lt.,2021,SUV,Gasolina,Blanca,Mecánico,5
+SANTA,CRUZ,Chevrolet Tracker,2023,"$28,500",https://www.autopia.com.bo/auto/suv-usados/chevrolet-tracker-2023-682e4abefe04bf1c61471d03,42.394,1.2 Lt.,2023,SUV,Gasolina,Blanco,Mecánico,5
+COCHABAMBA,Ford,Expedition,2010,"$28,600",https://www.autopia.com.bo/auto/suv-usados/ford-expedition-2010-682cc501ea16fb4fd3367ab4,97.000,5.7 Lt.,2010,SUV,Gasolina,Rojo,Automático,5
+LA,PAZ,Toyota Tacoma,2020,"$55,000",https://www.autopia.com.bo/auto/camioneta-usados/toyota-tacoma-2020-682cb366350aa404e667d783,60.000,3.5 Lt.,2020,Camioneta,Gasolina,Negro,Automático,4
+COCHABAMBA,Chevrolet,N300 Max,2017,"$23,000",https://www.autopia.com.bo/auto/furgon-usados/chevrolet-n300-max-2017-682c81b3e79adc0b66749213,93.900,1.2 Lt.,2017,Furgón,Gasolina,Beige,Mecánico,4
+COCHABAMBA,Jeep,Wrangler,2015,"$38,000",https://www.autopia.com.bo/auto/suv-usados/jeep-wrangler-2015-682c7e86f85b056a547166e6,47.486,3.6 Lt.,2015,SUV,Gasolina,Rojo,Mecánico,3
+SANTA,CRUZ,Mercedes Benz GLK,2012,"$20,000",https://www.autopia.com.bo/auto/suv-usados/mercedes-benz-glk-2012-682a98c54652fc0a7a7da4a9,100.000,3.5 Lt.,2012,SUV,Gasolina,Plateado,Automático,5
+COCHABAMBA,KIA,Sportage,2015,"$20,000",https://www.autopia.com.bo/auto/suv-usados/kia-sportage-2015-682a06a7904383775314f874,82.500,2.4 Lt.,2015,SUV,Gasolina,Gris,Automático,5
+LA,PAZ,Renault Sandero,2018,"$17,500",https://www.autopia.com.bo/auto/hatchback-usados/renault-sandero-2018-68275ca1577fde7c420665b2,75.000,1.6 Lt.,2018,Hatchback,Gasolina,Rojo,Automático,5
+SANTA,CRUZ,Nissan Urvan,1991,"$9,800",https://www.autopia.com.bo/auto/furgon-usados/nissan-urvan-1991-68254253b9ca817b5f0cdf33,10.000,2.5 Lt.,1991,Furgón,Gasolina,Rojo,Mecánico,3
+LA,PAZ,Nissan Rogue,2014,"$21,000",https://www.autopia.com.bo/auto/suv-usados/nissan-rogue-2014-682519e2e8e1dd7b6b43feea,105.000,2.4 Lt.,2014,SUV,Gasolina,Verde Oscuro,Automático,5
+COCHABAMBA,Ford,Ecosport,2011,"$15,500",https://www.autopia.com.bo/auto/suv-usados/ford-ecosport-2011-6824fe5b1769027b22632c14,155.000,1.6 Lt.,2011,SUV,Gasolina,Blanco,Mecánico,5
+SANTA,CRUZ,Changan Cs35,2024,"$30,000",https://www.autopia.com.bo/auto/suv-usados/changan-cs35-2024-6824bf363c0aeb42281f5d13,19.200,1.5 Lt.,2024,SUV,Gasolina,Gris,Automático,5
+LA,PAZ,Caio Millenium III,2003,"$15,000",https://www.autopia.com.bo/auto/suv-usados/caio-millenium-iii-2003-6822a1bc55b6a128f96c7f65,560.000,1.0 Lt.,2003,SUV,Gasolina,Red,Automático,4
+COCHABAMBA,Chevrolet,Tracker,2023,"$200,000",https://www.autopia.com.bo/auto/suv-usados/chevrolet-tracker-2023-682276bba509aa534e46f767,29.000,1.2 Lt.,2023,SUV,Gasolina,Gris Oscuro,Mecánico,5
+SANTA,CRUZ,Suzuki Alto,2025,"$23,500",https://www.autopia.com.bo/auto/hatchback-usados/suzuki-alto-2025-681e61c3978338602b066e57,10.396,1.0 Lt.,2025,Hatchback,Gasolina,Plata,Mecánico,5
+LA,PAZ,Ford Explorer,2017,"$37,000",https://www.autopia.com.bo/auto/suv-usados/ford-explorer-2017-681e520a1a050721a8482187,61.300,3.5 Lt.,2017,SUV,Gasolina,Blanco Perlado,Automático,5
+LA,PAZ,Suzuki S-presso,2025,"$19,800",https://www.autopia.com.bo/auto/citycar-usados/suzuki-s-presso-2025-681e3de1e732b0701428ffa4,3.100,1.0 Lt.,2025,CityCar,Gasolina,Rojo,Mecánico,5
+LA,PAZ,KIA Carens,2024,"$31,000",https://www.autopia.com.bo/auto/suv-usados/kia-carens-2024-681e27be1e035a1735340dd5,4.700,1.8 Lt.,2024,SUV,Gasolina,Plomo Oscuro,Automático,5
+LA,PAZ,Suzuki Alto,2009,"$8,900",https://www.autopia.com.bo/auto/citycar-usados/suzuki-alto-2009-681e18c2b681cb42832ae6a3,281.000,1.1 Lt.,2009,CityCar,Gasolina,Plata,Mecánico,4
+SANTA,CRUZ,Chevrolet Tracker,2023,"$28,600",https://www.autopia.com.bo/auto/suv-usados/chevrolet-tracker-2023-6819134b04f0ec1d820af0c7,78.060,1.2 Lt.,2023,SUV,Gasolina,Plata,Mecánico,5
+SANTA,CRUZ,Nissan Frontier,2025,"$86,000",https://www.autopia.com.bo/auto/camioneta-usados/nissan-frontier-2025-68141402f731bd28c9407558,2.000,2.5 Lt.,2025,Camioneta,Gasolina,Blanco,Automático,4
+SANTA,CRUZ,Nissan Frontier,2025,"$86,000",https://www.autopia.com.bo/auto/camioneta-usados/nissan-frontier-2025-680eb9d414f039745c681ce4,2.700,2.5 Lt.,2025,Camioneta,Gasolina,Gris Volcanico,Automático,4
+COCHABAMBA,Mercedes,Benz E,2006,"$12,900",https://www.autopia.com.bo/auto/sedan-usados/mercedes-benz-e-2006-680d7650f4381f3c2e24ef16,150.000,3.2 Lt.,2006,Sedán,Gasolina,Champagne,Automático,4
+COCHABAMBA,BMW,523,2012,"$19,800",https://www.autopia.com.bo/auto/sedan-usados/bmw-523-2012-680d6ec286276c443b562285,100.000,2.5 Lt.,2012,Sedán,Gasolina,Marengo,Automático,4
+LA,PAZ,Peugeot 3008,2023,"$35,000",https://www.autopia.com.bo/auto/suv-usados/peugeot-3008-2023-680bd9df9fc46d67d001ea97,12.000,,2023,SUV,Gasolina,Gris,Automático,4
+SANTA,CRUZ,Ssangyong XLV,2017,"$14,600",https://www.autopia.com.bo/auto/suv-usados/ssangyong-xlv-2017-6808194b7e52421e5172e297,90.000,1.6 Lt.,2017,SUV,Gasolina,Blanco,Automático,5
+SANTA,CRUZ,KIA Sportage,2024,"$86,000",https://www.autopia.com.bo/auto/suv-usados/kia-sportage-2024-6803ea4fa97ac725494c3314,26.000,2.0 Lt.,2024,SUV,Gasolina,Blanco,Automático,4
+LA,PAZ,Nissan X-trail,2017,"$28,500",https://www.autopia.com.bo/auto/suv-usados/nissan-x-trail-2017-6801335de256e9531d2acae7,115.000,2.5 Lt.,2017,SUV,Gasolina,Gris,Automático,5

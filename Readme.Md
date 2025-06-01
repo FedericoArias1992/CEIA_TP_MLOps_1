@@ -1,4 +1,4 @@
-# 🚗 Predicción de Precios de Autos Usados con Airflow y MLflow
+# 🚗 Predicción de Precios de Autos Usados con Playwright, Airflow y MLflow
 
 Este proyecto implementa un flujo de trabajo completo de Machine Learning enfocado en la predicción del precio de autos usados en Bolivia. La solución automatiza desde el scrapping de datos hasta el despliegue del mejor modelo en producción utilizando Apache Airflow como orquestador y MLflow para el tracking y versionado de modelos.
 
@@ -6,7 +6,7 @@ Este proyecto implementa un flujo de trabajo completo de Machine Learning enfoca
 
 1. **Scrapear** datos de autos usados desde una plataforma online.
 2. **Limpiar** los datos descargados de forma incremental.
-3. **Preprocesar** variables categóricas, valores faltantes y construir los datasets `X_train`, `y_train`.
+3. **Preprocesar** concatenar descargas anteriores, procesar variables categóricas, valores faltantes y construir los datasets `X_train`, `y_train`.
 4. **Entrenar** tres modelos de regresión y promover el mejor a producción.
 5. **Realizar predicciones** con el modelo en producción.
 
@@ -23,7 +23,15 @@ Este proyecto implementa un flujo de trabajo completo de Machine Learning enfoca
 ## ⚙️ Estructura del Proyecto
 - ├── airflow/
 - │ ├── dags/
+- │ │ └── scraping_autopia_dag.py
 - │ │ └── entrenamiento_modelos_regresion_dag.py
+- │ │ └── prediccion_modelo_produccion_dag.py
+- │ ├──── utils/
+- │ │ └── scraping_autopia.py
+- │ ├──── data/
+- │ ├─────── prediccion/
+- │ ├─────── processed/
+- │ ├─────── raw/
 - │ ├── plugins/
 - │ ├── config/
 - │ └── secrets/
@@ -36,21 +44,33 @@ Este proyecto implementa un flujo de trabajo completo de Machine Learning enfoca
 - ├── requirements.txt
 - └── README.md
 
-## 🧪 Flujo de trabajo orquestado
+### 🔁 Flujo completo de DAGs
 
-### DAG diario en Airflow (`entrenamiento_modelos_regresion`):
+1. ### `scraping_autopia_dag` (Ejecutado manual o programado)
+   - Ejecuta un script que scrapea datos desde [autopia.com.bo](https://autopia.com.bo).
+   - Guarda los datos en formato `.csv` en la carpeta `data/raw/`.
+   - Una vez finalizado, **activa automáticamente** el siguiente DAG.
+   - _Observacion:_ Tarda + 110 minutos en descargar todos los registros de la pagina.
 
-1. **Carga del dataset** desde un archivo `.pkl` previamente limpiado.
-2. **Preprocesamiento**:
-   - Encoding de variables categóricas (`TargetEncoder` para marca, tipo, etc.).
-   - Imputación o mapeo de variables binarias (`Transmisión`).
-3. **Entrenamiento de modelos**:
-   - `RandomForestRegressor`
-   - `CatBoostRegressor`
-   - `SVR`
-4. **Evaluación con MAE** y registro de métricas en MLflow.
-5. **Promoción automática** del mejor modelo al stage "Production".
-6. **Transición del modelo anterior a "Staging"** si existe.
+2. ### `entrenamiento_modelos_regresion_dag` (Ejecutado automáticamente tras scraping o de forma diaria)
+   - **Carga del dataset** recién scrapeado.
+   - **Preprocesamiento**:
+     - Limpieza de columnas como `price`, `motor`, etc.
+     - `TargetEncoder` para codificar variables categóricas (`marca`, `tipo`).
+     - Map de variables binarias (`transmisión`).
+   - **Entrenamiento de modelos**:
+     - `RandomForestRegressor`
+     - `CatBoostRegressor`
+     - `SVR`
+   - **Evaluación** con `MAE` y registro de métricas y modelos en **MLflow**.
+   - **Promoción automática** del mejor modelo al stage `"Production"`.
+   - **Archivado del modelo anterior** como `"Staging"` si existía.
+   - Al finalizar, **dispara automáticamente** el DAG de predicción.
+
+3. ### `prediccion_modelo_produccion_dag`
+   - Carga el modelo en stage `"Production"` desde **MLflow**.
+   - Prepara nuevas muestras o clientes para predicción.
+   - Genera predicciones y las guarda en el directorio `data/predicciones/`.
 
 ## 🔁 Ejecución
 

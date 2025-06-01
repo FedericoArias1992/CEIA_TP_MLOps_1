@@ -1,2 +1,2 @@
-﻿Motor;Año;marca_encoded;tipo_encoded;Transmision_encoded
-2.5;2023;21.387;25.640;1.0
+﻿year;km;motor;puertas;marca_encoded;tipo_encoded;Transmision_encoded
+2021;57.1;1.4;5;86588.802033;45354.545455;0

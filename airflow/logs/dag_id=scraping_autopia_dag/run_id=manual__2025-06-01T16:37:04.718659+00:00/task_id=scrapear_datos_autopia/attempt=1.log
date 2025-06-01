@@ -1,0 +1,234 @@
+[2025-06-01T16:37:08.669+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: scraping_autopia_dag.scrapear_datos_autopia manual__2025-06-01T16:37:04.718659+00:00 [queued]>
+[2025-06-01T16:37:08.722+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: scraping_autopia_dag.scrapear_datos_autopia manual__2025-06-01T16:37:04.718659+00:00 [queued]>
+[2025-06-01T16:37:08.724+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2025-06-01T16:37:08.790+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): scrapear_datos_autopia> on 2025-06-01 16:37:04.718659+00:00
+[2025-06-01T16:37:08.813+0000] {standard_task_runner.py:60} INFO - Started process 230 to run task
+[2025-06-01T16:37:08.828+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'scraping_autopia_dag', 'scrapear_datos_autopia', 'manual__2025-06-01T16:37:04.718659+00:00', '--job-id', '12', '--raw', '--subdir', 'DAGS_FOLDER/scraping_autopia_dag.py', '--cfg-path', '/tmp/tmpy_w5wt78']
+[2025-06-01T16:37:08.838+0000] {standard_task_runner.py:88} INFO - Job 12: Subtask scrapear_datos_autopia
+[2025-06-01T16:37:09.020+0000] {task_command.py:423} INFO - Running <TaskInstance: scraping_autopia_dag.scrapear_datos_autopia manual__2025-06-01T16:37:04.718659+00:00 [running]> on host f142218a01ee
+[2025-06-01T16:37:09.251+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='scraping_autopia_dag' AIRFLOW_CTX_TASK_ID='scrapear_datos_autopia' AIRFLOW_CTX_EXECUTION_DATE='2025-06-01T16:37:04.718659+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-06-01T16:37:04.718659+00:00'
+[2025-06-01T16:37:16.145+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:37:17.869+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:37:19.542+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:37:21.206+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:37:22.837+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:37:24.456+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:37:26.095+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:37:27.727+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:37:29.353+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:37:30.963+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:37:32.555+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:37:34.217+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:37:35.833+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:37:37.491+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:37:39.113+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:37:40.746+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:37:42.380+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:37:43.993+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:37:45.614+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:37:47.247+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:37:48.917+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:37:50.530+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:37:52.146+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:37:53.761+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:37:55.396+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:37:56.996+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:37:59.122+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:38:00.682+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:38:02.244+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:38:03.845+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:38:05.457+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:38:07.075+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:38:08.697+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:38:10.330+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:38:11.950+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:38:13.529+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:38:15.138+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:38:16.780+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:38:18.392+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:38:20.047+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:38:21.653+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:38:23.280+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:38:24.902+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:38:26.467+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:38:28.056+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:38:29.730+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:38:31.352+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:38:32.992+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:38:34.561+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:38:36.180+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:38:37.810+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:38:39.439+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:38:41.049+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:38:42.671+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:38:44.277+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:38:45.852+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:38:47.499+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:38:49.101+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:38:50.669+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:38:52.273+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:38:53.881+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:38:55.493+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:38:57.134+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:38:58.719+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:39:00.355+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:39:01.965+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:39:03.591+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:39:05.162+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:39:06.747+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:39:08.319+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:39:09.902+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:39:11.520+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:39:13.131+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:39:14.762+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:39:16.386+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:39:17.998+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:39:19.661+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:39:21.218+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:39:22.829+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:39:24.450+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:39:26.068+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:39:27.682+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:39:29.316+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:39:30.937+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:39:32.574+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:39:34.204+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:39:35.832+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:39:37.455+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:39:39.092+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:39:40.710+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:39:42.302+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:39:43.928+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:39:45.518+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:39:47.109+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:39:48.663+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:39:50.300+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:39:51.895+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:39:53.462+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:39:55.070+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:39:56.697+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:39:58.335+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:39:59.946+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:40:01.570+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:40:03.171+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:40:04.775+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:40:06.388+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:40:07.994+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:40:09.599+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:40:11.155+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:40:12.728+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:40:14.297+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:40:15.934+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:40:17.547+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:40:19.160+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:40:20.788+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:40:22.366+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:40:23.948+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:40:25.591+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:40:27.194+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:40:28.758+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:40:30.370+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:40:31.998+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:40:33.600+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:40:35.221+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:40:36.878+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:40:38.541+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:40:40.136+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:40:41.804+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:40:43.430+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:40:45.078+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:40:46.734+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:40:48.386+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:40:49.993+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:40:51.567+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:40:53.183+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:40:54.732+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:40:56.347+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:40:57.972+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:40:59.614+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:41:01.212+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:41:02.854+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:41:04.473+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:41:06.114+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:41:07.740+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:41:09.419+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:41:11.033+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:41:12.645+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:41:14.271+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:41:15.907+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:41:17.482+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:41:19.059+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:41:20.653+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:41:22.256+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:41:23.852+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:41:25.476+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:41:27.090+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:41:28.683+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:41:30.309+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:41:31.921+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:41:33.546+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:41:35.154+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:41:36.773+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:41:38.341+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:41:39.895+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:41:41.449+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:41:43.011+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:41:44.605+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:41:46.217+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:41:47.854+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:41:49.493+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:41:51.138+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:41:52.769+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:41:54.378+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:41:56.016+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:41:57.604+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:41:59.233+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:42:00.842+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:42:02.456+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:42:04.070+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:42:05.654+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:42:07.237+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:42:08.873+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:42:10.516+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-01T16:42:11.651+0000] {local_task_job_runner.py:121} ERROR - Received SIGTERM. Terminating subprocesses
+[2025-06-01T16:42:11.718+0000] {process_utils.py:131} INFO - Sending 15 to group 230. PIDs of all processes in the group: [231, 243, 245, 246, 263, 291, 262, 230]
+[2025-06-01T16:42:11.721+0000] {process_utils.py:86} INFO - Sending the signal 15 to group 230
+[2025-06-01T16:42:11.724+0000] {taskinstance.py:2450} ERROR - Received SIGTERM. Terminating subprocesses.
+[2025-06-01T16:42:11.725+0000] {logging_mixin.py:188} INFO - ✅ No se encontró botón 'Cargar más', finalizando scroll.
+[2025-06-01T16:42:11.886+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=245, status='terminated', started='16:37:09') (245) terminated with exit code None
+[2025-06-01T16:42:11.894+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=243, status='terminated', started='16:37:08') (243) terminated with exit code None
+[2025-06-01T16:42:12.020+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/utils/scraping_autopia.py", line 97, in run_scraper
+    records = scrape_all(ctx)
+  File "/opt/airflow/dags/utils/scraping_autopia.py", line 53, in scrape_all
+    total = listings.count()
+  File "/home/airflow/.local/lib/python3.8/site-packages/playwright/sync_api/_generated.py", line 16597, in count
+    return mapping.from_maybe_impl(self._sync(self._impl_obj.count()))
+  File "/home/airflow/.local/lib/python3.8/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+  File "/home/airflow/.local/lib/python3.8/site-packages/playwright/_impl/_locator.py", line 392, in count
+    return await self._frame._query_count(self._selector)
+  File "/home/airflow/.local/lib/python3.8/site-packages/playwright/_impl/_frame.py", line 128, in _query_count
+    return await self._channel.send("queryCount", {"selector": selector})
+  File "/home/airflow/.local/lib/python3.8/site-packages/playwright/_impl/_connection.py", line 59, in send
+    return await self._connection.wrap_api_call(
+  File "/home/airflow/.local/lib/python3.8/site-packages/playwright/_impl/_connection.py", line 520, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TargetClosedError: Locator.count: Target page, context or browser has been closed
+[2025-06-01T16:42:12.031+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=231, status='terminated', started='16:37:08') (231) terminated with exit code None
+[2025-06-01T16:42:12.032+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=291, status='terminated', started='16:37:09') (291) terminated with exit code None
+[2025-06-01T16:42:12.034+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=262, status='terminated', started='16:37:09') (262) terminated with exit code None
+[2025-06-01T16:42:12.035+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=246, status='terminated', started='16:37:09') (246) terminated with exit code None
+[2025-06-01T16:42:12.036+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=263, status='terminated', started='16:37:09') (263) terminated with exit code None
+[2025-06-01T16:42:12.055+0000] {taskinstance.py:1138} INFO - Marking task as FAILED. dag_id=scraping_autopia_dag, task_id=scrapear_datos_autopia, execution_date=20250601T163704, start_date=20250601T163708, end_date=20250601T164212
+[2025-06-01T16:42:12.102+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 12 for task scrapear_datos_autopia (Locator.count: Target page, context or browser has been closed; 230)
+[2025-06-01T16:42:12.132+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=230, status='terminated', exitcode=1, started='16:37:07') (230) terminated with exit code 1
+[2025-06-01T16:42:12.134+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 143
+[2025-06-01T16:42:12.182+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

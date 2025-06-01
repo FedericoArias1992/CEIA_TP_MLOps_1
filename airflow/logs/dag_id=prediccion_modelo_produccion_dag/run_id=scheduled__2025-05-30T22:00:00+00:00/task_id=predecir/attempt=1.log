@@ -1,0 +1,119 @@
+[2025-05-31T23:42:21.016+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: prediccion_modelo_produccion_dag.predecir scheduled__2025-05-30T22:00:00+00:00 [queued]>
+[2025-05-31T23:42:21.029+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: prediccion_modelo_produccion_dag.predecir scheduled__2025-05-30T22:00:00+00:00 [queued]>
+[2025-05-31T23:42:21.029+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2025-05-31T23:42:21.049+0000] {taskinstance.py:2191} INFO - Executing <Task(_PythonDecoratedOperator): predecir> on 2025-05-30 22:00:00+00:00
+[2025-05-31T23:42:21.056+0000] {standard_task_runner.py:60} INFO - Started process 200 to run task
+[2025-05-31T23:42:21.066+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'prediccion_modelo_produccion_dag', 'predecir', 'scheduled__2025-05-30T22:00:00+00:00', '--job-id', '24', '--raw', '--subdir', 'DAGS_FOLDER/prediccion_modelo_produccion_dag.py', '--cfg-path', '/tmp/tmpavy91miw']
+[2025-05-31T23:42:21.070+0000] {standard_task_runner.py:88} INFO - Job 24: Subtask predecir
+[2025-05-31T23:42:21.194+0000] {task_command.py:423} INFO - Running <TaskInstance: prediccion_modelo_produccion_dag.predecir scheduled__2025-05-30T22:00:00+00:00 [running]> on host 993869572b99
+[2025-05-31T23:42:21.325+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='fede' AIRFLOW_CTX_DAG_ID='prediccion_modelo_produccion_dag' AIRFLOW_CTX_TASK_ID='predecir' AIRFLOW_CTX_EXECUTION_DATE='2025-05-30T22:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-05-30T22:00:00+00:00'
+[2025-05-31T23:42:23.048+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.8/site-packages/mlflow/store/artifact/utils/models.py:31 FutureWarning: ``mlflow.tracking.client.MlflowClient.get_latest_versions`` is deprecated since 2.9.0. Model registry stages will be removed in a future major release. To learn more about the deprecation of model registry stages, see our migration guide here: https://mlflow.org/docs/latest/model-registry.html#migrating-from-stages
+[2025-05-31T23:42:23.166+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/decorators/base.py", line 241, in execute
+    return_value = super().execute(context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/prediccion_modelo_produccion_dag.py", line 38, in predecir
+    model = mlflow.sklearn.load_model(f"models:/{model_name}/{stage}")
+  File "/home/airflow/.local/lib/python3.8/site-packages/mlflow/sklearn/__init__.py", line 633, in load_model
+    local_model_path = _download_artifact_from_uri(artifact_uri=model_uri, output_path=dst_path)
+  File "/home/airflow/.local/lib/python3.8/site-packages/mlflow/tracking/artifact_utils.py", line 111, in _download_artifact_from_uri
+    return repo.download_artifacts(
+  File "/home/airflow/.local/lib/python3.8/site-packages/mlflow/store/artifact/models_artifact_repo.py", line 205, in download_artifacts
+    self._add_registered_model_meta_file(model_path)
+  File "/home/airflow/.local/lib/python3.8/site-packages/mlflow/store/artifact/models_artifact_repo.py", line 161, in _add_registered_model_meta_file
+    write_yaml(
+  File "/home/airflow/.local/lib/python3.8/site-packages/mlflow/utils/file_utils.py", line 246, in write_yaml
+    with codecs.open(yaml_file_name, mode="w", encoding=ENCODING) as yaml_file:
+  File "/usr/local/lib/python3.8/codecs.py", line 905, in open
+    file = builtins.open(filename, mode, buffering)
+PermissionError: [Errno 13] Permission denied: '/mlflow/mlruns/1/e4cc191033174ee781dcd3057fb85868/artifacts/modelo/registered_model_meta'
+[2025-05-31T23:42:23.198+0000] {taskinstance.py:1138} INFO - Marking task as UP_FOR_RETRY. dag_id=prediccion_modelo_produccion_dag, task_id=predecir, execution_date=20250530T220000, start_date=20250531T234221, end_date=20250531T234223
+[2025-05-31T23:42:23.224+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 24 for task predecir ([Errno 13] Permission denied: '/mlflow/mlruns/1/e4cc191033174ee781dcd3057fb85868/artifacts/modelo/registered_model_meta'; 200)
+[2025-05-31T23:42:23.282+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2025-05-31T23:42:23.315+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-05-31T23:57:42.440+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: prediccion_modelo_produccion_dag.predecir scheduled__2025-05-30T22:00:00+00:00 [queued]>
+[2025-05-31T23:57:42.451+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: prediccion_modelo_produccion_dag.predecir scheduled__2025-05-30T22:00:00+00:00 [queued]>
+[2025-05-31T23:57:42.452+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2025-05-31T23:57:42.472+0000] {taskinstance.py:2191} INFO - Executing <Task(_PythonDecoratedOperator): predecir> on 2025-05-30 22:00:00+00:00
+[2025-05-31T23:57:42.477+0000] {standard_task_runner.py:60} INFO - Started process 452 to run task
+[2025-05-31T23:57:42.481+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'prediccion_modelo_produccion_dag', 'predecir', 'scheduled__2025-05-30T22:00:00+00:00', '--job-id', '5', '--raw', '--subdir', 'DAGS_FOLDER/prediccion_modelo_produccion_dag.py', '--cfg-path', '/tmp/tmpyemfcrvw']
+[2025-05-31T23:57:42.485+0000] {standard_task_runner.py:88} INFO - Job 5: Subtask predecir
+[2025-05-31T23:57:42.561+0000] {task_command.py:423} INFO - Running <TaskInstance: prediccion_modelo_produccion_dag.predecir scheduled__2025-05-30T22:00:00+00:00 [running]> on host 76da0f717085
+[2025-05-31T23:57:42.684+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='fede' AIRFLOW_CTX_DAG_ID='prediccion_modelo_produccion_dag' AIRFLOW_CTX_TASK_ID='predecir' AIRFLOW_CTX_EXECUTION_DATE='2025-05-30T22:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-05-30T22:00:00+00:00'
+[2025-05-31T23:57:44.439+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.8/site-packages/mlflow/store/artifact/utils/models.py:31 FutureWarning: ``mlflow.tracking.client.MlflowClient.get_latest_versions`` is deprecated since 2.9.0. Model registry stages will be removed in a future major release. To learn more about the deprecation of model registry stages, see our migration guide here: https://mlflow.org/docs/latest/model-registry.html#migrating-from-stages
+[2025-05-31T23:57:45.106+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/decorators/base.py", line 241, in execute
+    return_value = super().execute(context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/prediccion_modelo_produccion_dag.py", line 46, in predecir
+    predicciones = model.predict(nuevos_datos)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sklearn/ensemble/_forest.py", line 984, in predict
+    X = self._validate_X_predict(X)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sklearn/ensemble/_forest.py", line 599, in _validate_X_predict
+    X = self._validate_data(X, dtype=DTYPE, accept_sparse="csr", reset=False)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sklearn/base.py", line 580, in _validate_data
+    self._check_feature_names(X, reset=reset)
+  File "/home/airflow/.local/lib/python3.8/site-packages/sklearn/base.py", line 507, in _check_feature_names
+    raise ValueError(message)
+ValueError: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- Motor
+Feature names seen at fit time, yet now missing:
+- motor
+
+[2025-05-31T23:57:45.124+0000] {taskinstance.py:1138} INFO - Marking task as UP_FOR_RETRY. dag_id=prediccion_modelo_produccion_dag, task_id=predecir, execution_date=20250530T220000, start_date=20250531T235742, end_date=20250531T235745
+[2025-05-31T23:57:45.141+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 5 for task predecir (The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- Motor
+Feature names seen at fit time, yet now missing:
+- motor
+; 452)
+[2025-05-31T23:57:45.185+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2025-05-31T23:57:45.213+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-06-01T16:52:11.539+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: prediccion_modelo_produccion_dag.predecir scheduled__2025-05-30T22:00:00+00:00 [queued]>
+[2025-06-01T16:52:11.557+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: prediccion_modelo_produccion_dag.predecir scheduled__2025-05-30T22:00:00+00:00 [queued]>
+[2025-06-01T16:52:11.558+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2025-06-01T16:52:11.579+0000] {taskinstance.py:2191} INFO - Executing <Task(_PythonDecoratedOperator): predecir> on 2025-05-30 22:00:00+00:00
+[2025-06-01T16:52:11.585+0000] {standard_task_runner.py:60} INFO - Started process 1145 to run task
+[2025-06-01T16:52:11.590+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'prediccion_modelo_produccion_dag', 'predecir', 'scheduled__2025-05-30T22:00:00+00:00', '--job-id', '18', '--raw', '--subdir', 'DAGS_FOLDER/prediccion_modelo_produccion_dag.py', '--cfg-path', '/tmp/tmpz8kb0txv']
+[2025-06-01T16:52:11.593+0000] {standard_task_runner.py:88} INFO - Job 18: Subtask predecir
+[2025-06-01T16:52:11.705+0000] {task_command.py:423} INFO - Running <TaskInstance: prediccion_modelo_produccion_dag.predecir scheduled__2025-05-30T22:00:00+00:00 [running]> on host f142218a01ee
+[2025-06-01T16:52:11.913+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='fede' AIRFLOW_CTX_DAG_ID='prediccion_modelo_produccion_dag' AIRFLOW_CTX_TASK_ID='predecir' AIRFLOW_CTX_EXECUTION_DATE='2025-05-30T22:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-05-30T22:00:00+00:00'
+[2025-06-01T16:52:15.557+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.8/site-packages/mlflow/store/artifact/utils/models.py:31 FutureWarning: ``mlflow.tracking.client.MlflowClient.get_latest_versions`` is deprecated since 2.9.0. Model registry stages will be removed in a future major release. To learn more about the deprecation of model registry stages, see our migration guide here: https://mlflow.org/docs/latest/model-registry.html#migrating-from-stages
+[2025-06-01T16:52:16.965+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/decorators/base.py", line 241, in execute
+    return_value = super().execute(context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/prediccion_modelo_produccion_dag.py", line 38, in predecir
+    model = mlflow.sklearn.load_model(f"models:/{model_name}/{stage}")
+  File "/home/airflow/.local/lib/python3.8/site-packages/mlflow/sklearn/__init__.py", line 633, in load_model
+    local_model_path = _download_artifact_from_uri(artifact_uri=model_uri, output_path=dst_path)
+  File "/home/airflow/.local/lib/python3.8/site-packages/mlflow/tracking/artifact_utils.py", line 111, in _download_artifact_from_uri
+    return repo.download_artifacts(
+  File "/home/airflow/.local/lib/python3.8/site-packages/mlflow/store/artifact/models_artifact_repo.py", line 200, in download_artifacts
+    model_path = self.repo.download_artifacts(artifact_path, dst_path)
+  File "/home/airflow/.local/lib/python3.8/site-packages/mlflow/store/artifact/local_artifact_repo.py", line 91, in download_artifacts
+    raise OSError(f"No such file or directory: '{local_artifact_path}'")
+OSError: No such file or directory: '/mlflow/mlruns/1/dab4617aae4a4ed38fe82b17b25adb9c/artifacts/modelo/.'
+[2025-06-01T16:52:17.015+0000] {taskinstance.py:1138} INFO - Marking task as UP_FOR_RETRY. dag_id=prediccion_modelo_produccion_dag, task_id=predecir, execution_date=20250530T220000, start_date=20250601T165211, end_date=20250601T165217
+[2025-06-01T16:52:17.050+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 18 for task predecir (No such file or directory: '/mlflow/mlruns/1/dab4617aae4a4ed38fe82b17b25adb9c/artifacts/modelo/.'; 1145)
+[2025-06-01T16:52:17.096+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2025-06-01T16:52:17.134+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check
