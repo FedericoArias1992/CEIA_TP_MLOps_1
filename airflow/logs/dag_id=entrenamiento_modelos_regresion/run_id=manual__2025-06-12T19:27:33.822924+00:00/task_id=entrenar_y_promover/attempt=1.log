@@ -1,0 +1,62 @@
+[2025-06-12T19:27:38.883+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: entrenamiento_modelos_regresion.entrenar_y_promover manual__2025-06-12T19:27:33.822924+00:00 [queued]>
+[2025-06-12T19:27:38.908+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: entrenamiento_modelos_regresion.entrenar_y_promover manual__2025-06-12T19:27:33.822924+00:00 [queued]>
+[2025-06-12T19:27:38.909+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2025-06-12T19:27:38.949+0000] {taskinstance.py:2191} INFO - Executing <Task(_PythonDecoratedOperator): entrenar_y_promover> on 2025-06-12 19:27:33.822924+00:00
+[2025-06-12T19:27:38.963+0000] {standard_task_runner.py:60} INFO - Started process 242 to run task
+[2025-06-12T19:27:38.974+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'entrenamiento_modelos_regresion', 'entrenar_y_promover', 'manual__2025-06-12T19:27:33.822924+00:00', '--job-id', '89', '--raw', '--subdir', 'DAGS_FOLDER/entrenamiento_modelos_regresion_dag.py', '--cfg-path', '/tmp/tmpw4l_s7d0']
+[2025-06-12T19:27:38.981+0000] {standard_task_runner.py:88} INFO - Job 89: Subtask entrenar_y_promover
+[2025-06-12T19:27:39.197+0000] {task_command.py:423} INFO - Running <TaskInstance: entrenamiento_modelos_regresion.entrenar_y_promover manual__2025-06-12T19:27:33.822924+00:00 [running]> on host 24edc8b790cf
+[2025-06-12T19:27:39.543+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='fede' AIRFLOW_CTX_DAG_ID='entrenamiento_modelos_regresion' AIRFLOW_CTX_TASK_ID='entrenar_y_promover' AIRFLOW_CTX_EXECUTION_DATE='2025-06-12T19:27:33.822924+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-06-12T19:27:33.822924+00:00'
+[2025-06-12T19:27:42.533+0000] {logging_mixin.py:188} WARNING - /opt/***/dags/entrenamiento_modelos_regresion_dag.py:55 SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+[2025-06-12T19:27:42.549+0000] {logging_mixin.py:188} WARNING - /opt/***/dags/entrenamiento_modelos_regresion_dag.py:58 SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+[2025-06-12T19:27:42.552+0000] {logging_mixin.py:188} WARNING - /opt/***/dags/entrenamiento_modelos_regresion_dag.py:60 SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+[2025-06-12T19:27:42.553+0000] {logging_mixin.py:188} WARNING - /opt/***/dags/entrenamiento_modelos_regresion_dag.py:61 SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+[2025-06-12T19:27:43.976+0000] {logging_mixin.py:188} WARNING - 2025/06/12 19:27:43 WARNING mlflow.utils.git_utils: Failed to import Git (the Git executable is probably not on your PATH), so Git SHA is not available. Error: Failed to initialize: Bad git executable.
+The git executable must be specified in one of the following ways:
+    - be included in your $PATH
+    - be set via $GIT_PYTHON_GIT_EXECUTABLE
+    - explicitly set via git.refresh(<full-path-to-git-executable>)
+
+All git commands will error until this is rectified.
+
+This initial message can be silenced or aggravated in the future by setting the
+$GIT_PYTHON_REFRESH environment variable. Use one of the following values:
+    - quiet|q|silence|s|silent|none|n|0: for no message or exception
+    - warn|w|warning|log|l|1: for a warning message (logging level CRITICAL, displayed by default)
+    - error|e|exception|raise|r|2: for a raised exception
+
+Example:
+    export GIT_PYTHON_REFRESH=quiet
+[2025-06-12T19:27:51.144+0000] {logging_mixin.py:188} WARNING - 2025/06/12 19:27:51 WARNING mlflow.models.model: Model logged without a signature and input example. Please set `input_example` parameter when logging the model to auto infer the model signature.
+[2025-06-12T19:27:52.194+0000] {logging_mixin.py:188} WARNING - 2025/06/12 19:27:52 INFO mlflow.tracking._tracking_service.client: 🏃 View run RandomForest at: http://mlflow:5000/#/experiments/1/runs/89e1c792b6594a06a2ee7069090b190d.
+[2025-06-12T19:27:52.195+0000] {logging_mixin.py:188} WARNING - 2025/06/12 19:27:52 INFO mlflow.tracking._tracking_service.client: 🧪 View experiment at: http://mlflow:5000/#/experiments/1.
+[2025-06-12T19:27:56.898+0000] {logging_mixin.py:188} WARNING - 2025/06/12 19:27:56 WARNING mlflow.models.model: Model logged without a signature and input example. Please set `input_example` parameter when logging the model to auto infer the model signature.
+[2025-06-12T19:27:57.043+0000] {logging_mixin.py:188} WARNING - 2025/06/12 19:27:57 INFO mlflow.tracking._tracking_service.client: 🏃 View run CatBoost at: http://mlflow:5000/#/experiments/1/runs/478bb55aa5314deb86bee68a9371657c.
+[2025-06-12T19:27:57.044+0000] {logging_mixin.py:188} WARNING - 2025/06/12 19:27:57 INFO mlflow.tracking._tracking_service.client: 🧪 View experiment at: http://mlflow:5000/#/experiments/1.
+[2025-06-12T19:28:01.445+0000] {logging_mixin.py:188} WARNING - 2025/06/12 19:28:01 WARNING mlflow.models.model: Model logged without a signature and input example. Please set `input_example` parameter when logging the model to auto infer the model signature.
+[2025-06-12T19:28:01.515+0000] {logging_mixin.py:188} WARNING - 2025/06/12 19:28:01 INFO mlflow.tracking._tracking_service.client: 🏃 View run SVR at: http://mlflow:5000/#/experiments/1/runs/50f7729c195d4d9f8aa669ac9fe43350.
+[2025-06-12T19:28:01.516+0000] {logging_mixin.py:188} WARNING - 2025/06/12 19:28:01 INFO mlflow.tracking._tracking_service.client: 🧪 View experiment at: http://mlflow:5000/#/experiments/1.
+[2025-06-12T19:28:01.705+0000] {logging_mixin.py:188} WARNING - Successfully registered model 'mejor_modelo_orquestado'.
+[2025-06-12T19:28:01.867+0000] {logging_mixin.py:188} WARNING - 2025/06/12 19:28:01 INFO mlflow.store.model_registry.abstract_store: Waiting up to 300 seconds for model version to finish creation. Model name: mejor_modelo_orquestado, version 1
+[2025-06-12T19:28:01.868+0000] {logging_mixin.py:188} WARNING - Created version '1' of model 'mejor_modelo_orquestado'.
+[2025-06-12T19:28:01.871+0000] {logging_mixin.py:188} WARNING - /opt/***/dags/entrenamiento_modelos_regresion_dag.py:98 FutureWarning: ``mlflow.tracking.client.MlflowClient.get_latest_versions`` is deprecated since 2.9.0. Model registry stages will be removed in a future major release. To learn more about the deprecation of model registry stages, see our migration guide here: https://mlflow.org/docs/latest/model-registry.html#migrating-from-stages
+[2025-06-12T19:28:01.903+0000] {logging_mixin.py:188} WARNING - /opt/***/dags/entrenamiento_modelos_regresion_dag.py:102 FutureWarning: ``mlflow.tracking.client.MlflowClient.transition_model_version_stage`` is deprecated since 2.9.0. Model registry stages will be removed in a future major release. To learn more about the deprecation of model registry stages, see our migration guide here: https://mlflow.org/docs/latest/model-registry.html#migrating-from-stages
+[2025-06-12T19:28:01.965+0000] {python.py:201} INFO - Done. Returned value was: None
+[2025-06-12T19:28:02.027+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=entrenamiento_modelos_regresion, task_id=entrenar_y_promover, execution_date=20250612T192733, start_date=20250612T192738, end_date=20250612T192802
+[2025-06-12T19:28:01.762+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-06-12T19:28:01.846+0000] {taskinstance.py:3280} INFO - 1 downstream tasks scheduled from follow-on schedule check

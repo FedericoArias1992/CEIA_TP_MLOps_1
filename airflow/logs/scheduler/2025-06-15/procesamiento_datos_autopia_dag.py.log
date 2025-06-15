@@ -1,0 +1,864 @@
+[2025-06-15T11:40:53.783+0000] {processor.py:161} INFO - Started process (PID=191) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T11:40:53.786+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T11:40:53.791+0000] {logging_mixin.py:188} INFO - [2025-06-15T11:40:53.790+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T11:40:53.815+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T11:40:53.887+0000] {logging_mixin.py:188} INFO - [2025-06-15T11:40:53.886+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T11:40:53.935+0000] {logging_mixin.py:188} INFO - [2025-06-15T11:40:53.932+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T11:40:54.008+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.237 seconds
+[2025-06-15T11:41:24.579+0000] {processor.py:161} INFO - Started process (PID=354) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T11:41:24.600+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T11:41:24.605+0000] {logging_mixin.py:188} INFO - [2025-06-15T11:41:24.602+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T11:41:24.635+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T11:41:24.736+0000] {logging_mixin.py:188} INFO - [2025-06-15T11:41:24.735+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T11:41:24.809+0000] {logging_mixin.py:188} INFO - [2025-06-15T11:41:24.808+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T11:41:24.939+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.376 seconds
+[2025-06-15T11:41:55.888+0000] {processor.py:161} INFO - Started process (PID=471) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T11:41:55.890+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T11:41:55.892+0000] {logging_mixin.py:188} INFO - [2025-06-15T11:41:55.891+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T11:41:55.916+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T11:41:56.646+0000] {logging_mixin.py:188} INFO - [2025-06-15T11:41:56.644+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T11:41:56.752+0000] {logging_mixin.py:188} INFO - [2025-06-15T11:41:56.750+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T11:41:56.863+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.982 seconds
+[2025-06-15T11:42:27.213+0000] {processor.py:161} INFO - Started process (PID=492) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T11:42:27.219+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T11:42:27.222+0000] {logging_mixin.py:188} INFO - [2025-06-15T11:42:27.221+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T11:42:27.256+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T11:42:27.328+0000] {logging_mixin.py:188} INFO - [2025-06-15T11:42:27.327+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T11:42:27.374+0000] {logging_mixin.py:188} INFO - [2025-06-15T11:42:27.374+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T11:42:27.449+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.261 seconds
+[2025-06-15T11:42:57.671+0000] {processor.py:161} INFO - Started process (PID=529) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T11:42:57.673+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T11:42:57.674+0000] {logging_mixin.py:188} INFO - [2025-06-15T11:42:57.673+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T11:42:57.686+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T11:42:57.723+0000] {logging_mixin.py:188} INFO - [2025-06-15T11:42:57.723+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T11:42:57.739+0000] {logging_mixin.py:188} INFO - [2025-06-15T11:42:57.739+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T11:42:57.770+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.104 seconds
+[2025-06-15T11:43:28.229+0000] {processor.py:161} INFO - Started process (PID=550) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T11:43:28.236+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T11:43:28.240+0000] {logging_mixin.py:188} INFO - [2025-06-15T11:43:28.239+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T11:43:28.262+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T11:43:28.310+0000] {logging_mixin.py:188} INFO - [2025-06-15T11:43:28.309+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T11:43:28.327+0000] {logging_mixin.py:188} INFO - [2025-06-15T11:43:28.327+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T11:43:28.365+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.156 seconds
+[2025-06-15T11:43:58.636+0000] {processor.py:161} INFO - Started process (PID=586) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T11:43:58.639+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T11:43:58.640+0000] {logging_mixin.py:188} INFO - [2025-06-15T11:43:58.640+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T11:43:58.653+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T11:43:58.692+0000] {logging_mixin.py:188} INFO - [2025-06-15T11:43:58.691+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T11:43:58.717+0000] {logging_mixin.py:188} INFO - [2025-06-15T11:43:58.717+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T11:43:58.758+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.126 seconds
+[2025-06-15T11:59:36.538+0000] {processor.py:161} INFO - Started process (PID=190) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T11:59:36.542+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T11:59:36.544+0000] {logging_mixin.py:188} INFO - [2025-06-15T11:59:36.543+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T11:59:36.564+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T11:59:36.786+0000] {logging_mixin.py:188} INFO - [2025-06-15T11:59:36.786+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T11:59:36.818+0000] {logging_mixin.py:188} INFO - [2025-06-15T11:59:36.818+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T11:59:36.869+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.338 seconds
+[2025-06-15T12:02:08.318+0000] {processor.py:161} INFO - Started process (PID=204) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:02:08.320+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T12:02:08.321+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:02:08.321+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:02:08.335+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:02:08.541+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:02:08.541+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T12:02:08.562+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:02:08.562+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T12:02:08.600+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.288 seconds
+[2025-06-15T12:02:38.816+0000] {processor.py:161} INFO - Started process (PID=219) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:02:38.822+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T12:02:38.827+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:02:38.825+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:02:38.878+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:02:38.949+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:02:38.948+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T12:02:38.977+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:02:38.976+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T12:02:39.009+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.212 seconds
+[2025-06-15T12:03:09.547+0000] {processor.py:161} INFO - Started process (PID=255) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:03:09.550+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T12:03:09.552+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:03:09.551+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:03:09.566+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:03:09.607+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:03:09.607+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T12:03:09.626+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:03:09.626+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T12:03:09.652+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.115 seconds
+[2025-06-15T12:03:40.750+0000] {processor.py:161} INFO - Started process (PID=276) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:03:40.755+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T12:03:40.759+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:03:40.757+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:03:40.807+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:03:40.926+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:03:40.925+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T12:03:40.970+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:03:40.969+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T12:03:41.008+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.273 seconds
+[2025-06-15T12:04:11.348+0000] {processor.py:161} INFO - Started process (PID=312) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:04:11.354+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T12:04:11.358+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:04:11.357+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:04:11.405+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:04:11.535+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:04:11.534+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T12:04:11.589+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:04:11.589+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T12:04:11.664+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.340 seconds
+[2025-06-15T12:04:42.238+0000] {processor.py:161} INFO - Started process (PID=339) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:04:42.265+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T12:04:42.309+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:04:42.309+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:04:42.405+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:04:42.474+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:04:42.474+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T12:04:42.594+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:04:42.594+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T12:04:42.665+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.436 seconds
+[2025-06-15T12:05:13.990+0000] {processor.py:161} INFO - Started process (PID=404) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:05:13.993+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T12:05:14.003+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:05:13.996+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:05:14.246+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:05:14.495+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:05:14.495+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T12:05:14.537+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:05:14.537+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T12:05:14.605+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.630 seconds
+[2025-06-15T12:09:20.119+0000] {processor.py:161} INFO - Started process (PID=190) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:09:20.121+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T12:09:20.122+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:09:20.122+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:09:20.144+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:09:20.358+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:09:20.358+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T12:09:20.387+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:09:20.387+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T12:09:20.431+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.317 seconds
+[2025-06-15T12:09:50.561+0000] {processor.py:161} INFO - Started process (PID=205) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:09:50.565+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T12:09:50.567+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:09:50.566+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:09:50.595+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:09:50.678+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:09:50.677+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T12:09:50.704+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:09:50.704+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T12:09:50.755+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.206 seconds
+[2025-06-15T12:10:20.912+0000] {processor.py:161} INFO - Started process (PID=280) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:10:20.914+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T12:10:20.917+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:10:20.916+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:10:20.964+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:10:19.945+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:10:19.945+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T12:10:20.093+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:10:20.093+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T12:10:20.174+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.779 seconds
+[2025-06-15T12:10:50.261+0000] {processor.py:161} INFO - Started process (PID=447) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:10:50.273+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T12:10:50.275+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:10:50.274+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:10:50.299+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:10:50.358+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:10:50.357+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T12:10:50.390+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:10:50.389+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T12:10:50.434+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.187 seconds
+[2025-06-15T12:17:07.922+0000] {processor.py:161} INFO - Started process (PID=522) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:17:07.932+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T12:17:08.064+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:17:07.960+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:17:07.600+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:17:07.835+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:17:07.835+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T12:17:07.929+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:17:07.928+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T12:17:09.055+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 2.461 seconds
+[2025-06-15T12:17:09.387+0000] {processor.py:161} INFO - Started process (PID=537) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:17:09.401+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T12:17:09.404+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:17:09.403+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:17:09.477+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:17:09.991+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:17:09.990+0000] {taskinstance.py:2700} ERROR - {'DAG Id': 'procesamiento_datos_autopia_dag', 'Task Id': 'trigger_entrenamiento', 'Run Id': 'manual__2025-06-15T12:04:22.072338+00:00', 'Hostname': '36fee6ca92d5'}
+[2025-06-15T12:17:10.265+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:17:10.264+0000] {taskinstance.py:1138} INFO - Marking task as FAILED. dag_id=procesamiento_datos_autopia_dag, task_id=trigger_entrenamiento, execution_date=20250615T120422, start_date=20250615T121033, end_date=20250615T121710
+[2025-06-15T12:17:10.784+0000] {processor.py:791} INFO - Executed failure callback for <TaskInstance: procesamiento_datos_autopia_dag.trigger_entrenamiento manual__2025-06-15T12:04:22.072338+00:00 [failed]> in state failed
+[2025-06-15T12:17:11.112+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:17:11.111+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T12:17:11.226+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:17:11.225+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T12:17:11.359+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 2.007 seconds
+[2025-06-15T12:17:41.800+0000] {processor.py:161} INFO - Started process (PID=562) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:17:41.802+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T12:17:41.803+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:17:41.803+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:17:41.818+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:17:41.860+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:17:41.859+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T12:17:41.880+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:17:41.879+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T12:17:42.234+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.439 seconds
+[2025-06-15T12:18:12.946+0000] {processor.py:161} INFO - Started process (PID=598) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:18:12.970+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T12:18:12.972+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:18:12.971+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:18:12.988+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:18:13.041+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:18:13.040+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T12:18:13.083+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:18:13.082+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T12:18:13.122+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.185 seconds
+[2025-06-15T12:18:43.204+0000] {processor.py:161} INFO - Started process (PID=619) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:18:43.205+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T12:18:43.207+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:18:43.207+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:18:43.220+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:18:43.254+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:18:43.254+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T12:18:43.268+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:18:43.268+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T12:18:43.385+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.188 seconds
+[2025-06-15T12:19:14.038+0000] {processor.py:161} INFO - Started process (PID=655) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:19:14.043+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T12:19:14.044+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:19:14.044+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:19:14.144+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:19:14.307+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:19:14.306+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T12:19:14.412+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:19:14.401+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T12:19:14.523+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.519 seconds
+[2025-06-15T12:19:44.752+0000] {processor.py:161} INFO - Started process (PID=676) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:19:44.754+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T12:19:44.755+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:19:44.754+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:19:44.765+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:19:44.793+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:19:44.793+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T12:19:44.806+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:19:44.806+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T12:19:44.829+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.081 seconds
+[2025-06-15T12:20:15.180+0000] {processor.py:161} INFO - Started process (PID=712) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:20:15.185+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T12:20:15.186+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:20:15.186+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:20:15.196+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:20:15.225+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:20:15.225+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T12:20:15.240+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:20:15.240+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T12:20:15.265+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.089 seconds
+[2025-06-15T12:20:45.564+0000] {processor.py:161} INFO - Started process (PID=733) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:20:45.567+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T12:20:45.568+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:20:45.568+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:20:45.579+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:20:45.619+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:20:45.619+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T12:20:45.635+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:20:45.634+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T12:20:45.663+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.106 seconds
+[2025-06-15T12:21:15.777+0000] {processor.py:161} INFO - Started process (PID=769) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:21:15.778+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T12:21:15.779+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:21:15.779+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:21:15.792+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:21:15.826+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:21:15.826+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T12:21:15.839+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:21:15.839+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T12:21:15.868+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.095 seconds
+[2025-06-15T12:22:57.076+0000] {processor.py:161} INFO - Started process (PID=190) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:22:57.082+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T12:22:57.084+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:22:57.083+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:22:57.100+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:22:57.262+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:22:57.262+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T12:22:57.278+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:22:57.278+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T12:22:57.311+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.241 seconds
+[2025-06-15T12:23:28.100+0000] {processor.py:161} INFO - Started process (PID=210) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:23:28.102+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T12:23:28.102+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:23:28.102+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:23:28.113+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:23:28.152+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:23:28.152+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T12:23:28.170+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:23:28.169+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T12:23:28.199+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.103 seconds
+[2025-06-15T12:23:58.296+0000] {processor.py:161} INFO - Started process (PID=242) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:23:58.297+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T12:23:58.298+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:23:58.298+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:23:58.310+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:23:58.339+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:23:58.339+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T12:23:58.353+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:23:58.353+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T12:23:58.380+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.089 seconds
+[2025-06-15T12:24:28.430+0000] {processor.py:161} INFO - Started process (PID=263) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:24:28.437+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T12:24:28.439+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:24:28.438+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:24:28.466+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:24:28.512+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:24:28.512+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T12:24:28.534+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:24:28.534+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T12:24:28.567+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.142 seconds
+[2025-06-15T12:24:58.600+0000] {processor.py:161} INFO - Started process (PID=299) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:24:58.601+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T12:24:58.602+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:24:58.601+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:24:58.611+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:24:58.640+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:24:58.640+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T12:24:58.652+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:24:58.652+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T12:24:58.682+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.086 seconds
+[2025-06-15T12:25:28.749+0000] {processor.py:161} INFO - Started process (PID=320) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:25:28.750+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T12:25:28.751+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:25:28.751+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:25:28.761+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:25:28.792+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:25:28.792+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T12:25:28.806+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:25:28.805+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T12:25:28.832+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.088 seconds
+[2025-06-15T12:25:58.964+0000] {processor.py:161} INFO - Started process (PID=357) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:25:58.965+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T12:25:58.965+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:25:58.965+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:25:58.975+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:25:59.004+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:25:59.004+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T12:25:59.017+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:25:59.017+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T12:25:59.042+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.083 seconds
+[2025-06-15T12:27:59.760+0000] {processor.py:161} INFO - Started process (PID=190) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:27:59.765+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T12:27:59.767+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:27:59.766+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:27:59.786+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:27:59.971+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:27:59.971+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T12:27:59.989+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:27:59.989+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T12:28:00.031+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.277 seconds
+[2025-06-15T12:28:30.834+0000] {processor.py:161} INFO - Started process (PID=210) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:28:30.835+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T12:28:30.836+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:28:30.836+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:28:30.849+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:28:30.885+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:28:30.884+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T12:28:30.899+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:28:30.899+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T12:28:30.929+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.099 seconds
+[2025-06-15T12:29:01.555+0000] {processor.py:161} INFO - Started process (PID=246) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:29:01.556+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T12:29:01.557+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:29:01.557+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:29:01.571+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:29:01.609+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:29:01.608+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T12:29:01.625+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:29:01.625+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T12:29:01.655+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.104 seconds
+[2025-06-15T12:29:32.356+0000] {processor.py:161} INFO - Started process (PID=267) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:29:32.358+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T12:29:32.359+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:29:32.358+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:29:32.372+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:29:32.407+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:29:32.406+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T12:29:32.427+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:29:32.427+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T12:29:32.460+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.108 seconds
+[2025-06-15T12:30:03.065+0000] {processor.py:161} INFO - Started process (PID=303) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:30:03.067+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T12:30:03.068+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:30:03.067+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:30:03.078+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:30:03.117+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:30:03.116+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T12:30:03.136+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:30:03.136+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T12:30:03.160+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.098 seconds
+[2025-06-15T12:30:33.819+0000] {processor.py:161} INFO - Started process (PID=324) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:30:33.822+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T12:30:33.823+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:30:33.823+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:30:33.835+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:30:33.873+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:30:33.872+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T12:30:33.889+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:30:33.889+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T12:30:33.925+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.111 seconds
+[2025-06-15T12:31:04.508+0000] {processor.py:161} INFO - Started process (PID=360) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:31:04.511+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T12:31:04.512+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:31:04.511+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:31:04.524+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:31:04.570+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:31:04.570+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T12:31:04.596+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:31:04.595+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T12:31:04.632+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.129 seconds
+[2025-06-15T12:31:35.323+0000] {processor.py:161} INFO - Started process (PID=381) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:31:35.324+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T12:31:35.325+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:31:35.325+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:31:35.335+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:31:35.365+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:31:35.365+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T12:31:35.378+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:31:35.378+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T12:31:35.399+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.081 seconds
+[2025-06-15T12:32:06.052+0000] {processor.py:161} INFO - Started process (PID=417) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:32:06.053+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T12:32:06.054+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:32:06.054+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:32:06.065+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:32:06.095+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:32:06.095+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T12:32:06.108+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:32:06.108+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T12:32:06.134+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.087 seconds
+[2025-06-15T12:32:36.306+0000] {processor.py:161} INFO - Started process (PID=435) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:32:36.312+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T12:32:36.313+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:32:36.312+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:32:36.326+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:32:36.354+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:32:36.354+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T12:32:36.366+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:32:36.366+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T12:32:36.387+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.086 seconds
+[2025-06-15T12:34:28.349+0000] {processor.py:161} INFO - Started process (PID=190) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:34:28.351+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T12:34:28.352+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:34:28.352+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:34:28.366+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:34:28.513+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:34:28.513+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T12:34:28.532+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:34:28.531+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T12:34:28.562+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.219 seconds
+[2025-06-15T12:34:58.718+0000] {processor.py:161} INFO - Started process (PID=207) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:34:58.723+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T12:34:58.723+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:34:58.723+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:34:58.735+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:34:58.766+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:34:58.766+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T12:34:58.780+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:34:58.780+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T12:34:58.811+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.099 seconds
+[2025-06-15T12:35:28.859+0000] {processor.py:161} INFO - Started process (PID=243) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:35:28.861+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T12:35:28.862+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:35:28.861+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:35:28.871+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:35:28.899+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:35:28.899+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T12:35:28.912+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:35:28.912+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T12:35:28.935+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.080 seconds
+[2025-06-15T12:35:59.024+0000] {processor.py:161} INFO - Started process (PID=262) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:35:59.025+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T12:35:59.026+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:35:59.026+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:35:59.044+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:35:59.084+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:35:59.083+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T12:35:59.102+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:35:59.102+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T12:35:59.134+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.117 seconds
+[2025-06-15T12:36:29.711+0000] {processor.py:161} INFO - Started process (PID=298) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:36:29.713+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T12:36:29.714+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:36:29.713+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:36:29.724+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:36:29.757+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:36:29.756+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T12:36:29.777+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:36:29.777+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T12:36:29.817+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.111 seconds
+[2025-06-15T12:44:58.720+0000] {processor.py:161} INFO - Started process (PID=189) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:44:58.722+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T12:44:58.724+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:44:58.723+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:44:58.751+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:44:59.045+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:44:59.044+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T12:44:59.071+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:44:59.070+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T12:44:59.122+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.411 seconds
+[2025-06-15T12:45:29.333+0000] {processor.py:161} INFO - Started process (PID=207) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:45:29.336+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T12:45:29.337+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:45:29.336+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:45:29.348+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:45:29.377+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:45:29.377+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T12:45:29.391+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:45:29.391+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T12:45:29.412+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.082 seconds
+[2025-06-15T12:45:59.914+0000] {processor.py:161} INFO - Started process (PID=241) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:45:59.918+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T12:45:59.920+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:45:59.919+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:45:59.948+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:46:00.031+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:46:00.031+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T12:46:00.058+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:46:00.058+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T12:46:00.119+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.215 seconds
+[2025-06-15T12:46:30.681+0000] {processor.py:161} INFO - Started process (PID=262) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:46:30.684+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T12:46:30.687+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:46:30.686+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:46:30.718+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:46:30.781+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:46:30.780+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T12:46:30.832+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:46:30.832+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T12:46:30.879+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.213 seconds
+[2025-06-15T12:47:01.766+0000] {processor.py:161} INFO - Started process (PID=299) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:47:01.769+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T12:47:01.772+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:47:01.770+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:47:01.806+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:47:01.882+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:47:01.881+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T12:47:01.937+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:47:01.936+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T12:47:02.005+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.250 seconds
+[2025-06-15T12:47:32.499+0000] {processor.py:161} INFO - Started process (PID=320) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:47:32.501+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T12:47:32.504+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:47:32.503+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:47:32.521+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:47:32.592+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:47:32.591+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T12:47:32.693+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:47:32.693+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T12:47:32.789+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.300 seconds
+[2025-06-15T12:48:02.936+0000] {processor.py:161} INFO - Started process (PID=356) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:48:02.938+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T12:48:02.939+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:48:02.939+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:48:02.953+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:48:02.995+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:48:02.994+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T12:48:03.021+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:48:03.020+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T12:48:03.067+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.137 seconds
+[2025-06-15T12:48:33.585+0000] {processor.py:161} INFO - Started process (PID=377) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:48:33.589+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T12:48:33.591+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:48:33.590+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:48:33.635+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:48:33.733+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:48:33.733+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T12:48:33.828+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:48:33.827+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T12:48:33.920+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.350 seconds
+[2025-06-15T12:49:04.765+0000] {processor.py:161} INFO - Started process (PID=413) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:49:04.767+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T12:49:04.769+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:49:04.769+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:49:04.788+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:49:04.849+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:49:04.849+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T12:49:04.870+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:49:04.870+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T12:49:04.904+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.144 seconds
+[2025-06-15T12:49:35.564+0000] {processor.py:161} INFO - Started process (PID=434) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:49:35.649+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T12:49:35.651+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:49:35.651+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:49:35.675+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:49:37.138+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:49:37.138+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T12:49:37.153+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:49:37.153+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T12:49:37.760+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 2.201 seconds
+[2025-06-15T12:50:08.464+0000] {processor.py:161} INFO - Started process (PID=470) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:50:08.469+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T12:50:08.472+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:50:08.470+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:50:08.504+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:50:08.586+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:50:08.585+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T12:50:08.628+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:50:08.627+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T12:50:08.673+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.223 seconds
+[2025-06-15T12:50:38.920+0000] {processor.py:161} INFO - Started process (PID=491) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:50:39.920+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T12:50:39.925+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:50:39.923+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:50:39.955+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:50:40.298+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:50:40.297+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T12:50:41.159+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:50:41.159+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T12:50:41.366+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 2.450 seconds
+[2025-06-15T12:51:12.011+0000] {processor.py:161} INFO - Started process (PID=527) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:51:12.013+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T12:51:12.015+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:51:12.014+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:51:13.727+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:51:13.855+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:51:13.855+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T12:51:13.882+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:51:13.882+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T12:51:13.933+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 1.927 seconds
+[2025-06-15T12:51:44.189+0000] {processor.py:161} INFO - Started process (PID=548) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:51:45.704+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T12:51:45.706+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:51:45.706+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:51:46.203+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:51:46.816+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:51:46.815+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T12:51:46.852+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:51:46.852+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T12:51:46.893+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 2.710 seconds
+[2025-06-15T12:53:15.609+0000] {processor.py:161} INFO - Started process (PID=190) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:53:15.611+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T12:53:15.613+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:53:15.612+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:53:15.625+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:53:15.756+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:53:15.755+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T12:53:15.774+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:53:15.774+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T12:53:15.802+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.199 seconds
+[2025-06-15T12:53:46.713+0000] {processor.py:161} INFO - Started process (PID=207) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:53:46.715+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T12:53:46.716+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:53:46.716+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:53:46.728+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:53:46.772+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:53:46.772+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T12:53:46.805+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:53:46.805+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T12:53:46.829+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.122 seconds
+[2025-06-15T12:54:17.563+0000] {processor.py:161} INFO - Started process (PID=243) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:54:17.568+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T12:54:17.569+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:54:17.568+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:54:17.579+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:54:17.615+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:54:17.614+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T12:54:17.629+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:54:17.629+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T12:54:17.658+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.102 seconds
+[2025-06-15T12:54:47.832+0000] {processor.py:161} INFO - Started process (PID=279) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:54:47.839+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T12:54:47.841+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:54:47.841+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:54:47.859+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:54:47.897+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:54:47.896+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T12:54:47.914+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:54:47.913+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T12:54:47.945+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.118 seconds
+[2025-06-15T12:55:18.473+0000] {processor.py:161} INFO - Started process (PID=300) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:55:18.475+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T12:55:18.476+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:55:18.476+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:55:18.486+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:55:18.519+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:55:18.518+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T12:55:18.532+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:55:18.532+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T12:55:18.554+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.085 seconds
+[2025-06-15T12:55:48.645+0000] {processor.py:161} INFO - Started process (PID=336) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:55:48.653+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T12:55:48.654+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:55:48.654+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:55:48.665+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:55:48.728+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:55:48.727+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T12:55:48.748+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:55:48.747+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T12:55:48.778+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.139 seconds
+[2025-06-15T12:56:18.936+0000] {processor.py:161} INFO - Started process (PID=357) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:56:18.944+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T12:56:18.945+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:56:18.945+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:56:18.957+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:56:18.989+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:56:18.988+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T12:56:19.002+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:56:19.002+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T12:56:19.031+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.100 seconds
+[2025-06-15T12:56:49.131+0000] {processor.py:161} INFO - Started process (PID=393) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:56:49.133+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T12:56:49.134+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:56:49.133+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:56:49.146+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:56:49.180+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:56:49.180+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T12:56:49.195+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:56:49.194+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T12:56:49.224+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.100 seconds
+[2025-06-15T12:57:19.722+0000] {processor.py:161} INFO - Started process (PID=414) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:57:19.727+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T12:57:19.729+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:57:19.728+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:57:19.752+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:57:19.818+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:57:19.817+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T12:57:19.853+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:57:19.853+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T12:57:19.923+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.209 seconds
+[2025-06-15T12:57:50.043+0000] {processor.py:161} INFO - Started process (PID=450) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:57:50.046+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T12:57:50.048+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:57:50.047+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:57:50.061+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:57:50.094+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:57:50.094+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T12:57:50.110+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:57:50.109+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T12:57:50.134+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.099 seconds
+[2025-06-15T12:58:20.715+0000] {processor.py:161} INFO - Started process (PID=471) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:58:20.717+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T12:58:20.719+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:58:20.718+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:58:20.730+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:58:20.768+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:58:20.768+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T12:58:20.784+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:58:20.784+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T12:58:20.819+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.111 seconds
+[2025-06-15T12:58:51.141+0000] {processor.py:161} INFO - Started process (PID=508) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:58:51.146+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T12:58:51.149+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:58:51.148+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:58:51.171+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:58:51.216+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:58:51.215+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T12:58:51.243+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:58:51.242+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T12:58:51.281+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.148 seconds
+[2025-06-15T12:59:21.349+0000] {processor.py:161} INFO - Started process (PID=529) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:59:21.351+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T12:59:21.352+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:59:21.352+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:59:21.363+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:59:21.392+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:59:21.392+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T12:59:21.405+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:59:21.404+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T12:59:21.426+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.082 seconds
+[2025-06-15T12:59:51.691+0000] {processor.py:161} INFO - Started process (PID=566) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:59:51.695+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T12:59:51.697+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:59:51.696+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:59:51.708+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T12:59:51.742+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:59:51.741+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T12:59:51.754+0000] {logging_mixin.py:188} INFO - [2025-06-15T12:59:51.754+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T12:59:51.776+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.092 seconds
+[2025-06-15T13:00:22.215+0000] {processor.py:161} INFO - Started process (PID=587) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:00:22.220+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T13:00:22.221+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:00:22.221+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:00:22.232+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:00:22.272+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:00:22.271+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T13:00:22.287+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:00:22.287+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T13:00:22.317+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.107 seconds
+[2025-06-15T13:00:52.527+0000] {processor.py:161} INFO - Started process (PID=623) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:00:52.532+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T13:00:52.533+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:00:52.532+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:00:52.543+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:00:52.574+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:00:52.574+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T13:00:52.587+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:00:52.587+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T13:00:52.620+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.097 seconds
+[2025-06-15T13:01:22.745+0000] {processor.py:161} INFO - Started process (PID=644) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:01:22.747+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T13:01:22.748+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:01:22.748+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:01:22.763+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:01:22.794+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:01:22.794+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T13:01:22.807+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:01:22.807+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T13:01:22.833+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.093 seconds
+[2025-06-15T13:01:53.301+0000] {processor.py:161} INFO - Started process (PID=680) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:01:53.303+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T13:01:53.306+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:01:53.305+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:01:53.317+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:01:53.350+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:01:53.350+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T13:01:53.363+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:01:53.362+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T13:01:53.389+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.092 seconds
+[2025-06-15T13:02:23.883+0000] {processor.py:161} INFO - Started process (PID=701) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:02:23.885+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T13:02:23.886+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:02:23.886+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:02:23.900+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:02:23.935+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:02:23.934+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T13:02:23.949+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:02:23.948+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T13:02:23.973+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.094 seconds
+[2025-06-15T13:02:54.435+0000] {processor.py:161} INFO - Started process (PID=737) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:02:54.439+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T13:02:54.442+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:02:54.441+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:02:54.461+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:02:54.512+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:02:54.511+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T13:02:54.538+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:02:54.537+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T13:02:54.577+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.149 seconds
+[2025-06-15T13:03:25.122+0000] {processor.py:161} INFO - Started process (PID=758) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:03:25.129+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T13:03:25.140+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:03:25.138+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:03:25.178+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:03:25.266+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:03:25.266+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T13:03:25.321+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:03:25.321+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T13:03:25.387+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.279 seconds
+[2025-06-15T13:03:56.073+0000] {processor.py:161} INFO - Started process (PID=795) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:03:56.078+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T13:03:56.080+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:03:56.080+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:03:56.097+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:03:56.164+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:03:56.162+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T13:03:56.192+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:03:56.192+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T13:03:56.234+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.171 seconds
+[2025-06-15T13:04:26.699+0000] {processor.py:161} INFO - Started process (PID=814) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:04:27.009+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T13:04:27.013+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:04:27.012+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:04:27.566+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:04:30.873+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:04:30.872+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T13:04:34.582+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:04:34.582+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T13:04:36.053+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 9.362 seconds
+[2025-06-15T13:05:07.013+0000] {processor.py:161} INFO - Started process (PID=847) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:05:07.016+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T13:05:07.017+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:05:07.016+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:05:07.033+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:05:07.220+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:05:07.219+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T13:05:07.236+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:05:07.235+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T13:05:07.273+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.264 seconds
+[2025-06-15T13:05:37.518+0000] {processor.py:161} INFO - Started process (PID=868) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:05:37.523+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T13:05:37.524+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:05:37.524+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:05:37.545+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:05:37.609+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:05:37.609+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T13:05:37.627+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:05:37.627+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T13:05:37.653+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.140 seconds
+[2025-06-15T13:06:07.749+0000] {processor.py:161} INFO - Started process (PID=904) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:06:07.751+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T13:06:07.752+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:06:07.751+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:06:07.762+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:06:07.794+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:06:07.793+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T13:06:07.808+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:06:07.808+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T13:06:07.837+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.093 seconds
+[2025-06-15T13:06:37.902+0000] {processor.py:161} INFO - Started process (PID=925) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:06:37.907+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T13:06:37.908+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:06:37.908+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:06:37.919+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:06:37.948+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:06:37.948+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T13:06:37.962+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:06:37.962+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T13:06:37.988+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.092 seconds
+[2025-06-15T13:07:08.232+0000] {processor.py:161} INFO - Started process (PID=961) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:07:08.233+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T13:07:08.235+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:07:08.234+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:07:08.247+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:07:08.277+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:07:08.276+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T13:07:08.291+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:07:08.290+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T13:07:08.318+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.094 seconds
+[2025-06-15T13:07:38.932+0000] {processor.py:161} INFO - Started process (PID=982) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:07:38.934+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T13:07:38.936+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:07:38.936+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:07:38.952+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:07:39.004+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:07:39.004+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T13:07:39.033+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:07:39.032+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T13:07:39.081+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.156 seconds
+[2025-06-15T13:08:09.532+0000] {processor.py:161} INFO - Started process (PID=1028) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:08:09.536+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T13:08:09.538+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:08:09.537+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:08:09.562+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:08:09.645+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:08:09.645+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T13:08:09.677+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:08:09.676+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T13:08:09.725+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.206 seconds
+[2025-06-15T13:08:40.214+0000] {processor.py:161} INFO - Started process (PID=1195) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:08:40.218+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T13:08:40.219+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:08:40.219+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:08:40.230+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:08:40.260+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:08:40.260+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T13:08:40.273+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:08:40.273+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T13:08:40.297+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.089 seconds
+[2025-06-15T13:09:10.800+0000] {processor.py:161} INFO - Started process (PID=1322) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:09:10.805+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T13:09:10.807+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:09:10.806+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:09:10.821+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:09:10.862+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:09:10.862+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T13:09:10.883+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:09:10.883+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T13:09:10.918+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.123 seconds
+[2025-06-15T13:09:41.223+0000] {processor.py:161} INFO - Started process (PID=1443) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:09:41.225+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T13:09:41.228+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:09:41.227+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:09:41.250+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:09:41.292+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:09:41.292+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T13:09:41.313+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:09:41.313+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T13:09:41.336+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.118 seconds
+[2025-06-15T13:10:11.903+0000] {processor.py:161} INFO - Started process (PID=1575) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:10:11.908+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T13:10:11.910+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:10:11.909+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:10:11.926+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:10:11.960+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:10:11.959+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T13:10:11.991+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:10:11.990+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T13:10:12.030+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.134 seconds
+[2025-06-15T13:10:42.460+0000] {processor.py:161} INFO - Started process (PID=1711) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:10:42.465+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T13:10:42.467+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:10:42.466+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:10:42.479+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:10:42.514+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:10:42.514+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T13:10:42.529+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:10:42.528+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T13:10:41.850+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.102 seconds
+[2025-06-15T13:11:12.184+0000] {processor.py:161} INFO - Started process (PID=1821) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:11:12.185+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T13:11:12.186+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:11:12.186+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:11:12.198+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:11:12.233+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:11:12.233+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T13:11:12.248+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:11:12.247+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T13:11:12.285+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.106 seconds
+[2025-06-15T13:11:42.637+0000] {processor.py:161} INFO - Started process (PID=1911) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:11:42.639+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T13:11:42.640+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:11:42.639+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:11:42.652+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:11:42.702+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:11:42.701+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T13:11:42.721+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:11:42.721+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T13:11:42.749+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.117 seconds
+[2025-06-15T13:12:12.830+0000] {processor.py:161} INFO - Started process (PID=1958) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:12:12.831+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T13:12:12.833+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:12:12.832+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:12:12.844+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:12:12.875+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:12:12.875+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T13:12:12.889+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:12:12.889+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T13:12:12.915+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.091 seconds
+[2025-06-15T13:12:43.359+0000] {processor.py:161} INFO - Started process (PID=1979) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:12:43.364+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T13:12:43.365+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:12:43.365+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:12:43.377+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:12:43.409+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:12:43.408+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T13:12:43.422+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:12:43.422+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T13:12:43.452+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.098 seconds
+[2025-06-15T13:13:13.586+0000] {processor.py:161} INFO - Started process (PID=2015) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:13:13.587+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T13:13:13.588+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:13:13.588+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:13:13.605+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:13:13.645+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:13:13.645+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T13:13:13.665+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:13:13.665+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T13:13:13.692+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.114 seconds
+[2025-06-15T13:13:43.858+0000] {processor.py:161} INFO - Started process (PID=2036) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:13:43.863+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T13:13:43.864+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:13:43.864+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:13:43.875+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:13:43.904+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:13:43.904+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T13:13:43.917+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:13:43.917+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T13:13:43.943+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.090 seconds
+[2025-06-15T13:14:14.359+0000] {processor.py:161} INFO - Started process (PID=2072) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:14:14.361+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T13:14:14.363+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:14:14.362+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:14:14.380+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:14:14.431+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:14:14.431+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T13:14:14.457+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:14:14.457+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T13:14:14.493+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.142 seconds
+[2025-06-15T13:14:44.935+0000] {processor.py:161} INFO - Started process (PID=2093) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:14:44.937+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T13:14:44.938+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:14:44.938+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:14:44.955+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:14:45.002+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:14:45.001+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T13:14:45.030+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:14:45.030+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T13:14:45.062+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.138 seconds
+[2025-06-15T13:15:15.829+0000] {processor.py:161} INFO - Started process (PID=2129) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:15:15.832+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T13:15:15.833+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:15:15.833+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:15:15.859+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:15:15.919+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:15:15.919+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T13:15:15.942+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:15:15.942+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T13:15:15.979+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.156 seconds
+[2025-06-15T13:15:46.590+0000] {processor.py:161} INFO - Started process (PID=2150) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:15:46.591+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T13:15:46.592+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:15:46.592+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:15:46.603+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:15:46.638+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:15:46.638+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T13:15:46.652+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:15:46.652+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T13:15:46.682+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.097 seconds
+[2025-06-15T13:16:16.924+0000] {processor.py:161} INFO - Started process (PID=2186) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:16:16.925+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T13:16:16.926+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:16:16.926+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:16:16.936+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:16:16.965+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:16:16.965+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T13:16:16.979+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:16:16.979+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T13:16:17.001+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.082 seconds
+[2025-06-15T13:16:47.156+0000] {processor.py:161} INFO - Started process (PID=2207) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:16:47.157+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T13:16:47.159+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:16:47.158+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:16:47.170+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:16:47.201+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:16:47.200+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T13:16:47.213+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:16:47.213+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T13:16:47.233+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.082 seconds
+[2025-06-15T13:17:17.389+0000] {processor.py:161} INFO - Started process (PID=2243) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:17:17.390+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T13:17:17.391+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:17:17.391+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:17:17.401+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:17:17.430+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:17:17.429+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T13:17:17.442+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:17:17.442+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T13:17:17.465+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.080 seconds
+[2025-06-15T13:17:47.828+0000] {processor.py:161} INFO - Started process (PID=2264) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:17:47.830+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T13:17:47.831+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:17:47.830+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:17:47.840+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:17:47.870+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:17:47.870+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T13:17:47.882+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:17:47.882+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T13:17:47.905+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.082 seconds
+[2025-06-15T13:18:18.386+0000] {processor.py:161} INFO - Started process (PID=2300) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:18:18.390+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T13:18:18.391+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:18:18.390+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:18:18.401+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:18:18.431+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:18:18.431+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T13:18:18.444+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:18:18.444+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T13:18:18.465+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.083 seconds
+[2025-06-15T13:18:48.698+0000] {processor.py:161} INFO - Started process (PID=2321) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:18:48.699+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T13:18:48.699+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:18:48.699+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:18:48.710+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:18:48.739+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:18:48.738+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T13:18:48.751+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:18:48.751+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T13:18:48.783+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.089 seconds
+[2025-06-15T13:19:19.018+0000] {processor.py:161} INFO - Started process (PID=2357) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:19:19.021+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T13:19:19.022+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:19:19.022+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:19:19.032+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:19:19.059+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:19:19.059+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T13:19:19.070+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:19:19.070+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T13:19:19.091+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.077 seconds
+[2025-06-15T13:19:49.350+0000] {processor.py:161} INFO - Started process (PID=2378) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:19:49.354+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T13:19:49.355+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:19:49.355+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:19:49.365+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:19:49.393+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:19:49.392+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T13:19:49.404+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:19:49.404+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T13:19:49.427+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.080 seconds
+[2025-06-15T13:20:19.776+0000] {processor.py:161} INFO - Started process (PID=2414) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:20:19.777+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T13:20:19.778+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:20:19.777+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:20:19.788+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:20:19.817+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:20:19.816+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T13:20:19.829+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:20:19.829+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T13:20:19.851+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.079 seconds
+[2025-06-15T13:20:50.064+0000] {processor.py:161} INFO - Started process (PID=2435) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:20:50.066+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T13:20:50.068+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:20:50.067+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:20:50.079+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:20:50.111+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:20:50.111+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T13:20:50.126+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:20:50.126+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T13:20:50.155+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.097 seconds
+[2025-06-15T13:21:20.607+0000] {processor.py:161} INFO - Started process (PID=2471) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:21:20.608+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T13:21:20.609+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:21:20.609+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:21:20.625+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:21:20.669+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:21:20.669+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T13:21:20.689+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:21:20.689+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T13:21:20.719+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.116 seconds
+[2025-06-15T13:21:51.225+0000] {processor.py:161} INFO - Started process (PID=2492) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:21:51.229+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T13:21:51.230+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:21:51.230+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:21:51.240+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:21:51.267+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:21:51.267+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T13:21:51.279+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:21:51.278+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T13:21:51.301+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.081 seconds
+[2025-06-15T13:22:21.641+0000] {processor.py:161} INFO - Started process (PID=2528) to work on /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:22:21.642+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/procesamiento_datos_autopia_dag.py for tasks to queue
+[2025-06-15T13:22:21.643+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:22:21.643+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:22:21.653+0000] {processor.py:840} INFO - DAG(s) 'procesamiento_datos_autopia_dag' retrieved from /opt/airflow/dags/procesamiento_datos_autopia_dag.py
+[2025-06-15T13:22:21.687+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:22:21.687+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-15T13:22:21.700+0000] {logging_mixin.py:188} INFO - [2025-06-15T13:22:21.699+0000] {dag.py:3823} INFO - Setting next_dagrun for procesamiento_datos_autopia_dag to None, run_after=None
+[2025-06-15T13:22:21.719+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/procesamiento_datos_autopia_dag.py took 0.083 seconds

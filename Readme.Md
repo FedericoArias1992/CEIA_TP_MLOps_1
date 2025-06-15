@@ -38,6 +38,11 @@ Este proyecto implementa un flujo de trabajo completo de Machine Learning enfoca
 - ├── dockerfiles/
 - │ └── airflow/ # Imagen extendida con dependencias
 - ├── mlruns/ # Volumen persistente de MLflow
+- ├── api/
+- │   ├── main.py            # Código principal de FastAPI
+- │   ├── model.py           # Lógica de carga del modelo y predicción
+- │   ├── schemas.py         # Definición de inputs/outputs para la API
+- │   └── Dockerfile         # Imagen personalizada para FastAPI
 - ├── data/
 - │ └── processed/ # Archivos .pkl listos para entrenamiento
 - ├── docker-compose.yaml
@@ -103,6 +108,7 @@ Airflow UI: http://localhost:8080
 
 MLflow UI: http://localhost:5000
 
+API: http://localhost:8000
 
 ```Bash
 docker compose up

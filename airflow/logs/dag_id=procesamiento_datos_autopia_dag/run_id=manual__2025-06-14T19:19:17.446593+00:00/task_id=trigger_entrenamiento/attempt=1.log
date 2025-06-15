@@ -1,0 +1,28 @@
+[2025-06-14T19:19:41.665+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: procesamiento_datos_autopia_dag.trigger_entrenamiento manual__2025-06-14T19:19:17.446593+00:00 [queued]>
+[2025-06-14T19:19:41.708+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: procesamiento_datos_autopia_dag.trigger_entrenamiento manual__2025-06-14T19:19:17.446593+00:00 [queued]>
+[2025-06-14T19:19:41.709+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2025-06-14T19:19:41.784+0000] {taskinstance.py:2191} INFO - Executing <Task(TriggerDagRunOperator): trigger_entrenamiento> on 2025-06-14 19:19:17.446593+00:00
+[2025-06-14T19:19:41.805+0000] {standard_task_runner.py:60} INFO - Started process 1159 to run task
+[2025-06-14T19:19:41.824+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'procesamiento_datos_autopia_dag', 'trigger_entrenamiento', 'manual__2025-06-14T19:19:17.446593+00:00', '--job-id', '121', '--raw', '--subdir', 'DAGS_FOLDER/procesamiento_datos_autopia_dag.py', '--cfg-path', '/tmp/tmp6jdfre7i']
+[2025-06-14T19:19:41.834+0000] {standard_task_runner.py:88} INFO - Job 121: Subtask trigger_entrenamiento
+[2025-06-14T19:19:42.092+0000] {task_command.py:423} INFO - Running <TaskInstance: procesamiento_datos_autopia_dag.trigger_entrenamiento manual__2025-06-14T19:19:17.446593+00:00 [running]> on host 15346582a165
+[2025-06-14T19:19:42.547+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='fede' AIRFLOW_CTX_DAG_ID='procesamiento_datos_autopia_dag' AIRFLOW_CTX_TASK_ID='trigger_entrenamiento' AIRFLOW_CTX_EXECUTION_DATE='2025-06-14T19:19:17.446593+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-06-14T19:19:17.446593+00:00'
+[2025-06-14T19:19:46.947+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.8/site-packages/***/providers/google/cloud/links/dataproc.py:79 AirflowProviderDeprecationWarning: This DataprocLink is deprecated.
+[2025-06-14T19:19:46.949+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.8/site-packages/***/providers/google/cloud/links/dataproc.py:128 AirflowProviderDeprecationWarning: This DataprocListLink is deprecated.
+[2025-06-14T19:19:48.796+0000] {trigger_dagrun.py:210} INFO - Waiting for entrenamiento_modelos_regresion on 2025-06-14 19:19:42.553433+00:00 to become allowed state ['success'] ...
+[2025-06-14T19:20:48.825+0000] {trigger_dagrun.py:210} INFO - Waiting for entrenamiento_modelos_regresion on 2025-06-14 19:19:42.553433+00:00 to become allowed state ['success'] ...
+[2025-06-14T19:21:48.880+0000] {trigger_dagrun.py:210} INFO - Waiting for entrenamiento_modelos_regresion on 2025-06-14 19:19:42.553433+00:00 to become allowed state ['success'] ...
+[2025-06-14T19:22:48.931+0000] {trigger_dagrun.py:210} INFO - Waiting for entrenamiento_modelos_regresion on 2025-06-14 19:19:42.553433+00:00 to become allowed state ['success'] ...
+[2025-06-14T19:23:49.011+0000] {trigger_dagrun.py:210} INFO - Waiting for entrenamiento_modelos_regresion on 2025-06-14 19:19:42.553433+00:00 to become allowed state ['success'] ...
+[2025-06-14T19:24:49.105+0000] {trigger_dagrun.py:210} INFO - Waiting for entrenamiento_modelos_regresion on 2025-06-14 19:19:42.553433+00:00 to become allowed state ['success'] ...
+[2025-06-14T19:25:49.157+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/trigger_dagrun.py", line 221, in execute
+    raise AirflowException(f"{self.trigger_dag_id} failed with failed states {state}")
+airflow.exceptions.AirflowException: entrenamiento_modelos_regresion failed with failed states failed
+[2025-06-14T19:25:49.162+0000] {taskinstance.py:1138} INFO - Marking task as UP_FOR_RETRY. dag_id=procesamiento_datos_autopia_dag, task_id=trigger_entrenamiento, execution_date=20250614T191917, start_date=20250614T191941, end_date=20250614T192549
+[2025-06-14T19:25:49.365+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 121 for task trigger_entrenamiento (entrenamiento_modelos_regresion failed with failed states failed; 1159)
+[2025-06-14T19:25:49.504+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2025-06-14T19:25:49.554+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

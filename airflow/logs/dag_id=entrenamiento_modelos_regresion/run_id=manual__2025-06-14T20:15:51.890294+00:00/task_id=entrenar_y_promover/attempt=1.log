@@ -1,0 +1,68 @@
+[2025-06-14T20:16:54.254+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: entrenamiento_modelos_regresion.entrenar_y_promover manual__2025-06-14T20:15:51.890294+00:00 [queued]>
+[2025-06-14T20:16:54.266+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: entrenamiento_modelos_regresion.entrenar_y_promover manual__2025-06-14T20:15:51.890294+00:00 [queued]>
+[2025-06-14T20:16:54.266+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2025-06-14T20:16:54.283+0000] {taskinstance.py:2191} INFO - Executing <Task(_PythonDecoratedOperator): entrenar_y_promover> on 2025-06-14 20:15:51.890294+00:00
+[2025-06-14T20:16:54.290+0000] {standard_task_runner.py:60} INFO - Started process 1185 to run task
+[2025-06-14T20:16:54.295+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'entrenamiento_modelos_regresion', 'entrenar_y_promover', 'manual__2025-06-14T20:15:51.890294+00:00', '--job-id', '8', '--raw', '--subdir', 'DAGS_FOLDER/entrenamiento_modelos_regresion_dag.py', '--cfg-path', '/tmp/tmpkqb2zmgd']
+[2025-06-14T20:16:54.298+0000] {standard_task_runner.py:88} INFO - Job 8: Subtask entrenar_y_promover
+[2025-06-14T20:16:54.397+0000] {task_command.py:423} INFO - Running <TaskInstance: entrenamiento_modelos_regresion.entrenar_y_promover manual__2025-06-14T20:15:51.890294+00:00 [running]> on host b32a9208912d
+[2025-06-14T20:16:54.548+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='fede' AIRFLOW_CTX_DAG_ID='entrenamiento_modelos_regresion' AIRFLOW_CTX_TASK_ID='entrenar_y_promover' AIRFLOW_CTX_EXECUTION_DATE='2025-06-14T20:15:51.890294+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-06-14T20:15:51.890294+00:00'
+[2025-06-14T20:16:59.578+0000] {logging_mixin.py:188} WARNING - /opt/***/dags/entrenamiento_modelos_regresion_dag.py:55 SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+[2025-06-14T20:16:59.594+0000] {logging_mixin.py:188} WARNING - /opt/***/dags/entrenamiento_modelos_regresion_dag.py:58 SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+[2025-06-14T20:16:59.596+0000] {logging_mixin.py:188} WARNING - /opt/***/dags/entrenamiento_modelos_regresion_dag.py:60 SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+[2025-06-14T20:16:59.600+0000] {logging_mixin.py:188} WARNING - /opt/***/dags/entrenamiento_modelos_regresion_dag.py:61 SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+[2025-06-14T20:16:59.789+0000] {logging_mixin.py:188} WARNING - 2025/06/14 20:16:59 INFO mlflow.tracking.fluent: Experiment with name 'entrenamiento_orquestado' does not exist. Creating a new experiment.
+[2025-06-14T20:16:59.811+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/decorators/base.py", line 241, in execute
+    return_value = super().execute(context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py", line 79, in entrenar_y_promover
+    mlflow.set_experiment("entrenamiento_orquestado")
+  File "/home/airflow/.local/lib/python3.8/site-packages/mlflow/tracking/fluent.py", line 154, in set_experiment
+    experiment_id = client.create_experiment(experiment_name)
+  File "/home/airflow/.local/lib/python3.8/site-packages/mlflow/tracking/client.py", line 1310, in create_experiment
+    return self._tracking_client.create_experiment(name, artifact_location, tags)
+  File "/home/airflow/.local/lib/python3.8/site-packages/mlflow/tracking/_tracking_service/client.py", line 518, in create_experiment
+    return self.store.create_experiment(
+  File "/home/airflow/.local/lib/python3.8/site-packages/mlflow/store/tracking/rest_store.py", line 123, in create_experiment
+    response_proto = self._call_endpoint(CreateExperiment, req_body)
+  File "/home/airflow/.local/lib/python3.8/site-packages/mlflow/store/tracking/rest_store.py", line 82, in _call_endpoint
+    return call_endpoint(self.get_host_creds(), endpoint, method, json_body, response_proto)
+  File "/home/airflow/.local/lib/python3.8/site-packages/mlflow/utils/rest_utils.py", line 370, in call_endpoint
+    response = verify_rest_response(response, endpoint)
+  File "/home/airflow/.local/lib/python3.8/site-packages/mlflow/utils/rest_utils.py", line 240, in verify_rest_response
+    raise RestException(json.loads(response.text))
+mlflow.exceptions.RestException: RESOURCE_ALREADY_EXISTS: Experiment(name=entrenamiento_orquestado) already exists. Error: (raised as a result of Query-invoked autoflush; consider using a session.no_autoflush block if this flush is occurring prematurely)
+(sqlite3.IntegrityError) UNIQUE constraint failed: experiments.name
+[SQL: INSERT INTO experiments (name, artifact_location, lifecycle_stage, creation_time, last_update_time) VALUES (?, ?, ?, ?, ?)]
+[parameters: ('entrenamiento_orquestado', '', 'active', 1749932219795, 1749932219795)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+[2025-06-14T20:16:59.837+0000] {taskinstance.py:1138} INFO - Marking task as UP_FOR_RETRY. dag_id=entrenamiento_modelos_regresion, task_id=entrenar_y_promover, execution_date=20250614T201551, start_date=20250614T201654, end_date=20250614T201659
+[2025-06-14T20:16:59.855+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 8 for task entrenar_y_promover (RESOURCE_ALREADY_EXISTS: Experiment(name=entrenamiento_orquestado) already exists. Error: (raised as a result of Query-invoked autoflush; consider using a session.no_autoflush block if this flush is occurring prematurely)
+(sqlite3.IntegrityError) UNIQUE constraint failed: experiments.name
+[SQL: INSERT INTO experiments (name, artifact_location, lifecycle_stage, creation_time, last_update_time) VALUES (?, ?, ?, ?, ?)]
+[parameters: ('entrenamiento_orquestado', '', 'active', 1749932219795, 1749932219795)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj); 1185)
+[2025-06-14T20:16:59.918+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2025-06-14T20:16:59.951+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

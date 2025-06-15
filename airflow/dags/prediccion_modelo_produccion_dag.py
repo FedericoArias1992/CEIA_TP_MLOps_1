@@ -18,9 +18,20 @@ default_args = {
     tags=["prediccion", "mlflow", "produccion"]
 )
 def hacer_predicciones():
+    """
+    DAG que realiza predicciones diarias utilizando el modelo ganador 
+    que ha sido promovido a producción en MLflow.
+    Lee un archivo de nuevos datos, aplica el modelo, y guarda los resultados
+    en un archivo CSV de salida.
+    """
 
     @task()
     def predecir():
+        """
+        Tarea que carga el modelo de producción desde MLflow, lee un archivo CSV 
+        con datos nuevos para predecir, ejecuta la inferencia y guarda las predicciones 
+        en un nuevo archivo CSV con una columna adicional.
+        """
         import pandas as pd
         import mlflow.sklearn
         import os
@@ -51,6 +62,8 @@ def hacer_predicciones():
 
         print(f"✅ Predicciones guardadas en {output_path}")
 
+    # Ejecutar la tarea
     predecir()
 
+# Instancia del DAG
 dag = hacer_predicciones()

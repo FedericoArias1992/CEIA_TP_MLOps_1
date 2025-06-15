@@ -1,0 +1,12 @@
+[2025-06-15T11:59:37.540+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: entrenamiento_modelos_regresion.trigger_prediccion manual__2025-06-15T11:41:31.458328+00:00 [queued]>
+[2025-06-15T11:59:37.555+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: entrenamiento_modelos_regresion.trigger_prediccion manual__2025-06-15T11:41:31.458328+00:00 [queued]>
+[2025-06-15T11:59:37.555+0000] {taskinstance.py:2170} INFO - Starting attempt 2 of 2
+[2025-06-15T11:59:37.579+0000] {taskinstance.py:2191} INFO - Executing <Task(TriggerDagRunOperator): trigger_prediccion> on 2025-06-15 11:41:31.458328+00:00
+[2025-06-15T11:59:37.588+0000] {standard_task_runner.py:60} INFO - Started process 201 to run task
+[2025-06-15T11:59:37.594+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'entrenamiento_modelos_regresion', 'trigger_prediccion', 'manual__2025-06-15T11:41:31.458328+00:00', '--job-id', '177', '--raw', '--subdir', 'DAGS_FOLDER/entrenamiento_modelos_regresion_dag.py', '--cfg-path', '/tmp/tmp61x5kohf']
+[2025-06-15T11:59:37.597+0000] {standard_task_runner.py:88} INFO - Job 177: Subtask trigger_prediccion
+[2025-06-15T11:59:37.719+0000] {task_command.py:423} INFO - Running <TaskInstance: entrenamiento_modelos_regresion.trigger_prediccion manual__2025-06-15T11:41:31.458328+00:00 [running]> on host a789d9f6b52d
+[2025-06-15T11:59:37.957+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='fede' AIRFLOW_CTX_DAG_ID='entrenamiento_modelos_regresion' AIRFLOW_CTX_TASK_ID='trigger_prediccion' AIRFLOW_CTX_EXECUTION_DATE='2025-06-15T11:41:31.458328+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-06-15T11:41:31.458328+00:00'
+[2025-06-15T11:59:38.161+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=entrenamiento_modelos_regresion, task_id=trigger_prediccion, execution_date=20250615T114131, start_date=20250615T115937, end_date=20250615T115938
+[2025-06-15T11:59:38.212+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-06-15T11:59:38.255+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

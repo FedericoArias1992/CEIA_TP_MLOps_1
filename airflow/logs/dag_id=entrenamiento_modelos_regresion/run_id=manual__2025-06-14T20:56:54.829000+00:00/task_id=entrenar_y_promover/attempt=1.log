@@ -1,0 +1,63 @@
+[2025-06-14T20:56:56.818+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: entrenamiento_modelos_regresion.entrenar_y_promover manual__2025-06-14T20:56:54.829000+00:00 [queued]>
+[2025-06-14T20:56:56.831+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: entrenamiento_modelos_regresion.entrenar_y_promover manual__2025-06-14T20:56:54.829000+00:00 [queued]>
+[2025-06-14T20:56:56.831+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2025-06-14T20:56:56.851+0000] {taskinstance.py:2191} INFO - Executing <Task(_PythonDecoratedOperator): entrenar_y_promover> on 2025-06-14 20:56:54.829000+00:00
+[2025-06-14T20:56:56.856+0000] {standard_task_runner.py:60} INFO - Started process 596 to run task
+[2025-06-14T20:56:56.862+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'entrenamiento_modelos_regresion', 'entrenar_y_promover', 'manual__2025-06-14T20:56:54.829000+00:00', '--job-id', '66', '--raw', '--subdir', 'DAGS_FOLDER/entrenamiento_modelos_regresion_dag.py', '--cfg-path', '/tmp/tmpc0qevxcm']
+[2025-06-14T20:56:56.864+0000] {standard_task_runner.py:88} INFO - Job 66: Subtask entrenar_y_promover
+[2025-06-14T20:56:56.960+0000] {task_command.py:423} INFO - Running <TaskInstance: entrenamiento_modelos_regresion.entrenar_y_promover manual__2025-06-14T20:56:54.829000+00:00 [running]> on host 308ca7b779fc
+[2025-06-14T20:56:57.105+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='fede' AIRFLOW_CTX_DAG_ID='entrenamiento_modelos_regresion' AIRFLOW_CTX_TASK_ID='entrenar_y_promover' AIRFLOW_CTX_EXECUTION_DATE='2025-06-14T20:56:54.829000+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-06-14T20:56:54.829000+00:00'
+[2025-06-14T20:57:00.179+0000] {logging_mixin.py:188} WARNING - /opt/***/dags/entrenamiento_modelos_regresion_dag.py:55 SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+[2025-06-14T20:57:00.190+0000] {logging_mixin.py:188} WARNING - /opt/***/dags/entrenamiento_modelos_regresion_dag.py:58 SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+[2025-06-14T20:57:00.191+0000] {logging_mixin.py:188} WARNING - /opt/***/dags/entrenamiento_modelos_regresion_dag.py:60 SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+[2025-06-14T20:57:00.193+0000] {logging_mixin.py:188} WARNING - /opt/***/dags/entrenamiento_modelos_regresion_dag.py:61 SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+[2025-06-14T20:57:01.113+0000] {logging_mixin.py:188} WARNING - 2025/06/14 20:57:01 WARNING mlflow.utils.git_utils: Failed to import Git (the Git executable is probably not on your PATH), so Git SHA is not available. Error: Failed to initialize: Bad git executable.
+The git executable must be specified in one of the following ways:
+    - be included in your $PATH
+    - be set via $GIT_PYTHON_GIT_EXECUTABLE
+    - explicitly set via git.refresh(<full-path-to-git-executable>)
+
+All git commands will error until this is rectified.
+
+This initial message can be silenced or aggravated in the future by setting the
+$GIT_PYTHON_REFRESH environment variable. Use one of the following values:
+    - quiet|q|silence|s|silent|none|n|0: for no message or exception
+    - warn|w|warning|log|l|1: for a warning message (logging level CRITICAL, displayed by default)
+    - error|e|exception|raise|r|2: for a raised exception
+
+Example:
+    export GIT_PYTHON_REFRESH=quiet
+[2025-06-14T20:57:01.171+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/decorators/base.py", line 241, in execute
+    return_value = super().execute(context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py", line 95, in entrenar_y_promover
+    with mlflow.start_run(run_name=nombre):
+  File "/home/airflow/.local/lib/python3.8/site-packages/mlflow/tracking/fluent.py", line 321, in start_run
+    raise Exception(
+Exception: Run with UUID 20a3f7d0c7ff44a28992dad53af1745d is already active. To start a new run, first end the current run with mlflow.end_run(). To start a nested run, call start_run with nested=True
+[2025-06-14T20:57:01.188+0000] {taskinstance.py:1138} INFO - Marking task as UP_FOR_RETRY. dag_id=entrenamiento_modelos_regresion, task_id=entrenar_y_promover, execution_date=20250614T205654, start_date=20250614T205656, end_date=20250614T205701
+[2025-06-14T20:57:01.202+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 66 for task entrenar_y_promover (Run with UUID 20a3f7d0c7ff44a28992dad53af1745d is already active. To start a new run, first end the current run with mlflow.end_run(). To start a nested run, call start_run with nested=True; 596)
+[2025-06-14T20:57:01.261+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2025-06-14T20:57:01.287+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

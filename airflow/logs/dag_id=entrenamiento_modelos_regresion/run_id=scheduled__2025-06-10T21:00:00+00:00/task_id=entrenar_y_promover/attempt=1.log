@@ -1,0 +1,90 @@
+[2025-06-12T18:45:34.759+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: entrenamiento_modelos_regresion.entrenar_y_promover scheduled__2025-06-10T21:00:00+00:00 [queued]>
+[2025-06-12T18:45:34.778+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: entrenamiento_modelos_regresion.entrenar_y_promover scheduled__2025-06-10T21:00:00+00:00 [queued]>
+[2025-06-12T18:45:34.779+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2025-06-12T18:45:34.802+0000] {taskinstance.py:2191} INFO - Executing <Task(_PythonDecoratedOperator): entrenar_y_promover> on 2025-06-10 21:00:00+00:00
+[2025-06-12T18:45:34.815+0000] {standard_task_runner.py:60} INFO - Started process 196 to run task
+[2025-06-12T18:45:34.823+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'entrenamiento_modelos_regresion', 'entrenar_y_promover', 'scheduled__2025-06-10T21:00:00+00:00', '--job-id', '33', '--raw', '--subdir', 'DAGS_FOLDER/entrenamiento_modelos_regresion_dag.py', '--cfg-path', '/tmp/tmpi5ad6h18']
+[2025-06-12T18:45:34.835+0000] {standard_task_runner.py:88} INFO - Job 33: Subtask entrenar_y_promover
+[2025-06-12T18:45:34.995+0000] {task_command.py:423} INFO - Running <TaskInstance: entrenamiento_modelos_regresion.entrenar_y_promover scheduled__2025-06-10T21:00:00+00:00 [running]> on host f8437b9777f6
+[2025-06-12T18:45:35.162+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='fede' AIRFLOW_CTX_DAG_ID='entrenamiento_modelos_regresion' AIRFLOW_CTX_TASK_ID='entrenar_y_promover' AIRFLOW_CTX_EXECUTION_DATE='2025-06-10T21:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-06-10T21:00:00+00:00'
+[2025-06-12T18:45:42.690+0000] {logging_mixin.py:188} WARNING - /opt/***/dags/entrenamiento_modelos_regresion_dag.py:47 SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+[2025-06-12T18:45:42.715+0000] {logging_mixin.py:188} WARNING - /opt/***/dags/entrenamiento_modelos_regresion_dag.py:50 SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+[2025-06-12T18:45:42.721+0000] {logging_mixin.py:188} WARNING - /opt/***/dags/entrenamiento_modelos_regresion_dag.py:52 SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+[2025-06-12T18:45:42.723+0000] {logging_mixin.py:188} WARNING - /opt/***/dags/entrenamiento_modelos_regresion_dag.py:54 SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+[2025-06-12T18:45:44.797+0000] {logging_mixin.py:188} WARNING - 2025/06/12 18:45:44 INFO mlflow.tracking.fluent: Experiment with name 'entrenamiento_orquestado' does not exist. Creating a new experiment.
+[2025-06-12T18:45:45.043+0000] {logging_mixin.py:188} WARNING - 2025/06/12 18:45:45 WARNING mlflow.utils.git_utils: Failed to import Git (the Git executable is probably not on your PATH), so Git SHA is not available. Error: Failed to initialize: Bad git executable.
+The git executable must be specified in one of the following ways:
+    - be included in your $PATH
+    - be set via $GIT_PYTHON_GIT_EXECUTABLE
+    - explicitly set via git.refresh(<full-path-to-git-executable>)
+
+All git commands will error until this is rectified.
+
+This initial message can be silenced or aggravated in the future by setting the
+$GIT_PYTHON_REFRESH environment variable. Use one of the following values:
+    - quiet|q|silence|s|silent|none|n|0: for no message or exception
+    - warn|w|warning|log|l|1: for a warning message (logging level CRITICAL, displayed by default)
+    - error|e|exception|raise|r|2: for a raised exception
+
+Example:
+    export GIT_PYTHON_REFRESH=quiet
+[2025-06-12T18:45:55.653+0000] {logging_mixin.py:188} WARNING - 2025/06/12 18:45:55 WARNING mlflow.models.model: Model logged without a signature and input example. Please set `input_example` parameter when logging the model to auto infer the model signature.
+[2025-06-12T18:45:56.695+0000] {logging_mixin.py:188} WARNING - 2025/06/12 18:45:56 INFO mlflow.tracking._tracking_service.client: 🏃 View run RandomForest at: http://mlflow:5000/#/experiments/1/runs/8b7d5e9d3f564eef8f2ccd16f9405eff.
+[2025-06-12T18:45:56.697+0000] {logging_mixin.py:188} WARNING - 2025/06/12 18:45:56 INFO mlflow.tracking._tracking_service.client: 🧪 View experiment at: http://mlflow:5000/#/experiments/1.
+[2025-06-12T18:46:00.213+0000] {logging_mixin.py:188} WARNING - 2025/06/12 18:46:00 WARNING mlflow.models.model: Model logged without a signature and input example. Please set `input_example` parameter when logging the model to auto infer the model signature.
+[2025-06-12T18:46:00.266+0000] {logging_mixin.py:188} WARNING - 2025/06/12 18:46:00 INFO mlflow.tracking._tracking_service.client: 🏃 View run CatBoost at: http://mlflow:5000/#/experiments/1/runs/5a24b87becd440bc935b9399316e5098.
+[2025-06-12T18:46:00.267+0000] {logging_mixin.py:188} WARNING - 2025/06/12 18:46:00 INFO mlflow.tracking._tracking_service.client: 🧪 View experiment at: http://mlflow:5000/#/experiments/1.
+[2025-06-12T18:46:00.327+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/decorators/base.py", line 241, in execute
+    return_value = super().execute(context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py", line 80, in entrenar_y_promover
+    mlflow.sklearn.log_model(modelo, "modelo")
+  File "/home/airflow/.local/lib/python3.8/site-packages/mlflow/sklearn/__init__.py", line 413, in log_model
+    return Model.log(
+  File "/home/airflow/.local/lib/python3.8/site-packages/mlflow/models/model.py", line 744, in log
+    mlflow.tracking.fluent.log_artifacts(local_path, mlflow_model.artifact_path, run_id)
+  File "/home/airflow/.local/lib/python3.8/site-packages/mlflow/tracking/fluent.py", line 1170, in log_artifacts
+    MlflowClient().log_artifacts(run_id, local_dir, artifact_path)
+  File "/home/airflow/.local/lib/python3.8/site-packages/mlflow/tracking/client.py", line 1977, in log_artifacts
+    self._tracking_client.log_artifacts(run_id, local_dir, artifact_path)
+  File "/home/airflow/.local/lib/python3.8/site-packages/mlflow/tracking/_tracking_service/client.py", line 874, in log_artifacts
+    self._get_artifact_repo(run_id).log_artifacts(local_dir, artifact_path)
+  File "/home/airflow/.local/lib/python3.8/site-packages/mlflow/store/artifact/local_artifact_repo.py", line 66, in log_artifacts
+    mkdir(artifact_dir)
+  File "/home/airflow/.local/lib/python3.8/site-packages/mlflow/utils/file_utils.py", line 211, in mkdir
+    raise e
+  File "/home/airflow/.local/lib/python3.8/site-packages/mlflow/utils/file_utils.py", line 208, in mkdir
+    os.makedirs(target, exist_ok=True)
+  File "/usr/local/lib/python3.8/os.py", line 213, in makedirs
+    makedirs(head, exist_ok=exist_ok)
+  File "/usr/local/lib/python3.8/os.py", line 213, in makedirs
+    makedirs(head, exist_ok=exist_ok)
+  File "/usr/local/lib/python3.8/os.py", line 223, in makedirs
+    mkdir(name, mode)
+PermissionError: [Errno 13] Permission denied: '/mlflow/mlruns/1/5a24b87becd440bc935b9399316e5098'
+[2025-06-12T18:46:00.379+0000] {taskinstance.py:1138} INFO - Marking task as UP_FOR_RETRY. dag_id=entrenamiento_modelos_regresion, task_id=entrenar_y_promover, execution_date=20250610T210000, start_date=20250612T184534, end_date=20250612T184600
+[2025-06-12T18:46:00.432+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 33 for task entrenar_y_promover ([Errno 13] Permission denied: '/mlflow/mlruns/1/5a24b87becd440bc935b9399316e5098'; 196)
+[2025-06-12T18:46:00.542+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2025-06-12T18:46:00.700+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

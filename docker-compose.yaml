@@ -183,6 +183,33 @@ services:
     volumes:
       - ${AIRFLOW_PROJ_DIR:-./airflow}:/sources
       - ./mlruns:/mlflow/mlruns
+  
+  api:
+    build:
+      context: .
+      dockerfile: ./api/Dockerfile
+    container_name: fastapi-ml
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./api:/app
+      - ./mlruns:/mlflow/mlruns
+      - ./airflow/dags/data/processed/encoders:/opt/airflow/dags/data/processed/encoders
+    environment:
+      - MLFLOW_TRACKING_URI=http://mlflow:5000
+    networks:
+      - backend
+      
+  streamlit-ui:
+    build:
+      context: ./streamlit
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./streamlit:/app
+    depends_on:
+      - api
+
 
   mlflow:
     image: ghcr.io/mlflow/mlflow
