@@ -1,3 +1,13 @@
+'''
+Este es el primer DAG de Airflow que ejecuta un scraper para extraer datos del sitio Autopia.
+Al completar el scraping, desencadena otro DAG que procesa los datos extraídos.
+
+El orden de ejecución es el siguiente:
+1. `scraping_autopia_dag`: Ejecuta el scraper y guarda los datos en
+2. `procesamiento_datos_autopia_dag`: Combina los CSVs, limpia y valida los datos, y guarda un archivo .pkl listo para el entrenamiento de modelos.
+3. `entrenamiento_modelos_regresion_dag`: Entrena modelos de regresion y promueve el mejor modelo a producción.'''
+
+
 from airflow import DAG
 from airflow.operators.python import PythonOperator
 from airflow.operators.trigger_dagrun import TriggerDagRunOperator

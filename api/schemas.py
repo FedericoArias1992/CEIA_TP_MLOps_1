@@ -1,3 +1,11 @@
+"""
+schemas.py
+
+Esquemas de entrada y salida para la API de predicción de precios de autos usados,
+definidos con Pydantic. Incluye validaciones, enumeraciones restringidas
+y un ejemplo integrado para documentación Swagger.
+
+"""
 from typing import List, Optional
 from enum import Enum
 from pydantic import BaseModel, Field
@@ -5,6 +13,9 @@ from pydantic import BaseModel, Field
 
 # Enumeraciones para restringir entrada
 class TipoEnum(str, Enum):
+    """
+    Tipos de autos admitidos.
+    """
     SUV = "SUV"
     Hatchback = "Hatchback"
     Sedan = "Sedán"
@@ -13,6 +24,9 @@ class TipoEnum(str, Enum):
     Furgon = "Furgón"
 
 class ModelEnum(str, Enum):
+    """
+    Modelos de autos reconocidos por el modelo entrenado.
+    """
     Nissan_Murano = "Nissan Murano"
     Mitsubishi_Montero = "Mitsubishi Montero"
     Renault_Koleos = "Renault Koleos"
@@ -71,10 +85,20 @@ class ModelEnum(str, Enum):
     Montero = "Montero"
 
 class TransmisionEnum(str, Enum):
+    """
+    Tipos de transmisión admitidos por el modelo.
+    """
     automatico = "Automático"
     mecanico = "Mecánico"
 
 class CarInput(BaseModel):
+    """
+    Modelo de entrada para predicción.
+
+    Contiene todas las variables necesarias para estimar el precio
+    de un vehículo usado en Bolivia.
+    """
+
     year: int = Field(..., ge=1980, le=2025, description="Año del vehículo")
     km: int = Field(..., ge=0, le=1000000, description="Kilómetros recorridos")
     model: ModelEnum = Field(..., description="Modelo del vehículo")
@@ -97,4 +121,10 @@ class CarInput(BaseModel):
         }
 
 class PredictionOutput(BaseModel):
+    """
+    Modelo de salida para la predicción.
+
+    Representa el valor estimado del vehículo en la moneda local.
+    """
+
     predicted_price: float

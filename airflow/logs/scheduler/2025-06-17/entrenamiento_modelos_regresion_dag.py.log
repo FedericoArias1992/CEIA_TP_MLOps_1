@@ -1,0 +1,224 @@
+[2025-06-17T22:49:43.594+0000] {processor.py:161} INFO - Started process (PID=180) to work on /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py
+[2025-06-17T22:49:43.601+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py for tasks to queue
+[2025-06-17T22:49:43.607+0000] {logging_mixin.py:188} INFO - [2025-06-17T22:49:43.605+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py
+[2025-06-17T22:49:43.681+0000] {processor.py:840} INFO - DAG(s) 'entrenamiento_modelos_regresion' retrieved from /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py
+[2025-06-17T22:49:44.064+0000] {logging_mixin.py:188} INFO - [2025-06-17T22:49:44.064+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-17T22:49:44.163+0000] {logging_mixin.py:188} INFO - [2025-06-17T22:49:44.162+0000] {dag.py:3823} INFO - Setting next_dagrun for entrenamiento_modelos_regresion to 2025-06-16 21:00:00+00:00, run_after=2025-06-17 21:00:00+00:00
+[2025-06-17T22:49:44.235+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py took 0.667 seconds
+[2025-06-17T22:50:14.874+0000] {processor.py:161} INFO - Started process (PID=229) to work on /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py
+[2025-06-17T22:50:14.882+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py for tasks to queue
+[2025-06-17T22:50:14.926+0000] {logging_mixin.py:188} INFO - [2025-06-17T22:50:14.886+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py
+[2025-06-17T22:50:15.104+0000] {processor.py:840} INFO - DAG(s) 'entrenamiento_modelos_regresion' retrieved from /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py
+[2025-06-17T22:50:15.208+0000] {logging_mixin.py:188} INFO - [2025-06-17T22:50:15.208+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-17T22:50:15.567+0000] {logging_mixin.py:188} INFO - [2025-06-17T22:50:15.566+0000] {dag.py:3823} INFO - Setting next_dagrun for entrenamiento_modelos_regresion to 2025-06-17 21:00:00+00:00, run_after=2025-06-18 21:00:00+00:00
+[2025-06-17T22:50:15.611+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py took 0.759 seconds
+[2025-06-17T22:50:45.928+0000] {processor.py:161} INFO - Started process (PID=262) to work on /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py
+[2025-06-17T22:50:45.941+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py for tasks to queue
+[2025-06-17T22:50:45.944+0000] {logging_mixin.py:188} INFO - [2025-06-17T22:50:45.943+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py
+[2025-06-17T22:50:46.007+0000] {processor.py:840} INFO - DAG(s) 'entrenamiento_modelos_regresion' retrieved from /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py
+[2025-06-17T22:50:46.126+0000] {logging_mixin.py:188} INFO - [2025-06-17T22:50:46.124+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-17T22:50:46.246+0000] {logging_mixin.py:188} INFO - [2025-06-17T22:50:46.245+0000] {dag.py:3823} INFO - Setting next_dagrun for entrenamiento_modelos_regresion to 2025-06-17 21:00:00+00:00, run_after=2025-06-18 21:00:00+00:00
+[2025-06-17T22:50:46.286+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py took 0.376 seconds
+[2025-06-17T22:51:16.479+0000] {processor.py:161} INFO - Started process (PID=290) to work on /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py
+[2025-06-17T22:51:16.487+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py for tasks to queue
+[2025-06-17T22:51:16.491+0000] {logging_mixin.py:188} INFO - [2025-06-17T22:51:16.490+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py
+[2025-06-17T22:51:16.560+0000] {processor.py:840} INFO - DAG(s) 'entrenamiento_modelos_regresion' retrieved from /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py
+[2025-06-17T22:51:16.645+0000] {logging_mixin.py:188} INFO - [2025-06-17T22:51:16.644+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-17T22:51:16.675+0000] {logging_mixin.py:188} INFO - [2025-06-17T22:51:16.675+0000] {dag.py:3823} INFO - Setting next_dagrun for entrenamiento_modelos_regresion to 2025-06-17 21:00:00+00:00, run_after=2025-06-18 21:00:00+00:00
+[2025-06-17T22:51:16.703+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py took 0.246 seconds
+[2025-06-17T22:51:47.003+0000] {processor.py:161} INFO - Started process (PID=314) to work on /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py
+[2025-06-17T22:51:47.010+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py for tasks to queue
+[2025-06-17T22:51:47.014+0000] {logging_mixin.py:188} INFO - [2025-06-17T22:51:47.013+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py
+[2025-06-17T22:51:47.038+0000] {processor.py:840} INFO - DAG(s) 'entrenamiento_modelos_regresion' retrieved from /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py
+[2025-06-17T22:51:47.092+0000] {logging_mixin.py:188} INFO - [2025-06-17T22:51:47.092+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-17T22:51:47.139+0000] {logging_mixin.py:188} INFO - [2025-06-17T22:51:47.139+0000] {dag.py:3823} INFO - Setting next_dagrun for entrenamiento_modelos_regresion to 2025-06-17 21:00:00+00:00, run_after=2025-06-18 21:00:00+00:00
+[2025-06-17T22:51:47.176+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py took 0.197 seconds
+[2025-06-17T22:52:17.376+0000] {processor.py:161} INFO - Started process (PID=343) to work on /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py
+[2025-06-17T22:52:17.378+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py for tasks to queue
+[2025-06-17T22:52:17.380+0000] {logging_mixin.py:188} INFO - [2025-06-17T22:52:17.380+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py
+[2025-06-17T22:52:17.403+0000] {processor.py:840} INFO - DAG(s) 'entrenamiento_modelos_regresion' retrieved from /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py
+[2025-06-17T22:52:17.454+0000] {logging_mixin.py:188} INFO - [2025-06-17T22:52:17.453+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-17T22:52:17.496+0000] {logging_mixin.py:188} INFO - [2025-06-17T22:52:17.496+0000] {dag.py:3823} INFO - Setting next_dagrun for entrenamiento_modelos_regresion to 2025-06-17 21:00:00+00:00, run_after=2025-06-18 21:00:00+00:00
+[2025-06-17T22:52:17.530+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py took 0.161 seconds
+[2025-06-17T22:52:47.966+0000] {processor.py:161} INFO - Started process (PID=371) to work on /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py
+[2025-06-17T22:52:47.973+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py for tasks to queue
+[2025-06-17T22:52:47.978+0000] {logging_mixin.py:188} INFO - [2025-06-17T22:52:47.976+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py
+[2025-06-17T22:52:48.040+0000] {processor.py:840} INFO - DAG(s) 'entrenamiento_modelos_regresion' retrieved from /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py
+[2025-06-17T22:52:48.173+0000] {logging_mixin.py:188} INFO - [2025-06-17T22:52:48.172+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-17T22:52:48.323+0000] {logging_mixin.py:188} INFO - [2025-06-17T22:52:48.321+0000] {dag.py:3823} INFO - Setting next_dagrun for entrenamiento_modelos_regresion to 2025-06-17 21:00:00+00:00, run_after=2025-06-18 21:00:00+00:00
+[2025-06-17T22:52:48.416+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py took 0.471 seconds
+[2025-06-17T22:53:19.443+0000] {processor.py:161} INFO - Started process (PID=407) to work on /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py
+[2025-06-17T22:53:19.450+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py for tasks to queue
+[2025-06-17T22:53:19.459+0000] {logging_mixin.py:188} INFO - [2025-06-17T22:53:19.455+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py
+[2025-06-17T22:53:19.521+0000] {processor.py:840} INFO - DAG(s) 'entrenamiento_modelos_regresion' retrieved from /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py
+[2025-06-17T22:53:19.598+0000] {logging_mixin.py:188} INFO - [2025-06-17T22:53:19.598+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-17T22:53:19.671+0000] {logging_mixin.py:188} INFO - [2025-06-17T22:53:19.670+0000] {dag.py:3823} INFO - Setting next_dagrun for entrenamiento_modelos_regresion to 2025-06-17 21:00:00+00:00, run_after=2025-06-18 21:00:00+00:00
+[2025-06-17T22:53:19.708+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py took 0.311 seconds
+[2025-06-17T22:53:49.883+0000] {processor.py:161} INFO - Started process (PID=428) to work on /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py
+[2025-06-17T22:53:49.893+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py for tasks to queue
+[2025-06-17T22:53:49.900+0000] {logging_mixin.py:188} INFO - [2025-06-17T22:53:49.898+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py
+[2025-06-17T22:53:49.959+0000] {processor.py:840} INFO - DAG(s) 'entrenamiento_modelos_regresion' retrieved from /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py
+[2025-06-17T22:53:50.012+0000] {logging_mixin.py:188} INFO - [2025-06-17T22:53:50.011+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-17T22:53:50.050+0000] {logging_mixin.py:188} INFO - [2025-06-17T22:53:50.050+0000] {dag.py:3823} INFO - Setting next_dagrun for entrenamiento_modelos_regresion to 2025-06-17 21:00:00+00:00, run_after=2025-06-18 21:00:00+00:00
+[2025-06-17T22:53:50.083+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py took 0.223 seconds
+[2025-06-17T22:54:20.182+0000] {processor.py:161} INFO - Started process (PID=464) to work on /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py
+[2025-06-17T22:54:20.184+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py for tasks to queue
+[2025-06-17T22:54:20.186+0000] {logging_mixin.py:188} INFO - [2025-06-17T22:54:20.185+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py
+[2025-06-17T22:54:20.220+0000] {processor.py:840} INFO - DAG(s) 'entrenamiento_modelos_regresion' retrieved from /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py
+[2025-06-17T22:54:20.286+0000] {logging_mixin.py:188} INFO - [2025-06-17T22:54:20.286+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-17T22:54:20.344+0000] {logging_mixin.py:188} INFO - [2025-06-17T22:54:20.344+0000] {dag.py:3823} INFO - Setting next_dagrun for entrenamiento_modelos_regresion to 2025-06-17 21:00:00+00:00, run_after=2025-06-18 21:00:00+00:00
+[2025-06-17T22:54:20.377+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py took 0.209 seconds
+[2025-06-17T22:54:50.849+0000] {processor.py:161} INFO - Started process (PID=485) to work on /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py
+[2025-06-17T22:54:50.854+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py for tasks to queue
+[2025-06-17T22:54:50.859+0000] {logging_mixin.py:188} INFO - [2025-06-17T22:54:50.857+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py
+[2025-06-17T22:54:50.925+0000] {processor.py:840} INFO - DAG(s) 'entrenamiento_modelos_regresion' retrieved from /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py
+[2025-06-17T22:54:51.066+0000] {logging_mixin.py:188} INFO - [2025-06-17T22:54:51.065+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-17T22:54:51.172+0000] {logging_mixin.py:188} INFO - [2025-06-17T22:54:51.171+0000] {dag.py:3823} INFO - Setting next_dagrun for entrenamiento_modelos_regresion to 2025-06-17 21:00:00+00:00, run_after=2025-06-18 21:00:00+00:00
+[2025-06-17T22:54:51.261+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py took 0.431 seconds
+[2025-06-17T22:55:21.491+0000] {processor.py:161} INFO - Started process (PID=521) to work on /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py
+[2025-06-17T22:55:21.505+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py for tasks to queue
+[2025-06-17T22:55:21.512+0000] {logging_mixin.py:188} INFO - [2025-06-17T22:55:21.509+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py
+[2025-06-17T22:55:21.587+0000] {processor.py:840} INFO - DAG(s) 'entrenamiento_modelos_regresion' retrieved from /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py
+[2025-06-17T22:55:21.714+0000] {logging_mixin.py:188} INFO - [2025-06-17T22:55:21.713+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-17T22:55:21.757+0000] {logging_mixin.py:188} INFO - [2025-06-17T22:55:21.757+0000] {dag.py:3823} INFO - Setting next_dagrun for entrenamiento_modelos_regresion to 2025-06-17 21:00:00+00:00, run_after=2025-06-18 21:00:00+00:00
+[2025-06-17T22:55:21.789+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py took 0.323 seconds
+[2025-06-17T22:55:52.009+0000] {processor.py:161} INFO - Started process (PID=542) to work on /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py
+[2025-06-17T22:55:52.076+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py for tasks to queue
+[2025-06-17T22:55:52.081+0000] {logging_mixin.py:188} INFO - [2025-06-17T22:55:52.079+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py
+[2025-06-17T22:55:52.146+0000] {processor.py:840} INFO - DAG(s) 'entrenamiento_modelos_regresion' retrieved from /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py
+[2025-06-17T22:55:52.222+0000] {logging_mixin.py:188} INFO - [2025-06-17T22:55:52.221+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-17T22:55:52.291+0000] {logging_mixin.py:188} INFO - [2025-06-17T22:55:52.290+0000] {dag.py:3823} INFO - Setting next_dagrun for entrenamiento_modelos_regresion to 2025-06-17 21:00:00+00:00, run_after=2025-06-18 21:00:00+00:00
+[2025-06-17T22:55:52.351+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py took 0.366 seconds
+[2025-06-17T23:00:08.076+0000] {processor.py:161} INFO - Started process (PID=180) to work on /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py
+[2025-06-17T23:00:08.079+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py for tasks to queue
+[2025-06-17T23:00:08.082+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:00:08.081+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py
+[2025-06-17T23:00:08.107+0000] {processor.py:840} INFO - DAG(s) 'entrenamiento_modelos_regresion' retrieved from /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py
+[2025-06-17T23:00:08.390+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:00:08.390+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-17T23:00:08.416+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:00:08.416+0000] {dag.py:3823} INFO - Setting next_dagrun for entrenamiento_modelos_regresion to 2025-06-17 21:00:00+00:00, run_after=2025-06-18 21:00:00+00:00
+[2025-06-17T23:00:08.456+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py took 0.384 seconds
+[2025-06-17T23:00:39.192+0000] {processor.py:161} INFO - Started process (PID=289) to work on /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py
+[2025-06-17T23:00:39.196+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py for tasks to queue
+[2025-06-17T23:00:39.197+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:00:39.197+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py
+[2025-06-17T23:00:39.215+0000] {processor.py:840} INFO - DAG(s) 'entrenamiento_modelos_regresion' retrieved from /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py
+[2025-06-17T23:00:39.249+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:00:39.248+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-17T23:00:39.277+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:00:39.277+0000] {dag.py:3823} INFO - Setting next_dagrun for entrenamiento_modelos_regresion to 2025-06-17 21:00:00+00:00, run_after=2025-06-18 21:00:00+00:00
+[2025-06-17T23:00:39.299+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py took 0.113 seconds
+[2025-06-17T23:01:09.512+0000] {processor.py:161} INFO - Started process (PID=325) to work on /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py
+[2025-06-17T23:01:09.515+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py for tasks to queue
+[2025-06-17T23:01:09.517+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:01:09.516+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py
+[2025-06-17T23:01:09.550+0000] {processor.py:840} INFO - DAG(s) 'entrenamiento_modelos_regresion' retrieved from /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py
+[2025-06-17T23:01:09.626+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:01:09.624+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-17T23:01:09.703+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:01:09.702+0000] {dag.py:3823} INFO - Setting next_dagrun for entrenamiento_modelos_regresion to 2025-06-17 21:00:00+00:00, run_after=2025-06-18 21:00:00+00:00
+[2025-06-17T23:01:09.754+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py took 0.253 seconds
+[2025-06-17T23:01:40.144+0000] {processor.py:161} INFO - Started process (PID=346) to work on /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py
+[2025-06-17T23:01:40.146+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py for tasks to queue
+[2025-06-17T23:01:40.147+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:01:40.147+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py
+[2025-06-17T23:01:40.159+0000] {processor.py:840} INFO - DAG(s) 'entrenamiento_modelos_regresion' retrieved from /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py
+[2025-06-17T23:01:40.195+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:01:40.195+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-17T23:01:40.228+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:01:40.228+0000] {dag.py:3823} INFO - Setting next_dagrun for entrenamiento_modelos_regresion to 2025-06-17 21:00:00+00:00, run_after=2025-06-18 21:00:00+00:00
+[2025-06-17T23:01:40.257+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py took 0.116 seconds
+[2025-06-17T23:02:10.624+0000] {processor.py:161} INFO - Started process (PID=382) to work on /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py
+[2025-06-17T23:02:10.940+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py for tasks to queue
+[2025-06-17T23:02:10.944+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:02:10.944+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py
+[2025-06-17T23:02:10.964+0000] {processor.py:840} INFO - DAG(s) 'entrenamiento_modelos_regresion' retrieved from /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py
+[2025-06-17T23:02:11.006+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:02:11.006+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-17T23:02:11.051+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:02:11.051+0000] {dag.py:3823} INFO - Setting next_dagrun for entrenamiento_modelos_regresion to 2025-06-17 21:00:00+00:00, run_after=2025-06-18 21:00:00+00:00
+[2025-06-17T23:02:11.082+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py took 0.464 seconds
+[2025-06-17T23:02:41.470+0000] {processor.py:161} INFO - Started process (PID=403) to work on /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py
+[2025-06-17T23:02:41.472+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py for tasks to queue
+[2025-06-17T23:02:41.473+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:02:41.473+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py
+[2025-06-17T23:02:41.491+0000] {processor.py:840} INFO - DAG(s) 'entrenamiento_modelos_regresion' retrieved from /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py
+[2025-06-17T23:02:41.536+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:02:41.536+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-17T23:02:41.575+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:02:41.574+0000] {dag.py:3823} INFO - Setting next_dagrun for entrenamiento_modelos_regresion to 2025-06-17 21:00:00+00:00, run_after=2025-06-18 21:00:00+00:00
+[2025-06-17T23:02:41.604+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py took 0.138 seconds
+[2025-06-17T23:03:11.677+0000] {processor.py:161} INFO - Started process (PID=439) to work on /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py
+[2025-06-17T23:03:11.682+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py for tasks to queue
+[2025-06-17T23:03:11.683+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:03:11.683+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py
+[2025-06-17T23:03:11.697+0000] {processor.py:840} INFO - DAG(s) 'entrenamiento_modelos_regresion' retrieved from /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py
+[2025-06-17T23:03:11.729+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:03:11.729+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-17T23:03:11.755+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:03:11.755+0000] {dag.py:3823} INFO - Setting next_dagrun for entrenamiento_modelos_regresion to 2025-06-17 21:00:00+00:00, run_after=2025-06-18 21:00:00+00:00
+[2025-06-17T23:03:11.777+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py took 0.108 seconds
+[2025-06-17T23:03:42.071+0000] {processor.py:161} INFO - Started process (PID=460) to work on /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py
+[2025-06-17T23:03:42.073+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py for tasks to queue
+[2025-06-17T23:03:42.074+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:03:42.073+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py
+[2025-06-17T23:03:42.087+0000] {processor.py:840} INFO - DAG(s) 'entrenamiento_modelos_regresion' retrieved from /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py
+[2025-06-17T23:03:42.117+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:03:42.117+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-17T23:03:42.141+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:03:42.141+0000] {dag.py:3823} INFO - Setting next_dagrun for entrenamiento_modelos_regresion to 2025-06-17 21:00:00+00:00, run_after=2025-06-18 21:00:00+00:00
+[2025-06-17T23:03:42.167+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py took 0.100 seconds
+[2025-06-17T23:04:12.320+0000] {processor.py:161} INFO - Started process (PID=502) to work on /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py
+[2025-06-17T23:04:12.322+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py for tasks to queue
+[2025-06-17T23:04:12.324+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:04:12.323+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py
+[2025-06-17T23:04:12.338+0000] {processor.py:840} INFO - DAG(s) 'entrenamiento_modelos_regresion' retrieved from /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py
+[2025-06-17T23:04:12.369+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:04:12.368+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-17T23:04:12.394+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:04:12.394+0000] {dag.py:3823} INFO - Setting next_dagrun for entrenamiento_modelos_regresion to 2025-06-17 21:00:00+00:00, run_after=2025-06-18 21:00:00+00:00
+[2025-06-17T23:04:12.418+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py took 0.102 seconds
+[2025-06-17T23:04:42.529+0000] {processor.py:161} INFO - Started process (PID=518) to work on /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py
+[2025-06-17T23:04:42.531+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py for tasks to queue
+[2025-06-17T23:04:42.532+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:04:42.532+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py
+[2025-06-17T23:04:42.549+0000] {processor.py:840} INFO - DAG(s) 'entrenamiento_modelos_regresion' retrieved from /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py
+[2025-06-17T23:04:42.590+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:04:42.589+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-17T23:04:42.631+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:04:42.631+0000] {dag.py:3823} INFO - Setting next_dagrun for entrenamiento_modelos_regresion to 2025-06-17 21:00:00+00:00, run_after=2025-06-18 21:00:00+00:00
+[2025-06-17T23:04:42.661+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py took 0.136 seconds
+[2025-06-17T23:05:13.124+0000] {processor.py:161} INFO - Started process (PID=554) to work on /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py
+[2025-06-17T23:05:13.131+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py for tasks to queue
+[2025-06-17T23:05:13.133+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:05:13.132+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py
+[2025-06-17T23:05:13.153+0000] {processor.py:840} INFO - DAG(s) 'entrenamiento_modelos_regresion' retrieved from /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py
+[2025-06-17T23:05:13.213+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:05:13.213+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-17T23:05:13.260+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:05:13.260+0000] {dag.py:3823} INFO - Setting next_dagrun for entrenamiento_modelos_regresion to 2025-06-17 21:00:00+00:00, run_after=2025-06-18 21:00:00+00:00
+[2025-06-17T23:05:13.300+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py took 0.183 seconds
+[2025-06-17T23:05:43.578+0000] {processor.py:161} INFO - Started process (PID=575) to work on /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py
+[2025-06-17T23:05:43.583+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py for tasks to queue
+[2025-06-17T23:05:43.585+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:05:43.584+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py
+[2025-06-17T23:05:43.610+0000] {processor.py:840} INFO - DAG(s) 'entrenamiento_modelos_regresion' retrieved from /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py
+[2025-06-17T23:05:43.646+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:05:43.645+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-17T23:05:43.682+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:05:43.682+0000] {dag.py:3823} INFO - Setting next_dagrun for entrenamiento_modelos_regresion to 2025-06-17 21:00:00+00:00, run_after=2025-06-18 21:00:00+00:00
+[2025-06-17T23:05:43.714+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py took 0.140 seconds
+[2025-06-17T23:06:13.896+0000] {processor.py:161} INFO - Started process (PID=611) to work on /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py
+[2025-06-17T23:06:13.897+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py for tasks to queue
+[2025-06-17T23:06:13.899+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:06:13.899+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py
+[2025-06-17T23:06:13.929+0000] {processor.py:840} INFO - DAG(s) 'entrenamiento_modelos_regresion' retrieved from /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py
+[2025-06-17T23:06:13.977+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:06:13.977+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-17T23:06:14.030+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:06:14.030+0000] {dag.py:3823} INFO - Setting next_dagrun for entrenamiento_modelos_regresion to 2025-06-17 21:00:00+00:00, run_after=2025-06-18 21:00:00+00:00
+[2025-06-17T23:06:14.077+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py took 0.186 seconds
+[2025-06-17T23:06:44.424+0000] {processor.py:161} INFO - Started process (PID=643) to work on /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py
+[2025-06-17T23:06:44.461+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py for tasks to queue
+[2025-06-17T23:06:44.467+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:06:44.463+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py
+[2025-06-17T23:06:44.544+0000] {processor.py:840} INFO - DAG(s) 'entrenamiento_modelos_regresion' retrieved from /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py
+[2025-06-17T23:06:44.718+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:06:44.717+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-17T23:06:44.817+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:06:44.816+0000] {dag.py:3823} INFO - Setting next_dagrun for entrenamiento_modelos_regresion to 2025-06-17 21:00:00+00:00, run_after=2025-06-18 21:00:00+00:00
+[2025-06-17T23:06:44.891+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py took 0.504 seconds
+[2025-06-17T23:07:15.045+0000] {processor.py:161} INFO - Started process (PID=786) to work on /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py
+[2025-06-17T23:07:15.046+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py for tasks to queue
+[2025-06-17T23:07:15.051+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:07:15.047+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py
+[2025-06-17T23:07:15.078+0000] {processor.py:840} INFO - DAG(s) 'entrenamiento_modelos_regresion' retrieved from /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py
+[2025-06-17T23:07:15.118+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:07:15.118+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-17T23:07:15.154+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:07:15.154+0000] {dag.py:3823} INFO - Setting next_dagrun for entrenamiento_modelos_regresion to 2025-06-17 21:00:00+00:00, run_after=2025-06-18 21:00:00+00:00
+[2025-06-17T23:07:15.185+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py took 0.147 seconds
+[2025-06-17T23:07:45.291+0000] {processor.py:161} INFO - Started process (PID=907) to work on /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py
+[2025-06-17T23:07:45.295+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py for tasks to queue
+[2025-06-17T23:07:45.296+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:07:45.296+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py
+[2025-06-17T23:07:45.313+0000] {processor.py:840} INFO - DAG(s) 'entrenamiento_modelos_regresion' retrieved from /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py
+[2025-06-17T23:07:45.349+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:07:45.348+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-17T23:07:45.397+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:07:45.396+0000] {dag.py:3823} INFO - Setting next_dagrun for entrenamiento_modelos_regresion to 2025-06-17 21:00:00+00:00, run_after=2025-06-18 21:00:00+00:00
+[2025-06-17T23:07:45.436+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py took 0.153 seconds
+[2025-06-17T23:08:15.561+0000] {processor.py:161} INFO - Started process (PID=1063) to work on /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py
+[2025-06-17T23:08:15.565+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py for tasks to queue
+[2025-06-17T23:08:15.567+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:08:15.566+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py
+[2025-06-17T23:08:15.581+0000] {processor.py:840} INFO - DAG(s) 'entrenamiento_modelos_regresion' retrieved from /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py
+[2025-06-17T23:08:15.614+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:08:15.614+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-17T23:08:15.641+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:08:15.641+0000] {dag.py:3823} INFO - Setting next_dagrun for entrenamiento_modelos_regresion to 2025-06-17 21:00:00+00:00, run_after=2025-06-18 21:00:00+00:00
+[2025-06-17T23:08:15.668+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py took 0.112 seconds
+[2025-06-17T23:08:45.867+0000] {processor.py:161} INFO - Started process (PID=1201) to work on /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py
+[2025-06-17T23:08:45.896+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py for tasks to queue
+[2025-06-17T23:08:45.897+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:08:45.897+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py
+[2025-06-17T23:08:45.914+0000] {processor.py:840} INFO - DAG(s) 'entrenamiento_modelos_regresion' retrieved from /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py
+[2025-06-17T23:08:45.952+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:08:45.952+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-17T23:08:45.987+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:08:45.986+0000] {dag.py:3823} INFO - Setting next_dagrun for entrenamiento_modelos_regresion to 2025-06-17 21:00:00+00:00, run_after=2025-06-18 21:00:00+00:00
+[2025-06-17T23:08:46.014+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py took 0.152 seconds
+[2025-06-17T23:09:16.070+0000] {processor.py:161} INFO - Started process (PID=1347) to work on /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py
+[2025-06-17T23:09:16.071+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py for tasks to queue
+[2025-06-17T23:09:16.072+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:09:16.072+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py
+[2025-06-17T23:09:16.103+0000] {processor.py:840} INFO - DAG(s) 'entrenamiento_modelos_regresion' retrieved from /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py
+[2025-06-17T23:09:16.185+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:09:16.185+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-17T23:09:16.240+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:09:16.240+0000] {dag.py:3823} INFO - Setting next_dagrun for entrenamiento_modelos_regresion to 2025-06-17 21:00:00+00:00, run_after=2025-06-18 21:00:00+00:00
+[2025-06-17T23:09:16.270+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/entrenamiento_modelos_regresion_dag.py took 0.208 seconds

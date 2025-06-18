@@ -13227,3 +13227,1989 @@ File Path                                                 PID    Runtime      # 
 /opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.11s           2025-06-15T13:22:24
 ================================================================================
 [2025-06-15T13:22:38.121+0000] {manager.py:451} INFO - Exiting gracefully upon receiving signal 15
+[2025-06-15T19:42:22.207+0000] {manager.py:469} INFO - Processing files using up to 2 processes at a time 
+[2025-06-15T19:42:22.209+0000] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2025-06-15T19:42:22.209+0000] {manager.py:471} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-06-15T19:42:22.210+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-06-15T19:42:22.240+0000] {manager.py:741} INFO - There are 4 files in /opt/airflow/dags
+[2025-06-15T19:42:22.449+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/scraping_autopia_dag.py                   184  0.07s             0           0
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py    181  0.08s             0           0
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               0           0
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              0           0
+================================================================================
+[2025-06-15T19:42:52.503+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  1.59s           2025-06-15T19:42:23
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.24s           2025-06-15T19:42:22
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.15s           2025-06-15T19:42:22
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.17s           2025-06-15T19:42:22
+================================================================================
+[2025-06-15T19:43:22.086+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  0.90s           2025-06-15T19:42:54
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.44s           2025-06-15T19:42:53
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.37s           2025-06-15T19:42:53
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.20s           2025-06-15T19:42:54
+================================================================================
+[2025-06-15T19:43:51.404+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  -0.06s          2025-06-15T19:43:25
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.20s           2025-06-15T19:43:24
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.16s           2025-06-15T19:43:24
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.16s           2025-06-15T19:43:24
+================================================================================
+[2025-06-15T19:44:21.227+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  2.28s           2025-06-15T19:43:58
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.23s           2025-06-15T19:43:54
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.19s           2025-06-15T19:43:54
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.28s           2025-06-15T19:43:54
+================================================================================
+[2025-06-15T19:44:50.446+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  0.71s           2025-06-15T19:44:29
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.21s           2025-06-15T19:44:25
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.17s           2025-06-15T19:44:25
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.17s           2025-06-15T19:44:25
+================================================================================
+[2025-06-15T19:45:19.486+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  1.02s           2025-06-15T19:45:00
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.35s           2025-06-15T19:44:56
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.29s           2025-06-15T19:44:56
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.24s           2025-06-15T19:44:56
+================================================================================
+[2025-06-15T19:45:48.805+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  1.16s           2025-06-15T19:45:31
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  2.03s           2025-06-15T19:45:28
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  1.96s           2025-06-15T19:45:28
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.23s           2025-06-15T19:45:28
+================================================================================
+[2025-06-15T19:46:18.058+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  9.60s           2025-06-15T19:46:11
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.84s           2025-06-15T19:45:59
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.81s           2025-06-15T19:45:59
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.19s           2025-06-15T19:45:59
+================================================================================
+[2025-06-15T19:46:47.354+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  1.47s           2025-06-15T19:46:43
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.59s           2025-06-15T19:46:30
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.46s           2025-06-15T19:46:30
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.49s           2025-06-15T19:46:30
+================================================================================
+[2025-06-15T19:47:16.933+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  1.94s           2025-06-15T19:47:15
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.72s           2025-06-15T19:47:01
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.75s           2025-06-15T19:47:01
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.53s           2025-06-15T19:47:01
+================================================================================
+[2025-06-15T19:47:22.457+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-06-15T19:47:22.536+0000] {manager.py:741} INFO - There are 4 files in /opt/airflow/dags
+[2025-06-15T19:47:46.211+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                   482  0.04s             1           0  1.94s           2025-06-15T19:47:15
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.32s           2025-06-15T19:47:31
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.27s           2025-06-15T19:47:31
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.23s           2025-06-15T19:47:32
+================================================================================
+[2025-06-15T19:48:15.522+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  0.71s           2025-06-15T19:47:46
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.32s           2025-06-15T19:48:02
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.25s           2025-06-15T19:48:02
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.26s           2025-06-15T19:48:02
+================================================================================
+[2025-06-15T19:48:44.560+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  1.91s           2025-06-15T19:48:19
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.38s           2025-06-15T19:48:33
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.33s           2025-06-15T19:48:33
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.46s           2025-06-15T19:48:33
+================================================================================
+[2025-06-15T19:49:13.530+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  1.48s           2025-06-15T19:48:51
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.30s           2025-06-15T19:49:03
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.20s           2025-06-15T19:49:03
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.41s           2025-06-15T19:49:04
+================================================================================
+[2025-06-15T19:49:42.712+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  1.43s           2025-06-15T19:49:23
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.28s           2025-06-15T19:49:34
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.23s           2025-06-15T19:49:34
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.28s           2025-06-15T19:49:35
+================================================================================
+[2025-06-15T19:50:12.287+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  1.69s           2025-06-15T19:49:55
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.39s           2025-06-15T19:50:04
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.31s           2025-06-15T19:50:04
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.29s           2025-06-15T19:50:06
+================================================================================
+[2025-06-15T19:50:41.426+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  1.71s           2025-06-15T19:50:27
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.42s           2025-06-15T19:50:35
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.38s           2025-06-15T19:50:35
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.57s           2025-06-15T19:50:36
+================================================================================
+[2025-06-15T19:51:09.498+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  1.07s           2025-06-15T19:50:58
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.66s           2025-06-15T19:51:06
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.60s           2025-06-15T19:51:06
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.15s           2025-06-15T19:51:07
+================================================================================
+[2025-06-15T19:51:38.933+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  2.01s           2025-06-15T19:51:31
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.22s           2025-06-15T19:51:36
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.17s           2025-06-15T19:51:36
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.37s           2025-06-15T19:51:38
+================================================================================
+[2025-06-15T19:52:08.324+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  1.19s           2025-06-15T19:52:03
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.45s           2025-06-15T19:52:07
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.39s           2025-06-15T19:52:07
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py       727  0.02s             1           0  0.37s           2025-06-15T19:51:38
+================================================================================
+[2025-06-15T19:52:22.470+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-06-15T19:52:22.598+0000] {manager.py:741} INFO - There are 4 files in /opt/airflow/dags
+[2025-06-15T19:52:37.318+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  2.55s           2025-06-15T19:52:36
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.45s           2025-06-15T19:52:07
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.39s           2025-06-15T19:52:07
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.35s           2025-06-15T19:52:08
+================================================================================
+[2025-06-15T19:53:06.710+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                   768  0.03s             1           0  2.55s           2025-06-15T19:52:36
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.29s           2025-06-15T19:52:38
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.25s           2025-06-15T19:52:38
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.41s           2025-06-15T19:52:39
+================================================================================
+[2025-06-15T19:53:35.835+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  1.55s           2025-06-15T19:53:08
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.26s           2025-06-15T19:53:09
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.22s           2025-06-15T19:53:09
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.42s           2025-06-15T19:53:10
+================================================================================
+[2025-06-15T19:54:05.026+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  1.18s           2025-06-15T19:53:39
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.18s           2025-06-15T19:53:39
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.20s           2025-06-15T19:53:39
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.20s           2025-06-15T19:53:41
+================================================================================
+[2025-06-15T19:54:34.341+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  1.24s           2025-06-15T19:54:11
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.45s           2025-06-15T19:54:10
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.28s           2025-06-15T19:54:10
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.18s           2025-06-15T19:54:11
+================================================================================
+[2025-06-15T19:55:03.406+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  1.42s           2025-06-15T19:54:43
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.47s           2025-06-15T19:54:41
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.20s           2025-06-15T19:54:41
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.46s           2025-06-15T19:54:42
+================================================================================
+[2025-06-15T19:55:32.152+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  1.66s           2025-06-15T19:55:15
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.38s           2025-06-15T19:55:11
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.33s           2025-06-15T19:55:11
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.35s           2025-06-15T19:55:13
+================================================================================
+[2025-06-15T19:56:01.556+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  2.75s           2025-06-15T19:55:48
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.80s           2025-06-15T19:55:43
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.73s           2025-06-15T19:55:43
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.45s           2025-06-15T19:55:44
+================================================================================
+[2025-06-15T19:56:30.692+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  1.79s           2025-06-15T19:56:20
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.28s           2025-06-15T19:56:13
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.22s           2025-06-15T19:56:13
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.32s           2025-06-15T19:56:15
+================================================================================
+[2025-06-15T19:56:59.677+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  3.64s           2025-06-15T19:56:54
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.84s           2025-06-15T19:56:45
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.71s           2025-06-15T19:56:45
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.32s           2025-06-15T19:56:46
+================================================================================
+[2025-06-15T19:57:22.543+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-06-15T19:57:23.096+0000] {manager.py:741} INFO - There are 4 files in /opt/airflow/dags
+[2025-06-15T19:57:29.046+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                  1011  4.10s             1           0  3.64s           2025-06-15T19:56:54
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  1.10s           2025-06-15T19:57:16
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.98s           2025-06-15T19:57:16
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.61s           2025-06-15T19:57:17
+================================================================================
+[2025-06-15T19:57:58.380+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  9.19s           2025-06-15T19:57:34
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.72s           2025-06-15T19:57:48
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.72s           2025-06-15T19:57:48
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.50s           2025-06-15T19:57:48
+================================================================================
+[2025-06-15T19:58:07.537+0000] {manager.py:451} INFO - Exiting gracefully upon receiving signal 15
+[2025-06-15T19:59:24.365+0000] {manager.py:469} INFO - Processing files using up to 2 processes at a time 
+[2025-06-15T19:59:24.367+0000] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2025-06-15T19:59:24.368+0000] {manager.py:471} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-06-15T19:59:24.368+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-06-15T19:59:24.403+0000] {manager.py:741} INFO - There are 4 files in /opt/airflow/dags
+[2025-06-15T19:59:24.896+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/scraping_autopia_dag.py                   184  0.15s             0           0
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py    181  0.17s             0           0
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               0           0
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              0           0
+================================================================================
+[2025-06-15T19:59:53.700+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  4.41s           2025-06-15T19:59:29
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  1.12s           2025-06-15T19:59:25
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.39s           2025-06-15T19:59:26
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.51s           2025-06-15T19:59:26
+================================================================================
+[2025-06-15T20:00:23.281+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  2.20s           2025-06-15T20:00:01
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.55s           2025-06-15T19:59:56
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.24s           2025-06-15T19:59:56
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.29s           2025-06-15T19:59:57
+================================================================================
+[2025-06-15T20:00:52.364+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  3.39s           2025-06-15T20:00:35
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.71s           2025-06-15T20:00:28
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.57s           2025-06-15T20:00:27
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.36s           2025-06-15T20:00:28
+================================================================================
+[2025-06-15T20:01:21.166+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  1.34s           2025-06-15T20:01:07
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.41s           2025-06-15T20:00:58
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.35s           2025-06-15T20:00:58
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.20s           2025-06-15T20:00:59
+================================================================================
+[2025-06-15T20:01:50.021+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  0.99s           2025-06-15T20:01:38
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.55s           2025-06-15T20:01:29
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.43s           2025-06-15T20:01:29
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.44s           2025-06-15T20:01:30
+================================================================================
+[2025-06-15T20:02:18.898+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  1.76s           2025-06-15T20:02:11
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.53s           2025-06-15T20:02:00
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.46s           2025-06-15T20:02:00
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.42s           2025-06-15T20:02:00
+================================================================================
+[2025-06-15T20:02:47.658+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  1.39s           2025-06-15T20:02:42
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.55s           2025-06-15T20:02:31
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.46s           2025-06-15T20:02:31
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.51s           2025-06-15T20:02:31
+================================================================================
+[2025-06-15T20:03:16.991+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  1.92s           2025-06-15T20:03:15
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.49s           2025-06-15T20:03:02
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.43s           2025-06-15T20:03:01
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.24s           2025-06-15T20:03:02
+================================================================================
+[2025-06-15T20:03:46.056+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                   424  0.51s             1           0  1.92s           2025-06-15T20:03:15
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.48s           2025-06-15T20:03:32
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.40s           2025-06-15T20:03:32
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.51s           2025-06-15T20:03:33
+================================================================================
+[2025-06-15T20:04:15.352+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  1.57s           2025-06-15T20:03:47
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.29s           2025-06-15T20:04:03
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.25s           2025-06-15T20:04:03
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.25s           2025-06-15T20:04:03
+================================================================================
+[2025-06-15T20:04:24.683+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-06-15T20:04:24.709+0000] {manager.py:741} INFO - There are 4 files in /opt/airflow/dags
+[2025-06-15T20:04:44.303+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  1.35s           2025-06-15T20:04:18
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.56s           2025-06-15T20:04:34
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.46s           2025-06-15T20:04:34
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.40s           2025-06-15T20:04:34
+================================================================================
+[2025-06-15T20:05:13.189+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  1.58s           2025-06-15T20:04:50
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.53s           2025-06-15T20:05:05
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.45s           2025-06-15T20:05:05
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.48s           2025-06-15T20:05:05
+================================================================================
+[2025-06-15T20:05:41.899+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  1.16s           2025-06-15T20:05:22
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.51s           2025-06-15T20:05:35
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.43s           2025-06-15T20:05:35
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.25s           2025-06-15T20:05:35
+================================================================================
+[2025-06-15T20:06:04.625+0000] {manager.py:451} INFO - Exiting gracefully upon receiving signal 15
+[2025-06-17T22:49:43.144+0000] {manager.py:469} INFO - Processing files using up to 2 processes at a time 
+[2025-06-17T22:49:43.148+0000] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2025-06-17T22:49:43.149+0000] {manager.py:471} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-06-17T22:49:43.150+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-06-17T22:49:43.179+0000] {manager.py:741} INFO - There are 4 files in /opt/airflow/dags
+[2025-06-17T22:49:43.707+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/scraping_autopia_dag.py                   183  0.14s             0           0
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py    180  0.18s             0           0
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               0           0
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              0           0
+================================================================================
+[2025-06-17T22:50:12.151+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  3.74s           2025-06-17T22:49:47
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.74s           2025-06-17T22:49:44
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.47s           2025-06-17T22:49:44
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.36s           2025-06-17T22:49:45
+================================================================================
+[2025-06-17T22:50:41.754+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  1.76s           2025-06-17T22:50:19
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.83s           2025-06-17T22:50:15
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.64s           2025-06-17T22:50:15
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.28s           2025-06-17T22:50:15
+================================================================================
+[2025-06-17T22:51:09.870+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  1.61s           2025-06-17T22:50:51
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.43s           2025-06-17T22:50:46
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.41s           2025-06-17T22:50:45
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.39s           2025-06-17T22:50:46
+================================================================================
+[2025-06-17T22:51:37.732+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  0.96s           2025-06-17T22:51:23
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.30s           2025-06-17T22:51:16
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.49s           2025-06-17T22:51:16
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.16s           2025-06-17T22:51:16
+================================================================================
+[2025-06-17T22:52:06.200+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  1.14s           2025-06-17T22:51:55
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.29s           2025-06-17T22:51:47
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.22s           2025-06-17T22:51:47
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.23s           2025-06-17T22:51:47
+================================================================================
+[2025-06-17T22:52:34.693+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  1.29s           2025-06-17T22:52:26
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.20s           2025-06-17T22:52:17
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.20s           2025-06-17T22:52:17
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.16s           2025-06-17T22:52:17
+================================================================================
+[2025-06-17T22:53:02.438+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  1.65s           2025-06-17T22:52:58
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.59s           2025-06-17T22:52:48
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.49s           2025-06-17T22:52:48
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.66s           2025-06-17T22:52:49
+================================================================================
+[2025-06-17T22:53:30.875+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  1.08s           2025-06-17T22:53:29
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.38s           2025-06-17T22:53:19
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.31s           2025-06-17T22:53:19
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.19s           2025-06-17T22:53:19
+================================================================================
+[2025-06-17T22:53:59.231+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  1.08s           2025-06-17T22:53:29
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.29s           2025-06-17T22:53:50
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.25s           2025-06-17T22:53:50
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.18s           2025-06-17T22:53:50
+================================================================================
+[2025-06-17T22:54:27.502+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  0.96s           2025-06-17T22:54:01
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.25s           2025-06-17T22:54:20
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.22s           2025-06-17T22:54:20
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.18s           2025-06-17T22:54:20
+================================================================================
+[2025-06-17T22:54:43.586+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-06-17T22:54:43.607+0000] {manager.py:741} INFO - There are 4 files in /opt/airflow/dags
+[2025-06-17T22:54:55.383+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  1.49s           2025-06-17T22:54:33
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.51s           2025-06-17T22:54:51
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.44s           2025-06-17T22:54:51
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.27s           2025-06-17T22:54:51
+================================================================================
+[2025-06-17T22:55:23.131+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  0.99s           2025-06-17T22:55:04
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.39s           2025-06-17T22:55:21
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.34s           2025-06-17T22:55:21
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.31s           2025-06-17T22:55:22
+================================================================================
+[2025-06-17T22:55:50.917+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  -1.02s          2025-06-17T22:55:33
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.39s           2025-06-17T22:55:21
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.34s           2025-06-17T22:55:21
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.31s           2025-06-17T22:55:22
+================================================================================
+[2025-06-17T23:00:08.217+0000] {manager.py:469} INFO - Processing files using up to 2 processes at a time 
+[2025-06-17T23:00:08.789+0000] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2025-06-17T23:00:08.789+0000] {manager.py:471} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-06-17T23:00:08.789+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-06-17T23:00:08.794+0000] {manager.py:741} INFO - There are 4 files in /opt/airflow/dags
+[2025-06-17T23:00:08.127+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/scraping_autopia_dag.py                   183  0.05s             0           0
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py    180  0.07s             0           0
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               0           0
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              0           0
+================================================================================
+[2025-06-17T23:00:36.156+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  2.08s           2025-06-17T23:00:10
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.41s           2025-06-17T23:00:08
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.25s           2025-06-17T23:00:08
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.33s           2025-06-17T23:00:09
+================================================================================
+[2025-06-17T23:01:04.030+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  0.66s           2025-06-17T23:00:40
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.14s           2025-06-17T23:00:39
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.12s           2025-06-17T23:00:39
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.11s           2025-06-17T23:00:39
+================================================================================
+[2025-06-17T23:01:32.084+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  1.04s           2025-06-17T23:01:12
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.29s           2025-06-17T23:01:09
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.25s           2025-06-17T23:01:09
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.32s           2025-06-17T23:01:10
+================================================================================
+[2025-06-17T23:02:00.542+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  0.62s           2025-06-17T23:01:42
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.14s           2025-06-17T23:01:40
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.12s           2025-06-17T23:01:40
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.15s           2025-06-17T23:01:40
+================================================================================
+[2025-06-17T23:02:28.996+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  0.82s           2025-06-17T23:02:13
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.50s           2025-06-17T23:02:11
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.48s           2025-06-17T23:02:11
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.19s           2025-06-17T23:02:11
+================================================================================
+[2025-06-17T23:02:57.557+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  0.70s           2025-06-17T23:02:45
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.18s           2025-06-17T23:02:41
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.16s           2025-06-17T23:02:41
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.14s           2025-06-17T23:02:41
+================================================================================
+[2025-06-17T23:03:25.921+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  0.53s           2025-06-17T23:03:16
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.14s           2025-06-17T23:03:11
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.11s           2025-06-17T23:03:11
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.11s           2025-06-17T23:03:11
+================================================================================
+[2025-06-17T23:03:54.554+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  0.58s           2025-06-17T23:03:47
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.13s           2025-06-17T23:03:42
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.11s           2025-06-17T23:03:42
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.12s           2025-06-17T23:03:42
+================================================================================
+[2025-06-17T23:04:23.022+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  0.69s           2025-06-17T23:04:19
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.12s           2025-06-17T23:04:12
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.12s           2025-06-17T23:04:12
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.12s           2025-06-17T23:04:12
+================================================================================
+[2025-06-17T23:04:51.506+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  0.71s           2025-06-17T23:04:50
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.17s           2025-06-17T23:04:42
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.15s           2025-06-17T23:04:42
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.16s           2025-06-17T23:04:42
+================================================================================
+[2025-06-17T23:05:09.052+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-06-17T23:05:09.063+0000] {manager.py:741} INFO - There are 4 files in /opt/airflow/dags
+[2025-06-17T23:05:19.419+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  0.71s           2025-06-17T23:04:50
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.22s           2025-06-17T23:05:13
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.19s           2025-06-17T23:05:13
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.21s           2025-06-17T23:05:13
+================================================================================
+[2025-06-17T23:05:47.657+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  0.68s           2025-06-17T23:05:21
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.17s           2025-06-17T23:05:43
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.14s           2025-06-17T23:05:43
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.18s           2025-06-17T23:05:43
+================================================================================
+[2025-06-17T23:06:16.123+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  0.61s           2025-06-17T23:05:53
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.22s           2025-06-17T23:06:14
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.22s           2025-06-17T23:06:14
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.30s           2025-06-17T23:06:14
+================================================================================
+[2025-06-17T23:06:44.439+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  0.76s           2025-06-17T23:06:24
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py    643  0.07s             1           0  0.22s           2025-06-17T23:06:14
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py        646  0.04s             1           0  0.22s           2025-06-17T23:06:14
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.30s           2025-06-17T23:06:14
+================================================================================
+[2025-06-17T23:07:12.986+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  8.09s           2025-06-17T23:07:03
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.57s           2025-06-17T23:06:44
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.46s           2025-06-17T23:06:44
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.25s           2025-06-17T23:06:45
+================================================================================
+[2025-06-17T23:07:41.208+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  1.07s           2025-06-17T23:07:34
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.18s           2025-06-17T23:07:15
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.14s           2025-06-17T23:07:15
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.24s           2025-06-17T23:07:15
+================================================================================
+[2025-06-17T23:08:09.384+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  0.96s           2025-06-17T23:08:05
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.20s           2025-06-17T23:07:45
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.16s           2025-06-17T23:07:45
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.12s           2025-06-17T23:07:45
+================================================================================
+[2025-06-17T23:08:37.293+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  0.63s           2025-06-17T23:08:36
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.14s           2025-06-17T23:08:15
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.12s           2025-06-17T23:08:15
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.12s           2025-06-17T23:08:15
+================================================================================
+[2025-06-17T23:09:05.165+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  0.63s           2025-06-17T23:08:36
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.19s           2025-06-17T23:08:46
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.15s           2025-06-17T23:08:46
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.18s           2025-06-17T23:08:46
+================================================================================
+[2025-06-18T00:29:16.053+0000] {manager.py:469} INFO - Processing files using up to 2 processes at a time 
+[2025-06-18T00:29:16.372+0000] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2025-06-18T00:29:16.374+0000] {manager.py:471} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-06-18T00:29:16.376+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-06-18T00:29:17.699+0000] {manager.py:741} INFO - There are 4 files in /opt/airflow/dags
+[2025-06-18T00:29:18.081+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/scraping_autopia_dag.py                   180  0.19s             0           0
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           0           0
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               0           0
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py       184  0.07s             0           0
+================================================================================
+[2025-06-18T00:29:45.537+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  1.45s           2025-06-18T00:29:19
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.41s           2025-06-18T00:29:19
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.39s           2025-06-18T00:29:19
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  1.08s           2025-06-18T00:29:19
+================================================================================
+[2025-06-18T00:30:12.863+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  2.73s           2025-06-18T00:29:52
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.34s           2025-06-18T00:29:51
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.18s           2025-06-18T00:29:51
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.81s           2025-06-18T00:29:50
+================================================================================
+[2025-06-18T00:30:40.961+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  1.67s           2025-06-18T00:30:25
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  1.78s           2025-06-18T00:30:23
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  2.63s           2025-06-18T00:30:25
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  2.12s           2025-06-18T00:30:23
+================================================================================
+[2025-06-18T00:31:08.722+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  0.94s           2025-06-18T00:30:57
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.18s           2025-06-18T00:30:53
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.29s           2025-06-18T00:30:56
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.21s           2025-06-18T00:30:53
+================================================================================
+[2025-06-18T00:31:36.427+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  1.01s           2025-06-18T00:31:29
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.47s           2025-06-18T00:31:24
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.20s           2025-06-18T00:31:27
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.18s           2025-06-18T00:31:23
+================================================================================
+[2025-06-18T00:32:04.276+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  0.76s           2025-06-18T00:32:00
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.17s           2025-06-18T00:31:54
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.27s           2025-06-18T00:31:58
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.22s           2025-06-18T00:31:54
+================================================================================
+[2025-06-18T00:32:31.917+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  0.78s           2025-06-18T00:32:31
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.25s           2025-06-18T00:32:24
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.19s           2025-06-18T00:32:28
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.37s           2025-06-18T00:32:24
+================================================================================
+[2025-06-18T00:32:59.306+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  0.78s           2025-06-18T00:32:31
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.21s           2025-06-18T00:32:55
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py        398  0.02s             1           0  0.19s           2025-06-18T00:32:28
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.25s           2025-06-18T00:32:55
+================================================================================
+[2025-06-18T00:33:24.532+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  0.95s           2025-06-18T00:33:02
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.17s           2025-06-18T00:33:26
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.21s           2025-06-18T00:32:59
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.20s           2025-06-18T00:33:26
+================================================================================
+[2025-06-18T00:33:51.998+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  0.75s           2025-06-18T00:33:33
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.17s           2025-06-18T00:33:26
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.17s           2025-06-18T00:33:29
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.20s           2025-06-18T00:33:26
+================================================================================
+[2025-06-18T00:34:16.624+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-06-18T00:34:16.638+0000] {manager.py:741} INFO - There are 4 files in /opt/airflow/dags
+[2025-06-18T00:34:19.476+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  0.77s           2025-06-18T00:34:04
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.17s           2025-06-18T00:33:56
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.26s           2025-06-18T00:34:00
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.20s           2025-06-18T00:33:56
+================================================================================
+[2025-06-18T00:34:46.917+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  0.99s           2025-06-18T00:34:35
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.15s           2025-06-18T00:34:27
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.51s           2025-06-18T00:34:31
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.18s           2025-06-18T00:34:27
+================================================================================
+[2025-06-18T00:35:15.004+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  1.03s           2025-06-18T00:35:07
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.19s           2025-06-18T00:34:57
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.15s           2025-06-18T00:35:02
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.21s           2025-06-18T00:34:57
+================================================================================
+[2025-06-18T00:35:43.077+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  1.09s           2025-06-18T00:35:38
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.35s           2025-06-18T00:35:28
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.42s           2025-06-18T00:35:33
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.39s           2025-06-18T00:35:28
+================================================================================
+[2025-06-18T00:36:10.560+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  0.66s           2025-06-18T00:36:09
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.49s           2025-06-18T00:35:59
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.21s           2025-06-18T00:36:04
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.18s           2025-06-18T00:35:59
+================================================================================
+[2025-06-18T00:36:37.899+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  0.66s           2025-06-18T00:36:09
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.26s           2025-06-18T00:36:30
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.22s           2025-06-18T00:36:34
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.23s           2025-06-18T00:36:30
+================================================================================
+[2025-06-18T00:37:05.998+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  0.74s           2025-06-18T00:36:40
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.17s           2025-06-18T00:37:00
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.26s           2025-06-18T00:37:04
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.16s           2025-06-18T00:37:00
+================================================================================
+[2025-06-18T00:37:34.118+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  0.70s           2025-06-18T00:37:11
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.16s           2025-06-18T00:37:30
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.26s           2025-06-18T00:37:04
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.24s           2025-06-18T00:37:30
+================================================================================
+[2025-06-18T00:38:02.128+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  0.85s           2025-06-18T00:37:43
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.16s           2025-06-18T00:38:01
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.17s           2025-06-18T00:37:35
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.18s           2025-06-18T00:38:01
+================================================================================
+[2025-06-18T00:38:29.488+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  0.67s           2025-06-18T00:38:14
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.16s           2025-06-18T00:38:01
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.29s           2025-06-18T00:38:06
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.18s           2025-06-18T00:38:01
+================================================================================
+[2025-06-18T00:38:57.359+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  0.82s           2025-06-18T00:38:44
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.17s           2025-06-18T00:38:31
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.32s           2025-06-18T00:38:36
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.20s           2025-06-18T00:38:31
+================================================================================
+[2025-06-18T00:39:16.629+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-06-18T00:39:16.650+0000] {manager.py:741} INFO - There are 4 files in /opt/airflow/dags
+[2025-06-18T00:39:25.098+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  0.68s           2025-06-18T00:39:15
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.18s           2025-06-18T00:39:02
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.19s           2025-06-18T00:39:07
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.23s           2025-06-18T00:39:02
+================================================================================
+[2025-06-18T00:39:53.001+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  1.06s           2025-06-18T00:39:46
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.17s           2025-06-18T00:39:33
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.21s           2025-06-18T00:39:38
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.27s           2025-06-18T00:39:33
+================================================================================
+[2025-06-18T00:40:20.648+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  0.76s           2025-06-18T00:40:17
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.21s           2025-06-18T00:40:04
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.17s           2025-06-18T00:40:09
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.23s           2025-06-18T00:40:04
+================================================================================
+[2025-06-18T00:40:48.495+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                   838  0.78s             1           0  0.76s           2025-06-18T00:40:17
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.18s           2025-06-18T00:40:35
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.24s           2025-06-18T00:40:40
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.19s           2025-06-18T00:40:35
+================================================================================
+[2025-06-18T00:41:16.490+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  0.88s           2025-06-18T00:40:48
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.15s           2025-06-18T00:41:05
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.20s           2025-06-18T00:41:10
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.16s           2025-06-18T00:41:05
+================================================================================
+[2025-06-18T00:41:44.175+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  0.69s           2025-06-18T00:41:19
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.17s           2025-06-18T00:41:36
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.39s           2025-06-18T00:41:41
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.18s           2025-06-18T00:41:36
+================================================================================
+[2025-06-18T00:42:12.416+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  0.63s           2025-06-18T00:41:50
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.16s           2025-06-18T00:42:07
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py        911  0.02s             1           0  0.39s           2025-06-18T00:41:41
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.17s           2025-06-18T00:42:07
+================================================================================
+[2025-06-18T00:42:39.917+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  0.75s           2025-06-18T00:42:21
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.19s           2025-06-18T00:42:38
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.19s           2025-06-18T00:42:12
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.22s           2025-06-18T00:42:38
+================================================================================
+[2025-06-18T00:43:07.392+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  0.68s           2025-06-18T00:42:52
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.19s           2025-06-18T00:42:38
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.18s           2025-06-18T00:42:43
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.22s           2025-06-18T00:42:38
+================================================================================
+[2025-06-18T00:43:34.775+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  0.76s           2025-06-18T00:43:24
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.23s           2025-06-18T00:43:08
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.18s           2025-06-18T00:43:13
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.24s           2025-06-18T00:43:08
+================================================================================
+[2025-06-18T00:44:02.502+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  -2.07s          2025-06-18T00:43:52
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.17s           2025-06-18T00:43:39
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.26s           2025-06-18T00:43:44
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.19s           2025-06-18T00:43:39
+================================================================================
+[2025-06-18T00:44:16.890+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-06-18T00:44:16.903+0000] {manager.py:741} INFO - There are 4 files in /opt/airflow/dags
+[2025-06-18T00:44:30.422+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  1.00s           2025-06-18T00:44:23
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.17s           2025-06-18T00:44:09
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.46s           2025-06-18T00:44:15
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.20s           2025-06-18T00:44:09
+================================================================================
+[2025-06-18T00:44:58.090+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  0.67s           2025-06-18T00:44:54
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.42s           2025-06-18T00:44:40
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.21s           2025-06-18T00:44:45
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.46s           2025-06-18T00:44:40
+================================================================================
+[2025-06-18T00:45:25.642+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  0.63s           2025-06-18T00:45:25
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.15s           2025-06-18T00:45:10
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.17s           2025-06-18T00:45:16
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.17s           2025-06-18T00:45:10
+================================================================================
+[2025-06-18T00:45:53.411+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  0.63s           2025-06-18T00:45:25
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.48s           2025-06-18T00:45:41
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.29s           2025-06-18T00:45:46
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.51s           2025-06-18T00:45:41
+================================================================================
+[2025-06-18T00:46:21.056+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  0.75s           2025-06-18T00:45:56
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.64s           2025-06-18T00:46:12
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.25s           2025-06-18T00:46:17
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.69s           2025-06-18T00:46:12
+================================================================================
+[2025-06-18T00:46:48.772+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  0.79s           2025-06-18T00:46:27
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.16s           2025-06-18T00:46:43
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.20s           2025-06-18T00:46:47
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.18s           2025-06-18T00:46:43
+================================================================================
+[2025-06-18T00:47:16.499+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  0.86s           2025-06-18T00:46:58
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.16s           2025-06-18T00:47:14
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.20s           2025-06-18T00:46:47
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.20s           2025-06-18T00:47:14
+================================================================================
+[2025-06-18T00:47:44.055+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  0.71s           2025-06-18T00:47:30
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.16s           2025-06-18T00:47:14
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.17s           2025-06-18T00:47:18
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.20s           2025-06-18T00:47:14
+================================================================================
+[2025-06-18T00:48:11.665+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  0.70s           2025-06-18T00:48:01
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.26s           2025-06-18T00:47:45
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.17s           2025-06-18T00:47:49
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.27s           2025-06-18T00:47:45
+================================================================================
+[2025-06-18T00:48:39.591+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  0.96s           2025-06-18T00:48:32
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.28s           2025-06-18T00:48:16
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.19s           2025-06-18T00:48:20
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.28s           2025-06-18T00:48:15
+================================================================================
+[2025-06-18T00:49:07.061+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  0.70s           2025-06-18T00:49:04
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.18s           2025-06-18T00:48:46
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.24s           2025-06-18T00:48:51
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.16s           2025-06-18T00:48:46
+================================================================================
+[2025-06-18T00:49:17.207+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-06-18T00:49:17.226+0000] {manager.py:741} INFO - There are 4 files in /opt/airflow/dags
+[2025-06-18T00:49:34.932+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  0.68s           2025-06-18T00:49:34
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.16s           2025-06-18T00:49:17
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.24s           2025-06-18T00:49:21
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.17s           2025-06-18T00:49:17
+================================================================================
+[2025-06-18T00:50:02.484+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  0.68s           2025-06-18T00:49:34
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.56s           2025-06-18T00:49:48
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.51s           2025-06-18T00:49:52
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.57s           2025-06-18T00:49:48
+================================================================================
+[2025-06-18T00:50:03.558+0000] {manager.py:451} INFO - Exiting gracefully upon receiving signal 15
+[2025-06-18T00:51:00.847+0000] {manager.py:469} INFO - Processing files using up to 2 processes at a time 
+[2025-06-18T00:51:00.848+0000] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2025-06-18T00:51:00.849+0000] {manager.py:471} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-06-18T00:51:00.850+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-06-18T00:51:00.862+0000] {manager.py:741} INFO - There are 4 files in /opt/airflow/dags
+[2025-06-18T00:51:01.242+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/scraping_autopia_dag.py                   181  0.20s             0           0
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           0           0
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               0           0
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py       184  0.10s             0           0
+================================================================================
+[2025-06-18T00:51:28.683+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  2.73s           2025-06-18T00:51:03
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.38s           2025-06-18T00:51:02
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.82s           2025-06-18T00:51:03
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.72s           2025-06-18T00:51:01
+================================================================================
+[2025-06-18T00:51:56.158+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  0.73s           2025-06-18T00:51:34
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  1.00s           2025-06-18T00:51:33
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.18s           2025-06-18T00:51:33
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.16s           2025-06-18T00:51:32
+================================================================================
+[2025-06-18T00:52:23.519+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  -0.28s          2025-06-18T00:52:05
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.13s           2025-06-18T00:52:04
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.12s           2025-06-18T00:52:04
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.13s           2025-06-18T00:52:03
+================================================================================
+[2025-06-18T00:52:50.906+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  0.66s           2025-06-18T00:52:36
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.15s           2025-06-18T00:52:35
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.12s           2025-06-18T00:52:35
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.13s           2025-06-18T00:52:34
+================================================================================
+[2025-06-18T00:53:18.642+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  0.54s           2025-06-18T00:53:08
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.13s           2025-06-18T00:53:05
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.12s           2025-06-18T00:53:05
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.12s           2025-06-18T00:53:04
+================================================================================
+[2025-06-18T00:53:46.470+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  0.58s           2025-06-18T00:53:39
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.13s           2025-06-18T00:53:35
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.11s           2025-06-18T00:53:35
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.12s           2025-06-18T00:53:34
+================================================================================
+[2025-06-18T00:54:14.182+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  0.56s           2025-06-18T00:54:10
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.13s           2025-06-18T00:54:06
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.11s           2025-06-18T00:54:06
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.13s           2025-06-18T00:54:05
+================================================================================
+[2025-06-18T00:54:41.599+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                   403  0.16s             1           0  0.56s           2025-06-18T00:54:10
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.31s           2025-06-18T00:54:36
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.30s           2025-06-18T00:54:36
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.16s           2025-06-18T00:54:35
+================================================================================
+[2025-06-18T00:55:09.890+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  0.74s           2025-06-18T00:54:42
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.13s           2025-06-18T00:55:06
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.11s           2025-06-18T00:55:06
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.14s           2025-06-18T00:55:05
+================================================================================
+[2025-06-18T00:55:37.208+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  0.63s           2025-06-18T00:55:13
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py    450  0.13s             1           0  0.13s           2025-06-18T00:55:06
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.12s           2025-06-18T00:55:37
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.17s           2025-06-18T00:55:36
+================================================================================
+[2025-06-18T00:56:01.622+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-06-18T00:56:02.355+0000] {manager.py:741} INFO - There are 4 files in /opt/airflow/dags
+[2025-06-18T00:56:05.402+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  2.35s           2025-06-18T00:55:46
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.13s           2025-06-18T00:55:37
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.12s           2025-06-18T00:55:37
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.17s           2025-06-18T00:55:36
+================================================================================
+[2025-06-18T00:56:33.002+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  2.37s           2025-06-18T00:56:19
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  1.80s           2025-06-18T00:56:09
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  1.70s           2025-06-18T00:56:09
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  1.08s           2025-06-18T00:56:07
+================================================================================
+[2025-06-18T00:57:00.667+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  0.71s           2025-06-18T00:56:51
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.16s           2025-06-18T00:56:39
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.15s           2025-06-18T00:56:39
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.19s           2025-06-18T00:56:37
+================================================================================
+[2025-06-18T00:57:28.322+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  0.99s           2025-06-18T00:57:22
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.22s           2025-06-18T00:57:10
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.19s           2025-06-18T00:57:10
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.31s           2025-06-18T00:57:08
+================================================================================
+[2025-06-18T00:57:56.020+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  1.29s           2025-06-18T00:57:54
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.20s           2025-06-18T00:57:40
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.17s           2025-06-18T00:57:40
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.23s           2025-06-18T00:57:38
+================================================================================
+[2025-06-18T00:58:23.948+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  1.29s           2025-06-18T00:57:54
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.17s           2025-06-18T00:58:11
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.15s           2025-06-18T00:58:11
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.36s           2025-06-18T00:58:09
+================================================================================
+[2025-06-18T00:58:51.691+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  1.00s           2025-06-18T00:58:25
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.24s           2025-06-18T00:58:42
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.22s           2025-06-18T00:58:42
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.23s           2025-06-18T00:58:40
+================================================================================
+[2025-06-18T00:59:19.776+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  2.53s           2025-06-18T00:58:58
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.20s           2025-06-18T00:59:12
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.17s           2025-06-18T00:59:12
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.48s           2025-06-18T00:59:11
+================================================================================
+[2025-06-18T00:59:47.612+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  0.84s           2025-06-18T00:59:29
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.16s           2025-06-18T00:59:43
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.15s           2025-06-18T00:59:43
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.17s           2025-06-18T00:59:41
+================================================================================
+[2025-06-18T01:00:15.103+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  0.82s           2025-06-18T01:00:00
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.16s           2025-06-18T01:00:14
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.15s           2025-06-18T01:00:14
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.16s           2025-06-18T01:00:12
+================================================================================
+[2025-06-18T01:00:42.624+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  0.72s           2025-06-18T01:00:32
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.16s           2025-06-18T01:00:14
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.15s           2025-06-18T01:00:14
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py      1441  0.30s             1           0  0.16s           2025-06-18T01:00:12
+================================================================================
+[2025-06-18T01:01:02.213+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-06-18T01:01:02.231+0000] {manager.py:741} INFO - There are 4 files in /opt/airflow/dags
+[2025-06-18T01:01:10.083+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  0.78s           2025-06-18T01:01:03
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.17s           2025-06-18T01:00:45
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.15s           2025-06-18T01:00:45
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.32s           2025-06-18T01:00:42
+================================================================================
+[2025-06-18T01:01:37.453+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  0.64s           2025-06-18T01:01:34
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.26s           2025-06-18T01:01:15
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.23s           2025-06-18T01:01:15
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.16s           2025-06-18T01:01:13
+================================================================================
+[2025-06-18T01:02:05.081+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                  1552  0.01s             1           0  0.64s           2025-06-18T01:01:34
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.16s           2025-06-18T01:01:45
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.14s           2025-06-18T01:01:45
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.14s           2025-06-18T01:01:43
+================================================================================
+[2025-06-18T01:02:32.559+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  0.80s           2025-06-18T01:02:05
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.17s           2025-06-18T01:02:16
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.15s           2025-06-18T01:02:16
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.14s           2025-06-18T01:02:14
+================================================================================
+[2025-06-18T01:02:59.921+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  0.60s           2025-06-18T01:02:36
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.34s           2025-06-18T01:02:46
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.30s           2025-06-18T01:02:46
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.14s           2025-06-18T01:02:44
+================================================================================
+[2025-06-18T01:03:27.349+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  0.81s           2025-06-18T01:03:08
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.16s           2025-06-18T01:03:17
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.13s           2025-06-18T01:03:17
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.13s           2025-06-18T01:03:15
+================================================================================
+[2025-06-18T01:03:31.453+0000] {manager.py:451} INFO - Exiting gracefully upon receiving signal 15
+[2025-06-18T01:19:34.450+0000] {manager.py:469} INFO - Processing files using up to 2 processes at a time 
+[2025-06-18T01:19:34.451+0000] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2025-06-18T01:19:34.451+0000] {manager.py:471} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-06-18T01:19:34.451+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-06-18T01:19:34.486+0000] {manager.py:741} INFO - There are 4 files in /opt/airflow/dags
+[2025-06-18T01:19:34.719+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/scraping_autopia_dag.py                   180  0.14s             0           0
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           0           0
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               0           0
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py       183  0.07s             0           0
+================================================================================
+[2025-06-18T01:20:05.323+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  1.57s           2025-06-18T01:19:36
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py    228  0.01s             1           0  0.19s           2025-06-18T01:19:35
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.16s           2025-06-18T01:19:35
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py       225  0.02s             1           0  0.22s           2025-06-18T01:19:34
+================================================================================
+[2025-06-18T01:20:34.991+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  0.17s           2025-06-18T01:20:06
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.40s           2025-06-18T01:20:05
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.19s           2025-06-18T01:20:05
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.42s           2025-06-18T01:20:05
+================================================================================
+[2025-06-18T01:21:02.855+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  0.79s           2025-06-18T01:20:37
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.26s           2025-06-18T01:20:36
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.12s           2025-06-18T01:20:36
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.28s           2025-06-18T01:20:36
+================================================================================
+[2025-06-18T01:21:31.558+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  0.68s           2025-06-18T01:21:08
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.15s           2025-06-18T01:21:06
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.13s           2025-06-18T01:21:06
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.15s           2025-06-18T01:21:06
+================================================================================
+[2025-06-18T01:22:00.025+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  0.98s           2025-06-18T01:21:39
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.18s           2025-06-18T01:21:36
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.14s           2025-06-18T01:21:37
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.17s           2025-06-18T01:21:36
+================================================================================
+[2025-06-18T01:22:28.011+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  0.71s           2025-06-18T01:22:10
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.21s           2025-06-18T01:22:07
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.12s           2025-06-18T01:22:07
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.21s           2025-06-18T01:22:07
+================================================================================
+[2025-06-18T01:22:55.875+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  0.88s           2025-06-18T01:22:41
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.21s           2025-06-18T01:22:37
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.20s           2025-06-18T01:22:38
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.20s           2025-06-18T01:22:37
+================================================================================
+[2025-06-18T01:23:22.125+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  0.56s           2025-06-18T01:23:12
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.19s           2025-06-18T01:23:08
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.16s           2025-06-18T01:23:08
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.19s           2025-06-18T01:23:08
+================================================================================
+[2025-06-18T01:23:50.070+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  0.89s           2025-06-18T01:23:44
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.16s           2025-06-18T01:23:38
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.13s           2025-06-18T01:23:38
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.16s           2025-06-18T01:23:38
+================================================================================
+[2025-06-18T01:24:18.500+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  0.92s           2025-06-18T01:24:15
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.18s           2025-06-18T01:24:08
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.19s           2025-06-18T01:24:08
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.25s           2025-06-18T01:24:08
+================================================================================
+[2025-06-18T01:24:34.593+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-06-18T01:24:34.616+0000] {manager.py:741} INFO - There are 4 files in /opt/airflow/dags
+[2025-06-18T01:24:46.204+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  0.66s           2025-06-18T01:24:46
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.17s           2025-06-18T01:24:39
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.15s           2025-06-18T01:24:39
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.15s           2025-06-18T01:24:38
+================================================================================
+[2025-06-18T01:25:14.233+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  0.66s           2025-06-18T01:24:46
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.16s           2025-06-18T01:25:10
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.14s           2025-06-18T01:25:10
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.18s           2025-06-18T01:25:09
+================================================================================
+[2025-06-18T01:25:42.241+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  0.74s           2025-06-18T01:25:17
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.49s           2025-06-18T01:25:41
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.39s           2025-06-18T01:25:41
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.14s           2025-06-18T01:25:40
+================================================================================
+[2025-06-18T01:25:57.964+0000] {manager.py:451} INFO - Exiting gracefully upon receiving signal 15
+[2025-06-18T01:26:40.780+0000] {manager.py:469} INFO - Processing files using up to 2 processes at a time 
+[2025-06-18T01:26:41.455+0000] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2025-06-18T01:26:41.455+0000] {manager.py:471} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-06-18T01:26:41.456+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-06-18T01:26:41.672+0000] {manager.py:741} INFO - There are 4 files in /opt/airflow/dags
+[2025-06-18T01:26:41.912+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/scraping_autopia_dag.py                   182  0.14s             0           0
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           0           0
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               0           0
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py       185  0.07s             0           0
+================================================================================
+[2025-06-18T01:27:10.002+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  2.59s           2025-06-18T01:26:44
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.33s           2025-06-18T01:26:42
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.40s           2025-06-18T01:26:43
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.54s           2025-06-18T01:26:42
+================================================================================
+[2025-06-18T01:27:38.223+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  0.57s           2025-06-18T01:27:15
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.14s           2025-06-18T01:27:13
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.11s           2025-06-18T01:27:13
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.14s           2025-06-18T01:27:13
+================================================================================
+[2025-06-18T01:28:06.149+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  0.77s           2025-06-18T01:27:47
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.19s           2025-06-18T01:27:43
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.13s           2025-06-18T01:27:43
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.19s           2025-06-18T01:27:43
+================================================================================
+[2025-06-18T01:28:34.132+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scraping_autopia_dag.py                                          1           0  0.59s           2025-06-18T01:28:18
+/opt/airflow/dags/entrenamiento_modelos_regresion_dag.py                           1           0  0.13s           2025-06-18T01:28:13
+/opt/airflow/dags/procesamiento_datos_autopia_dag.py                               1           0  0.13s           2025-06-18T01:28:13
+/opt/airflow/dags/prediccion_modelo_produccion_dag.py                              1           0  0.13s           2025-06-18T01:28:13
+================================================================================
+[2025-06-18T01:28:46.692+0000] {manager.py:451} INFO - Exiting gracefully upon receiving signal 15

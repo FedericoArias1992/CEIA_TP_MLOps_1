@@ -8,7 +8,7 @@ Este proyecto implementa un flujo de trabajo completo de Machine Learning enfoca
 2. **Limpiar** los datos descargados de forma incremental.
 3. **Preprocesar** concatenar descargas anteriores, procesar variables categóricas, valores faltantes y construir los datasets `X_train`, `y_train`.
 4. **Entrenar** tres modelos de regresión y promover el mejor a producción.
-5. **Realizar predicciones** con el modelo en producción.
+5. **Realizar predicciones** con el modelo en producción, desplegado en FastApi y Streamlit.
 
 ## 🧰 Tecnologías utilizadas
 
@@ -18,7 +18,11 @@ Este proyecto implementa un flujo de trabajo completo de Machine Learning enfoca
 | **MLflow**          | Seguimiento, versionado y registro de modelos ML     |
 | **Docker Compose**  | Entorno reproducible con contenedores                |
 | **Pandas & Scikit-learn** | Procesamiento de datos y entrenamiento de modelos |
-| **CatBoost / SVR**  | Modelos adicionales para comparación de desempeño    |
+| **CatBoost / SVR / Random Forest**  | Modelos adicionales para comparación de desempeño    |
+| **FastApi**           | Desplegado de la API de prediccion en produccion    |
+| **Streamlit**  | UI para uso del servicio de prediccion on demand    |
+
+![Imagen del proyecto](Imagen_TP.png)
 
 ## ⚙️ Estructura del Proyecto
 - ├── airflow/
@@ -45,9 +49,42 @@ Este proyecto implementa un flujo de trabajo completo de Machine Learning enfoca
 - │   └── Dockerfile         # Imagen personalizada para FastAPI
 - ├── data/
 - │ └── processed/ # Archivos .pkl listos para entrenamiento
+- ├── streamlit/
+- │ └── app.py
+- │ └── Dockerfile
+- │ └── requirements.txt
 - ├── docker-compose.yaml
 - ├── requirements.txt
 - └── README.md
+
+### 🔁 Flujo completo de DAGs
+
+1. ### `scraping_autopia_dag` (Ejecutado manual o programado)
+   - Ejecuta un script que scrapea datos desde [autopia.com.bo](https://autopia.com.bo).
+   - Guarda los datos en formato `.csv` en la carpeta `data/raw/`.
+   - Una vez finalizado, **activa automáticamente** el siguiente DAG.
+   - _Observacion:_ Tarda + 110 minutos en descargar todos los registros de la pagina.
+
+2. ### `entrenamiento_modelos_regresion_dag` (Ejecutado automáticamente tras scraping o de forma diaria)
+   - **Carga del dataset** recién scrapeado.
+   - **Preprocesamiento**:
+     - Limpieza de columnas como `price`, `motor`, etc.
+     - `TargetEncoder` para codificar variables categóricas (`marca`, `tipo`).
+     - Map de variables binarias (`transmisión`).
+   - **Entrenamiento de modelos**:
+     - `RandomForestRegressor`
+     - `CatBoostRegressor`
+     - `SVR`
+   - **Evaluación** con `MAE` y registro de métricas y modelos en **MLflow**.
+   - **Promoción automática** del mejor modelo al stage `"Production"`.
+   - **Archivado del modelo anterior** como `"Staging"` si existía.
+   - Al finalizar, **dispara automáticamente** el DAG de predicción.
+
+3. ### `prediccion_modelo_produccion_dag`
+   - Carga el modelo en stage `"Production"` desde **MLflow**.
+   - Prepara nuevas muestras o clientes para predicción.
+   - Genera predicciones y las guarda en el directorio `data/predicciones/`.
+
 
 ### 🔁 Flujo completo de DAGs
 
@@ -104,11 +141,13 @@ docker compose down --rmi all --volumes
 ```
 
 # 4. Acceder a interfaces
-Airflow UI: http://localhost:8080
+`Airflow UI`: http://localhost:8080
 
-MLflow UI: http://localhost:5000
+`MLflow UI`: http://localhost:5000
 
-API: http://localhost:8000
+`FastAPI`: http://localhost:8000
+
+`Streamlit`: UI para prediccion: http://localhost:8501
 
 ```Bash
 docker compose up

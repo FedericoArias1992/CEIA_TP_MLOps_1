@@ -209,7 +209,8 @@ services:
       - ./streamlit:/app
     depends_on:
       - api
-
+    networks:
+      - backend
 
   mlflow:
     image: ghcr.io/mlflow/mlflow

@@ -1,3 +1,13 @@
+"""
+scraping_autopia.py
+
+Script de scraping para extraer publicaciones de vehículos desde autopia.com.bo.
+
+Utiliza Playwright en modo sincrónico para navegar por el sitio, cargar dinámicamente todos los anuncios
+y acceder a las páginas de detalle para recolectar características específicas del vehículo.
+
+"""
+
 from playwright.sync_api import sync_playwright
 import pandas as pd
 from urllib.parse import urljoin
@@ -15,6 +25,13 @@ OUTPUT_CSV = os.path.join(RAW_DATA_DIR, f"scraped_autopia_{datetime.now().strfti
 EXPECTED_FIELDS = ["Km", "Motor", "Año", "Tipo", "Combustible", "Color", "Transmisión", "Puertas"]
 
 def parse_detail_page(page):
+    """
+    Extrae detalles específicos del vehículo desde una página individual.
+    Args:
+        page (playwright.Page): Página web de un anuncio individual.
+    Returns:
+        dict: Diccionario con los campos estandarizados encontrados en la página.
+    """
     details = {field.lower().replace('é','e').replace('á','a').replace('í','i').replace('ó','o').replace('ú','u').replace('ñ','n').replace(' ', '_'): None for field in EXPECTED_FIELDS}
     paras = page.locator("p")
     for i in range(paras.count()):
@@ -55,6 +72,13 @@ def load_all_listings(page):
             break
 
 def scrape_all(ctx):
+    """
+    Carga todos los anuncios, accede a sus páginas de detalle y extrae información estructurada.
+    Args:
+        ctx (playwright.BrowserContext): Contexto de navegación de Playwright.
+    Returns:
+        list[dict]: Lista de registros de autos con campos generales y detallados.
+    """
     page = ctx.new_page()
     page.goto(BASE_URL + "/resultados", wait_until="networkidle")
     page.wait_for_selector("a", timeout=10000)
@@ -101,6 +125,9 @@ def scrape_all(ctx):
     return records
 
 def run_scraper():
+    """
+    Función principal para ejecutar el scraping y guardar los resultados en un archivo .csv.
+    """
     os.makedirs(RAW_DATA_DIR, exist_ok=True)
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True)

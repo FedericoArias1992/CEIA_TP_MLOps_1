@@ -1,0 +1,224 @@
+[2025-06-17T22:49:44.777+0000] {processor.py:161} INFO - Started process (PID=195) to work on /opt/airflow/dags/prediccion_modelo_produccion_dag.py
+[2025-06-17T22:49:44.779+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prediccion_modelo_produccion_dag.py for tasks to queue
+[2025-06-17T22:49:44.781+0000] {logging_mixin.py:188} INFO - [2025-06-17T22:49:44.780+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/prediccion_modelo_produccion_dag.py
+[2025-06-17T22:49:44.800+0000] {processor.py:840} INFO - DAG(s) 'prediccion_modelo_produccion_dag' retrieved from /opt/airflow/dags/prediccion_modelo_produccion_dag.py
+[2025-06-17T22:49:45.006+0000] {logging_mixin.py:188} INFO - [2025-06-17T22:49:45.005+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-17T22:49:45.051+0000] {logging_mixin.py:188} INFO - [2025-06-17T22:49:45.051+0000] {dag.py:3823} INFO - Setting next_dagrun for prediccion_modelo_produccion_dag to 2025-06-16 22:00:00+00:00, run_after=2025-06-17 22:00:00+00:00
+[2025-06-17T22:49:45.096+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prediccion_modelo_produccion_dag.py took 0.328 seconds
+[2025-06-17T22:50:15.499+0000] {processor.py:161} INFO - Started process (PID=237) to work on /opt/airflow/dags/prediccion_modelo_produccion_dag.py
+[2025-06-17T22:50:15.542+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prediccion_modelo_produccion_dag.py for tasks to queue
+[2025-06-17T22:50:15.545+0000] {logging_mixin.py:188} INFO - [2025-06-17T22:50:15.544+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/prediccion_modelo_produccion_dag.py
+[2025-06-17T22:50:15.610+0000] {processor.py:840} INFO - DAG(s) 'prediccion_modelo_produccion_dag' retrieved from /opt/airflow/dags/prediccion_modelo_produccion_dag.py
+[2025-06-17T22:50:15.655+0000] {logging_mixin.py:188} INFO - [2025-06-17T22:50:15.655+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-17T22:50:15.703+0000] {logging_mixin.py:188} INFO - [2025-06-17T22:50:15.702+0000] {dag.py:3823} INFO - Setting next_dagrun for prediccion_modelo_produccion_dag to 2025-06-17 22:00:00+00:00, run_after=2025-06-18 22:00:00+00:00
+[2025-06-17T22:50:15.737+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prediccion_modelo_produccion_dag.py took 0.244 seconds
+[2025-06-17T22:50:45.997+0000] {processor.py:161} INFO - Started process (PID=265) to work on /opt/airflow/dags/prediccion_modelo_produccion_dag.py
+[2025-06-17T22:50:46.002+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prediccion_modelo_produccion_dag.py for tasks to queue
+[2025-06-17T22:50:46.006+0000] {logging_mixin.py:188} INFO - [2025-06-17T22:50:46.005+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/prediccion_modelo_produccion_dag.py
+[2025-06-17T22:50:46.055+0000] {processor.py:840} INFO - DAG(s) 'prediccion_modelo_produccion_dag' retrieved from /opt/airflow/dags/prediccion_modelo_produccion_dag.py
+[2025-06-17T22:50:46.184+0000] {logging_mixin.py:188} INFO - [2025-06-17T22:50:46.183+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-17T22:50:46.272+0000] {logging_mixin.py:188} INFO - [2025-06-17T22:50:46.271+0000] {dag.py:3823} INFO - Setting next_dagrun for prediccion_modelo_produccion_dag to 2025-06-17 22:00:00+00:00, run_after=2025-06-18 22:00:00+00:00
+[2025-06-17T22:50:46.302+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prediccion_modelo_produccion_dag.py took 0.331 seconds
+[2025-06-17T22:51:16.744+0000] {processor.py:161} INFO - Started process (PID=295) to work on /opt/airflow/dags/prediccion_modelo_produccion_dag.py
+[2025-06-17T22:51:16.746+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prediccion_modelo_produccion_dag.py for tasks to queue
+[2025-06-17T22:51:16.747+0000] {logging_mixin.py:188} INFO - [2025-06-17T22:51:16.747+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/prediccion_modelo_produccion_dag.py
+[2025-06-17T22:51:16.763+0000] {processor.py:840} INFO - DAG(s) 'prediccion_modelo_produccion_dag' retrieved from /opt/airflow/dags/prediccion_modelo_produccion_dag.py
+[2025-06-17T22:51:16.800+0000] {logging_mixin.py:188} INFO - [2025-06-17T22:51:16.800+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-17T22:51:16.831+0000] {logging_mixin.py:188} INFO - [2025-06-17T22:51:16.831+0000] {dag.py:3823} INFO - Setting next_dagrun for prediccion_modelo_produccion_dag to 2025-06-17 22:00:00+00:00, run_after=2025-06-18 22:00:00+00:00
+[2025-06-17T22:51:16.871+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prediccion_modelo_produccion_dag.py took 0.131 seconds
+[2025-06-17T22:51:47.209+0000] {processor.py:161} INFO - Started process (PID=324) to work on /opt/airflow/dags/prediccion_modelo_produccion_dag.py
+[2025-06-17T22:51:47.211+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prediccion_modelo_produccion_dag.py for tasks to queue
+[2025-06-17T22:51:47.212+0000] {logging_mixin.py:188} INFO - [2025-06-17T22:51:47.211+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/prediccion_modelo_produccion_dag.py
+[2025-06-17T22:51:47.230+0000] {processor.py:840} INFO - DAG(s) 'prediccion_modelo_produccion_dag' retrieved from /opt/airflow/dags/prediccion_modelo_produccion_dag.py
+[2025-06-17T22:51:47.274+0000] {logging_mixin.py:188} INFO - [2025-06-17T22:51:47.274+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-17T22:51:47.320+0000] {logging_mixin.py:188} INFO - [2025-06-17T22:51:47.319+0000] {dag.py:3823} INFO - Setting next_dagrun for prediccion_modelo_produccion_dag to 2025-06-17 22:00:00+00:00, run_after=2025-06-18 22:00:00+00:00
+[2025-06-17T22:51:47.377+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prediccion_modelo_produccion_dag.py took 0.174 seconds
+[2025-06-17T22:52:17.577+0000] {processor.py:161} INFO - Started process (PID=353) to work on /opt/airflow/dags/prediccion_modelo_produccion_dag.py
+[2025-06-17T22:52:17.582+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prediccion_modelo_produccion_dag.py for tasks to queue
+[2025-06-17T22:52:17.584+0000] {logging_mixin.py:188} INFO - [2025-06-17T22:52:17.583+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/prediccion_modelo_produccion_dag.py
+[2025-06-17T22:52:17.601+0000] {processor.py:840} INFO - DAG(s) 'prediccion_modelo_produccion_dag' retrieved from /opt/airflow/dags/prediccion_modelo_produccion_dag.py
+[2025-06-17T22:52:17.637+0000] {logging_mixin.py:188} INFO - [2025-06-17T22:52:17.637+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-17T22:52:17.673+0000] {logging_mixin.py:188} INFO - [2025-06-17T22:52:17.673+0000] {dag.py:3823} INFO - Setting next_dagrun for prediccion_modelo_produccion_dag to 2025-06-17 22:00:00+00:00, run_after=2025-06-18 22:00:00+00:00
+[2025-06-17T22:52:17.700+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prediccion_modelo_produccion_dag.py took 0.130 seconds
+[2025-06-17T22:52:48.515+0000] {processor.py:161} INFO - Started process (PID=381) to work on /opt/airflow/dags/prediccion_modelo_produccion_dag.py
+[2025-06-17T22:52:48.520+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prediccion_modelo_produccion_dag.py for tasks to queue
+[2025-06-17T22:52:48.525+0000] {logging_mixin.py:188} INFO - [2025-06-17T22:52:48.523+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/prediccion_modelo_produccion_dag.py
+[2025-06-17T22:52:48.578+0000] {processor.py:840} INFO - DAG(s) 'prediccion_modelo_produccion_dag' retrieved from /opt/airflow/dags/prediccion_modelo_produccion_dag.py
+[2025-06-17T22:52:48.701+0000] {logging_mixin.py:188} INFO - [2025-06-17T22:52:48.700+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-17T22:52:48.814+0000] {logging_mixin.py:188} INFO - [2025-06-17T22:52:48.813+0000] {dag.py:3823} INFO - Setting next_dagrun for prediccion_modelo_produccion_dag to 2025-06-17 22:00:00+00:00, run_after=2025-06-18 22:00:00+00:00
+[2025-06-17T22:52:49.064+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prediccion_modelo_produccion_dag.py took 0.432 seconds
+[2025-06-17T22:53:19.725+0000] {processor.py:161} INFO - Started process (PID=415) to work on /opt/airflow/dags/prediccion_modelo_produccion_dag.py
+[2025-06-17T22:53:19.728+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prediccion_modelo_produccion_dag.py for tasks to queue
+[2025-06-17T22:53:19.731+0000] {logging_mixin.py:188} INFO - [2025-06-17T22:53:19.730+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/prediccion_modelo_produccion_dag.py
+[2025-06-17T22:53:19.751+0000] {processor.py:840} INFO - DAG(s) 'prediccion_modelo_produccion_dag' retrieved from /opt/airflow/dags/prediccion_modelo_produccion_dag.py
+[2025-06-17T22:53:19.789+0000] {logging_mixin.py:188} INFO - [2025-06-17T22:53:19.789+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-17T22:53:19.828+0000] {logging_mixin.py:188} INFO - [2025-06-17T22:53:19.827+0000] {dag.py:3823} INFO - Setting next_dagrun for prediccion_modelo_produccion_dag to 2025-06-17 22:00:00+00:00, run_after=2025-06-18 22:00:00+00:00
+[2025-06-17T22:53:19.867+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prediccion_modelo_produccion_dag.py took 0.150 seconds
+[2025-06-17T22:53:50.115+0000] {processor.py:161} INFO - Started process (PID=438) to work on /opt/airflow/dags/prediccion_modelo_produccion_dag.py
+[2025-06-17T22:53:50.118+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prediccion_modelo_produccion_dag.py for tasks to queue
+[2025-06-17T22:53:50.119+0000] {logging_mixin.py:188} INFO - [2025-06-17T22:53:50.119+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/prediccion_modelo_produccion_dag.py
+[2025-06-17T22:53:50.138+0000] {processor.py:840} INFO - DAG(s) 'prediccion_modelo_produccion_dag' retrieved from /opt/airflow/dags/prediccion_modelo_produccion_dag.py
+[2025-06-17T22:53:50.181+0000] {logging_mixin.py:188} INFO - [2025-06-17T22:53:50.181+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-17T22:53:50.218+0000] {logging_mixin.py:188} INFO - [2025-06-17T22:53:50.218+0000] {dag.py:3823} INFO - Setting next_dagrun for prediccion_modelo_produccion_dag to 2025-06-17 22:00:00+00:00, run_after=2025-06-18 22:00:00+00:00
+[2025-06-17T22:53:50.258+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prediccion_modelo_produccion_dag.py took 0.149 seconds
+[2025-06-17T22:54:20.412+0000] {processor.py:161} INFO - Started process (PID=474) to work on /opt/airflow/dags/prediccion_modelo_produccion_dag.py
+[2025-06-17T22:54:20.414+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prediccion_modelo_produccion_dag.py for tasks to queue
+[2025-06-17T22:54:20.416+0000] {logging_mixin.py:188} INFO - [2025-06-17T22:54:20.415+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/prediccion_modelo_produccion_dag.py
+[2025-06-17T22:54:20.437+0000] {processor.py:840} INFO - DAG(s) 'prediccion_modelo_produccion_dag' retrieved from /opt/airflow/dags/prediccion_modelo_produccion_dag.py
+[2025-06-17T22:54:20.485+0000] {logging_mixin.py:188} INFO - [2025-06-17T22:54:20.485+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-17T22:54:20.521+0000] {logging_mixin.py:188} INFO - [2025-06-17T22:54:20.521+0000] {dag.py:3823} INFO - Setting next_dagrun for prediccion_modelo_produccion_dag to 2025-06-17 22:00:00+00:00, run_after=2025-06-18 22:00:00+00:00
+[2025-06-17T22:54:20.553+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prediccion_modelo_produccion_dag.py took 0.148 seconds
+[2025-06-17T22:54:51.346+0000] {processor.py:161} INFO - Started process (PID=495) to work on /opt/airflow/dags/prediccion_modelo_produccion_dag.py
+[2025-06-17T22:54:51.351+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prediccion_modelo_produccion_dag.py for tasks to queue
+[2025-06-17T22:54:51.354+0000] {logging_mixin.py:188} INFO - [2025-06-17T22:54:51.353+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/prediccion_modelo_produccion_dag.py
+[2025-06-17T22:54:51.378+0000] {processor.py:840} INFO - DAG(s) 'prediccion_modelo_produccion_dag' retrieved from /opt/airflow/dags/prediccion_modelo_produccion_dag.py
+[2025-06-17T22:54:51.432+0000] {logging_mixin.py:188} INFO - [2025-06-17T22:54:51.431+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-17T22:54:51.480+0000] {logging_mixin.py:188} INFO - [2025-06-17T22:54:51.479+0000] {dag.py:3823} INFO - Setting next_dagrun for prediccion_modelo_produccion_dag to 2025-06-17 22:00:00+00:00, run_after=2025-06-18 22:00:00+00:00
+[2025-06-17T22:54:51.519+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prediccion_modelo_produccion_dag.py took 0.191 seconds
+[2025-06-17T22:55:21.815+0000] {processor.py:161} INFO - Started process (PID=531) to work on /opt/airflow/dags/prediccion_modelo_produccion_dag.py
+[2025-06-17T22:55:21.818+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prediccion_modelo_produccion_dag.py for tasks to queue
+[2025-06-17T22:55:21.820+0000] {logging_mixin.py:188} INFO - [2025-06-17T22:55:21.819+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/prediccion_modelo_produccion_dag.py
+[2025-06-17T22:55:21.834+0000] {processor.py:840} INFO - DAG(s) 'prediccion_modelo_produccion_dag' retrieved from /opt/airflow/dags/prediccion_modelo_produccion_dag.py
+[2025-06-17T22:55:21.873+0000] {logging_mixin.py:188} INFO - [2025-06-17T22:55:21.873+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-17T22:55:21.969+0000] {logging_mixin.py:188} INFO - [2025-06-17T22:55:21.968+0000] {dag.py:3823} INFO - Setting next_dagrun for prediccion_modelo_produccion_dag to 2025-06-17 22:00:00+00:00, run_after=2025-06-18 22:00:00+00:00
+[2025-06-17T22:55:22.065+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prediccion_modelo_produccion_dag.py took 0.254 seconds
+[2025-06-17T22:55:52.386+0000] {processor.py:161} INFO - Started process (PID=552) to work on /opt/airflow/dags/prediccion_modelo_produccion_dag.py
+[2025-06-17T22:55:52.392+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prediccion_modelo_produccion_dag.py for tasks to queue
+[2025-06-17T22:55:52.394+0000] {logging_mixin.py:188} INFO - [2025-06-17T22:55:52.393+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/prediccion_modelo_produccion_dag.py
+[2025-06-17T22:55:52.419+0000] {processor.py:840} INFO - DAG(s) 'prediccion_modelo_produccion_dag' retrieved from /opt/airflow/dags/prediccion_modelo_produccion_dag.py
+[2025-06-17T22:55:52.474+0000] {logging_mixin.py:188} INFO - [2025-06-17T22:55:52.473+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-17T22:55:52.523+0000] {logging_mixin.py:188} INFO - [2025-06-17T22:55:52.522+0000] {dag.py:3823} INFO - Setting next_dagrun for prediccion_modelo_produccion_dag to 2025-06-17 22:00:00+00:00, run_after=2025-06-18 22:00:00+00:00
+[2025-06-17T22:55:52.566+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prediccion_modelo_produccion_dag.py took 0.189 seconds
+[2025-06-17T23:00:08.755+0000] {processor.py:161} INFO - Started process (PID=195) to work on /opt/airflow/dags/prediccion_modelo_produccion_dag.py
+[2025-06-17T23:00:08.757+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prediccion_modelo_produccion_dag.py for tasks to queue
+[2025-06-17T23:00:08.759+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:00:08.758+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/prediccion_modelo_produccion_dag.py
+[2025-06-17T23:00:08.778+0000] {processor.py:840} INFO - DAG(s) 'prediccion_modelo_produccion_dag' retrieved from /opt/airflow/dags/prediccion_modelo_produccion_dag.py
+[2025-06-17T23:00:08.970+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:00:08.970+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-17T23:00:09.010+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:00:09.010+0000] {dag.py:3823} INFO - Setting next_dagrun for prediccion_modelo_produccion_dag to 2025-06-17 22:00:00+00:00, run_after=2025-06-18 22:00:00+00:00
+[2025-06-17T23:00:09.044+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prediccion_modelo_produccion_dag.py took 0.294 seconds
+[2025-06-17T23:00:39.319+0000] {processor.py:161} INFO - Started process (PID=299) to work on /opt/airflow/dags/prediccion_modelo_produccion_dag.py
+[2025-06-17T23:00:39.320+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prediccion_modelo_produccion_dag.py for tasks to queue
+[2025-06-17T23:00:39.321+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:00:39.321+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/prediccion_modelo_produccion_dag.py
+[2025-06-17T23:00:39.333+0000] {processor.py:840} INFO - DAG(s) 'prediccion_modelo_produccion_dag' retrieved from /opt/airflow/dags/prediccion_modelo_produccion_dag.py
+[2025-06-17T23:00:39.360+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:00:39.359+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-17T23:00:39.385+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:00:39.385+0000] {dag.py:3823} INFO - Setting next_dagrun for prediccion_modelo_produccion_dag to 2025-06-17 22:00:00+00:00, run_after=2025-06-18 22:00:00+00:00
+[2025-06-17T23:00:39.404+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prediccion_modelo_produccion_dag.py took 0.089 seconds
+[2025-06-17T23:01:09.812+0000] {processor.py:161} INFO - Started process (PID=335) to work on /opt/airflow/dags/prediccion_modelo_produccion_dag.py
+[2025-06-17T23:01:09.815+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prediccion_modelo_produccion_dag.py for tasks to queue
+[2025-06-17T23:01:09.817+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:01:09.816+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/prediccion_modelo_produccion_dag.py
+[2025-06-17T23:01:09.848+0000] {processor.py:840} INFO - DAG(s) 'prediccion_modelo_produccion_dag' retrieved from /opt/airflow/dags/prediccion_modelo_produccion_dag.py
+[2025-06-17T23:01:09.915+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:01:09.915+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-17T23:01:10.004+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:01:10.003+0000] {dag.py:3823} INFO - Setting next_dagrun for prediccion_modelo_produccion_dag to 2025-06-17 22:00:00+00:00, run_after=2025-06-18 22:00:00+00:00
+[2025-06-17T23:01:10.060+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prediccion_modelo_produccion_dag.py took 0.262 seconds
+[2025-06-17T23:01:40.283+0000] {processor.py:161} INFO - Started process (PID=356) to work on /opt/airflow/dags/prediccion_modelo_produccion_dag.py
+[2025-06-17T23:01:40.285+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prediccion_modelo_produccion_dag.py for tasks to queue
+[2025-06-17T23:01:40.287+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:01:40.286+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/prediccion_modelo_produccion_dag.py
+[2025-06-17T23:01:40.300+0000] {processor.py:840} INFO - DAG(s) 'prediccion_modelo_produccion_dag' retrieved from /opt/airflow/dags/prediccion_modelo_produccion_dag.py
+[2025-06-17T23:01:40.334+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:01:40.333+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-17T23:01:40.358+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:01:40.358+0000] {dag.py:3823} INFO - Setting next_dagrun for prediccion_modelo_produccion_dag to 2025-06-17 22:00:00+00:00, run_after=2025-06-18 22:00:00+00:00
+[2025-06-17T23:01:40.392+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prediccion_modelo_produccion_dag.py took 0.114 seconds
+[2025-06-17T23:02:11.123+0000] {processor.py:161} INFO - Started process (PID=392) to work on /opt/airflow/dags/prediccion_modelo_produccion_dag.py
+[2025-06-17T23:02:11.129+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prediccion_modelo_produccion_dag.py for tasks to queue
+[2025-06-17T23:02:11.130+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:02:11.130+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/prediccion_modelo_produccion_dag.py
+[2025-06-17T23:02:11.145+0000] {processor.py:840} INFO - DAG(s) 'prediccion_modelo_produccion_dag' retrieved from /opt/airflow/dags/prediccion_modelo_produccion_dag.py
+[2025-06-17T23:02:11.181+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:02:11.181+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-17T23:02:11.216+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:02:11.215+0000] {dag.py:3823} INFO - Setting next_dagrun for prediccion_modelo_produccion_dag to 2025-06-17 22:00:00+00:00, run_after=2025-06-18 22:00:00+00:00
+[2025-06-17T23:02:11.275+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prediccion_modelo_produccion_dag.py took 0.158 seconds
+[2025-06-17T23:02:41.645+0000] {processor.py:161} INFO - Started process (PID=413) to work on /opt/airflow/dags/prediccion_modelo_produccion_dag.py
+[2025-06-17T23:02:41.647+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prediccion_modelo_produccion_dag.py for tasks to queue
+[2025-06-17T23:02:41.648+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:02:41.648+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/prediccion_modelo_produccion_dag.py
+[2025-06-17T23:02:41.664+0000] {processor.py:840} INFO - DAG(s) 'prediccion_modelo_produccion_dag' retrieved from /opt/airflow/dags/prediccion_modelo_produccion_dag.py
+[2025-06-17T23:02:41.698+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:02:41.698+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-17T23:02:41.728+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:02:41.728+0000] {dag.py:3823} INFO - Setting next_dagrun for prediccion_modelo_produccion_dag to 2025-06-17 22:00:00+00:00, run_after=2025-06-18 22:00:00+00:00
+[2025-06-17T23:02:41.757+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prediccion_modelo_produccion_dag.py took 0.118 seconds
+[2025-06-17T23:03:11.799+0000] {processor.py:161} INFO - Started process (PID=449) to work on /opt/airflow/dags/prediccion_modelo_produccion_dag.py
+[2025-06-17T23:03:11.800+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prediccion_modelo_produccion_dag.py for tasks to queue
+[2025-06-17T23:03:11.801+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:03:11.801+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/prediccion_modelo_produccion_dag.py
+[2025-06-17T23:03:11.813+0000] {processor.py:840} INFO - DAG(s) 'prediccion_modelo_produccion_dag' retrieved from /opt/airflow/dags/prediccion_modelo_produccion_dag.py
+[2025-06-17T23:03:11.841+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:03:11.841+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-17T23:03:11.865+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:03:11.865+0000] {dag.py:3823} INFO - Setting next_dagrun for prediccion_modelo_produccion_dag to 2025-06-17 22:00:00+00:00, run_after=2025-06-18 22:00:00+00:00
+[2025-06-17T23:03:11.888+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prediccion_modelo_produccion_dag.py took 0.093 seconds
+[2025-06-17T23:03:42.193+0000] {processor.py:161} INFO - Started process (PID=470) to work on /opt/airflow/dags/prediccion_modelo_produccion_dag.py
+[2025-06-17T23:03:42.195+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prediccion_modelo_produccion_dag.py for tasks to queue
+[2025-06-17T23:03:42.196+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:03:42.196+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/prediccion_modelo_produccion_dag.py
+[2025-06-17T23:03:42.209+0000] {processor.py:840} INFO - DAG(s) 'prediccion_modelo_produccion_dag' retrieved from /opt/airflow/dags/prediccion_modelo_produccion_dag.py
+[2025-06-17T23:03:42.240+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:03:42.239+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-17T23:03:42.265+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:03:42.264+0000] {dag.py:3823} INFO - Setting next_dagrun for prediccion_modelo_produccion_dag to 2025-06-17 22:00:00+00:00, run_after=2025-06-18 22:00:00+00:00
+[2025-06-17T23:03:42.289+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prediccion_modelo_produccion_dag.py took 0.100 seconds
+[2025-06-17T23:04:12.330+0000] {processor.py:161} INFO - Started process (PID=505) to work on /opt/airflow/dags/prediccion_modelo_produccion_dag.py
+[2025-06-17T23:04:12.331+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prediccion_modelo_produccion_dag.py for tasks to queue
+[2025-06-17T23:04:12.332+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:04:12.332+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/prediccion_modelo_produccion_dag.py
+[2025-06-17T23:04:12.346+0000] {processor.py:840} INFO - DAG(s) 'prediccion_modelo_produccion_dag' retrieved from /opt/airflow/dags/prediccion_modelo_produccion_dag.py
+[2025-06-17T23:04:12.374+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:04:12.374+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-17T23:04:12.399+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:04:12.399+0000] {dag.py:3823} INFO - Setting next_dagrun for prediccion_modelo_produccion_dag to 2025-06-17 22:00:00+00:00, run_after=2025-06-18 22:00:00+00:00
+[2025-06-17T23:04:12.420+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prediccion_modelo_produccion_dag.py took 0.095 seconds
+[2025-06-17T23:04:42.702+0000] {processor.py:161} INFO - Started process (PID=528) to work on /opt/airflow/dags/prediccion_modelo_produccion_dag.py
+[2025-06-17T23:04:42.707+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prediccion_modelo_produccion_dag.py for tasks to queue
+[2025-06-17T23:04:42.708+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:04:42.708+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/prediccion_modelo_produccion_dag.py
+[2025-06-17T23:04:42.726+0000] {processor.py:840} INFO - DAG(s) 'prediccion_modelo_produccion_dag' retrieved from /opt/airflow/dags/prediccion_modelo_produccion_dag.py
+[2025-06-17T23:04:42.762+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:04:42.761+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-17T23:04:42.795+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:04:42.794+0000] {dag.py:3823} INFO - Setting next_dagrun for prediccion_modelo_produccion_dag to 2025-06-17 22:00:00+00:00, run_after=2025-06-18 22:00:00+00:00
+[2025-06-17T23:04:42.828+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prediccion_modelo_produccion_dag.py took 0.133 seconds
+[2025-06-17T23:05:13.335+0000] {processor.py:161} INFO - Started process (PID=564) to work on /opt/airflow/dags/prediccion_modelo_produccion_dag.py
+[2025-06-17T23:05:13.340+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prediccion_modelo_produccion_dag.py for tasks to queue
+[2025-06-17T23:05:13.341+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:05:13.341+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/prediccion_modelo_produccion_dag.py
+[2025-06-17T23:05:13.366+0000] {processor.py:840} INFO - DAG(s) 'prediccion_modelo_produccion_dag' retrieved from /opt/airflow/dags/prediccion_modelo_produccion_dag.py
+[2025-06-17T23:05:13.412+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:05:13.411+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-17T23:05:13.458+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:05:13.458+0000] {dag.py:3823} INFO - Setting next_dagrun for prediccion_modelo_produccion_dag to 2025-06-17 22:00:00+00:00, run_after=2025-06-18 22:00:00+00:00
+[2025-06-17T23:05:13.502+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prediccion_modelo_produccion_dag.py took 0.175 seconds
+[2025-06-17T23:05:43.744+0000] {processor.py:161} INFO - Started process (PID=585) to work on /opt/airflow/dags/prediccion_modelo_produccion_dag.py
+[2025-06-17T23:05:43.746+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prediccion_modelo_produccion_dag.py for tasks to queue
+[2025-06-17T23:05:43.748+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:05:43.748+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/prediccion_modelo_produccion_dag.py
+[2025-06-17T23:05:43.771+0000] {processor.py:840} INFO - DAG(s) 'prediccion_modelo_produccion_dag' retrieved from /opt/airflow/dags/prediccion_modelo_produccion_dag.py
+[2025-06-17T23:05:43.821+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:05:43.820+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-17T23:05:43.856+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:05:43.855+0000] {dag.py:3823} INFO - Setting next_dagrun for prediccion_modelo_produccion_dag to 2025-06-17 22:00:00+00:00, run_after=2025-06-18 22:00:00+00:00
+[2025-06-17T23:05:43.882+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prediccion_modelo_produccion_dag.py took 0.145 seconds
+[2025-06-17T23:06:14.116+0000] {processor.py:161} INFO - Started process (PID=621) to work on /opt/airflow/dags/prediccion_modelo_produccion_dag.py
+[2025-06-17T23:06:14.118+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prediccion_modelo_produccion_dag.py for tasks to queue
+[2025-06-17T23:06:14.119+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:06:14.119+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/prediccion_modelo_produccion_dag.py
+[2025-06-17T23:06:14.135+0000] {processor.py:840} INFO - DAG(s) 'prediccion_modelo_produccion_dag' retrieved from /opt/airflow/dags/prediccion_modelo_produccion_dag.py
+[2025-06-17T23:06:14.241+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:06:14.240+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-17T23:06:14.307+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:06:14.307+0000] {dag.py:3823} INFO - Setting next_dagrun for prediccion_modelo_produccion_dag to 2025-06-17 22:00:00+00:00, run_after=2025-06-18 22:00:00+00:00
+[2025-06-17T23:06:14.387+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prediccion_modelo_produccion_dag.py took 0.275 seconds
+[2025-06-17T23:06:44.895+0000] {processor.py:161} INFO - Started process (PID=651) to work on /opt/airflow/dags/prediccion_modelo_produccion_dag.py
+[2025-06-17T23:06:44.898+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prediccion_modelo_produccion_dag.py for tasks to queue
+[2025-06-17T23:06:44.902+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:06:44.901+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/prediccion_modelo_produccion_dag.py
+[2025-06-17T23:06:44.932+0000] {processor.py:840} INFO - DAG(s) 'prediccion_modelo_produccion_dag' retrieved from /opt/airflow/dags/prediccion_modelo_produccion_dag.py
+[2025-06-17T23:06:44.985+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:06:44.984+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-17T23:06:45.040+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:06:45.039+0000] {dag.py:3823} INFO - Setting next_dagrun for prediccion_modelo_produccion_dag to 2025-06-17 22:00:00+00:00, run_after=2025-06-18 22:00:00+00:00
+[2025-06-17T23:06:45.083+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prediccion_modelo_produccion_dag.py took 0.200 seconds
+[2025-06-17T23:07:15.198+0000] {processor.py:161} INFO - Started process (PID=794) to work on /opt/airflow/dags/prediccion_modelo_produccion_dag.py
+[2025-06-17T23:07:15.200+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prediccion_modelo_produccion_dag.py for tasks to queue
+[2025-06-17T23:07:15.203+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:07:15.202+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/prediccion_modelo_produccion_dag.py
+[2025-06-17T23:07:15.218+0000] {processor.py:840} INFO - DAG(s) 'prediccion_modelo_produccion_dag' retrieved from /opt/airflow/dags/prediccion_modelo_produccion_dag.py
+[2025-06-17T23:07:15.264+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:07:15.263+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-17T23:07:15.336+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:07:15.336+0000] {dag.py:3823} INFO - Setting next_dagrun for prediccion_modelo_produccion_dag to 2025-06-17 22:00:00+00:00, run_after=2025-06-18 22:00:00+00:00
+[2025-06-17T23:07:15.396+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prediccion_modelo_produccion_dag.py took 0.202 seconds
+[2025-06-17T23:07:45.461+0000] {processor.py:161} INFO - Started process (PID=917) to work on /opt/airflow/dags/prediccion_modelo_produccion_dag.py
+[2025-06-17T23:07:45.463+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prediccion_modelo_produccion_dag.py for tasks to queue
+[2025-06-17T23:07:45.464+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:07:45.464+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/prediccion_modelo_produccion_dag.py
+[2025-06-17T23:07:45.477+0000] {processor.py:840} INFO - DAG(s) 'prediccion_modelo_produccion_dag' retrieved from /opt/airflow/dags/prediccion_modelo_produccion_dag.py
+[2025-06-17T23:07:45.504+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:07:45.504+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-17T23:07:45.529+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:07:45.529+0000] {dag.py:3823} INFO - Setting next_dagrun for prediccion_modelo_produccion_dag to 2025-06-17 22:00:00+00:00, run_after=2025-06-18 22:00:00+00:00
+[2025-06-17T23:07:45.551+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prediccion_modelo_produccion_dag.py took 0.095 seconds
+[2025-06-17T23:08:15.692+0000] {processor.py:161} INFO - Started process (PID=1073) to work on /opt/airflow/dags/prediccion_modelo_produccion_dag.py
+[2025-06-17T23:08:15.694+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prediccion_modelo_produccion_dag.py for tasks to queue
+[2025-06-17T23:08:15.695+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:08:15.694+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/prediccion_modelo_produccion_dag.py
+[2025-06-17T23:08:15.708+0000] {processor.py:840} INFO - DAG(s) 'prediccion_modelo_produccion_dag' retrieved from /opt/airflow/dags/prediccion_modelo_produccion_dag.py
+[2025-06-17T23:08:15.738+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:08:15.738+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-17T23:08:15.764+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:08:15.763+0000] {dag.py:3823} INFO - Setting next_dagrun for prediccion_modelo_produccion_dag to 2025-06-17 22:00:00+00:00, run_after=2025-06-18 22:00:00+00:00
+[2025-06-17T23:08:15.789+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prediccion_modelo_produccion_dag.py took 0.101 seconds
+[2025-06-17T23:08:46.034+0000] {processor.py:161} INFO - Started process (PID=1211) to work on /opt/airflow/dags/prediccion_modelo_produccion_dag.py
+[2025-06-17T23:08:46.036+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prediccion_modelo_produccion_dag.py for tasks to queue
+[2025-06-17T23:08:46.038+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:08:46.037+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/prediccion_modelo_produccion_dag.py
+[2025-06-17T23:08:46.053+0000] {processor.py:840} INFO - DAG(s) 'prediccion_modelo_produccion_dag' retrieved from /opt/airflow/dags/prediccion_modelo_produccion_dag.py
+[2025-06-17T23:08:46.087+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:08:46.086+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-17T23:08:46.134+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:08:46.134+0000] {dag.py:3823} INFO - Setting next_dagrun for prediccion_modelo_produccion_dag to 2025-06-17 22:00:00+00:00, run_after=2025-06-18 22:00:00+00:00
+[2025-06-17T23:08:46.175+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prediccion_modelo_produccion_dag.py took 0.146 seconds
+[2025-06-17T23:09:16.297+0000] {processor.py:161} INFO - Started process (PID=1357) to work on /opt/airflow/dags/prediccion_modelo_produccion_dag.py
+[2025-06-17T23:09:16.299+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/prediccion_modelo_produccion_dag.py for tasks to queue
+[2025-06-17T23:09:16.300+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:09:16.299+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/prediccion_modelo_produccion_dag.py
+[2025-06-17T23:09:16.313+0000] {processor.py:840} INFO - DAG(s) 'prediccion_modelo_produccion_dag' retrieved from /opt/airflow/dags/prediccion_modelo_produccion_dag.py
+[2025-06-17T23:09:16.342+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:09:16.342+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-06-17T23:09:16.388+0000] {logging_mixin.py:188} INFO - [2025-06-17T23:09:16.388+0000] {dag.py:3823} INFO - Setting next_dagrun for prediccion_modelo_produccion_dag to 2025-06-17 22:00:00+00:00, run_after=2025-06-18 22:00:00+00:00
+[2025-06-17T23:09:16.431+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/prediccion_modelo_produccion_dag.py took 0.138 seconds

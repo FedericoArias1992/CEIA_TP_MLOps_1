@@ -1,3 +1,7 @@
+'''
+4to DAG, que no esta en funcionamiento, pero que se usaba para hacer
+en lote, segun datos en la carpeta data/prediccion/nuevos_datos.csv'''
+
 from airflow.decorators import dag, task
 from datetime import datetime, timedelta
 

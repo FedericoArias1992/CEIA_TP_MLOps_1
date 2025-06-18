@@ -1,3 +1,9 @@
+'''
+3er Dag de entrenamiento, posterior al de preprocesamiento.
+Este DAG entrena modelos de regresión sobre un dataset de autos usados,
+selecciona el mejor modelo según el MAE, lo registra en MLflow y lo promueve a producción.  
+'''
+
 from airflow.decorators import dag, task
 from airflow.operators.trigger_dagrun import TriggerDagRunOperator
 from datetime import datetime, timedelta

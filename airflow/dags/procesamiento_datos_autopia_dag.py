@@ -1,3 +1,9 @@
+'''
+Segundo DAG, luego de scrapping y guardando los CSVs, este DAG se encarga de:
+
+1. Combinar todos los CSVs descargados en un único DataFrame.
+2. Aplicar limpieza y validación básica.'''
+
 from airflow.decorators import dag, task
 from airflow.operators.trigger_dagrun import TriggerDagRunOperator
 from datetime import datetime, timedelta

@@ -1,0 +1,56 @@
+[2025-06-17T23:06:42.697+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: scraping_autopia_dag.scrapear_datos_autopia manual__2025-06-17T23:06:40.258095+00:00 [queued]>
+[2025-06-17T23:06:42.715+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: scraping_autopia_dag.scrapear_datos_autopia manual__2025-06-17T23:06:40.258095+00:00 [queued]>
+[2025-06-17T23:06:42.716+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2025-06-17T23:06:42.778+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): scrapear_datos_autopia> on 2025-06-17 23:06:40.258095+00:00
+[2025-06-17T23:06:42.800+0000] {standard_task_runner.py:60} INFO - Started process 634 to run task
+[2025-06-17T23:06:42.813+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'scraping_autopia_dag', 'scrapear_datos_autopia', 'manual__2025-06-17T23:06:40.258095+00:00', '--job-id', '218', '--raw', '--subdir', 'DAGS_FOLDER/scraping_autopia_dag.py', '--cfg-path', '/tmp/tmpmw1_ohh7']
+[2025-06-17T23:06:42.819+0000] {standard_task_runner.py:88} INFO - Job 218: Subtask scrapear_datos_autopia
+[2025-06-17T23:06:42.958+0000] {task_command.py:423} INFO - Running <TaskInstance: scraping_autopia_dag.scrapear_datos_autopia manual__2025-06-17T23:06:40.258095+00:00 [running]> on host cdfb22e6be80
+[2025-06-17T23:06:43.170+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='scraping_autopia_dag' AIRFLOW_CTX_TASK_ID='scrapear_datos_autopia' AIRFLOW_CTX_EXECUTION_DATE='2025-06-17T23:06:40.258095+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-06-17T23:06:40.258095+00:00'
+[2025-06-17T23:06:55.918+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-17T23:06:57.553+0000] {logging_mixin.py:188} INFO - ✅ Ya no se cargan más autos, detenemos los clics.
+[2025-06-17T23:06:57.565+0000] {logging_mixin.py:188} INFO - ➡️ Total de publicaciones visibles: 47
+[2025-06-17T23:07:02.922+0000] {logging_mixin.py:188} INFO - ✔️ Anuncio 1/47
+[2025-06-17T23:07:07.418+0000] {logging_mixin.py:188} INFO - ✔️ Anuncio 2/47
+[2025-06-17T23:07:13.098+0000] {logging_mixin.py:188} INFO - ✔️ Anuncio 3/47
+[2025-06-17T23:07:17.295+0000] {logging_mixin.py:188} INFO - ✔️ Anuncio 4/47
+[2025-06-17T23:07:21.732+0000] {logging_mixin.py:188} INFO - ✔️ Anuncio 5/47
+[2025-06-17T23:07:25.772+0000] {logging_mixin.py:188} INFO - ✔️ Anuncio 6/47
+[2025-06-17T23:07:30.021+0000] {logging_mixin.py:188} INFO - ✔️ Anuncio 7/47
+[2025-06-17T23:07:32.444+0000] {logging_mixin.py:188} INFO - ✔️ Anuncio 8/47
+[2025-06-17T23:07:34.398+0000] {logging_mixin.py:188} INFO - ✔️ Anuncio 9/47
+[2025-06-17T23:07:38.661+0000] {logging_mixin.py:188} INFO - ✔️ Anuncio 10/47
+[2025-06-17T23:07:42.912+0000] {logging_mixin.py:188} INFO - ✔️ Anuncio 11/47
+[2025-06-17T23:07:47.016+0000] {logging_mixin.py:188} INFO - ✔️ Anuncio 12/47
+[2025-06-17T23:07:49.367+0000] {logging_mixin.py:188} INFO - ✔️ Anuncio 13/47
+[2025-06-17T23:07:51.768+0000] {logging_mixin.py:188} INFO - ✔️ Anuncio 14/47
+[2025-06-17T23:07:55.878+0000] {logging_mixin.py:188} INFO - ✔️ Anuncio 15/47
+[2025-06-17T23:08:00.167+0000] {logging_mixin.py:188} INFO - ✔️ Anuncio 16/47
+[2025-06-17T23:08:02.517+0000] {logging_mixin.py:188} INFO - ✔️ Anuncio 17/47
+[2025-06-17T23:08:02.647+0000] {logging_mixin.py:188} INFO - ✔️ Anuncio 18/47
+[2025-06-17T23:08:04.983+0000] {logging_mixin.py:188} INFO - ✔️ Anuncio 19/47
+[2025-06-17T23:08:07.279+0000] {logging_mixin.py:188} INFO - ✔️ Anuncio 20/47
+[2025-06-17T23:08:11.528+0000] {logging_mixin.py:188} INFO - ✔️ Anuncio 21/47
+[2025-06-17T23:08:16.375+0000] {logging_mixin.py:188} INFO - ✔️ Anuncio 22/47
+[2025-06-17T23:08:20.801+0000] {logging_mixin.py:188} INFO - ✔️ Anuncio 23/47
+[2025-06-17T23:08:25.158+0000] {logging_mixin.py:188} INFO - ✔️ Anuncio 24/47
+[2025-06-17T23:08:29.357+0000] {logging_mixin.py:188} INFO - ✔️ Anuncio 25/47
+[2025-06-17T23:08:31.707+0000] {logging_mixin.py:188} INFO - ✔️ Anuncio 26/47
+[2025-06-17T23:08:33.541+0000] {logging_mixin.py:188} INFO - ✔️ Anuncio 27/47
+[2025-06-17T23:08:35.841+0000] {logging_mixin.py:188} INFO - ✔️ Anuncio 28/47
+[2025-06-17T23:08:39.914+0000] {logging_mixin.py:188} INFO - ✔️ Anuncio 29/47
+[2025-06-17T23:08:42.378+0000] {logging_mixin.py:188} INFO - ✔️ Anuncio 30/47
+[2025-06-17T23:08:44.819+0000] {logging_mixin.py:188} INFO - ✔️ Anuncio 31/47
+[2025-06-17T23:08:49.393+0000] {logging_mixin.py:188} INFO - ✔️ Anuncio 32/47
+[2025-06-17T23:08:51.837+0000] {logging_mixin.py:188} INFO - ✔️ Anuncio 33/47
+[2025-06-17T23:08:56.053+0000] {logging_mixin.py:188} INFO - ✔️ Anuncio 34/47
+[2025-06-17T23:08:58.077+0000] {logging_mixin.py:188} INFO - ✔️ Anuncio 35/47
+[2025-06-17T23:09:02.412+0000] {logging_mixin.py:188} INFO - ✔️ Anuncio 36/47
+[2025-06-17T23:09:06.383+0000] {logging_mixin.py:188} INFO - ✔️ Anuncio 37/47
+[2025-06-17T23:09:10.393+0000] {logging_mixin.py:188} INFO - ✔️ Anuncio 38/47
+[2025-06-17T23:09:12.675+0000] {logging_mixin.py:188} INFO - ✔️ Anuncio 39/47
+[2025-06-17T23:09:15.336+0000] {logging_mixin.py:188} INFO - ✔️ Anuncio 40/47
+[2025-06-17T23:09:18.041+0000] {logging_mixin.py:188} INFO - ✔️ Anuncio 41/47
+[2025-06-17T23:09:22.150+0000] {logging_mixin.py:188} INFO - ✔️ Anuncio 42/47
+[2025-06-17T23:09:26.379+0000] {logging_mixin.py:188} INFO - ✔️ Anuncio 43/47
+[2025-06-17T23:09:26.486+0000] {logging_mixin.py:188} INFO - ✔️ Anuncio 44/47
