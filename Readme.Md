@@ -136,7 +136,6 @@ docker compose down --rmi all --volumes
 Observacion: si al correr el DAG `entrenamiento_modelos_regresion_dag` es porque el entorno de MLFlow no tiene permisos para crear carpetas, en ese caso, hay que correr:
 - mkdir -p mlruns
 - sudo chown -R 50000:0 mlruns
-No siempre sucede.
 
 # 4. Acceder a interfaces
 `Airflow UI`: http://localhost:8080
