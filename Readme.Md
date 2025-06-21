@@ -147,7 +147,3 @@ Para correr por primera vez, hay que activar el dag inicializador del workflow `
                                  La API no retorna prediccion, pero si un log que retorna un status code 503 y una indicacion: `Modelo no disponible. Aún no ha sido entrenado o registrado en MLflow, por favor espera a completar el ciclo de descarga-entrenamiento.`
 
 `Streamlit`: UI para prediccion: http://localhost:8501
-
-```Bash
-docker compose up
-```
