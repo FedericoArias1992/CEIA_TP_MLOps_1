@@ -120,13 +120,7 @@ Este proyecto implementa un flujo de trabajo completo de Machine Learning enfoca
 ```bash
 git clone https://github.com/FedericoArias1992/CEIA_TP_MLOps_1.git
 ```
-# 2. Crear y dar permisos a los volúmenes
-```bash
-mkdir -p mlruns
-sudo chown -R 50000:0 mlruns
-```
-
-# 3. Levantar el entorno completo
+# 2. Levantar el entorno completo
 ```bash
 docker-compose up --build -d
 ```
@@ -139,6 +133,10 @@ Para detenerlo y eliminar todo:
 ```Bash
 docker compose down --rmi all --volumes
 ```
+Observacion: si al correr el DAG `entrenamiento_modelos_regresion_dag` es porque el entorno de MLFlow no tiene permisos para crear carpetas, en ese caso, hay que correr:
+- mkdir -p mlruns
+- sudo chown -R 50000:0 mlruns
+No siempre sucede.
 
 # 4. Acceder a interfaces
 `Airflow UI`: http://localhost:8080
