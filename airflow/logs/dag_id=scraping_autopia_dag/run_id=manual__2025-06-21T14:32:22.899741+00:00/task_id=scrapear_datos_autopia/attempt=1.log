@@ -1,0 +1,65 @@
+[2025-06-21T14:32:27.124+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: scraping_autopia_dag.scrapear_datos_autopia manual__2025-06-21T14:32:22.899741+00:00 [queued]>
+[2025-06-21T14:32:27.133+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: scraping_autopia_dag.scrapear_datos_autopia manual__2025-06-21T14:32:22.899741+00:00 [queued]>
+[2025-06-21T14:32:27.134+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2025-06-21T14:32:27.152+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): scrapear_datos_autopia> on 2025-06-21 14:32:22.899741+00:00
+[2025-06-21T14:32:27.161+0000] {standard_task_runner.py:60} INFO - Started process 281 to run task
+[2025-06-21T14:32:27.166+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'scraping_autopia_dag', 'scrapear_datos_autopia', 'manual__2025-06-21T14:32:22.899741+00:00', '--job-id', '5', '--raw', '--subdir', 'DAGS_FOLDER/scraping_autopia_dag.py', '--cfg-path', '/tmp/tmpa8kewmg1']
+[2025-06-21T14:32:27.169+0000] {standard_task_runner.py:88} INFO - Job 5: Subtask scrapear_datos_autopia
+[2025-06-21T14:32:27.252+0000] {task_command.py:423} INFO - Running <TaskInstance: scraping_autopia_dag.scrapear_datos_autopia manual__2025-06-21T14:32:22.899741+00:00 [running]> on host 1500838101db
+[2025-06-21T14:32:27.385+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='scraping_autopia_dag' AIRFLOW_CTX_TASK_ID='scrapear_datos_autopia' AIRFLOW_CTX_EXECUTION_DATE='2025-06-21T14:32:22.899741+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-06-21T14:32:22.899741+00:00'
+[2025-06-21T14:32:35.609+0000] {logging_mixin.py:188} INFO - 🔁 Clic en 'Cargar más'
+[2025-06-21T14:32:34.805+0000] {logging_mixin.py:188} INFO - ✅ Ya no se cargan más autos, detenemos los clics.
+[2025-06-21T14:32:34.813+0000] {logging_mixin.py:188} INFO - ➡️ Total de publicaciones visibles: 47
+[2025-06-21T14:32:39.256+0000] {logging_mixin.py:188} INFO - ✔️ Anuncio 1/47
+[2025-06-21T14:32:43.400+0000] {logging_mixin.py:188} INFO - ✔️ Anuncio 2/47
+[2025-06-21T14:32:48.480+0000] {logging_mixin.py:188} INFO - ✔️ Anuncio 3/47
+[2025-06-21T14:32:50.821+0000] {logging_mixin.py:188} INFO - ✔️ Anuncio 4/47
+[2025-06-21T14:32:55.391+0000] {logging_mixin.py:188} INFO - ✔️ Anuncio 5/47
+[2025-06-21T14:32:59.432+0000] {logging_mixin.py:188} INFO - ✔️ Anuncio 6/47
+[2025-06-21T14:33:01.692+0000] {logging_mixin.py:188} INFO - ✔️ Anuncio 7/47
+[2025-06-21T14:33:03.284+0000] {logging_mixin.py:188} INFO - ✔️ Anuncio 8/47
+[2025-06-21T14:33:05.559+0000] {logging_mixin.py:188} INFO - ✔️ Anuncio 9/47
+[2025-06-21T14:33:07.789+0000] {logging_mixin.py:188} INFO - ✔️ Anuncio 10/47
+[2025-06-21T14:33:09.978+0000] {logging_mixin.py:188} INFO - ✔️ Anuncio 11/47
+[2025-06-21T14:33:14.174+0000] {logging_mixin.py:188} INFO - ✔️ Anuncio 12/47
+[2025-06-21T14:33:16.464+0000] {logging_mixin.py:188} INFO - ✔️ Anuncio 13/47
+[2025-06-21T14:33:20.562+0000] {logging_mixin.py:188} INFO - ✔️ Anuncio 14/47
+[2025-06-21T14:33:24.688+0000] {logging_mixin.py:188} INFO - ✔️ Anuncio 15/47
+[2025-06-21T14:33:28.937+0000] {logging_mixin.py:188} INFO - ✔️ Anuncio 16/47
+[2025-06-21T14:33:30.663+0000] {logging_mixin.py:188} INFO - ✔️ Anuncio 17/47
+[2025-06-21T14:33:32.936+0000] {logging_mixin.py:188} INFO - ✔️ Anuncio 18/47
+[2025-06-21T14:33:37.023+0000] {logging_mixin.py:188} INFO - ✔️ Anuncio 19/47
+[2025-06-21T14:33:39.293+0000] {logging_mixin.py:188} INFO - ✔️ Anuncio 20/47
+[2025-06-21T14:33:41.753+0000] {logging_mixin.py:188} INFO - ✔️ Anuncio 21/47
+[2025-06-21T14:33:44.001+0000] {logging_mixin.py:188} INFO - ✔️ Anuncio 22/47
+[2025-06-21T14:33:46.311+0000] {logging_mixin.py:188} INFO - ✔️ Anuncio 23/47
+[2025-06-21T14:33:50.572+0000] {logging_mixin.py:188} INFO - ✔️ Anuncio 24/47
+[2025-06-21T14:33:54.894+0000] {logging_mixin.py:188} INFO - ✔️ Anuncio 25/47
+[2025-06-21T14:33:58.857+0000] {logging_mixin.py:188} INFO - ✔️ Anuncio 26/47
+[2025-06-21T14:33:58.682+0000] {logging_mixin.py:188} INFO - ✔️ Anuncio 27/47
+[2025-06-21T14:34:00.981+0000] {logging_mixin.py:188} INFO - ✔️ Anuncio 28/47
+[2025-06-21T14:34:05.616+0000] {logging_mixin.py:188} INFO - ✔️ Anuncio 29/47
+[2025-06-21T14:34:09.754+0000] {logging_mixin.py:188} INFO - ✔️ Anuncio 30/47
+[2025-06-21T14:34:13.777+0000] {logging_mixin.py:188} INFO - ✔️ Anuncio 31/47
+[2025-06-21T14:34:16.020+0000] {logging_mixin.py:188} INFO - ✔️ Anuncio 32/47
+[2025-06-21T14:34:18.820+0000] {logging_mixin.py:188} INFO - ✔️ Anuncio 33/47
+[2025-06-21T14:34:23.226+0000] {logging_mixin.py:188} INFO - ✔️ Anuncio 34/47
+[2025-06-21T14:34:26.452+0000] {logging_mixin.py:188} INFO - ✔️ Anuncio 35/47
+[2025-06-21T14:34:29.010+0000] {logging_mixin.py:188} INFO - ✔️ Anuncio 36/47
+[2025-06-21T14:34:33.108+0000] {logging_mixin.py:188} INFO - ✔️ Anuncio 37/47
+[2025-06-21T14:34:35.331+0000] {logging_mixin.py:188} INFO - ✔️ Anuncio 38/47
+[2025-06-21T14:34:37.538+0000] {logging_mixin.py:188} INFO - ✔️ Anuncio 39/47
+[2025-06-21T14:34:39.787+0000] {logging_mixin.py:188} INFO - ✔️ Anuncio 40/47
+[2025-06-21T14:34:41.904+0000] {logging_mixin.py:188} INFO - ✔️ Anuncio 41/47
+[2025-06-21T14:34:45.998+0000] {logging_mixin.py:188} INFO - ✔️ Anuncio 42/47
+[2025-06-21T14:34:48.269+0000] {logging_mixin.py:188} INFO - ✔️ Anuncio 43/47
+[2025-06-21T14:34:50.537+0000] {logging_mixin.py:188} INFO - ✔️ Anuncio 44/47
+[2025-06-21T14:34:54.548+0000] {logging_mixin.py:188} INFO - ✔️ Anuncio 45/47
+[2025-06-21T14:34:54.375+0000] {logging_mixin.py:188} INFO - ✔️ Anuncio 46/47
+[2025-06-21T14:34:58.452+0000] {logging_mixin.py:188} INFO - ✔️ Anuncio 47/47
+[2025-06-21T14:34:58.485+0000] {logging_mixin.py:188} INFO - ✅ Guardado final: /opt/***/dags/data/raw/scraped_autopia_2025-06-21.csv con 47 registros.
+[2025-06-21T14:34:58.580+0000] {logging_mixin.py:188} INFO - ✅ Scraping terminado. Guardado en /opt/***/dags/data/raw/scraped_autopia_2025-06-21.csv
+[2025-06-21T14:34:58.580+0000] {python.py:201} INFO - Done. Returned value was: None
+[2025-06-21T14:34:58.597+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=scraping_autopia_dag, task_id=scrapear_datos_autopia, execution_date=20250621T143222, start_date=20250621T143227, end_date=20250621T143458
+[2025-06-21T14:34:58.801+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-06-21T14:34:58.827+0000] {taskinstance.py:3280} INFO - 1 downstream tasks scheduled from follow-on schedule check

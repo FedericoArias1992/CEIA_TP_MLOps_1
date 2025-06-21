@@ -1,0 +1,16 @@
+[2025-06-21T13:01:59.004+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: procesamiento_datos_autopia_dag.trigger_entrenamiento manual__2025-06-21T13:01:55.048511+00:00 [queued]>
+[2025-06-21T13:01:59.012+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: procesamiento_datos_autopia_dag.trigger_entrenamiento manual__2025-06-21T13:01:55.048511+00:00 [queued]>
+[2025-06-21T13:01:59.012+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2025-06-21T13:01:59.030+0000] {taskinstance.py:2191} INFO - Executing <Task(TriggerDagRunOperator): trigger_entrenamiento> on 2025-06-21 13:01:55.048511+00:00
+[2025-06-21T13:01:59.035+0000] {standard_task_runner.py:60} INFO - Started process 1468 to run task
+[2025-06-21T13:01:59.039+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'procesamiento_datos_autopia_dag', 'trigger_entrenamiento', 'manual__2025-06-21T13:01:55.048511+00:00', '--job-id', '32', '--raw', '--subdir', 'DAGS_FOLDER/procesamiento_datos_autopia_dag.py', '--cfg-path', '/tmp/tmpmm2ba643']
+[2025-06-21T13:01:59.041+0000] {standard_task_runner.py:88} INFO - Job 32: Subtask trigger_entrenamiento
+[2025-06-21T13:01:59.106+0000] {task_command.py:423} INFO - Running <TaskInstance: procesamiento_datos_autopia_dag.trigger_entrenamiento manual__2025-06-21T13:01:55.048511+00:00 [running]> on host b043483ba5b8
+[2025-06-21T13:01:59.200+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='fede' AIRFLOW_CTX_DAG_ID='procesamiento_datos_autopia_dag' AIRFLOW_CTX_TASK_ID='trigger_entrenamiento' AIRFLOW_CTX_EXECUTION_DATE='2025-06-21T13:01:55.048511+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-06-21T13:01:55.048511+00:00'
+[2025-06-21T13:02:00.017+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.8/site-packages/***/providers/google/cloud/links/dataproc.py:79 AirflowProviderDeprecationWarning: This DataprocLink is deprecated.
+[2025-06-21T13:02:00.018+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.8/site-packages/***/providers/google/cloud/links/dataproc.py:128 AirflowProviderDeprecationWarning: This DataprocListLink is deprecated.
+[2025-06-21T13:02:01.260+0000] {trigger_dagrun.py:210} INFO - Waiting for entrenamiento_modelos_regresion on 2025-06-21 13:01:59.201577+00:00 to become allowed state ['success'] ...
+[2025-06-21T13:02:56.986+0000] {trigger_dagrun.py:223} INFO - entrenamiento_modelos_regresion finished with allowed state success
+[2025-06-21T13:02:57.007+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=procesamiento_datos_autopia_dag, task_id=trigger_entrenamiento, execution_date=20250621T130155, start_date=20250621T130159, end_date=20250621T130257
+[2025-06-21T13:02:57.064+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-06-21T13:02:57.085+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

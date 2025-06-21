@@ -142,16 +142,15 @@ docker compose down --rmi all --volumes
 
 # 4. Acceder a interfaces
 `Airflow UI`: http://localhost:8080
+Para correr por primera vez, hay que activar el dag inicializador del workflow `scraping_autopia_dag` con eso se descargan los datos, preprocesan, entrenan y promueven a produccion el mejor modelo, una vez hecho esto, se pueden usar los servicios de FastApi y Streamlit.
 
 `MLflow UI`: http://localhost:5000
 
-`FastAPI`: http://localhost:8000
+`FastAPI`: http://localhost:8000 - A tomar en cuenta, ya que al inicializar el proyecto, no hay datos descargados -> no existe artefacto de prediccion. Entonces
+                                 La API no retorna prediccion, pero si un log que retorna un status code 503 y una indicacion: `Modelo no disponible. Aún no ha sido entrenado o registrado en MLflow, por favor espera a completar el ciclo de descarga-entrenamiento.`
 
 `Streamlit`: UI para prediccion: http://localhost:8501
 
 ```Bash
 docker compose up
 ```
-
-### Para editar desde VSC: sudo chown -R federico:federico /home/federico/Proyectos/CEIA/MLops1/
-### Si da error de escritura sobre el path: sudo chown -R 50000:0 ./mlruns

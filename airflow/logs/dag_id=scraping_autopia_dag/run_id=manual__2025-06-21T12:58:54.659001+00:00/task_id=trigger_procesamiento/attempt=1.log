@@ -1,0 +1,17 @@
+[2025-06-21T13:01:54.839+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: scraping_autopia_dag.trigger_procesamiento manual__2025-06-21T12:58:54.659001+00:00 [queued]>
+[2025-06-21T13:01:54.849+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: scraping_autopia_dag.trigger_procesamiento manual__2025-06-21T12:58:54.659001+00:00 [queued]>
+[2025-06-21T13:01:54.849+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2025-06-21T13:01:54.865+0000] {taskinstance.py:2191} INFO - Executing <Task(TriggerDagRunOperator): trigger_procesamiento> on 2025-06-21 12:58:54.659001+00:00
+[2025-06-21T13:01:54.872+0000] {standard_task_runner.py:60} INFO - Started process 1463 to run task
+[2025-06-21T13:01:54.877+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'scraping_autopia_dag', 'trigger_procesamiento', 'manual__2025-06-21T12:58:54.659001+00:00', '--job-id', '30', '--raw', '--subdir', 'DAGS_FOLDER/scraping_autopia_dag.py', '--cfg-path', '/tmp/tmp6877que8']
+[2025-06-21T13:01:54.880+0000] {standard_task_runner.py:88} INFO - Job 30: Subtask trigger_procesamiento
+[2025-06-21T13:01:54.945+0000] {task_command.py:423} INFO - Running <TaskInstance: scraping_autopia_dag.trigger_procesamiento manual__2025-06-21T12:58:54.659001+00:00 [running]> on host b043483ba5b8
+[2025-06-21T13:01:55.047+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='scraping_autopia_dag' AIRFLOW_CTX_TASK_ID='trigger_procesamiento' AIRFLOW_CTX_EXECUTION_DATE='2025-06-21T12:58:54.659001+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-06-21T12:58:54.659001+00:00'
+[2025-06-21T13:01:55.182+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.8/site-packages/***/providers/google/cloud/links/dataproc.py:79 AirflowProviderDeprecationWarning: This DataprocLink is deprecated.
+[2025-06-21T13:01:55.183+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.8/site-packages/***/providers/google/cloud/links/dataproc.py:128 AirflowProviderDeprecationWarning: This DataprocListLink is deprecated.
+[2025-06-21T13:01:57.087+0000] {trigger_dagrun.py:210} INFO - Waiting for procesamiento_datos_autopia_dag on 2025-06-21 13:01:55.048511+00:00 to become allowed state ['success'] ...
+[2025-06-21T13:02:52.795+0000] {trigger_dagrun.py:210} INFO - Waiting for procesamiento_datos_autopia_dag on 2025-06-21 13:01:55.048511+00:00 to become allowed state ['success'] ...
+[2025-06-21T13:03:48.458+0000] {trigger_dagrun.py:223} INFO - procesamiento_datos_autopia_dag finished with allowed state success
+[2025-06-21T13:03:48.479+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=scraping_autopia_dag, task_id=trigger_procesamiento, execution_date=20250621T125854, start_date=20250621T130154, end_date=20250621T130348
+[2025-06-21T13:03:49.505+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-06-21T13:03:49.529+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

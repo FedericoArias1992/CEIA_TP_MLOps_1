@@ -24,7 +24,7 @@ def predict_price(car: CarInput):
     if model is None:
         raise HTTPException(
             status_code=503,
-            detail="Modelo no disponible. Aún no ha sido entrenado o registrado en MLflow."
+            detail="Modelo no disponible. Aún no ha sido entrenado o registrado en MLflow, por favor espera a completar el ciclo de descarga-entrenamiento"
         )
 
     df = preprocess_input(car.dict())

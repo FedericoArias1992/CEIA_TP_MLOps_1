@@ -1,0 +1,33 @@
+[2025-06-21T14:35:00.449+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: scraping_autopia_dag.trigger_procesamiento manual__2025-06-21T14:32:22.899741+00:00 [queued]>
+[2025-06-21T14:35:00.458+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: scraping_autopia_dag.trigger_procesamiento manual__2025-06-21T14:32:22.899741+00:00 [queued]>
+[2025-06-21T14:35:00.459+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2025-06-21T14:35:00.473+0000] {taskinstance.py:2191} INFO - Executing <Task(TriggerDagRunOperator): trigger_procesamiento> on 2025-06-21 14:32:22.899741+00:00
+[2025-06-21T14:35:00.480+0000] {standard_task_runner.py:60} INFO - Started process 1083 to run task
+[2025-06-21T14:35:00.484+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'scraping_autopia_dag', 'trigger_procesamiento', 'manual__2025-06-21T14:32:22.899741+00:00', '--job-id', '6', '--raw', '--subdir', 'DAGS_FOLDER/scraping_autopia_dag.py', '--cfg-path', '/tmp/tmpixbhk6ua']
+[2025-06-21T14:35:00.486+0000] {standard_task_runner.py:88} INFO - Job 6: Subtask trigger_procesamiento
+[2025-06-21T14:35:00.551+0000] {task_command.py:423} INFO - Running <TaskInstance: scraping_autopia_dag.trigger_procesamiento manual__2025-06-21T14:32:22.899741+00:00 [running]> on host 1500838101db
+[2025-06-21T14:35:00.649+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='scraping_autopia_dag' AIRFLOW_CTX_TASK_ID='trigger_procesamiento' AIRFLOW_CTX_EXECUTION_DATE='2025-06-21T14:32:22.899741+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-06-21T14:32:22.899741+00:00'
+[2025-06-21T14:35:02.583+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.8/site-packages/***/providers/google/cloud/links/dataproc.py:79 AirflowProviderDeprecationWarning: This DataprocLink is deprecated.
+[2025-06-21T14:35:02.584+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.8/site-packages/***/providers/google/cloud/links/dataproc.py:128 AirflowProviderDeprecationWarning: This DataprocListLink is deprecated.
+[2025-06-21T14:35:04.569+0000] {trigger_dagrun.py:210} INFO - Waiting for procesamiento_datos_autopia_dag on 2025-06-21 14:35:00.650775+00:00 to become allowed state ['success'] ...
+[2025-06-21T14:35:59.784+0000] {trigger_dagrun.py:210} INFO - Waiting for procesamiento_datos_autopia_dag on 2025-06-21 14:35:00.650775+00:00 to become allowed state ['success'] ...
+[2025-06-21T14:36:16.429+0000] {local_task_job_runner.py:121} ERROR - Received SIGTERM. Terminating subprocesses
+[2025-06-21T14:36:16.443+0000] {process_utils.py:131} INFO - Sending 15 to group 1083. PIDs of all processes in the group: [1083]
+[2025-06-21T14:36:16.444+0000] {process_utils.py:86} INFO - Sending the signal 15 to group 1083
+[2025-06-21T14:36:16.445+0000] {taskinstance.py:2450} ERROR - Received SIGTERM. Terminating subprocesses.
+[2025-06-21T14:36:16.479+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/trigger_dagrun.py", line 216, in execute
+    time.sleep(self.poke_interval)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 2452, in signal_handler
+    raise AirflowException("Task received SIGTERM signal")
+airflow.exceptions.AirflowException: Task received SIGTERM signal
+[2025-06-21T14:36:16.494+0000] {taskinstance.py:1138} INFO - Marking task as FAILED. dag_id=scraping_autopia_dag, task_id=trigger_procesamiento, execution_date=20250621T143222, start_date=20250621T143500, end_date=20250621T143616
+[2025-06-21T14:36:16.693+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 6 for task trigger_procesamiento (Task received SIGTERM signal; 1083)
+[2025-06-21T14:36:16.781+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=1083, status='terminated', exitcode=1, started='14:35:00') (1083) terminated with exit code 1
+[2025-06-21T14:36:16.783+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 143
+[2025-06-21T14:36:16.853+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-06-21T14:36:20.678+0000] {local_task_job_runner.py:121} ERROR - Received SIGTERM. Terminating subprocesses
+[2025-06-21T14:36:20.679+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 143
